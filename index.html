@@ -825,18 +825,22 @@
       tbody.innerHTML = filtered.map(p => {
         const isLong = (p.direction || p.side || 'LONG').toUpperCase().includes('LONG');
         const badge = isLong ? '<span class="badge-long">LONG</span>' : '<span class="badge-short">SHORT</span>';
-        const pnl = parseFloat(p.unrealized_pnl || p.pnl || 0);
-        const pnlPct = parseFloat(p.unrealized_pnl_pct || p.pnl_pct || 0);
+        const pnl = parseFloat(p.unrealized_pnl ?? p.unrealized_pl ?? p.pnl ?? 0);
+        const pnlPct = parseFloat(p.unrealized_pnl_pct ?? p.unrealized_pl_pct ?? p.pnl_pct ?? 0);
         const pnlClass = pnl >= 0 ? 'val-positive' : 'val-negative';
+        const qty = p.qty ?? p.shares ?? p.open_shares ?? 0;
+        const entry = parseFloat(p.entry_price ?? p.avg_entry_price ?? p.open_price ?? 0);
+        const curr = parseFloat(p.current_price ?? entry ?? 0);
+        const mktVal = parseFloat(p.market_value ?? p.open_value ?? (qty * curr) ?? 0);
 
         return `
           <tr>
             <td class="mono" style="font-weight: 700; color: #ffffff;">${p.symbol}</td>
             <td>${badge}</td>
-            <td class="mono">${p.qty || p.shares || 0}</td>
-            <td class="mono">$${parseFloat(p.entry_price || p.avg_entry_price || 0).toFixed(2)}</td>
-            <td class="mono">$${parseFloat(p.current_price || 0).toFixed(2)}</td>
-            <td class="mono">$${parseFloat(p.market_value || 0).toLocaleString('en-US', { minimumFractionDigits: 2 })}</td>
+            <td class="mono">${qty}</td>
+            <td class="mono">$${entry.toFixed(2)}</td>
+            <td class="mono">$${curr.toFixed(2)}</td>
+            <td class="mono">$${mktVal.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
             <td class="mono ${pnlClass}" style="font-weight: 600;">
               ${pnl >= 0 ? '+' : ''}$${pnl.toFixed(2)} (${pnlPct >= 0 ? '+' : ''}${pnlPct.toFixed(2)}%)
             </td>
@@ -1003,3 +1007,4 @@
   </script>
 </body>
 </html>
+
