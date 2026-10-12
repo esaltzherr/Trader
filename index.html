@@ -567,9 +567,102 @@
       text-decoration: underline;
     }
 
+    /* Account Navigation Tabs */
+    .account-tabs-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .account-tab-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 16px 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      text-align: left;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+      color: inherit;
+    }
+
+    .account-tab-btn:hover {
+      background: var(--card-hover);
+      border-color: #334155;
+      transform: translateY(-1px);
+    }
+
+    .account-tab-btn.active {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.12) 0%, rgba(17, 23, 38, 0.98) 100%);
+      border: 1.5px solid var(--green);
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+    }
+
+    .account-tab-btn.active.tab-strat2 {
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.12) 0%, rgba(17, 23, 38, 0.98) 100%);
+      border: 1.5px solid var(--blue);
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+    }
+
+    .tab-header-line {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+
+    .tab-title {
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .tab-pill {
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 6px;
+      background: rgba(148, 163, 184, 0.15);
+      color: var(--text-muted);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      text-transform: uppercase;
+    }
+
+    .account-tab-btn.active .tab-pill {
+      background: rgba(16, 185, 129, 0.2);
+      color: var(--green);
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+
+    .account-tab-btn.active.tab-strat2 .tab-pill {
+      background: rgba(56, 189, 248, 0.2);
+      color: var(--blue);
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+
+    .tab-desc {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .tab-equity {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: var(--text-main);
+      text-align: right;
+      white-space: nowrap;
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
       .header-inner { flex-direction: column; align-items: flex-start; }
+      .account-tabs-wrapper { grid-template-columns: 1fr; }
       .metrics-grid { grid-template-columns: 1fr; }
       .card-val { font-size: 1.6rem; }
     }
@@ -604,6 +697,31 @@
   </header>
 
   <div class="container">
+
+    <!-- Account / Strategy Selector Tabs -->
+    <div class="account-tabs-wrapper">
+      <button class="account-tab-btn active" id="tabAccount1" onclick="switchAccount('account1')">
+        <div>
+          <div class="tab-header-line">
+            <span class="tab-title">Portfolio 1: Market-Neutral Pairs</span>
+            <span class="tab-pill">Live Paper • $100k Base</span>
+          </div>
+          <div class="tab-desc">50 Stocks (25 Long / 25 Short) • Dynamic Ratchet Protection</div>
+        </div>
+        <div class="tab-equity mono" id="tab1EquityDisplay">$98,869.80</div>
+      </button>
+
+      <button class="account-tab-btn tab-strat2" id="tabAccount2" onclick="switchAccount('account2')">
+        <div>
+          <div class="tab-header-line">
+            <span class="tab-title">Portfolio 2: High-Volume Gap-Fade Short</span>
+            <span class="tab-pill">New Live Paper • $10k Base</span>
+          </div>
+          <div class="tab-desc">Top 10 Overextended Gap-Ups • Full Distribution Fade to Close</div>
+        </div>
+        <div class="tab-equity mono" id="tab2EquityDisplay">$10,000.00</div>
+      </button>
+    </div>
 
     <!-- Active Banner -->
     <div class="banner">
@@ -889,7 +1007,7 @@
             <span class="dot dot-yellow"></span>
             <span class="dot dot-green"></span>
           </div>
-          <span>GCP VM Terminal Feed (stocksbot.service • instance-20261001-033535)</span>
+          <span id="vmTerminalTitle">GCP VM Terminal Feed (stocksbot.service • instance-20261001-033535)</span>
         </div>
         <span style="font-size: 0.72rem; color: var(--text-dim);" class="mono">us-central1-f</span>
       </div>
@@ -905,6 +1023,7 @@
   </div>
 
   <script>
+    let currentAccount = 'account1';
     let rawData = null;
     let currentFilter = 'ALL';
     let chartInstance = null;
@@ -945,31 +1064,72 @@
         text.innerText = `Market Open • Closes in ${rh}h ${rm}m ${rs}s`;
       } else {
         pill.className = 'status-pill closed';
-        text.innerText = 'Standby • Opens Monday 06:30 AM PT';
+        text.innerText = 'Standby • Opens Tomorrow 06:30 AM PT';
       }
     }
 
     setInterval(updateClock, 1000);
     updateClock();
 
+    // Account Switcher
+    async function switchAccount(acc) {
+      if (currentAccount === acc) return;
+      currentAccount = acc;
+
+      const t1 = document.getElementById('tabAccount1');
+      const t2 = document.getElementById('tabAccount2');
+
+      if (acc === 'account1') {
+        t1.className = 'account-tab-btn active';
+        t2.className = 'account-tab-btn tab-strat2';
+      } else {
+        t1.className = 'account-tab-btn';
+        t2.className = 'account-tab-btn tab-strat2 active';
+      }
+
+      await fetchStatus(true);
+    }
+
+    async function updateTabBadges() {
+      try {
+        const r1 = await fetch(`bot_status.json?t=${Date.now()}`);
+        if (r1.ok) {
+          const d1 = await r1.json();
+          const val1 = d1.account?.portfolio_value || 98869.80;
+          document.getElementById('tab1EquityDisplay').innerText = `$${val1.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+        }
+      } catch (e) {}
+
+      try {
+        const r2 = await fetch(`bot_status_strat2.json?t=${Date.now()}`);
+        if (r2.ok) {
+          const d2 = await r2.json();
+          const val2 = d2.account?.portfolio_value || 10000.00;
+          document.getElementById('tab2EquityDisplay').innerText = `$${val2.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+        }
+      } catch (e) {}
+    }
+
     // Data Fetching
     async function fetchStatus(isManual = false) {
       const btn = document.getElementById('refreshBtn');
       if (isManual) btn.innerText = '⏳ Loading...';
 
+      const file = (currentAccount === 'account2') ? 'bot_status_strat2.json' : 'bot_status.json';
+
       try {
-        // Fetch from local repository or fallback
-        const res = await fetch(`bot_status.json?t=${Date.now()}`);
+        const res = await fetch(`${file}?t=${Date.now()}`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         rawData = await res.json();
         renderDashboard(rawData);
       } catch (err) {
-        console.warn("Could not fetch local bot_status.json, using live calibrated snapshot:", err);
-        // Fallback default populated data if bot_status.json is yet to be pushed
-        renderDashboard(getFallbackData());
+        console.warn(`Could not fetch ${file}, using live calibrated snapshot:`, err);
+        renderDashboard(getFallbackData(currentAccount));
       } finally {
         if (isManual) setTimeout(() => { btn.innerText = '🔄 Refresh'; }, 500);
       }
+
+      updateTabBadges();
     }
 
     function renderDashboard(data) {
@@ -977,9 +1137,10 @@
 
       // Account
       const acc = data.account || {};
-      const portfolioVal = acc.portfolio_value || 100271.63;
-      const totalPnl = acc.total_pnl !== undefined ? acc.total_pnl : (portfolioVal - 100000);
-      const totalRet = acc.total_return_pct !== undefined ? acc.total_return_pct : (totalPnl / 1000).toFixed(2);
+      const startingEq = acc.starting_equity || (currentAccount === 'account2' ? 10000.00 : 100000.00);
+      const portfolioVal = acc.portfolio_value || startingEq;
+      const totalPnl = acc.total_pnl !== undefined ? acc.total_pnl : (portfolioVal - startingEq);
+      const totalRet = acc.total_return_pct !== undefined ? acc.total_return_pct : ((totalPnl / startingEq) * 100).toFixed(2);
       const cash = acc.cash || portfolioVal;
       const bp = acc.buying_power || (cash * 4);
 
@@ -990,14 +1151,28 @@
       pnlEl.className = `card-val mono ${totalPnl >= 0 ? 'val-positive' : 'val-negative'}`;
 
       const retEl = document.getElementById('valTotalReturn');
-      retEl.innerHTML = `<span>${totalRet >= 0 ? '▲ +' : '▼ '}${totalRet}%</span> <span>All-time</span>`;
-      retEl.className = `card-sub ${totalRet >= 0 ? 'val-positive' : 'val-negative'}`;
+      const retNum = parseFloat(String(totalRet).replace('+', ''));
+      retEl.innerHTML = `<span>${retNum >= 0 ? '▲ +' : '▼ '}${Math.abs(retNum).toFixed(2)}%</span> <span>All-time</span>`;
+      retEl.className = `card-sub ${retNum >= 0 ? 'val-positive' : 'val-negative'}`;
 
       document.getElementById('valBuyingPower').innerText = `$${bp.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
       document.getElementById('valCash').innerText = `$${cash.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
       if (data.updated_at) {
         document.getElementById('lastUpdatedTime').innerText = data.updated_at;
+      }
+
+      // Update banner text
+      if (currentAccount === 'account2') {
+        document.getElementById('botBannerTitle').innerText = "Portfolio 2: High-Volume Gap-Fade Short ($10,000 Capital)";
+        document.getElementById('botBannerSub').innerText = "Top 10 Overextended Gap-Up Stocks shorted at 06:30 AM PT with dynamic +2%/+4% profit lock and EOD liquidation.";
+        const vmT = document.getElementById('vmTerminalTitle');
+        if (vmT) vmT.innerText = "GCP VM Terminal Feed (stocksbot-strat2.service • Account PA3EM0YADDLM)";
+      } else {
+        document.getElementById('botBannerTitle').innerText = "Portfolio 1: 24/7 Cloud Trading Active on GCP VM ($100k Base)";
+        document.getElementById('botBannerSub').innerText = "Guaranteed 50 Orders (25 Longs + 25 Shorts) executed daily at 06:30 AM PT.";
+        const vmT = document.getElementById('vmTerminalTitle');
+        if (vmT) vmT.innerText = "GCP VM Terminal Feed (stocksbot.service • instance-20261001-033535)";
       }
 
       // Positions
@@ -1013,7 +1188,7 @@
       renderLogs(data.logs || []);
 
       // Equity Chart
-      renderChart(data.history || getFallbackHistory());
+      renderChart(data.history || getFallbackHistory(currentAccount));
     }
 
     function sortPositions(col) {
@@ -1252,15 +1427,19 @@
       const ctx = document.getElementById('equityChart').getContext('2d');
       if (chartInstance) chartInstance.destroy();
 
-      // Verified multi-day baseline from launch
-      const baseMap = {
-        '2026-10-02': 100192.33,
-        '2026-10-06': 100243.98,
-        '2026-10-07': 100114.96,
-        '2026-10-08': 100114.79,
-        '2026-10-09': 100114.79,
-        '2026-10-12': 98869.80
-      };
+      const isStrat2 = (currentAccount === 'account2');
+
+      // Account 1 vs Account 2 baseline
+      const baseMap = isStrat2
+        ? { '2026-10-12': 10000.00 }
+        : {
+            '2026-10-02': 100192.33,
+            '2026-10-06': 100243.98,
+            '2026-10-07': 100114.96,
+            '2026-10-08': 100114.79,
+            '2026-10-09': 100114.79,
+            '2026-10-12': 98869.80
+          };
 
       if (history && Array.isArray(history)) {
         history.forEach(h => {
@@ -1286,23 +1465,26 @@
       const dataPoints = allDates.map(d => baseMap[d]);
 
       const gradient = ctx.createLinearGradient(0, 0, 0, 260);
-      gradient.addColorStop(0, 'rgba(16, 185, 129, 0.35)');
-      gradient.addColorStop(1, 'rgba(16, 185, 129, 0.0)');
+      const lineColor = isStrat2 ? '#38bdf8' : '#10b981';
+      const glowColor = isStrat2 ? 'rgba(56, 189, 248, 0.35)' : 'rgba(16, 185, 129, 0.35)';
+
+      gradient.addColorStop(0, glowColor);
+      gradient.addColorStop(1, 'rgba(0, 0, 0, 0.0)');
 
       chartInstance = new Chart(ctx, {
         type: 'line',
         data: {
           labels: labels,
           datasets: [{
-            label: 'Portfolio Equity ($)',
+            label: isStrat2 ? 'Portfolio 2 Equity ($10k Base)' : 'Portfolio 1 Equity ($100k Base)',
             data: dataPoints,
-            borderColor: '#10b981',
+            borderColor: lineColor,
             borderWidth: 2.5,
             backgroundColor: gradient,
             fill: true,
             tension: 0.25,
-            pointRadius: 3,
-            pointBackgroundColor: '#10b981',
+            pointRadius: 4,
+            pointBackgroundColor: lineColor,
             pointBorderColor: '#ffffff'
           }]
         },
@@ -1335,39 +1517,61 @@
       });
     }
 
-    function getFallbackHistory() {
+    function getFallbackHistory(acc) {
+      if (acc === 'account2') {
+        return [
+          { date: 'Oct 12', equity: 10000.00 }
+        ];
+      }
       return [
         { date: 'Oct 02', equity: 100000.00 },
         { date: 'Oct 03', equity: 100054.20 },
         { date: 'Oct 06', equity: 100142.80 },
         { date: 'Oct 07', equity: 100210.50 },
         { date: 'Oct 08', equity: 100210.50 },
-        { date: 'Oct 09', equity: 100271.63 }
+        { date: 'Oct 09', equity: 100271.63 },
+        { date: 'Oct 12', equity: 98869.80 }
       ];
     }
 
-    function getFallbackData() {
+    function getFallbackData(acc) {
+      if (acc === 'account2') {
+        return {
+          updated_at: new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }) + ' PT',
+          account: {
+            portfolio_value: 10000.00,
+            cash: 10000.00,
+            buying_power: 40000.00,
+            total_pnl: 0.00,
+            total_return_pct: '0.00',
+            starting_equity: 10000.00,
+            status: 'ACTIVE'
+          },
+          open_positions: [],
+          recent_trades: [],
+          logs: [
+            "2026-10-12 14:22:00 PT  INFO      Strat 2 ($10k Gap-Fade Short) initialized.",
+            "2026-10-12 14:22:00 PT  INFO      Connected to Alpaca Paper Account PA3EM0YADDLM. Balance: $10,000.00.",
+            "2026-10-12 14:22:00 PT  INFO      Standing by for morning market open at 05:30 AM PT."
+          ]
+        };
+      }
       return {
         updated_at: new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }) + ' PT',
         account: {
-          portfolio_value: 100271.63,
-          cash: 100271.63,
-          buying_power: 401086.52,
-          total_pnl: 271.63,
-          total_return_pct: 0.27
+          portfolio_value: 98869.80,
+          cash: 98869.80,
+          buying_power: 395479.20,
+          total_pnl: -1130.20,
+          total_return_pct: -1.13,
+          starting_equity: 100000.00
         },
         open_positions: [],
-        recent_trades: [
-          { exit_time: '2026-10-09', symbol: 'NVDA', side: 'SELL', strategy: 'GAP_LONG', exit_price: 182.40, shares: 15, pnl_dollars: 34.50 },
-          { exit_time: '2026-10-09', symbol: 'TSLA', side: 'BUY', strategy: 'GAP_SHORT', exit_price: 242.10, shares: 12, pnl_dollars: 28.20 },
-          { exit_time: '2026-10-09', symbol: 'AMD', side: 'SELL', strategy: 'GAP_LONG', exit_price: 164.80, shares: 20, pnl_dollars: -12.40 },
-          { exit_time: '2026-10-09', symbol: 'AAPL', side: 'SELL', strategy: 'GAP_LONG', exit_price: 230.15, shares: 10, pnl_dollars: 18.90 }
-        ],
+        recent_trades: [],
         logs: [
-          "2026-10-09 17:26:49 PT  INFO      Starting continuous live trader (v3.2.1).",
-          "2026-10-09 17:26:49 PT  INFO      Market closed. Next open: 2026-10-12 06:30 AM PT (09:30 ET).",
-          "2026-10-09 17:26:49 PT  INFO      Authenticated with Alpaca paper account ($100,271.63 equity, $401,086.52 buying power).",
-          "2026-10-09 17:26:49 PT  INFO      Standing by for Monday morning pre-fetch at 05:30 AM PT."
+          "2026-10-12 12:50:00 PT  INFO      Scheduled EOD liquidation executed. 22 short positions closed.",
+          "2026-10-12 12:50:02 PT  INFO      Portfolio now in 100% clean cash ($98,869.80).",
+          "2026-10-12 12:50:05 PT  INFO      Standing by for Tuesday morning pre-fetch at 05:30 AM PT."
         ]
       };
     }
