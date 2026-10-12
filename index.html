@@ -404,6 +404,92 @@
       font-weight: 600;
     }
 
+    .badge-saved {
+      background: rgba(16, 185, 129, 0.18);
+      color: #10b981;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .badge-recovered {
+      background: rgba(148, 163, 184, 0.15);
+      color: #94a3b8;
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    /* Sortable Table Headers */
+    .sortable-th {
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.15s, color 0.15s;
+    }
+    .sortable-th:hover {
+      background: #141c2c;
+      color: var(--text-main);
+    }
+    .sort-icon {
+      margin-left: 4px;
+      font-size: 0.7rem;
+      color: var(--text-dim);
+    }
+    .sortable-th.active-sort .sort-icon {
+      color: var(--blue);
+      font-weight: bold;
+    }
+
+    /* Strategy Recap Cards */
+    .strategy-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .strategy-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: border-color 0.15s;
+    }
+
+    .strategy-card:hover {
+      border-color: #334155;
+    }
+
+    .strategy-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 12px;
+    }
+
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.84rem;
+      padding: 5px 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.04);
+    }
+
+    .stat-row:last-child {
+      border-bottom: none;
+    }
+
     /* Terminal Console */
     .terminal-card {
       background: #080c14;
@@ -587,6 +673,85 @@
       </div>
     </div>
 
+    <!-- Daily Strategy Recap -->
+    <div class="strategy-grid">
+      <!-- GAP_BOTTOM_LONG Recap -->
+      <div class="strategy-card">
+        <div class="strategy-header">
+          <div>
+            <div style="font-weight: 800; font-size: 1.05rem; color: #ffffff; display: flex; align-items: center; gap: 8px;">
+              <span>🌅</span> GAP_BOTTOM_LONG
+            </div>
+            <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">
+              Morning Bounce Harvest (06:30 AM → 07:30 AM PT • 1-Hr Hold)
+            </div>
+          </div>
+          <span class="badge-gray" id="longStratBadge">COMPLETED</span>
+        </div>
+        <div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Allocated Capital:</span>
+            <span class="mono" style="font-weight: 600;">$50,000.00 (25 Positions)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Execution Status:</span>
+            <span class="mono" style="color: #38bdf8;">25/25 Closed (1H Exit)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Today's Realized P&L:</span>
+            <span class="mono val-negative" id="longStratPnl" style="font-weight: 700;">-$899.48</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Top Performers:</span>
+            <span class="mono val-positive" style="font-size: 0.8rem;">RCL (+1.7%), HL (+0.4%), SHOE (+0.2%), TSLA (+0.2%)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Early Stop-Losses Hit:</span>
+            <span class="mono" style="color: #fb7185; font-size: 0.8rem;">3 (FOA, CABO, IONQ)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- GAP_TOP_SHORT Recap -->
+      <div class="strategy-card">
+        <div class="strategy-header">
+          <div>
+            <div style="font-weight: 800; font-size: 1.05rem; color: #ffffff; display: flex; align-items: center; gap: 8px;">
+              <span>📉</span> GAP_TOP_SHORT
+            </div>
+            <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">
+              Fade Overextended Runners (06:30 AM → 12:50 PM PT • EOD Close)
+            </div>
+          </div>
+          <span class="badge-short" id="shortStratBadge" style="display: flex; align-items: center; gap: 6px;">
+            <span class="pulse"></span> ACTIVE SESSION
+          </span>
+        </div>
+        <div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Allocated Capital:</span>
+            <span class="mono" style="font-weight: 600;">$50,000.00 (25 Positions)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Active Positions / Cut:</span>
+            <span class="mono" style="color: #38bdf8;" id="shortStratActive">22 Active • 3 Stopped</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Net Strategy P&L (Live + Realized):</span>
+            <span class="mono" id="shortStratPnl" style="font-weight: 700;">-$452.23</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Top Performers:</span>
+            <span class="mono val-positive" style="font-size: 0.8rem;">BMY (+5.4%), CRM (+2.2%), BMNR (+2.0%), TSM (+0.7%)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Stop Protection Saved:</span>
+            <span class="mono val-positive" style="font-weight: 700;">+$209.27 Saved on COAG & FICO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Interactive Performance Chart -->
     <div class="table-card" style="padding: 20px; margin-bottom: 24px;">
       <div class="section-title-bar" style="margin-bottom: 12px;">
@@ -603,7 +768,7 @@
     </div>
 
     <!-- Open Positions Table -->
-    <div class="table-card">
+    <div class="table-card" style="margin-bottom: 24px;">
       <div style="padding: 18px 20px; border-bottom: 1px solid var(--card-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
         <div class="section-title">
           <span>💼</span> Open Positions & Active Targets (<span id="posCountHeader">0</span>)
@@ -618,19 +783,58 @@
         <table>
           <thead>
             <tr>
-              <th>Symbol</th>
-              <th>Direction</th>
-              <th>Qty / Shares</th>
-              <th>Entry Price</th>
-              <th>Current Price</th>
-              <th>Market Value</th>
-              <th>Unrealized P&L</th>
+              <th class="sortable-th" onclick="sortPositions('symbol')">Symbol <span class="sort-icon" id="sort-symbol">⇅</span></th>
+              <th class="sortable-th" onclick="sortPositions('direction')">Direction <span class="sort-icon" id="sort-direction">⇅</span></th>
+              <th class="sortable-th" onclick="sortPositions('qty')">Qty / Shares <span class="sort-icon" id="sort-qty">⇅</span></th>
+              <th class="sortable-th" onclick="sortPositions('entry_price')">Entry Price <span class="sort-icon" id="sort-entry_price">⇅</span></th>
+              <th class="sortable-th" onclick="sortPositions('current_price')">Current Price <span class="sort-icon" id="sort-current_price">⇅</span></th>
+              <th class="sortable-th" onclick="sortPositions('market_value')">Market Value <span class="sort-icon" id="sort-market_value">⇅</span></th>
+              <th class="sortable-th" onclick="sortPositions('unrealized_pnl')">Unrealized P&L <span class="sort-icon" id="sort-unrealized_pnl">⇅</span></th>
             </tr>
           </thead>
           <tbody id="positionsTableBody">
             <tr>
               <td colspan="7" style="text-align: center; color: var(--text-dim); padding: 30px;">
                 No open positions currently. Bot re-allocates 50 positions every market morning at 06:30 AM PT.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Stop-Loss Execution & "What Would Have Been" Audit Table -->
+    <div class="table-card" style="margin-bottom: 24px;">
+      <div style="padding: 18px 20px; border-bottom: 1px solid var(--card-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <div class="section-title">
+            <span>🛡️</span> Execution & "What Would Have Been" Audit
+          </div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 3px;">
+            Counterfactual evaluation of stopped-out positions: Did cutting losses preserve capital vs holding to now?
+          </div>
+        </div>
+        <span class="badge-gray" id="auditCountBadge">6 Positions Audited</span>
+      </div>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Symbol & Side</th>
+              <th>Strategy</th>
+              <th>Entry Price</th>
+              <th>Stop Cut Price</th>
+              <th>Realized Loss</th>
+              <th>Current Price</th>
+              <th>If Kept (Held P&L)</th>
+              <th>Capital Protected</th>
+              <th>Audit Verdict</th>
+            </tr>
+          </thead>
+          <tbody id="auditTableBody">
+            <tr>
+              <td colspan="9" style="text-align: center; color: var(--text-dim); padding: 25px;">
+                Loading execution audit data...
               </td>
             </tr>
           </tbody>
@@ -698,6 +902,8 @@
     let rawData = null;
     let currentFilter = 'ALL';
     let chartInstance = null;
+    let sortCol = 'unrealized_pnl';
+    let sortAsc = false;
 
     // Live Clock & Market Countdown
     function updateClock() {
@@ -791,6 +997,9 @@
       // Positions
       renderPositions(data.open_positions || []);
 
+      // Counterfactual Stop-Loss Audit & Daily Strategy Recap
+      renderAudit(data.counterfactual_analysis || data.simulation_audit);
+
       // Trades
       renderTrades(data.recent_trades || []);
 
@@ -799,6 +1008,33 @@
 
       // Equity Chart
       renderChart(data.history || getFallbackHistory());
+    }
+
+    function sortPositions(col) {
+      if (sortCol === col) {
+        sortAsc = !sortAsc;
+      } else {
+        sortCol = col;
+        sortAsc = (col === 'symbol' || col === 'direction') ? true : false;
+      }
+      updateSortIcons();
+      if (rawData) renderPositions(rawData.open_positions || []);
+    }
+
+    function updateSortIcons() {
+      const cols = ['symbol', 'direction', 'qty', 'entry_price', 'current_price', 'market_value', 'unrealized_pnl'];
+      cols.forEach(c => {
+        const el = document.getElementById(`sort-${c}`);
+        const th = el ? el.closest('th') : null;
+        if (!el || !th) return;
+        if (c === sortCol) {
+          th.classList.add('active-sort');
+          el.innerText = sortAsc ? '▲' : '▼';
+        } else {
+          th.classList.remove('active-sort');
+          el.innerText = '⇅';
+        }
+      });
     }
 
     function renderPositions(positions) {
@@ -821,6 +1057,36 @@
         `;
         return;
       }
+
+      // Sort
+      filtered.sort((a, b) => {
+        let valA, valB;
+        if (sortCol === 'symbol') {
+          valA = a.symbol || '';
+          valB = b.symbol || '';
+          return sortAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+        } else if (sortCol === 'direction') {
+          valA = a.direction || a.side || '';
+          valB = b.direction || b.side || '';
+          return sortAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+        } else if (sortCol === 'qty') {
+          valA = parseFloat(a.qty ?? a.shares ?? a.open_shares ?? 0);
+          valB = parseFloat(b.qty ?? b.shares ?? b.open_shares ?? 0);
+        } else if (sortCol === 'entry_price') {
+          valA = parseFloat(a.entry_price ?? a.avg_entry_price ?? a.open_price ?? 0);
+          valB = parseFloat(b.entry_price ?? b.avg_entry_price ?? b.open_price ?? 0);
+        } else if (sortCol === 'current_price') {
+          valA = parseFloat(a.current_price ?? a.entry_price ?? 0);
+          valB = parseFloat(b.current_price ?? b.entry_price ?? 0);
+        } else if (sortCol === 'market_value') {
+          valA = parseFloat(a.market_value ?? a.open_value ?? 0);
+          valB = parseFloat(b.market_value ?? b.open_value ?? 0);
+        } else { // 'unrealized_pnl'
+          valA = parseFloat(a.unrealized_pnl ?? a.unrealized_pl ?? a.pnl ?? 0);
+          valB = parseFloat(b.unrealized_pnl ?? b.unrealized_pl ?? b.pnl ?? 0);
+        }
+        return sortAsc ? (valA - valB) : (valB - valA);
+      });
 
       tbody.innerHTML = filtered.map(p => {
         const isLong = (p.direction || p.side || 'LONG').toUpperCase().includes('LONG');
@@ -847,6 +1113,75 @@
           </tr>
         `;
       }).join('');
+    }
+
+    function renderAudit(audit) {
+      const tbody = document.getElementById('auditTableBody');
+      const badge = document.getElementById('auditCountBadge');
+      if (!tbody) return;
+
+      if (!audit || !audit.stop_loss_audit || audit.stop_loss_audit.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="9" style="text-align: center; color: var(--text-dim); padding: 25px;">
+              No stop-loss breaches recorded today. All active orders executed cleanly within risk parameters.
+            </td>
+          </tr>
+        `;
+        if (badge) badge.innerText = "0 Stops Triggered";
+        return;
+      }
+
+      const rows = audit.stop_loss_audit;
+      if (badge) badge.innerText = `${rows.length} Positions Audited`;
+
+      tbody.innerHTML = rows.map(r => {
+        const isLong = (r.direction || '').toUpperCase().includes('LONG');
+        const dirBadge = isLong ? '<span class="badge-long">LONG</span>' : '<span class="badge-short">SHORT</span>';
+        const saved = r.saved_loss || r.delta > 0;
+        const verdictBadge = saved ? `<span class="badge-saved">SAVED $${Math.abs(r.delta).toFixed(2)} LOSS</span>` : `<span class="badge-recovered">WOULD RECOVER</span>`;
+        const cutPlClass = r.actual_pl >= 0 ? 'val-positive' : 'val-negative';
+        const heldPlClass = r.if_held_pl >= 0 ? 'val-positive' : 'val-negative';
+        const protClass = r.delta >= 0 ? 'val-positive' : 'val-negative';
+
+        return `
+          <tr>
+            <td><strong class="mono" style="color: #ffffff;">${r.symbol}</strong> ${dirBadge}</td>
+            <td style="color: var(--text-muted); font-size: 0.8rem;">${r.strategy || (isLong ? 'GAP_BOTTOM_LONG' : 'GAP_TOP_SHORT')}</td>
+            <td class="mono">$${parseFloat(r.entry_price || 0).toFixed(2)}</td>
+            <td class="mono">$${parseFloat(r.cut_price || 0).toFixed(2)}</td>
+            <td class="mono ${cutPlClass}" style="font-weight: 600;">$${parseFloat(r.actual_pl || 0).toFixed(2)}</td>
+            <td class="mono">$${parseFloat(r.current_price || 0).toFixed(2)}</td>
+            <td class="mono ${heldPlClass}">$${parseFloat(r.if_held_pl || 0).toFixed(2)}</td>
+            <td class="mono ${protClass}" style="font-weight: 700;">${r.delta >= 0 ? '+' : ''}$${parseFloat(r.delta || 0).toFixed(2)}</td>
+            <td>${verdictBadge}</td>
+          </tr>
+        `;
+      }).join('');
+
+      // Dynamically update Strategy Recap cards
+      if (audit.long_strategy) {
+        const lp = audit.long_strategy.total_actual_pl;
+        const lpEl = document.getElementById('longStratPnl');
+        if (lpEl) {
+          lpEl.innerText = `${lp >= 0 ? '+' : ''}$${lp.toFixed(2)}`;
+          lpEl.className = `mono ${lp >= 0 ? 'val-positive' : 'val-negative'}`;
+        }
+      }
+      if (audit.short_strategy) {
+        const sp = audit.short_strategy.total_pl;
+        const spEl = document.getElementById('shortStratPnl');
+        if (spEl) {
+          spEl.innerText = `${sp >= 0 ? '+' : ''}$${sp.toFixed(2)}`;
+          spEl.className = `mono ${sp >= 0 ? 'val-positive' : 'val-negative'}`;
+        }
+        const activeCount = (audit.short_strategy.positions || []).filter(p => !p.stopped_out).length;
+        const stoppedCount = (audit.short_strategy.positions || []).filter(p => p.stopped_out).length;
+        const saEl = document.getElementById('shortStratActive');
+        if (saEl) {
+          saEl.innerText = `${activeCount} Active • ${stoppedCount} Stopped`;
+        }
+      }
     }
 
     function filterPositions(filter) {
