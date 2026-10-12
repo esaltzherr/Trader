@@ -404,6 +404,16 @@
       font-weight: 600;
     }
 
+    .badge-blue {
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.74rem;
+      font-weight: 600;
+    }
+
     .badge-saved {
       background: rgba(16, 185, 129, 0.18);
       color: #10b981;
@@ -714,10 +724,10 @@
       <button class="account-tab-btn tab-strat2" id="tabAccount2" onclick="switchAccount('account2')">
         <div>
           <div class="tab-header-line">
-            <span class="tab-title">Portfolio 2: High-Volume Gap-Fade Short</span>
+            <span class="tab-title">Portfolio 2: Dual Trailing Ratchets</span>
             <span class="tab-pill">New Live Paper • $10k Base</span>
           </div>
-          <div class="tab-desc">Top 10 Overextended Gap-Ups • Full Distribution Fade to Close</div>
+          <div class="tab-desc">15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT) • Dynamic Profit Lock</div>
         </div>
         <div class="tab-equity mono" id="tab2EquityDisplay">$10,000.00</div>
       </button>
@@ -791,8 +801,8 @@
       </div>
     </div>
 
-    <!-- Daily Strategy Recap -->
-    <div class="strategy-grid">
+    <!-- Daily Strategy Recap for Portfolio 1 -->
+    <div class="strategy-grid" id="stratGridAccount1">
       <!-- GAP_BOTTOM_LONG Recap -->
       <div class="strategy-card">
         <div class="strategy-header">
@@ -871,6 +881,91 @@
           <div class="stat-row">
             <span style="color: var(--text-muted);">Dynamic Profit & Stop Rules:</span>
             <span class="mono" style="color: #10b981; font-size: 0.78rem; font-weight: 600;">+3% Lock (+1% floor) • +5% Trail (1.5%) • -6% Stop</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Daily Strategy Recap for Portfolio 2 -->
+    <div class="strategy-grid" id="stratGridAccount2" style="display: none;">
+      <!-- INTRADAY_15M_RUNNER_FADE Recap -->
+      <div class="strategy-card">
+        <div class="strategy-header">
+          <div>
+            <div style="font-weight: 800; font-size: 1.05rem; color: #38bdf8; display: flex; align-items: center; gap: 8px;">
+              <span>⚡</span> INTRADAY_15M_RUNNER_FADE
+            </div>
+            <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">
+              Fade Morning Euphoria (06:45 AM → 07:45 AM PT • 1-Hr Hold)
+            </div>
+          </div>
+          <span class="badge-blue" id="strat2FadeBadge">STANDBY</span>
+        </div>
+        <div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Allocated Capital:</span>
+            <span class="mono" style="font-weight: 600;">$5,000.00 (5 Positions @ $1,000)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Execution Timing:</span>
+            <span class="mono" style="color: #38bdf8;">06:45 AM PT (15m Post-Open)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Selection Filter:</span>
+            <span class="mono" style="color: #ffffff; font-size: 0.8rem;">Top 5 Morning Spikes (≥ +1.0% to +1.5%)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Dynamic Profit Ratchet:</span>
+            <span class="mono val-positive" style="font-size: 0.78rem; font-weight: 600;">+0.6% Lock BE • +1.2% Lock +0.6% • +2.0% Lock +1.2%</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Trailing Stop & Max Loss:</span>
+            <span class="mono" style="color: #f59e0b; font-size: 0.8rem;">1.0% Trailing from Peak • Hard -2.5% Stop</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Backtest Performance:</span>
+            <span class="mono" style="color: #10b981; font-weight: 700;">65.0% Win Rate • 6.89 Profit Factor</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ORB_30M_TREND_RATCHET Recap -->
+      <div class="strategy-card">
+        <div class="strategy-header">
+          <div>
+            <div style="font-weight: 800; font-size: 1.05rem; color: #a855f7; display: flex; align-items: center; gap: 8px;">
+              <span>🌊</span> ORB_30M_TREND_RATCHET
+            </div>
+            <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">
+              Opening Range Breakout Trend Runner (07:00 AM → 12:50 PM PT • EOD Close)
+            </div>
+          </div>
+          <span class="badge-blue" id="strat2OrbBadge">STANDBY</span>
+        </div>
+        <div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Allocated Capital:</span>
+            <span class="mono" style="font-weight: 600;">$5,000.00 (5 Positions @ $1,000)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Execution Timing:</span>
+            <span class="mono" style="color: #a855f7;">07:00 AM PT (30m Opening Range)</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Directional Filter:</span>
+            <span class="mono" style="color: #ffffff; font-size: 0.8rem;">Long &gt; 30M High &amp; VWAP • Short &lt; 30M Low &amp; VWAP</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Stepped Trend Ratchet:</span>
+            <span class="mono val-positive" style="font-size: 0.78rem; font-weight: 600;">+0.8% Lock BE • +1.5% Lock +0.8% • +2.5% Lock +1.5%</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Trailing Stop & Max Loss:</span>
+            <span class="mono" style="color: #f59e0b; font-size: 0.8rem;">1.2% Trailing above +3.5% • Hard -2.5% Stop</span>
+          </div>
+          <div class="stat-row">
+            <span style="color: var(--text-muted);">Backtest Performance:</span>
+            <span class="mono" style="color: #10b981; font-weight: 700;">58.7% Win Rate • Full Distribution Continuation</span>
           </div>
         </div>
       </div>
@@ -1162,17 +1257,27 @@
         document.getElementById('lastUpdatedTime').innerText = data.updated_at;
       }
 
-      // Update banner text
+      // Toggle Strategy Recaps & Banner
+      const grid1 = document.getElementById('stratGridAccount1');
+      const grid2 = document.getElementById('stratGridAccount2');
+      const subCard = document.querySelector('#valPositionsCount + .card-sub');
+
       if (currentAccount === 'account2') {
-        document.getElementById('botBannerTitle').innerText = "Portfolio 2: High-Volume Gap-Fade Short ($10,000 Capital)";
-        document.getElementById('botBannerSub').innerText = "Top 10 Overextended Gap-Up Stocks shorted at 06:30 AM PT with dynamic +2%/+4% profit lock and EOD liquidation.";
+        if (grid1) grid1.style.display = 'none';
+        if (grid2) grid2.style.display = 'grid';
+        document.getElementById('botBannerTitle').innerText = "Portfolio 2: Dual Trailing Ratchets ($10,000 Capital)";
+        document.getElementById('botBannerSub').innerText = "15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT) • Dynamic Profit Ratchet & Breakeven Lock.";
         const vmT = document.getElementById('vmTerminalTitle');
         if (vmT) vmT.innerText = "GCP VM Terminal Feed (stocksbot-strat2.service • Account PA3EM0YADDLM)";
+        if (subCard) subCard.innerHTML = '<span class="badge-short">5 Runner Fades</span> <span class="badge-long">5 ORB Trends</span>';
       } else {
+        if (grid1) grid1.style.display = 'grid';
+        if (grid2) grid2.style.display = 'none';
         document.getElementById('botBannerTitle').innerText = "Portfolio 1: 24/7 Cloud Trading Active on GCP VM ($100k Base)";
         document.getElementById('botBannerSub').innerText = "Guaranteed 50 Orders (25 Longs + 25 Shorts) executed daily at 06:30 AM PT.";
         const vmT = document.getElementById('vmTerminalTitle');
         if (vmT) vmT.innerText = "GCP VM Terminal Feed (stocksbot.service • instance-20261001-033535)";
+        if (subCard) subCard.innerHTML = '<span class="badge-long">25 Longs</span> <span class="badge-short">25 Shorts</span>';
       }
 
       // Positions
@@ -1225,14 +1330,18 @@
         return (p.direction || p.side || '').toUpperCase() === currentFilter;
       });
 
+      const targetDefault = (currentAccount === 'account2') ? '10 Targets' : '50 Targets';
       document.getElementById('posCountHeader').innerText = positions.length;
-      document.getElementById('valPositionsCount').innerText = `${positions.length > 0 ? positions.length + ' Active' : '50 Targets'}`;
+      document.getElementById('valPositionsCount').innerText = `${positions.length > 0 ? positions.length + ' Active' : targetDefault}`;
 
       if (filtered.length === 0) {
+        const emptyMsg = (currentAccount === 'account2')
+          ? 'No positions open currently. Bot executes 15M Runner Fades at 06:45 AM PT and 30M ORB Trends at 07:00 AM PT.'
+          : 'No positions open currently. Bot re-allocates 50 positions (25 Longs + 25 Shorts) at 06:30 AM PT.';
         tbody.innerHTML = `
           <tr>
             <td colspan="7" style="text-align: center; color: var(--text-dim); padding: 32px;">
-              No positions open currently. Bot re-allocates 50 positions (25 Longs + 25 Shorts) at 06:30 AM PT.
+              ${emptyMsg}
             </td>
           </tr>
         `;
@@ -1550,8 +1659,9 @@
           open_positions: [],
           recent_trades: [],
           logs: [
-            "2026-10-12 14:22:00 PT  INFO      Strat 2 ($10k Gap-Fade Short) initialized.",
+            "2026-10-12 14:22:00 PT  INFO      Strat 2 ($10k Dual Trailing Ratchets) initialized.",
             "2026-10-12 14:22:00 PT  INFO      Connected to Alpaca Paper Account PA3EM0YADDLM. Balance: $10,000.00.",
+            "2026-10-12 14:22:00 PT  INFO      15M Runner Fade (06:45 PT) & 30M ORB Trend (07:00 PT) armed.",
             "2026-10-12 14:22:00 PT  INFO      Standing by for morning market open at 05:30 AM PT."
           ]
         };
