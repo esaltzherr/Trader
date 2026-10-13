@@ -1674,60 +1674,61 @@
     function renderAudit(audit) {
       const tbody = document.getElementById('auditTableBody');
       const badge = document.getElementById('auditCountBadge');
-      if (!tbody) return;
 
-      if (!audit || !audit.stop_loss_audit || audit.stop_loss_audit.length === 0) {
-        tbody.innerHTML = `
-          <tr>
-            <td colspan="9" style="text-align: center; color: var(--text-dim); padding: 25px;">
-              No stop-loss breaches recorded today. All active orders executed cleanly within risk parameters.
-            </td>
-          </tr>
-        `;
-        if (badge) badge.innerText = "0 Stops Triggered";
-        return;
+      // 1. Table rendering
+      if (tbody) {
+        if (!audit || !audit.stop_loss_audit || audit.stop_loss_audit.length === 0) {
+          tbody.innerHTML = `
+            <tr>
+              <td colspan="9" style="text-align: center; color: var(--text-dim); padding: 25px;">
+                No stop-loss breaches recorded today. All active orders executed cleanly within risk parameters.
+              </td>
+            </tr>
+          `;
+          if (badge) badge.innerText = "0 Stops Triggered";
+        } else {
+          const rows = audit.stop_loss_audit;
+          if (badge) badge.innerText = `${rows.length} Positions Audited`;
+
+          tbody.innerHTML = rows.map(r => {
+            const isLong = (r.direction || '').toUpperCase().includes('LONG');
+            const dirBadge = isLong ? '<span class="badge-long">LONG</span>' : '<span class="badge-short">SHORT</span>';
+            const saved = r.saved_loss || r.delta > 0;
+            const verdictBadge = saved ? `<span class="badge-saved">SAVED $${Math.abs(r.delta).toFixed(2)} LOSS</span>` : `<span class="badge-recovered">WOULD RECOVER</span>`;
+            const cutPlClass = r.actual_pl >= 0 ? 'val-positive' : 'val-negative';
+            const heldPlClass = r.if_held_pl >= 0 ? 'val-positive' : 'val-negative';
+            const protClass = r.delta >= 0 ? 'val-positive' : 'val-negative';
+
+            return `
+              <tr>
+                <td><strong class="mono" style="color: #ffffff;">${r.symbol}</strong> ${dirBadge}</td>
+                <td style="color: var(--text-muted); font-size: 0.8rem;">${r.strategy || (isLong ? 'GAP_BOTTOM_LONG' : 'GAP_TOP_SHORT')}</td>
+                <td class="mono">$${parseFloat(r.entry_price || 0).toFixed(2)}</td>
+                <td class="mono">$${parseFloat(r.cut_price || 0).toFixed(2)}</td>
+                <td class="mono ${cutPlClass}" style="font-weight: 600;">$${parseFloat(r.actual_pl || 0).toFixed(2)}</td>
+                <td class="mono">$${parseFloat(r.current_price || 0).toFixed(2)}</td>
+                <td class="mono ${heldPlClass}">$${parseFloat(r.if_held_pl || 0).toFixed(2)}</td>
+                <td class="mono ${protClass}" style="font-weight: 700;">${r.delta >= 0 ? '+' : ''}$${parseFloat(r.delta || 0).toFixed(2)}</td>
+                <td>${verdictBadge}</td>
+              </tr>
+            `;
+          }).join('');
+        }
       }
 
-      const rows = audit.stop_loss_audit;
-      if (badge) badge.innerText = `${rows.length} Positions Audited`;
-
-      tbody.innerHTML = rows.map(r => {
-        const isLong = (r.direction || '').toUpperCase().includes('LONG');
-        const dirBadge = isLong ? '<span class="badge-long">LONG</span>' : '<span class="badge-short">SHORT</span>';
-        const saved = r.saved_loss || r.delta > 0;
-        const verdictBadge = saved ? `<span class="badge-saved">SAVED $${Math.abs(r.delta).toFixed(2)} LOSS</span>` : `<span class="badge-recovered">WOULD RECOVER</span>`;
-        const cutPlClass = r.actual_pl >= 0 ? 'val-positive' : 'val-negative';
-        const heldPlClass = r.if_held_pl >= 0 ? 'val-positive' : 'val-negative';
-        const protClass = r.delta >= 0 ? 'val-positive' : 'val-negative';
-
-        return `
-          <tr>
-            <td><strong class="mono" style="color: #ffffff;">${r.symbol}</strong> ${dirBadge}</td>
-            <td style="color: var(--text-muted); font-size: 0.8rem;">${r.strategy || (isLong ? 'GAP_BOTTOM_LONG' : 'GAP_TOP_SHORT')}</td>
-            <td class="mono">$${parseFloat(r.entry_price || 0).toFixed(2)}</td>
-            <td class="mono">$${parseFloat(r.cut_price || 0).toFixed(2)}</td>
-            <td class="mono ${cutPlClass}" style="font-weight: 600;">$${parseFloat(r.actual_pl || 0).toFixed(2)}</td>
-            <td class="mono">$${parseFloat(r.current_price || 0).toFixed(2)}</td>
-            <td class="mono ${heldPlClass}">$${parseFloat(r.if_held_pl || 0).toFixed(2)}</td>
-            <td class="mono ${protClass}" style="font-weight: 700;">${r.delta >= 0 ? '+' : ''}$${parseFloat(r.delta || 0).toFixed(2)}</td>
-            <td>${verdictBadge}</td>
-          </tr>
-        `;
-      }).join('');
-
-      // Dynamically update Strategy Recap cards
-      if (audit.long_strategy) {
+      // 2. Dynamically update Strategy Recap cards
+      if (audit && audit.long_strategy) {
         const lp = audit.long_strategy.total_actual_pl;
         const lpEl = document.getElementById('longStratPnl');
-        if (lpEl) {
+        if (lpEl && lp !== undefined) {
           lpEl.innerText = `${lp >= 0 ? '+' : ''}$${lp.toFixed(2)}`;
           lpEl.className = `mono ${lp >= 0 ? 'val-positive' : 'val-negative'}`;
         }
       }
-      if (audit.short_strategy) {
+      if (audit && audit.short_strategy) {
         const sp = audit.short_strategy.total_pl;
         const spEl = document.getElementById('shortStratPnl');
-        if (spEl) {
+        if (spEl && sp !== undefined) {
           spEl.innerText = `${sp >= 0 ? '+' : ''}$${sp.toFixed(2)}`;
           spEl.className = `mono ${sp >= 0 ? 'val-positive' : 'val-negative'}`;
         }
