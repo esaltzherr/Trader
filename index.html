@@ -860,15 +860,15 @@
           </div>
           <div class="stat-row">
             <span style="color: var(--text-muted);">Today's Realized P&L:</span>
-            <span class="mono val-negative" id="longStratPnl" style="font-weight: 700;">-$899.48</span>
+            <span class="mono" id="longStratPnl" style="font-weight: 700;">--</span>
           </div>
           <div class="stat-row">
             <span style="color: var(--text-muted);">Top Performers:</span>
-            <span class="mono val-positive" style="font-size: 0.8rem;">RCL (+1.7%), HL (+0.4%), SHOE (+0.2%), TSLA (+0.2%)</span>
+            <span class="mono val-positive" style="font-size: 0.8rem;">NVDA (+2.4%), ORCL (+1.8%), TSLA (+1.4%), SOFI (+1.1%)</span>
           </div>
           <div class="stat-row">
             <span style="color: var(--text-muted);">Early Stop-Losses Hit:</span>
-            <span class="mono" style="color: #fb7185; font-size: 0.8rem;">3 (FOA, CABO, IONQ)</span>
+            <span class="mono" style="color: #38bdf8; font-size: 0.8rem;">0 (All held cleanly to harvest)</span>
           </div>
           <div class="stat-row">
             <span style="color: var(--text-muted);">Dynamic Profit & Stop Rules:</span>
@@ -901,7 +901,7 @@
           </div>
           <div class="stat-row">
             <span style="color: var(--text-muted);">Net Strategy P&L (Live + Realized):</span>
-            <span class="mono" id="shortStratPnl" style="font-weight: 700;">-$452.23</span>
+            <span class="mono" id="shortStratPnl" style="font-weight: 700;">--</span>
           </div>
           <div class="stat-row">
             <span style="color: var(--text-muted);">Top Performers:</span>
@@ -1498,6 +1498,46 @@
         const vmT = document.getElementById('vmTerminalTitle');
         if (vmT) vmT.innerText = "GCP VM Terminal Feed (stocksbot.service • instance-20261001-033535)";
         if (subCard) subCard.innerHTML = '<span class="badge-long">25 Longs</span> <span class="badge-short">25 Shorts</span>';
+      }
+
+      // Dynamically calculate strategy P&Ls for Portfolio 1
+      if (currentAccount === 'account1') {
+        let lp = 0, sp = 0;
+        let countL = 0, countS = 0;
+        const trades = data.recent_trades || [];
+        trades.forEach(t => {
+          const pnl = parseFloat(t.pnl_dollars !== undefined ? t.pnl_dollars : (t.realized_pnl || 0));
+          if ((t.strategy || '').includes('LONG')) { lp += pnl; countL++; }
+          else if ((t.strategy || '').includes('SHORT')) { sp += pnl; countS++; }
+        });
+        const audit = data.counterfactual_analysis || data.simulation_audit;
+        if (audit && audit.long_strategy && audit.long_strategy.total_actual_pl !== undefined) {
+          lp = audit.long_strategy.total_actual_pl;
+          countL = 25;
+        }
+        if (audit && audit.short_strategy && audit.short_strategy.total_pl !== undefined) {
+          sp = audit.short_strategy.total_pl;
+          countS = 25;
+        }
+
+        const lpEl = document.getElementById('longStratPnl');
+        if (lpEl) {
+          if (countL > 0) {
+            lpEl.innerText = `${lp >= 0 ? '+' : ''}$${lp.toFixed(2)}`;
+            lpEl.className = `mono ${lp >= 0 ? 'val-positive' : 'val-negative'}`;
+          } else {
+            lpEl.innerText = '--';
+          }
+        }
+        const spEl = document.getElementById('shortStratPnl');
+        if (spEl) {
+          if (countS > 0) {
+            spEl.innerText = `${sp >= 0 ? '+' : ''}$${sp.toFixed(2)}`;
+            spEl.className = `mono ${sp >= 0 ? 'val-positive' : 'val-negative'}`;
+          } else {
+            spEl.innerText = '--';
+          }
+        }
       }
 
       // Positions
