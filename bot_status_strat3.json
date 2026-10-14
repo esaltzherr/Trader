@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 06:35:08 AM PT",
-  "timestamp_utc": "2026-10-14T13:35:08.526135+00:00",
+  "updated_at": "2026-10-14 06:50:11 AM PT",
+  "timestamp_utc": "2026-10-14T13:50:11.722201+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 1000273.21,
-    "cash": 1000273.21,
-    "buying_power": 3751641.64,
-    "total_pnl": 273.21,
-    "total_return_pct": "+0.03",
+    "portfolio_value": 1001786.82,
+    "cash": 502125.13,
+    "buying_power": 3018640.35,
+    "total_pnl": 1786.82,
+    "total_return_pct": "+0.18",
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -67,8 +67,219 @@
     "win_rate": "25.0%",
     "profit_factor": "2.18"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BAC",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 998.0,
+      "entry_price": 50.06,
+      "current_price": 49.83,
+      "market_value": 49730.44,
+      "unrealized_pnl": -224.74,
+      "unrealized_plpc": -0.45
+    },
+    {
+      "symbol": "CRWV",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 742.0,
+      "entry_price": 67.08,
+      "current_price": 68.09,
+      "market_value": 50522.78,
+      "unrealized_pnl": 749.42,
+      "unrealized_plpc": 1.51
+    },
+    {
+      "symbol": "DDOG",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 178.0,
+      "entry_price": 281.49,
+      "current_price": 283.0,
+      "market_value": 50374.0,
+      "unrealized_pnl": 268.78,
+      "unrealized_plpc": 0.54
+    },
+    {
+      "symbol": "DELL",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 94.0,
+      "entry_price": 527.92,
+      "current_price": 533.12,
+      "market_value": 50113.28,
+      "unrealized_pnl": 488.8,
+      "unrealized_plpc": 0.98
+    },
+    {
+      "symbol": "ISRG",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 117.0,
+      "entry_price": 424.35,
+      "current_price": 423.32,
+      "market_value": 49528.44,
+      "unrealized_pnl": -120.51,
+      "unrealized_plpc": -0.24
+    },
+    {
+      "symbol": "META",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 66.0,
+      "entry_price": 753.8,
+      "current_price": 752.03,
+      "market_value": 49633.98,
+      "unrealized_pnl": -117.06,
+      "unrealized_plpc": -0.24
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 263.0,
+      "entry_price": 188.64,
+      "current_price": 189.68,
+      "market_value": 49885.84,
+      "unrealized_pnl": 273.52,
+      "unrealized_plpc": 0.55
+    },
+    {
+      "symbol": "PGR",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 246.0,
+      "entry_price": 202.42,
+      "current_price": 201.65,
+      "market_value": 49604.67,
+      "unrealized_pnl": -191.54,
+      "unrealized_plpc": -0.39
+    },
+    {
+      "symbol": "SHOP",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 282.0,
+      "entry_price": 177.26,
+      "current_price": 178.83,
+      "market_value": 50430.06,
+      "unrealized_pnl": 442.74,
+      "unrealized_plpc": 0.89
+    },
+    {
+      "symbol": "SNPS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 101.0,
+      "entry_price": 494.0,
+      "current_price": 493.55,
+      "market_value": 49848.04,
+      "unrealized_pnl": -45.95,
+      "unrealized_plpc": -0.09
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "PANW",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 131.0,
+      "price": 379.69,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:50:11"
+    },
+    {
+      "symbol": "INTU",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 160.0,
+      "price": 310.68,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:50:11"
+    },
+    {
+      "symbol": "HON",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 236.0,
+      "price": 211.1,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:50:11"
+    },
+    {
+      "symbol": "RDDT",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 320.0,
+      "price": 156.005,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:50:11"
+    },
+    {
+      "symbol": "FSLR",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 272.0,
+      "price": 183.38,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:50:11"
+    },
+    {
+      "symbol": "BAC",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 998.0,
+      "price": 50.08,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:40:16"
+    },
+    {
+      "symbol": "DELL",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 94.0,
+      "price": 527.67,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:40:16"
+    },
+    {
+      "symbol": "NBIS",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 263.0,
+      "price": 189.42,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:40:16"
+    },
+    {
+      "symbol": "PGR",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 246.0,
+      "price": 203.0,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:40:16"
+    },
+    {
+      "symbol": "CRWV",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 742.0,
+      "price": 67.36,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:40:16"
+    },
     {
       "symbol": "ISRG",
       "strategy": "SUPER_MOMENTUM_RUNNER",
@@ -203,28 +414,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 1000273.21,
-      "daily_pnl": 273.21,
-      "cum_return": 0.03
+      "portfolio_value": 1001786.82,
+      "daily_pnl": 1786.82,
+      "cum_return": 0.18
     }
   ],
   "logs": [
-    "2026-10-14 05:31:04 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:31:36 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:32:08 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:32:40 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:33:11 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:33:43 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:34:15 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:34:47 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:35:19 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:35:50 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:36:22 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:36:53 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:37:25 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:37:56 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:38:28 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:38:59 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:39:31 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:40:03 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:40:34 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -328,6 +523,22 @@
     "2026-10-14 06:35:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 282 shares of SHOP @ ~$176.78 (Order ID: 8d59e900-0890-4ce3-ac15-269684a58b9f)",
     "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 101 shares of SNPS @ ~$493.28 (Order ID: d395df32-dd09-4092-9ab6-ec46c847b67f)",
     "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 66 shares of META @ ~$753.56 (Order ID: f627045d-f034-48da-af89-71c57015f664)",
-    "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 117 shares of ISRG @ ~$423.93 (Order ID: ce1ed8a4-1d20-4cb4-aeb7-031a18beb089)"
+    "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 117 shares of ISRG @ ~$423.93 (Order ID: ce1ed8a4-1d20-4cb4-aeb7-031a18beb089)",
+    "2026-10-14 06:40:12 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
+    "2026-10-14 06:40:12 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
+    "2026-10-14 06:40:16 PT  INFO      [Engine 2] Selected 5 Capitulation Bounce targets: ['CRWV', 'PGR', 'NBIS', 'DELL', 'BAC']",
+    "2026-10-14 06:40:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 742 shares of CRWV @ ~$67.36 (Order ID: b6d2e057-8ad6-405b-aff2-ccf5dcb8e93e)",
+    "2026-10-14 06:40:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 246 shares of PGR @ ~$203.00 (Order ID: ca125252-8d92-486f-a502-639bf8d100bf)",
+    "2026-10-14 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 263 shares of NBIS @ ~$189.42 (Order ID: 5ef821f0-65a5-4c9e-aee1-43b28593f493)",
+    "2026-10-14 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 94 shares of DELL @ ~$527.67 (Order ID: ac3edc2b-a41e-4e71-afb1-828276655ceb)",
+    "2026-10-14 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 998 shares of BAC @ ~$50.08 (Order ID: b3fc635a-c71b-4c2d-8d1c-96d038a20586)",
+    "2026-10-14 06:50:06 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-14 06:50:06 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-14 06:50:11 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['FSLR', 'RDDT', 'HON', 'INTU', 'PANW']",
+    "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 272 shares of FSLR @ ~$183.38 (Order ID: 6d924ac6-529d-4540-8348-986931d196ea)",
+    "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 320 shares of RDDT @ ~$156.00 (Order ID: 8960365e-0750-4220-b617-27701cb88c6b)",
+    "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 236 shares of HON @ ~$211.10 (Order ID: d75aa1c1-ea2a-4a8e-9554-acfac0172041)",
+    "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 160 shares of INTU @ ~$310.68 (Order ID: 2de5c2f8-fef6-4b43-861b-540ec76f0da2)",
+    "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 131 shares of PANW @ ~$379.69 (Order ID: 3f231689-981a-42ac-96f5-8b196cddcf7f)"
   ]
 }
