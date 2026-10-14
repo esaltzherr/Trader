@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 08:33:53 AM PT",
-  "timestamp_utc": "2026-10-14T15:33:53.393305+00:00",
+  "updated_at": "2026-10-14 08:34:55 AM PT",
+  "timestamp_utc": "2026-10-14T15:34:55.914671+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10106.28,
+    "portfolio_value": 10108.45,
     "cash": 12065.23,
-    "buying_power": 38074.38,
-    "total_pnl": 106.28,
-    "total_return_pct": "+1.06",
+    "buying_power": 38085.65,
+    "total_pnl": 108.45,
+    "total_return_pct": "+1.08",
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -54,10 +54,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.93,
-      "current_price": 79.45,
-      "market_value": 953.4,
-      "unrealized_pnl": 17.78,
-      "unrealized_plpc": 1.83
+      "current_price": 79.49,
+      "market_value": 953.86,
+      "unrealized_pnl": 17.32,
+      "unrealized_plpc": 1.78
     },
     {
       "symbol": "HIMS",
@@ -65,10 +65,10 @@
       "side": "short",
       "qty": 35.0,
       "entry_price": 28.63,
-      "current_price": 28.73,
-      "market_value": 1005.55,
-      "unrealized_pnl": -3.43,
-      "unrealized_plpc": -0.34
+      "current_price": 28.66,
+      "market_value": 1002.92,
+      "unrealized_pnl": -0.81,
+      "unrealized_plpc": -0.08
     }
   ],
   "recent_trades": [
@@ -256,9 +256,9 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 10106.28,
-      "daily_pnl": 106.28,
-      "cum_return": 1.06
+      "portfolio_value": 10108.45,
+      "daily_pnl": 108.45,
+      "cum_return": 1.08
     }
   ],
   "logs": [
