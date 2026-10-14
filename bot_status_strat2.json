@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 07:46:59 AM PT",
-  "timestamp_utc": "2026-10-14T14:46:59.290605+00:00",
+  "updated_at": "2026-10-14 07:48:01 AM PT",
+  "timestamp_utc": "2026-10-14T14:48:01.556023+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10086.9,
+    "portfolio_value": 10078.87,
     "cash": 13043.35,
-    "buying_power": 36799.86,
-    "total_pnl": 86.9,
-    "total_return_pct": "+0.87",
+    "buying_power": 36758.1,
+    "total_pnl": 78.87,
+    "total_return_pct": "+0.79",
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -41,11 +41,11 @@
     }
   ],
   "stats": {
-    "total_trades": 15,
-    "wins": 13,
+    "total_trades": 16,
+    "wins": 14,
     "losses": 2,
-    "win_rate": "86.7%",
-    "profit_factor": "4.30"
+    "win_rate": "87.5%",
+    "profit_factor": "4.75"
   },
   "open_positions": [
     {
@@ -54,10 +54,10 @@
       "side": "short",
       "qty": 44.0,
       "entry_price": 22.48,
-      "current_price": 22.13,
-      "market_value": 973.72,
-      "unrealized_pnl": 15.6,
-      "unrealized_plpc": 1.58
+      "current_price": 22.22,
+      "market_value": 977.68,
+      "unrealized_pnl": 11.64,
+      "unrealized_plpc": 1.18
     },
     {
       "symbol": "CRCL",
@@ -65,10 +65,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.93,
-      "current_price": 80.09,
-      "market_value": 961.08,
-      "unrealized_pnl": 10.1,
-      "unrealized_plpc": 1.04
+      "current_price": 80.05,
+      "market_value": 960.6,
+      "unrealized_pnl": 10.58,
+      "unrealized_plpc": 1.09
     },
     {
       "symbol": "HIMS",
@@ -76,10 +76,10 @@
       "side": "short",
       "qty": 35.0,
       "entry_price": 28.63,
-      "current_price": 29.2,
-      "market_value": 1022.0,
-      "unrealized_pnl": -19.88,
-      "unrealized_plpc": -1.98
+      "current_price": 29.32,
+      "market_value": 1026.2,
+      "unrealized_pnl": -24.08,
+      "unrealized_plpc": -2.4
     }
   ],
   "recent_trades": [
@@ -119,8 +119,8 @@
       "direction": "SHORT",
       "shares": 44.0,
       "price": 22.505,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 22.22,
+      "realized_pnl": 11.63998,
       "date": "2026-10-14 07:00:09"
     },
     {
@@ -267,14 +267,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 10086.9,
-      "daily_pnl": 86.9,
-      "cum_return": 0.87
+      "portfolio_value": 10078.87,
+      "daily_pnl": 78.87,
+      "cum_return": 0.79
     }
   ],
   "logs": [
-    "2026-10-13 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 10 shares of MDT at ~$91.03",
-    "2026-10-13 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 7 shares of C at ~$129.94",
     "2026-10-13 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 17 shares of USB at ~$56.88",
     "2026-10-13 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 1 shares of CAT at ~$775.59",
     "2026-10-13 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 42 shares of BMNR at ~$23.48",
@@ -392,6 +390,8 @@
     "2026-10-14 07:45:05 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] TEM 14.0 shares @ $71.28 (Entry: $69.60, P&L: $-23.52) [1H_SCHEDULED_EXIT]",
     "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] UNH 2.0 shares @ $388.05 (Entry: $394.00, P&L: $+11.91) [1H_SCHEDULED_EXIT]",
-    "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] SHOP 5.0 shares @ $175.19 (Entry: $178.46, P&L: $+16.32) [1H_SCHEDULED_EXIT]"
+    "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] SHOP 5.0 shares @ $175.19 (Entry: $178.46, P&L: $+16.32) [1H_SCHEDULED_EXIT]",
+    "2026-10-14 07:48:01 PT  INFO      [RATCHET TIER 2] BMNR Short peaked at +2.4%, crossed locked floor. Securing gains!",
+    "2026-10-14 07:48:01 PT  INFO      [CLOSED POSITION] BMNR 44.0 shares @ $22.22 (Entry: $22.48, P&L: $+11.64) [RATCHET_TIER2]"
   ]
 }
