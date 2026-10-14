@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 01:00:02 PM PT",
-  "timestamp_utc": "2026-10-14T20:00:03.282924+00:00",
+  "updated_at": "2026-10-14 01:30:05 PM PT",
+  "timestamp_utc": "2026-10-14T20:30:05.247485+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -329,7 +329,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 05:53:15 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:53:46 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:54:18 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:54:49 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -448,6 +447,7 @@
     "2026-10-14 12:50:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SHOP @ $172.20 | P&L: -1291.56 (-2.59%) | Reason: Scheduled EOD Liquidation",
     "2026-10-14 12:50:24 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SNPS @ $479.29 | P&L: -1412.99 (-2.84%) | Reason: Scheduled EOD Liquidation",
     "2026-10-14 12:50:30 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
-    "2026-10-14 13:00:02 PT  INFO      Market closed. Sleeping 16.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
+    "2026-10-14 13:00:02 PT  INFO      Market closed. Sleeping 16.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
+    "2026-10-14 13:30:04 PT  INFO      Market closed. Sleeping 16.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
   ]
 }
