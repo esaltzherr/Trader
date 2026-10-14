@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-14 07:00:11 AM PT",
-  "timestamp_utc": "2026-10-14T14:00:11.431482+00:00",
+  "updated_at": "2026-10-14 07:00:13 AM PT",
+  "timestamp_utc": "2026-10-14T14:00:13.207062+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10082.48,
-    "cash": 12726.42,
-    "buying_power": 29667.8,
-    "total_pnl": 82.48,
+    "portfolio_value": 10082.27,
+    "cash": 13138.26,
+    "buying_power": 29739.05,
+    "total_pnl": 82.27,
     "total_return_pct": "+0.82",
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -49,6 +49,28 @@
   },
   "open_positions": [
     {
+      "symbol": "BMNR",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 12.0,
+      "entry_price": 22.47,
+      "current_price": 22.48,
+      "market_value": 269.7,
+      "unrealized_pnl": -0.06,
+      "unrealized_plpc": -0.02
+    },
+    {
+      "symbol": "MARA",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 48.0,
+      "entry_price": 8.58,
+      "current_price": 8.59,
+      "market_value": 412.08,
+      "unrealized_pnl": -0.24,
+      "unrealized_plpc": -0.06
+    },
+    {
       "symbol": "SHOP",
       "direction": "SHORT",
       "side": "short",
@@ -76,9 +98,9 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 394.0,
-      "current_price": 391.81,
-      "market_value": 783.62,
-      "unrealized_pnl": 4.38,
+      "current_price": 391.79,
+      "market_value": 783.58,
+      "unrealized_pnl": 4.42,
       "unrealized_plpc": 0.56
     }
   ],
@@ -267,13 +289,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 10082.48,
-      "daily_pnl": 82.48,
+      "portfolio_value": 10082.27,
+      "daily_pnl": 82.27,
       "cum_return": 0.82
     }
   ],
   "logs": [
-    "2026-10-13 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
     "2026-10-13 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
     "2026-10-13 07:00:00 PT  INFO      ============================================================",
     "2026-10-13 07:00:09 PT  INFO      Selected 5 30M ORB Trend Candidates:",
@@ -392,6 +413,7 @@
     "2026-10-14 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 44 shares of BMNR at ~$22.50",
     "2026-10-14 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 12 shares of CRCL at ~$80.85",
     "2026-10-14 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 35 shares of HIMS at ~$28.65",
-    "2026-10-14 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 69 shares of SOFI at ~$14.53"
+    "2026-10-14 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 69 shares of SOFI at ~$14.53",
+    "2026-10-14 07:00:12 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
