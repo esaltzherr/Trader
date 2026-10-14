@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 06:06:25 AM PT",
-  "timestamp_utc": "2026-10-14T13:06:25.669326+00:00",
+  "updated_at": "2026-10-14 06:06:57 AM PT",
+  "timestamp_utc": "2026-10-14T13:06:57.298133+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -159,7 +159,6 @@
     }
   ],
   "logs": [
-    "2026-10-13 16:00:23 PT  INFO      Market closed. Sleeping 13.5 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-13 16:13:15 PT  INFO      =================================================================",
     "2026-10-13 16:13:15 PT  INFO       STARTING PORTFOLIO 3 BOT (3.2.1-strat3) - $1,000,000 CAPITAL",
     "2026-10-13 16:13:15 PT  INFO       Account: PA33UNIQCZOZ | Starting Equity: $1,000,000.00",
@@ -278,6 +277,7 @@
     "2026-10-14 06:04:50 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:05:22 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:05:53 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 06:06:25 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT"
+    "2026-10-14 06:06:25 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
+    "2026-10-14 06:06:57 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT"
   ]
 }
