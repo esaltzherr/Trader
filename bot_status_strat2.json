@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-10-14 05:30:00 AM PT",
-  "timestamp_utc": "2026-10-14T12:30:00.548925+00:00",
+  "updated_at": "2026-10-14 06:45:08 AM PT",
+  "timestamp_utc": "2026-10-14T13:45:08.859927+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
     "portfolio_value": 10071.72,
     "cash": 10071.72,
-    "buying_power": 40286.88,
+    "buying_power": 37000.38,
     "total_pnl": 71.72,
     "total_return_pct": "+0.72",
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
   "market": {
-    "is_open": false,
-    "next_open": "2026-10-14 06:30 AM PT",
+    "is_open": true,
+    "next_open": "2026-10-15 06:30 AM PT",
     "next_close": "2026-10-14 01:00 PM PT"
   },
   "strategies": [
@@ -49,6 +49,36 @@
   },
   "open_positions": [],
   "recent_trades": [
+    {
+      "symbol": "SHOP",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 5.0,
+      "price": 178.29,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:45:08"
+    },
+    {
+      "symbol": "UNH",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 2.0,
+      "price": 393.19,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:45:08"
+    },
+    {
+      "symbol": "TEM",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 14.0,
+      "price": 69.88,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:45:07"
+    },
     {
       "symbol": "BMNR",
       "strategy": "ORB_30M_TREND_RATCHET",
@@ -159,21 +189,6 @@
     }
   ],
   "logs": [
-    "2026-10-12 23:29:43 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 6.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-12 23:59:46 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 5.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 00:29:49 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 5.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 00:59:52 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 4.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 01:29:55 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 4.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 01:59:58 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 3.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 02:30:01 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 3.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 03:00:05 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 03:30:08 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 2.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 04:00:11 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 1.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 04:30:15 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 1.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 05:00:18 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 0.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 05:30:03 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
-    "2026-10-13 05:30:03 PT  INFO      Waiting 74.9 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
-    "2026-10-13 06:45:00 PT  INFO      ============================================================",
     "2026-10-13 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
     "2026-10-13 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
     "2026-10-13 06:45:00 PT  INFO      ============================================================",
@@ -278,6 +293,21 @@
     "2026-10-14 03:34:11 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 1.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 04:04:13 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 1.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 04:34:14 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 0.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 05:04:17 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 0.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-14 05:04:17 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 0.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-14 05:30:02 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
+    "2026-10-14 05:30:02 PT  INFO      Waiting 75.0 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
+    "2026-10-14 06:45:00 PT  INFO      ============================================================",
+    "2026-10-14 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
+    "2026-10-14 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
+    "2026-10-14 06:45:00 PT  INFO      ============================================================",
+    "2026-10-14 06:45:07 PT  INFO      Selected 5 Morning Runners to SHORT:",
+    "2026-10-14 06:45:07 PT  INFO        TEM    Surge: +4.81%  Price: $69.88",
+    "2026-10-14 06:45:07 PT  INFO        UNH    Surge: +2.64%  Price: $393.19",
+    "2026-10-14 06:45:07 PT  INFO        ASML   Surge: +2.60%  Price: $1720.28",
+    "2026-10-14 06:45:07 PT  INFO        LLY    Surge: +2.59%  Price: $1207.35",
+    "2026-10-14 06:45:07 PT  INFO        SHOP   Surge: +2.25%  Price: $178.29",
+    "2026-10-14 06:45:07 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 14 shares of TEM at ~$69.88",
+    "2026-10-14 06:45:08 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 2 shares of UNH at ~$393.19",
+    "2026-10-14 06:45:08 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of SHOP at ~$178.29"
   ]
 }
