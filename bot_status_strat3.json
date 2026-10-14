@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 12:50:14 PM PT",
-  "timestamp_utc": "2026-10-14T19:50:14.797177+00:00",
+  "updated_at": "2026-10-14 12:50:16 PM PT",
+  "timestamp_utc": "2026-10-14T19:50:17.177967+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 990109.27,
-    "cash": 767708.12,
-    "buying_power": 3258265.39,
-    "total_pnl": -9890.73,
-    "total_return_pct": "-0.99",
+    "portfolio_value": 990027.36,
+    "cash": 818957.94,
+    "buying_power": 3319449.9,
+    "total_pnl": -9972.64,
+    "total_return_pct": "-1.00",
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -61,24 +61,13 @@
     }
   ],
   "stats": {
-    "total_trades": 20,
+    "total_trades": 21,
     "wins": 4,
-    "losses": 16,
-    "win_rate": "20.0%",
-    "profit_factor": "0.46"
+    "losses": 17,
+    "win_rate": "19.0%",
+    "profit_factor": "0.42"
   },
   "open_positions": [
-    {
-      "symbol": "BAC",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 998.0,
-      "entry_price": 50.06,
-      "current_price": 51.38,
-      "market_value": 51272.25,
-      "unrealized_pnl": 1317.07,
-      "unrealized_plpc": 2.64
-    },
     {
       "symbol": "ISRG",
       "direction": "LONG",
@@ -96,10 +85,10 @@
       "side": "short",
       "qty": 103.0,
       "entry_price": 1212.81,
-      "current_price": 1211.51,
-      "market_value": 124785.53,
-      "unrealized_pnl": 134.28,
-      "unrealized_plpc": 0.11
+      "current_price": 1211.87,
+      "market_value": 124822.1,
+      "unrealized_pnl": 97.71,
+      "unrealized_plpc": 0.08
     },
     {
       "symbol": "META",
@@ -107,10 +96,10 @@
       "side": "long",
       "qty": 66.0,
       "entry_price": 753.8,
-      "current_price": 738.34,
-      "market_value": 48730.44,
-      "unrealized_pnl": -1020.6,
-      "unrealized_plpc": -2.05
+      "current_price": 738.3,
+      "market_value": 48727.8,
+      "unrealized_pnl": -1023.24,
+      "unrealized_plpc": -2.06
     },
     {
       "symbol": "NBIS",
@@ -118,9 +107,9 @@
       "side": "long",
       "qty": 263.0,
       "entry_price": 188.64,
-      "current_price": 184.42,
-      "market_value": 48501.8,
-      "unrealized_pnl": -1110.52,
+      "current_price": 184.41,
+      "market_value": 48501.14,
+      "unrealized_pnl": -1111.17,
       "unrealized_plpc": -2.24
     },
     {
@@ -129,10 +118,10 @@
       "side": "long",
       "qty": 246.0,
       "entry_price": 202.42,
-      "current_price": 213.99,
-      "market_value": 52641.54,
-      "unrealized_pnl": 2845.33,
-      "unrealized_plpc": 5.71
+      "current_price": 213.94,
+      "market_value": 52629.24,
+      "unrealized_pnl": 2833.03,
+      "unrealized_plpc": 5.69
     },
     {
       "symbol": "SHOP",
@@ -294,8 +283,8 @@
       "direction": "LONG",
       "shares": 66.0,
       "price": 753.56,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 738.14,
+      "realized_pnl": -1017.72,
       "date": "2026-10-14 06:35:07"
     },
     {
@@ -412,13 +401,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 990109.27,
-      "daily_pnl": -9890.73,
-      "cum_return": -0.99
+      "portfolio_value": 990027.36,
+      "daily_pnl": -9972.64,
+      "cum_return": -1.0
     }
   ],
   "logs": [
-    "2026-10-14 05:49:33 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:50:04 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:50:36 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:51:08 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -537,6 +525,7 @@
     "2026-10-14 12:50:10 PT  INFO      Closing all 8 active positions for Scheduled EOD Liquidation...",
     "2026-10-14 12:50:10 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG BAC @ $51.38 | P&L: +1292.41 (+2.59%) | Reason: Scheduled EOD Liquidation",
     "2026-10-14 12:50:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ISRG @ $419.62 | P&L: -504.27 (-1.02%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-14 12:50:14 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT LLY @ $1211.51 | P&L: +3.08 (+0.00%) | Reason: Scheduled EOD Liquidation"
+    "2026-10-14 12:50:14 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT LLY @ $1211.51 | P&L: +3.08 (+0.00%) | Reason: Scheduled EOD Liquidation",
+    "2026-10-14 12:50:16 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG META @ $738.14 | P&L: -1017.72 (-2.05%) | Reason: Scheduled EOD Liquidation"
   ]
 }
