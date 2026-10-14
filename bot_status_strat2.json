@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 07:37:38 AM PT",
-  "timestamp_utc": "2026-10-14T14:37:38.954382+00:00",
+  "updated_at": "2026-10-14 07:38:41 AM PT",
+  "timestamp_utc": "2026-10-14T14:38:41.355318+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10095.04,
+    "portfolio_value": 10099.98,
     "cash": 16689.54,
-    "buying_power": 32278.82,
-    "total_pnl": 95.04,
-    "total_return_pct": "+0.95",
+    "buying_power": 32305.6,
+    "total_pnl": 99.98,
+    "total_return_pct": "+1.00",
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -41,11 +41,11 @@
     }
   ],
   "stats": {
-    "total_trades": 11,
-    "wins": 10,
+    "total_trades": 12,
+    "wins": 11,
     "losses": 1,
-    "win_rate": "90.9%",
-    "profit_factor": "29.58"
+    "win_rate": "91.7%",
+    "profit_factor": "31.93"
   },
   "open_positions": [
     {
@@ -54,10 +54,10 @@
       "side": "short",
       "qty": 44.0,
       "entry_price": 22.48,
-      "current_price": 22.14,
-      "market_value": 973.94,
-      "unrealized_pnl": 15.38,
-      "unrealized_plpc": 1.55
+      "current_price": 22.09,
+      "market_value": 971.74,
+      "unrealized_pnl": 17.58,
+      "unrealized_plpc": 1.78
     },
     {
       "symbol": "CRCL",
@@ -65,10 +65,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.93,
-      "current_price": 80.06,
-      "market_value": 960.66,
-      "unrealized_pnl": 10.52,
-      "unrealized_plpc": 1.08
+      "current_price": 79.95,
+      "market_value": 959.4,
+      "unrealized_pnl": 11.78,
+      "unrealized_plpc": 1.21
     },
     {
       "symbol": "HIMS",
@@ -76,10 +76,10 @@
       "side": "short",
       "qty": 35.0,
       "entry_price": 28.63,
-      "current_price": 29.07,
-      "market_value": 1017.45,
-      "unrealized_pnl": -15.33,
-      "unrealized_plpc": -1.53
+      "current_price": 29.09,
+      "market_value": 1018.15,
+      "unrealized_pnl": -16.03,
+      "unrealized_plpc": -1.6
     },
     {
       "symbol": "SHOP",
@@ -87,10 +87,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 178.46,
-      "current_price": 175.53,
-      "market_value": 877.65,
-      "unrealized_pnl": 14.65,
-      "unrealized_plpc": 1.64
+      "current_price": 175.32,
+      "market_value": 876.6,
+      "unrealized_pnl": 15.7,
+      "unrealized_plpc": 1.76
     },
     {
       "symbol": "SOFI",
@@ -98,10 +98,10 @@
       "side": "short",
       "qty": 69.0,
       "entry_price": 14.5,
-      "current_price": 14.4,
-      "market_value": 993.39,
-      "unrealized_pnl": 7.11,
-      "unrealized_plpc": 0.71
+      "current_price": 14.41,
+      "market_value": 994.29,
+      "unrealized_pnl": 6.21,
+      "unrealized_plpc": 0.62
     },
     {
       "symbol": "TEM",
@@ -109,10 +109,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 69.6,
-      "current_price": 71.02,
-      "market_value": 994.21,
-      "unrealized_pnl": -19.81,
-      "unrealized_plpc": -2.03
+      "current_price": 70.97,
+      "market_value": 993.58,
+      "unrealized_pnl": -19.18,
+      "unrealized_plpc": -1.97
     },
     {
       "symbol": "UNH",
@@ -120,10 +120,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 394.0,
-      "current_price": 388.6,
-      "market_value": 777.2,
-      "unrealized_pnl": 10.8,
-      "unrealized_plpc": 1.37
+      "current_price": 387.9,
+      "market_value": 775.8,
+      "unrealized_pnl": 12.2,
+      "unrealized_plpc": 1.55
     }
   ],
   "recent_trades": [
@@ -133,8 +133,8 @@
       "direction": "SHORT",
       "shares": 69.0,
       "price": 14.53,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 14.41,
+      "realized_pnl": 6.21,
       "date": "2026-10-14 07:00:10"
     },
     {
@@ -311,14 +311,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 10095.04,
-      "daily_pnl": 95.04,
-      "cum_return": 0.95
+      "portfolio_value": 10099.98,
+      "daily_pnl": 99.98,
+      "cum_return": 1.0
     }
   ],
   "logs": [
-    "2026-10-13 07:00:09 PT  INFO      Selected 5 30M ORB Trend Candidates:",
-    "2026-10-13 07:00:09 PT  INFO        MDT    SHORT Breakout: +0.39%  Price: $91.03",
     "2026-10-13 07:00:09 PT  INFO        C      SHORT Breakout: +0.34%  Price: $129.94",
     "2026-10-13 07:00:09 PT  INFO        USB    SHORT Breakout: +0.32%  Price: $56.88",
     "2026-10-13 07:00:09 PT  INFO        CAT    SHORT Breakout: +0.28%  Price: $775.59",
@@ -436,6 +434,8 @@
     "2026-10-14 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 69 shares of SOFI at ~$14.53",
     "2026-10-14 07:00:12 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-14 07:15:47 PT  INFO      [RATCHET BREAKEVEN] MARA Short hit breakeven stop. Zero loss exit!",
-    "2026-10-14 07:15:47 PT  INFO      [CLOSED POSITION] MARA 117.0 shares @ $8.57 (Entry: $8.58, P&L: $+0.90) [RATCHET_BREAKEVEN]"
+    "2026-10-14 07:15:47 PT  INFO      [CLOSED POSITION] MARA 117.0 shares @ $8.57 (Entry: $8.58, P&L: $+0.90) [RATCHET_BREAKEVEN]",
+    "2026-10-14 07:38:41 PT  INFO      [RATCHET TIER 1] SOFI Short peaked at +1.8%, crossed locked floor. Securing gains!",
+    "2026-10-14 07:38:41 PT  INFO      [CLOSED POSITION] SOFI 69.0 shares @ $14.41 (Entry: $14.50, P&L: $+6.21) [RATCHET_TIER1]"
   ]
 }
