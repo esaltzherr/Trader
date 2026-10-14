@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 12:50:29 PM PT",
-  "timestamp_utc": "2026-10-14T19:50:29.221789+00:00",
+  "updated_at": "2026-10-14 01:00:02 PM PT",
+  "timestamp_utc": "2026-10-14T20:00:03.282924+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -14,9 +14,9 @@
     "status": "ACTIVE"
   },
   "market": {
-    "is_open": true,
+    "is_open": false,
     "next_open": "2026-10-15 06:30 AM PT",
-    "next_close": "2026-10-14 01:00 PM PT"
+    "next_close": "2026-10-15 01:00 PM PT"
   },
   "strategies": [
     {
@@ -329,8 +329,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 05:52:11 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:52:43 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:53:15 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:53:46 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:54:18 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -448,6 +446,8 @@
     "2026-10-14 12:50:18 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG NBIS @ $184.29 | P&L: -1349.22 (-2.71%) | Reason: Scheduled EOD Liquidation",
     "2026-10-14 12:50:20 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG PGR @ $213.99 | P&L: +2703.54 (+5.41%) | Reason: Scheduled EOD Liquidation",
     "2026-10-14 12:50:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SHOP @ $172.20 | P&L: -1291.56 (-2.59%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-14 12:50:24 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SNPS @ $479.29 | P&L: -1412.99 (-2.84%) | Reason: Scheduled EOD Liquidation"
+    "2026-10-14 12:50:24 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SNPS @ $479.29 | P&L: -1412.99 (-2.84%) | Reason: Scheduled EOD Liquidation",
+    "2026-10-14 12:50:30 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
+    "2026-10-14 13:00:02 PT  INFO      Market closed. Sleeping 16.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
   ]
 }
