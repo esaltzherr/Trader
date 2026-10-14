@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 12:49:50 PM PT",
-  "timestamp_utc": "2026-10-14T19:49:50.213235+00:00",
+  "updated_at": "2026-10-14 12:50:05 PM PT",
+  "timestamp_utc": "2026-10-14T19:50:05.702920+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10135.83,
-    "cash": 11104.63,
-    "buying_power": 39380.76,
-    "total_pnl": 135.83,
-    "total_return_pct": "+1.36",
+    "portfolio_value": 10135.16,
+    "cash": 10218.23,
+    "buying_power": 40440.96,
+    "total_pnl": 135.16,
+    "total_return_pct": "+1.35",
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -41,23 +41,23 @@
     }
   ],
   "stats": {
-    "total_trades": 17,
-    "wins": 15,
+    "total_trades": 18,
+    "wins": 16,
     "losses": 2,
-    "win_rate": "88.2%",
-    "profit_factor": "5.16"
+    "win_rate": "88.9%",
+    "profit_factor": "6.41"
   },
   "open_positions": [
     {
       "symbol": "HIMS",
       "direction": "SHORT",
       "side": "short",
-      "qty": 35.0,
+      "qty": 3.0,
       "entry_price": 28.63,
-      "current_price": 27.68,
-      "market_value": 968.8,
-      "unrealized_pnl": 33.32,
-      "unrealized_plpc": 3.33
+      "current_price": 27.69,
+      "market_value": 83.07,
+      "unrealized_pnl": 2.83,
+      "unrealized_plpc": 3.29
     }
   ],
   "recent_trades": [
@@ -77,8 +77,8 @@
       "direction": "SHORT",
       "shares": 35.0,
       "price": 28.65,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 27.7,
+      "realized_pnl": 32.62,
       "date": "2026-10-14 07:00:09"
     },
     {
@@ -245,15 +245,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 10135.83,
-      "daily_pnl": 135.83,
-      "cum_return": 1.36
+      "portfolio_value": 10135.16,
+      "daily_pnl": 135.16,
+      "cum_return": 1.35
     }
   ],
   "logs": [
-    "2026-10-13 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 42 shares of BMNR at ~$23.48",
-    "2026-10-13 07:00:15 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
-    "2026-10-13 07:10:23 PT  INFO      [RATCHET BREAKEVEN] C Short hit breakeven stop. Zero loss exit!",
     "2026-10-13 07:10:23 PT  INFO      [CLOSED POSITION] C 7.0 shares @ $129.44 (Entry: $129.55, P&L: $+0.76) [RATCHET_BREAKEVEN]",
     "2026-10-13 07:19:38 PT  INFO      [RATCHET TIER 2] MDB Short peaked at +2.1%, crossed locked floor. Securing gains!",
     "2026-10-13 07:19:38 PT  INFO      [CLOSED POSITION] MDB 2.0 shares @ $400.64 (Entry: $405.50, P&L: $+9.72) [RATCHET_TIER2]",
@@ -370,6 +367,9 @@
     "2026-10-14 07:48:01 PT  INFO      [RATCHET TIER 2] BMNR Short peaked at +2.4%, crossed locked floor. Securing gains!",
     "2026-10-14 07:48:01 PT  INFO      [CLOSED POSITION] BMNR 44.0 shares @ $22.22 (Entry: $22.48, P&L: $+11.64) [RATCHET_TIER2]",
     "2026-10-14 10:01:05 PT  INFO      [RATCHET TIER 2] CRCL Short peaked at +2.7%, crossed locked floor. Securing gains!",
-    "2026-10-14 10:01:05 PT  INFO      [CLOSED POSITION] CRCL 12.0 shares @ $80.03 (Entry: $80.93, P&L: $+10.82) [RATCHET_TIER2]"
+    "2026-10-14 10:01:05 PT  INFO      [CLOSED POSITION] CRCL 12.0 shares @ $80.03 (Entry: $80.93, P&L: $+10.82) [RATCHET_TIER2]",
+    "2026-10-14 12:50:01 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
+    "2026-10-14 12:50:01 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
+    "2026-10-14 12:50:01 PT  INFO      [CLOSED POSITION] HIMS 35.0 shares @ $27.70 (Entry: $28.63, P&L: $+32.62) [SCHEDULED_EOD]"
   ]
 }
