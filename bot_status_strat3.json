@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 12:07:09 PM PT",
-  "timestamp_utc": "2026-10-14T19:07:09.862325+00:00",
+  "updated_at": "2026-10-14 12:50:10 PM PT",
+  "timestamp_utc": "2026-10-14T19:50:10.786732+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 989274.37,
-    "cash": 719746.02,
-    "buying_power": 3199514.42,
-    "total_pnl": -10725.63,
-    "total_return_pct": "-1.07",
+    "portfolio_value": 990095.33,
+    "cash": 767708.12,
+    "buying_power": 3258320.3,
+    "total_pnl": -9904.67,
+    "total_return_pct": "-0.99",
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -61,11 +61,11 @@
     }
   ],
   "stats": {
-    "total_trades": 17,
-    "wins": 2,
+    "total_trades": 18,
+    "wins": 3,
     "losses": 15,
-    "win_rate": "11.8%",
-    "profit_factor": "0.36"
+    "win_rate": "16.7%",
+    "profit_factor": "0.49"
   },
   "open_positions": [
     {
@@ -74,21 +74,10 @@
       "side": "long",
       "qty": 998.0,
       "entry_price": 50.06,
-      "current_price": 51.07,
-      "market_value": 50967.86,
-      "unrealized_pnl": 1012.68,
-      "unrealized_plpc": 2.03
-    },
-    {
-      "symbol": "DDOG",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 178.0,
-      "entry_price": 281.49,
-      "current_price": 269.58,
-      "market_value": 47985.24,
-      "unrealized_pnl": -2119.98,
-      "unrealized_plpc": -4.23
+      "current_price": 51.38,
+      "market_value": 51272.25,
+      "unrealized_pnl": 1317.07,
+      "unrealized_plpc": 2.64
     },
     {
       "symbol": "ISRG",
@@ -96,10 +85,10 @@
       "side": "long",
       "qty": 117.0,
       "entry_price": 424.35,
-      "current_price": 418.38,
-      "market_value": 48950.46,
-      "unrealized_pnl": -698.49,
-      "unrealized_plpc": -1.41
+      "current_price": 419.6,
+      "market_value": 49093.2,
+      "unrealized_pnl": -555.75,
+      "unrealized_plpc": -1.12
     },
     {
       "symbol": "LLY",
@@ -107,10 +96,10 @@
       "side": "short",
       "qty": 103.0,
       "entry_price": 1212.81,
-      "current_price": 1209.82,
-      "market_value": 124611.46,
-      "unrealized_pnl": 308.35,
-      "unrealized_plpc": 0.25
+      "current_price": 1211.51,
+      "market_value": 124785.54,
+      "unrealized_pnl": 134.27,
+      "unrealized_plpc": 0.11
     },
     {
       "symbol": "META",
@@ -118,10 +107,10 @@
       "side": "long",
       "qty": 66.0,
       "entry_price": 753.8,
-      "current_price": 736.71,
-      "market_value": 48622.92,
-      "unrealized_pnl": -1128.12,
-      "unrealized_plpc": -2.27
+      "current_price": 738.24,
+      "market_value": 48723.84,
+      "unrealized_pnl": -1027.2,
+      "unrealized_plpc": -2.07
     },
     {
       "symbol": "NBIS",
@@ -129,10 +118,10 @@
       "side": "long",
       "qty": 263.0,
       "entry_price": 188.64,
-      "current_price": 183.44,
-      "market_value": 48243.4,
-      "unrealized_pnl": -1368.91,
-      "unrealized_plpc": -2.76
+      "current_price": 184.29,
+      "market_value": 48468.24,
+      "unrealized_pnl": -1144.08,
+      "unrealized_plpc": -2.31
     },
     {
       "symbol": "PGR",
@@ -140,10 +129,10 @@
       "side": "long",
       "qty": 246.0,
       "entry_price": 202.42,
-      "current_price": 213.49,
-      "market_value": 52517.31,
-      "unrealized_pnl": 2721.1,
-      "unrealized_plpc": 5.46
+      "current_price": 213.99,
+      "market_value": 52641.54,
+      "unrealized_pnl": 2845.33,
+      "unrealized_plpc": 5.71
     },
     {
       "symbol": "SHOP",
@@ -151,10 +140,10 @@
       "side": "long",
       "qty": 282.0,
       "entry_price": 177.26,
-      "current_price": 171.47,
-      "market_value": 48355.95,
-      "unrealized_pnl": -1631.37,
-      "unrealized_plpc": -3.26
+      "current_price": 172.2,
+      "market_value": 48560.4,
+      "unrealized_pnl": -1426.92,
+      "unrealized_plpc": -2.85
     },
     {
       "symbol": "SNPS",
@@ -162,10 +151,10 @@
       "side": "long",
       "qty": 101.0,
       "entry_price": 494.0,
-      "current_price": 480.17,
-      "market_value": 48496.67,
-      "unrealized_pnl": -1397.34,
-      "unrealized_plpc": -2.8
+      "current_price": 479.29,
+      "market_value": 48408.29,
+      "unrealized_pnl": -1485.71,
+      "unrealized_plpc": -2.98
     }
   ],
   "recent_trades": [
@@ -245,8 +234,8 @@
       "direction": "LONG",
       "shares": 998.0,
       "price": 50.08,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 51.375,
+      "realized_pnl": 1292.41,
       "date": "2026-10-14 06:40:16"
     },
     {
@@ -423,15 +412,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 989274.37,
-      "daily_pnl": -10725.63,
-      "cum_return": -1.07
+      "portfolio_value": 990095.33,
+      "daily_pnl": -9904.67,
+      "cum_return": -0.99
     }
   ],
   "logs": [
-    "2026-10-14 05:46:54 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:47:26 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:47:58 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:48:30 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:49:01 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:49:33 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -548,6 +534,9 @@
     "2026-10-14 08:25:08 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT UNH @ $391.17 | P&L: -46.26 (-0.04%) | Reason: Breakeven Floor Protected",
     "2026-10-14 09:14:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG CRWV @ $64.94 | P&L: -1795.64 (-3.59%) | Reason: Hard Stop Triggered (-3.59%)",
     "2026-10-14 09:27:05 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG DELL @ $508.23 | P&L: -1827.36 (-3.68%) | Reason: Hard Stop Triggered (-3.68%)",
-    "2026-10-14 12:07:09 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $269.58 | P&L: -2011.40 (-4.02%) | Reason: Hard Stop Triggered (-4.02%)"
+    "2026-10-14 12:07:09 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $269.58 | P&L: -2011.40 (-4.02%) | Reason: Hard Stop Triggered (-4.02%)",
+    "2026-10-14 12:50:10 PT  INFO      >>> TIME TRIGGER: 12:50 PM PT -> EOD Liquidation of all Portfolio 3 positions...",
+    "2026-10-14 12:50:10 PT  INFO      Closing all 8 active positions for Scheduled EOD Liquidation...",
+    "2026-10-14 12:50:10 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG BAC @ $51.38 | P&L: +1292.41 (+2.59%) | Reason: Scheduled EOD Liquidation"
   ]
 }
