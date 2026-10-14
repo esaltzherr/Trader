@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-10-14 06:29:42 AM PT",
-  "timestamp_utc": "2026-10-14T13:29:42.576727+00:00",
+  "updated_at": "2026-10-14 06:35:08 AM PT",
+  "timestamp_utc": "2026-10-14T13:35:08.526135+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
     "portfolio_value": 1000273.21,
     "cash": 1000273.21,
-    "buying_power": 4001092.84,
+    "buying_power": 3751641.64,
     "total_pnl": 273.21,
     "total_return_pct": "+0.03",
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
   "market": {
-    "is_open": false,
-    "next_open": "2026-10-14 06:30 AM PT",
+    "is_open": true,
+    "next_open": "2026-10-15 06:30 AM PT",
     "next_close": "2026-10-14 01:00 PM PT"
   },
   "strategies": [
@@ -69,6 +69,56 @@
   },
   "open_positions": [],
   "recent_trades": [
+    {
+      "symbol": "ISRG",
+      "strategy": "SUPER_MOMENTUM_RUNNER",
+      "direction": "LONG",
+      "shares": 117.0,
+      "price": 423.925,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:35:07"
+    },
+    {
+      "symbol": "META",
+      "strategy": "SUPER_MOMENTUM_RUNNER",
+      "direction": "LONG",
+      "shares": 66.0,
+      "price": 753.56,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:35:07"
+    },
+    {
+      "symbol": "SNPS",
+      "strategy": "SUPER_MOMENTUM_RUNNER",
+      "direction": "LONG",
+      "shares": 101.0,
+      "price": 493.28,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:35:07"
+    },
+    {
+      "symbol": "SHOP",
+      "strategy": "SUPER_MOMENTUM_RUNNER",
+      "direction": "LONG",
+      "shares": 282.0,
+      "price": 176.78,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:35:07"
+    },
+    {
+      "symbol": "DDOG",
+      "strategy": "SUPER_MOMENTUM_RUNNER",
+      "direction": "LONG",
+      "shares": 178.0,
+      "price": 280.88,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 06:35:07"
+    },
     {
       "symbol": "ANET",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -159,14 +209,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 02:34:06 PT  INFO      Market closed. Sleeping 2.9 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 03:04:08 PT  INFO      Market closed. Sleeping 2.4 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 03:34:09 PT  INFO      Market closed. Sleeping 1.9 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 04:04:11 PT  INFO      Market closed. Sleeping 1.4 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 04:34:13 PT  INFO      Market closed. Sleeping 0.9 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:04:15 PT  INFO      Market closed. Sleeping 0.4 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:30:01 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:30:33 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:31:04 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:31:36 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:32:08 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -278,6 +320,14 @@
     "2026-10-14 06:28:06 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:28:38 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:29:10 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 06:29:42 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT"
+    "2026-10-14 06:29:42 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
+    "2026-10-14 06:35:00 PT  INFO      >>> TIME TRIGGER: 06:35 AM PT -> Executing Engine 1 (Super Momentum Runner)...",
+    "2026-10-14 06:35:00 PT  INFO      [Engine 1] Scanning for 20-Day Super Momentum leaders (>= +25%)...",
+    "2026-10-14 06:35:07 PT  INFO      [Engine 1] Selected 5 Super Momentum leaders: ['DDOG', 'SHOP', 'SNPS', 'META', 'ISRG']",
+    "2026-10-14 06:35:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 178 shares of DDOG @ ~$280.88 (Order ID: 86339609-09a7-423e-87b6-cfba9eb4ffb2)",
+    "2026-10-14 06:35:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 282 shares of SHOP @ ~$176.78 (Order ID: 8d59e900-0890-4ce3-ac15-269684a58b9f)",
+    "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 101 shares of SNPS @ ~$493.28 (Order ID: d395df32-dd09-4092-9ab6-ec46c847b67f)",
+    "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 66 shares of META @ ~$753.56 (Order ID: f627045d-f034-48da-af89-71c57015f664)",
+    "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 117 shares of ISRG @ ~$423.93 (Order ID: ce1ed8a4-1d20-4cb4-aeb7-031a18beb089)"
   ]
 }
