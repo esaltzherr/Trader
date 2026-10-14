@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 06:50:11 AM PT",
-  "timestamp_utc": "2026-10-14T13:50:11.722201+00:00",
+  "updated_at": "2026-10-14 07:05:16 AM PT",
+  "timestamp_utc": "2026-10-14T14:05:16.520839+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 1001786.82,
-    "cash": 502125.13,
-    "buying_power": 3018640.35,
-    "total_pnl": 1786.82,
-    "total_return_pct": "+0.18",
+    "portfolio_value": 993727.86,
+    "cash": 252909.67,
+    "buying_power": 2639780.49,
+    "total_pnl": -6272.14,
+    "total_return_pct": "-0.63",
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -74,10 +74,10 @@
       "side": "long",
       "qty": 998.0,
       "entry_price": 50.06,
-      "current_price": 49.83,
-      "market_value": 49730.44,
-      "unrealized_pnl": -224.74,
-      "unrealized_plpc": -0.45
+      "current_price": 49.34,
+      "market_value": 49236.33,
+      "unrealized_pnl": -718.85,
+      "unrealized_plpc": -1.44
     },
     {
       "symbol": "CRWV",
@@ -85,10 +85,10 @@
       "side": "long",
       "qty": 742.0,
       "entry_price": 67.08,
-      "current_price": 68.09,
-      "market_value": 50522.78,
-      "unrealized_pnl": 749.42,
-      "unrealized_plpc": 1.51
+      "current_price": 66.11,
+      "market_value": 49049.91,
+      "unrealized_pnl": -723.45,
+      "unrealized_plpc": -1.45
     },
     {
       "symbol": "DDOG",
@@ -96,10 +96,10 @@
       "side": "long",
       "qty": 178.0,
       "entry_price": 281.49,
-      "current_price": 283.0,
-      "market_value": 50374.0,
-      "unrealized_pnl": 268.78,
-      "unrealized_plpc": 0.54
+      "current_price": 280.07,
+      "market_value": 49852.46,
+      "unrealized_pnl": -252.76,
+      "unrealized_plpc": -0.5
     },
     {
       "symbol": "DELL",
@@ -107,10 +107,43 @@
       "side": "long",
       "qty": 94.0,
       "entry_price": 527.92,
-      "current_price": 533.12,
-      "market_value": 50113.28,
-      "unrealized_pnl": 488.8,
-      "unrealized_plpc": 0.98
+      "current_price": 530.29,
+      "market_value": 49847.26,
+      "unrealized_pnl": 222.78,
+      "unrealized_plpc": 0.45
+    },
+    {
+      "symbol": "FSLR",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 272.0,
+      "entry_price": 183.55,
+      "current_price": 180.52,
+      "market_value": 49101.44,
+      "unrealized_pnl": -824.16,
+      "unrealized_plpc": -1.65
+    },
+    {
+      "symbol": "HON",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 236.0,
+      "entry_price": 211.22,
+      "current_price": 209.51,
+      "market_value": 49444.36,
+      "unrealized_pnl": -403.56,
+      "unrealized_plpc": -0.81
+    },
+    {
+      "symbol": "INTU",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 160.0,
+      "entry_price": 310.52,
+      "current_price": 307.7,
+      "market_value": 49231.46,
+      "unrealized_pnl": -451.74,
+      "unrealized_plpc": -0.91
     },
     {
       "symbol": "ISRG",
@@ -118,10 +151,10 @@
       "side": "long",
       "qty": 117.0,
       "entry_price": 424.35,
-      "current_price": 423.32,
-      "market_value": 49528.44,
-      "unrealized_pnl": -120.51,
-      "unrealized_plpc": -0.24
+      "current_price": 420.92,
+      "market_value": 49247.64,
+      "unrealized_pnl": -401.31,
+      "unrealized_plpc": -0.81
     },
     {
       "symbol": "META",
@@ -129,10 +162,10 @@
       "side": "long",
       "qty": 66.0,
       "entry_price": 753.8,
-      "current_price": 752.03,
-      "market_value": 49633.98,
-      "unrealized_pnl": -117.06,
-      "unrealized_plpc": -0.24
+      "current_price": 749.42,
+      "market_value": 49461.72,
+      "unrealized_pnl": -289.32,
+      "unrealized_plpc": -0.58
     },
     {
       "symbol": "NBIS",
@@ -140,10 +173,21 @@
       "side": "long",
       "qty": 263.0,
       "entry_price": 188.64,
-      "current_price": 189.68,
-      "market_value": 49885.84,
-      "unrealized_pnl": 273.52,
-      "unrealized_plpc": 0.55
+      "current_price": 186.54,
+      "market_value": 49060.02,
+      "unrealized_pnl": -552.3,
+      "unrealized_plpc": -1.11
+    },
+    {
+      "symbol": "PANW",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 131.0,
+      "entry_price": 379.74,
+      "current_price": 376.54,
+      "market_value": 49326.74,
+      "unrealized_pnl": -419.2,
+      "unrealized_plpc": -0.84
     },
     {
       "symbol": "PGR",
@@ -151,10 +195,21 @@
       "side": "long",
       "qty": 246.0,
       "entry_price": 202.42,
-      "current_price": 201.65,
-      "market_value": 49604.67,
-      "unrealized_pnl": -191.54,
-      "unrealized_plpc": -0.39
+      "current_price": 202.21,
+      "market_value": 49742.43,
+      "unrealized_pnl": -53.78,
+      "unrealized_plpc": -0.11
+    },
+    {
+      "symbol": "RDDT",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 320.0,
+      "entry_price": 156.29,
+      "current_price": 153.34,
+      "market_value": 49070.4,
+      "unrealized_pnl": -942.4,
+      "unrealized_plpc": -1.88
     },
     {
       "symbol": "SHOP",
@@ -162,10 +217,10 @@
       "side": "long",
       "qty": 282.0,
       "entry_price": 177.26,
-      "current_price": 178.83,
-      "market_value": 50430.06,
-      "unrealized_pnl": 442.74,
-      "unrealized_plpc": 0.89
+      "current_price": 178.0,
+      "market_value": 50195.89,
+      "unrealized_pnl": 208.57,
+      "unrealized_plpc": 0.42
     },
     {
       "symbol": "SNPS",
@@ -173,13 +228,33 @@
       "side": "long",
       "qty": 101.0,
       "entry_price": 494.0,
-      "current_price": 493.55,
-      "market_value": 49848.04,
-      "unrealized_pnl": -45.95,
-      "unrealized_plpc": -0.09
+      "current_price": 484.8,
+      "market_value": 48964.29,
+      "unrealized_pnl": -929.71,
+      "unrealized_plpc": -1.86
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "UNH",
+      "strategy": "PARABOLIC_BLOWOFF_FADE",
+      "direction": "SHORT",
+      "shares": 319.0,
+      "price": 391.025,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 07:05:16"
+    },
+    {
+      "symbol": "LLY",
+      "strategy": "PARABOLIC_BLOWOFF_FADE",
+      "direction": "SHORT",
+      "shares": 103.0,
+      "price": 1211.54,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-14 07:05:16"
+    },
     {
       "symbol": "PANW",
       "strategy": "INTRADAY_MICRO_BURST_RATCHET",
@@ -414,17 +489,12 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 1001786.82,
-      "daily_pnl": 1786.82,
-      "cum_return": 0.18
+      "portfolio_value": 993727.86,
+      "daily_pnl": -6272.14,
+      "cum_return": -0.63
     }
   ],
   "logs": [
-    "2026-10-14 05:39:31 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:40:03 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:40:34 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:41:06 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:41:38 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:42:09 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:42:41 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:43:13 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -539,6 +609,11 @@
     "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 320 shares of RDDT @ ~$156.00 (Order ID: 8960365e-0750-4220-b617-27701cb88c6b)",
     "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 236 shares of HON @ ~$211.10 (Order ID: d75aa1c1-ea2a-4a8e-9554-acfac0172041)",
     "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 160 shares of INTU @ ~$310.68 (Order ID: 2de5c2f8-fef6-4b43-861b-540ec76f0da2)",
-    "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 131 shares of PANW @ ~$379.69 (Order ID: 3f231689-981a-42ac-96f5-8b196cddcf7f)"
+    "2026-10-14 06:50:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 131 shares of PANW @ ~$379.69 (Order ID: 3f231689-981a-42ac-96f5-8b196cddcf7f)",
+    "2026-10-14 07:05:03 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
+    "2026-10-14 07:05:03 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
+    "2026-10-14 07:05:16 PT  INFO      [Engine 4] Selected 2 Parabolic Blowoff Fade short targets: ['LLY', 'UNH']",
+    "2026-10-14 07:05:16 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 103 shares of LLY @ ~$1211.54 (Order ID: 2b4c0e41-1d64-4583-bda1-fb80a1815584)",
+    "2026-10-14 07:05:16 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 319 shares of UNH @ ~$391.02 (Order ID: ae4207cd-b87d-4102-a80c-3d4d34e258ec)"
   ]
 }
