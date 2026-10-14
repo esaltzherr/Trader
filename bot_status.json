@@ -2,8 +2,8 @@
   "is_paper_trading": true,
   "environment": "Alpaca Paper Trading Simulator (Virtual Currency - No Real Capital)",
   "timezone": "America/Los_Angeles (PT)",
-  "updated_at": "2026-10-14 02:34:16 AM PT",
-  "timestamp_iso": "2026-10-14T02:34:16.210242-07:00",
+  "updated_at": "2026-10-14 03:04:18 AM PT",
+  "timestamp_iso": "2026-10-14T03:04:18.464246-07:00",
   "account_id": "PKWUL6SHOQRV6B6JR6VY3YMP7S",
   "account_label": "Portfolio 1: Market-Neutral Pairs ($100k)",
   "market_status": "Market Closed (Next Open: 2026-10-14 06:30 AM PT)",
@@ -1584,9 +1584,6 @@
     }
   ],
   "logs": [
-    "2026-10-13 12:50:19 PT  INFO      [EOD] Liquidating 21 positions...",
-    "2026-10-13 12:50:19 PT  INFO        [GAP_TOP_SHORT] BUY 5 AAPL -> order 15b9e148...",
-    "2026-10-13 12:50:19 PT  INFO        [GAP_TOP_SHORT] BUY 155 ACI -> order 3e38a54e...",
     "2026-10-13 12:50:19 PT  INFO        [GAP_TOP_SHORT] BUY 225 AGNC -> order 212b8fc4...",
     "2026-10-13 12:50:19 PT  INFO        [GAP_TOP_SHORT] BUY 81 ALMR -> order 8237d341...",
     "2026-10-13 12:50:19 PT  INFO        [GAP_TOP_SHORT] BUY 222 AMPX -> order bc04d20a...",
@@ -1703,6 +1700,9 @@
     "2026-10-14 01:34:13 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 3.9h until pre-fetch at 05:30 AM PT...",
     "2026-10-14 02:04:14 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
     "2026-10-14 02:04:16 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
-    "2026-10-14 02:04:16 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 3.4h until pre-fetch at 05:30 AM PT..."
+    "2026-10-14 02:04:16 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 3.4h until pre-fetch at 05:30 AM PT...",
+    "2026-10-14 02:34:16 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
+    "2026-10-14 02:34:18 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
+    "2026-10-14 02:34:18 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 2.9h until pre-fetch at 05:30 AM PT..."
   ]
 }
