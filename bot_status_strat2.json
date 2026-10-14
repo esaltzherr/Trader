@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14 07:32:27 AM PT",
-  "timestamp_utc": "2026-10-14T14:32:27.324929+00:00",
+  "updated_at": "2026-10-14 07:33:29 AM PT",
+  "timestamp_utc": "2026-10-14T14:33:29.547608+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10099.0,
+    "portfolio_value": 10102.36,
     "cash": 16689.54,
-    "buying_power": 32293.86,
-    "total_pnl": 99.0,
-    "total_return_pct": "+0.99",
+    "buying_power": 32313.0,
+    "total_pnl": 102.36,
+    "total_return_pct": "+1.02",
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -54,10 +54,10 @@
       "side": "short",
       "qty": 44.0,
       "entry_price": 22.48,
-      "current_price": 22.14,
-      "market_value": 973.98,
-      "unrealized_pnl": 15.34,
-      "unrealized_plpc": 1.55
+      "current_price": 22.13,
+      "market_value": 973.72,
+      "unrealized_pnl": 15.6,
+      "unrealized_plpc": 1.58
     },
     {
       "symbol": "CRCL",
@@ -65,10 +65,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.93,
-      "current_price": 80.17,
-      "market_value": 962.1,
-      "unrealized_pnl": 9.08,
-      "unrealized_plpc": 0.94
+      "current_price": 79.98,
+      "market_value": 959.76,
+      "unrealized_pnl": 11.42,
+      "unrealized_plpc": 1.18
     },
     {
       "symbol": "HIMS",
@@ -76,10 +76,10 @@
       "side": "short",
       "qty": 35.0,
       "entry_price": 28.63,
-      "current_price": 29.02,
-      "market_value": 1015.7,
-      "unrealized_pnl": -13.58,
-      "unrealized_plpc": -1.35
+      "current_price": 29.03,
+      "market_value": 1016.05,
+      "unrealized_pnl": -13.93,
+      "unrealized_plpc": -1.39
     },
     {
       "symbol": "SHOP",
@@ -87,10 +87,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 178.46,
-      "current_price": 176.42,
-      "market_value": 882.1,
-      "unrealized_pnl": 10.2,
-      "unrealized_plpc": 1.14
+      "current_price": 176.23,
+      "market_value": 881.15,
+      "unrealized_pnl": 11.15,
+      "unrealized_plpc": 1.25
     },
     {
       "symbol": "SOFI",
@@ -98,10 +98,10 @@
       "side": "short",
       "qty": 69.0,
       "entry_price": 14.5,
-      "current_price": 14.33,
-      "market_value": 988.77,
-      "unrealized_pnl": 11.73,
-      "unrealized_plpc": 1.17
+      "current_price": 14.35,
+      "market_value": 990.15,
+      "unrealized_pnl": 10.35,
+      "unrealized_plpc": 1.03
     },
     {
       "symbol": "TEM",
@@ -109,10 +109,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 69.6,
-      "current_price": 70.71,
-      "market_value": 989.94,
-      "unrealized_pnl": -15.54,
-      "unrealized_plpc": -1.59
+      "current_price": 70.66,
+      "market_value": 989.24,
+      "unrealized_pnl": -14.84,
+      "unrealized_plpc": -1.52
     },
     {
       "symbol": "UNH",
@@ -120,10 +120,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 394.0,
-      "current_price": 388.45,
-      "market_value": 776.9,
-      "unrealized_pnl": 11.1,
-      "unrealized_plpc": 1.41
+      "current_price": 388.56,
+      "market_value": 777.11,
+      "unrealized_pnl": 10.89,
+      "unrealized_plpc": 1.38
     }
   ],
   "recent_trades": [
@@ -311,9 +311,9 @@
   "history": [
     {
       "date": "2026-10-14",
-      "portfolio_value": 10099.0,
-      "daily_pnl": 99.0,
-      "cum_return": 0.99
+      "portfolio_value": 10102.36,
+      "daily_pnl": 102.36,
+      "cum_return": 1.02
     }
   ],
   "logs": [
