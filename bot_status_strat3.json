@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 05:57:28 AM PT",
-  "timestamp_utc": "2026-10-14T12:57:28.421393+00:00",
+  "updated_at": "2026-10-14 05:57:59 AM PT",
+  "timestamp_utc": "2026-10-14T12:57:59.905158+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -159,7 +159,6 @@
     }
   ],
   "logs": [
-    "2026-10-13 06:50:15 PT  INFO      [Engine 3] Selected 0 Micro-Burst Runner targets: []",
     "2026-10-13 06:50:15 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] No qualifying candidates found.",
     "2026-10-13 07:05:04 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
     "2026-10-13 07:05:04 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
@@ -278,6 +277,7 @@
     "2026-10-14 05:55:53 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:56:25 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:56:56 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:57:28 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT"
+    "2026-10-14 05:57:28 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
+    "2026-10-14 05:57:59 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT"
   ]
 }
