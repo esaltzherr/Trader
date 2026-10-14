@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 05:53:46 AM PT",
-  "timestamp_utc": "2026-10-14T12:53:46.994488+00:00",
+  "updated_at": "2026-10-14 05:54:18 AM PT",
+  "timestamp_utc": "2026-10-14T12:54:18.403912+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -159,7 +159,6 @@
     }
   ],
   "logs": [
-    "2026-10-13 06:40:01 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-13 06:40:06 PT  INFO      [Engine 2] Selected 3 Capitulation Bounce targets: ['NBIS', 'MU', 'ANET']",
     "2026-10-13 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 418 shares of NBIS @ ~$199.32 (Order ID: 6c040296-4e2f-4b6d-918e-f57a413dd64e)",
     "2026-10-13 06:40:07 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 88 shares of MU @ ~$946.13 (Order ID: 5747d575-90ff-450c-8066-d53f024a940a)",
@@ -278,6 +277,7 @@
     "2026-10-14 05:52:11 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:52:43 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 05:53:15 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 05:53:46 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT"
+    "2026-10-14 05:53:46 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
+    "2026-10-14 05:54:18 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT"
   ]
 }
