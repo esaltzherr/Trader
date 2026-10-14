@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13 10:03:49 PM PT",
-  "timestamp_utc": "2026-10-14T05:03:49.848637+00:00",
+  "updated_at": "2026-10-13 10:33:51 PM PT",
+  "timestamp_utc": "2026-10-14T05:33:51.871590+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -159,7 +159,6 @@
     }
   ],
   "logs": [
-    "2026-10-12 17:29:05 PT  INFO       Account: PA3EM0YADDLM | Equity: $10,000.00",
     "2026-10-12 17:29:05 PT  INFO       Dual Architecture: 15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT)",
     "2026-10-12 17:29:05 PT  INFO      ============================================================",
     "2026-10-12 17:29:08 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 12.0h until pre-market prep at 05:30 AM PT...",
@@ -278,6 +277,7 @@
     "2026-10-13 20:03:43 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 9.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-13 20:33:45 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 8.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-13 21:03:47 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 8.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 21:33:49 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 7.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-13 21:33:49 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 7.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-13 22:03:51 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 7.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
