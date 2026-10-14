@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 03:04:07 AM PT",
-  "timestamp_utc": "2026-10-14T10:04:07.931593+00:00",
+  "updated_at": "2026-10-14 03:34:09 AM PT",
+  "timestamp_utc": "2026-10-14T10:34:09.895219+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -159,7 +159,6 @@
     }
   ],
   "logs": [
-    "2026-10-12 20:59:28 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 8.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-12 21:29:31 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-12 21:59:34 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-12 22:29:37 PT  INFO      Market closed. Next open: 2026-10-13 06:30 AM PT (09:30 ET). Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
@@ -278,6 +277,7 @@
     "2026-10-14 01:04:02 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 4.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 01:34:04 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 3.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 02:04:05 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 3.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 02:34:07 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 2.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-14 02:34:07 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 2.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-14 03:04:09 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 2.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
