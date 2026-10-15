@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 12:50:12 PM PT",
-  "timestamp_utc": "2026-10-15T19:50:12.595522+00:00",
+  "updated_at": "2026-10-15 12:50:14 PM PT",
+  "timestamp_utc": "2026-10-15T19:50:14.494155+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999597.33,
-    "cash": 831198.11,
-    "buying_power": 3679187.26,
-    "total_pnl": -402.67,
-    "total_return_pct": "-0.04",
-    "today_pnl": 9762.97,
-    "today_return_pct": "+0.99",
+    "portfolio_value": 999546.2,
+    "cash": 865525.01,
+    "buying_power": 3720236.37,
+    "total_pnl": -453.8,
+    "total_return_pct": "-0.05",
+    "today_pnl": 9711.84,
+    "today_return_pct": "+0.98",
     "last_equity": 989834.36,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,24 +64,13 @@
     }
   ],
   "stats": {
-    "total_trades": 39,
-    "wins": 12,
+    "total_trades": 40,
+    "wins": 13,
     "losses": 27,
-    "win_rate": "30.8%",
-    "profit_factor": "0.76"
+    "win_rate": "32.5%",
+    "profit_factor": "0.92"
   },
   "open_positions": [
-    {
-      "symbol": "DDOG",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 134.0,
-      "entry_price": 263.84,
-      "current_price": 266.38,
-      "market_value": 35694.92,
-      "unrealized_pnl": 340.36,
-      "unrealized_plpc": 0.96
-    },
     {
       "symbol": "ISRG",
       "direction": "LONG",
@@ -110,10 +99,10 @@
       "side": "long",
       "qty": 1501.0,
       "entry_price": 33.25,
-      "current_price": 34.97,
-      "market_value": 52489.97,
-      "unrealized_pnl": 2586.66,
-      "unrealized_plpc": 5.18
+      "current_price": 34.96,
+      "market_value": 52474.96,
+      "unrealized_pnl": 2571.65,
+      "unrealized_plpc": 5.15
     },
     {
       "symbol": "TTD",
@@ -325,8 +314,8 @@
       "direction": "LONG",
       "shares": 370.0,
       "price": 168.68,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 177.39,
+      "realized_pnl": 3222.7,
       "date": "2026-10-15 06:35:22"
     },
     {
@@ -601,13 +590,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 999597.33,
-      "daily_pnl": 9762.97,
-      "cum_return": -0.04
+      "portfolio_value": 999546.2,
+      "daily_pnl": 9711.84,
+      "cum_return": -0.05
     }
   ],
   "logs": [
-    "2026-10-15 05:51:40 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:52:12 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:52:43 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:53:15 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -726,6 +714,7 @@
     "2026-10-15 12:50:02 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ACN @ $225.13 | P&L: +1022.25 (+1.64%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:04 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT AJG @ $250.46 | P&L: -71.64 (-0.14%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $266.23 | P&L: +1149.59 (+1.84%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ISRG @ $429.01 | P&L: +739.41 (+1.19%) | Reason: Scheduled EOD Liquidation"
+    "2026-10-15 12:50:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ISRG @ $429.01 | P&L: +739.41 (+1.19%) | Reason: Scheduled EOD Liquidation",
+    "2026-10-15 12:50:14 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SHOP @ $177.39 | P&L: +3222.70 (+5.16%) | Reason: Scheduled EOD Liquidation"
   ]
 }
