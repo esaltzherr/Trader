@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 04:00:39 PM PT",
-  "timestamp_utc": "2026-10-15T23:00:39.470388+00:00",
+  "updated_at": "2026-10-15 04:05:07 PM PT",
+  "timestamp_utc": "2026-10-15T23:05:07.398986+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -350,12 +350,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 07:00:12 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
-    "2026-10-14 07:15:47 PT  INFO      [RATCHET BREAKEVEN] MARA Short hit breakeven stop. Zero loss exit!",
-    "2026-10-14 07:15:47 PT  INFO      [CLOSED POSITION] MARA 117.0 shares @ $8.57 (Entry: $8.58, P&L: $+0.90) [RATCHET_BREAKEVEN]",
-    "2026-10-14 07:38:41 PT  INFO      [RATCHET TIER 1] SOFI Short peaked at +1.8%, crossed locked floor. Securing gains!",
-    "2026-10-14 07:38:41 PT  INFO      [CLOSED POSITION] SOFI 69.0 shares @ $14.41 (Entry: $14.50, P&L: $+6.21) [RATCHET_TIER1]",
-    "2026-10-14 07:45:05 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] TEM 14.0 shares @ $71.28 (Entry: $69.60, P&L: $-23.52) [1H_SCHEDULED_EXIT]",
     "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] UNH 2.0 shares @ $388.05 (Entry: $394.00, P&L: $+11.91) [1H_SCHEDULED_EXIT]",
     "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] SHOP 5.0 shares @ $175.19 (Entry: $178.46, P&L: $+16.32) [1H_SCHEDULED_EXIT]",
@@ -469,6 +463,12 @@
     "2026-10-15 14:00:33 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 14:30:35 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 15:00:37 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-15 15:30:39 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-15 15:30:39 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-15 16:00:40 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 13.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-15 16:05:07 PT  INFO      ============================================================",
+    "2026-10-15 16:05:07 PT  INFO       STARTING STRATEGY 2 BOT (3.2.1-strat2) - $10,000 CAPITAL",
+    "2026-10-15 16:05:07 PT  INFO       Account: PA3EM0YADDLM | Equity: $10,115.24",
+    "2026-10-15 16:05:07 PT  INFO       Dual Architecture: 15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT)",
+    "2026-10-15 16:05:07 PT  INFO      ============================================================"
   ]
 }
