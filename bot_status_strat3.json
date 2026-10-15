@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 08:30:35 PM PT",
-  "timestamp_utc": "2026-10-15T03:30:36.240637+00:00",
+  "updated_at": "2026-10-14 08:31:11 PM PT",
+  "timestamp_utc": "2026-10-15T03:31:11.824493+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -10,6 +10,9 @@
     "buying_power": 3959418.88,
     "total_pnl": -10145.28,
     "total_return_pct": "-1.01",
+    "today_pnl": -10418.49,
+    "today_return_pct": "-1.04",
+    "last_equity": 1000273.21,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -322,19 +325,25 @@
   ],
   "history": [
     {
+      "date": "2026-10-12",
+      "portfolio_value": 1000000.0,
+      "daily_pnl": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "date": "2026-10-13",
+      "portfolio_value": 1000283.55,
+      "daily_pnl": 283.55,
+      "cum_return": 0.03
+    },
+    {
       "date": "2026-10-14",
       "portfolio_value": 989854.72,
-      "daily_pnl": -10145.28,
+      "daily_pnl": -10418.49,
       "cum_return": -1.01
     }
   ],
   "logs": [
-    "2026-10-14 06:01:09 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 06:01:40 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 06:02:12 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 06:02:43 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 06:03:15 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
-    "2026-10-14 06:03:47 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:04:18 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:04:50 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:05:22 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -448,6 +457,12 @@
     "2026-10-14 19:00:29 PT  INFO      Market closed. Sleeping 10.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-14 19:30:31 PT  INFO      Market closed. Sleeping 10.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-14 20:00:33 PT  INFO      Market closed. Sleeping 9.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-14 20:30:35 PT  INFO      Market closed. Sleeping 9.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
+    "2026-10-14 20:30:35 PT  INFO      Market closed. Sleeping 9.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
+    "2026-10-14 20:31:11 PT  INFO      =================================================================",
+    "2026-10-14 20:31:11 PT  INFO       STARTING PORTFOLIO 3 BOT (3.2.1-strat3) - $1,000,000 CAPITAL",
+    "2026-10-14 20:31:11 PT  INFO       Account: PA33UNIQCZOZ | Starting Equity: $1,000,000.00",
+    "2026-10-14 20:31:11 PT  INFO       4 Alpha Engines: Super Momentum, Capitulation Bounce, Micro-Burst, Parabolic Fade",
+    "2026-10-14 20:31:11 PT  INFO      =================================================================",
+    "2026-10-14 20:31:11 PT  INFO      Market closed. Sleeping 9.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
   ]
 }
