@@ -2,8 +2,8 @@
   "is_paper_trading": true,
   "environment": "Alpaca Paper Trading Simulator (Virtual Currency - No Real Capital)",
   "timezone": "America/Los_Angeles (PT)",
-  "updated_at": "2026-10-15 01:31:37 AM PT",
-  "timestamp_iso": "2026-10-15T01:31:37.794527-07:00",
+  "updated_at": "2026-10-15 02:01:40 AM PT",
+  "timestamp_iso": "2026-10-15T02:01:40.002787-07:00",
   "account_id": "PKWUL6SHOQRV6B6JR6VY3YMP7S",
   "account_label": "Portfolio 1: Market-Neutral Pairs ($100k)",
   "market_status": "Market Closed (Next Open: 2026-10-15 06:30 AM PT)",
@@ -1722,9 +1722,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 12:16:48 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
-    "2026-10-14 12:16:50 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
-    "2026-10-14 12:31:21 PT  WARNING     [TRAILING_TAKE_PROFIT] AMPX (SHORT) Trailing profit lock: reached peak +5.70%, pulled back to +4.20% (trail floor: +4.20%)! Executing market exit...",
     "2026-10-14 12:31:21 PT  INFO      [TRAILING_TAKE_PROFIT_TRIGGER] {'symbol': 'AMPX', 'strategy': 'GAP_TOP_SHORT', 'direction': 'SHORT', 'unrealized_plpc': 4.2, 'peak_plpc': 5.7, 'exit_price': 7.98, 'qty': 230.0, 'reason': 'Trailing profit lock: reached peak +5.70%, pulled back to +4.20% (trail floor: +4.20%)'}",
     "2026-10-14 12:31:21 PT  INFO        [GAP_TOP_SHORT] BUY 230 AMPX -> order d30d04c9...",
     "2026-10-14 12:31:52 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
@@ -1841,6 +1838,9 @@
     "2026-10-15 00:31:35 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 5.0h until pre-fetch at 05:30 AM PT...",
     "2026-10-15 01:01:36 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
     "2026-10-15 01:01:37 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
-    "2026-10-15 01:01:37 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 4.5h until pre-fetch at 05:30 AM PT..."
+    "2026-10-15 01:01:37 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 4.5h until pre-fetch at 05:30 AM PT...",
+    "2026-10-15 01:31:38 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
+    "2026-10-15 01:31:39 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
+    "2026-10-15 01:31:39 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 4.0h until pre-fetch at 05:30 AM PT..."
   ]
 }
