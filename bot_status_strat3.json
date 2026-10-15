@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 07:19:09 AM PT",
-  "timestamp_utc": "2026-10-15T14:19:10.135981+00:00",
+  "updated_at": "2026-10-15 07:50:21 AM PT",
+  "timestamp_utc": "2026-10-15T14:50:21.382381+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 990248.54,
-    "cash": 586841.07,
-    "buying_power": 2998397.27,
-    "total_pnl": -9751.46,
-    "total_return_pct": "-0.98",
-    "today_pnl": 414.18,
-    "today_return_pct": "+0.04",
+    "portfolio_value": 994323.33,
+    "cash": 636463.37,
+    "buying_power": 3072021.64,
+    "total_pnl": -5676.67,
+    "total_return_pct": "-0.57",
+    "today_pnl": 4488.97,
+    "today_return_pct": "+0.45",
     "last_equity": 989834.36,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 28,
-    "wins": 5,
+    "total_trades": 29,
+    "wins": 6,
     "losses": 23,
-    "win_rate": "17.9%",
-    "profit_factor": "0.39"
+    "win_rate": "20.7%",
+    "profit_factor": "0.45"
   },
   "open_positions": [
     {
@@ -77,9 +77,9 @@
       "side": "long",
       "qty": 282.0,
       "entry_price": 222.37,
-      "current_price": 225.99,
-      "market_value": 63729.18,
-      "unrealized_pnl": 1022.01,
+      "current_price": 226.0,
+      "market_value": 63732.0,
+      "unrealized_pnl": 1024.83,
       "unrealized_plpc": 1.63
     },
     {
@@ -88,10 +88,10 @@
       "side": "short",
       "qty": 204.0,
       "entry_price": 244.85,
-      "current_price": 243.8,
-      "market_value": 49735.2,
-      "unrealized_pnl": 214.2,
-      "unrealized_plpc": 0.43
+      "current_price": 242.66,
+      "market_value": 49501.62,
+      "unrealized_pnl": 447.78,
+      "unrealized_plpc": 0.9
     },
     {
       "symbol": "AJG",
@@ -99,10 +99,10 @@
       "side": "short",
       "qty": 199.0,
       "entry_price": 249.96,
-      "current_price": 251.38,
-      "market_value": 50024.62,
-      "unrealized_pnl": -282.58,
-      "unrealized_plpc": -0.57
+      "current_price": 249.93,
+      "market_value": 49735.07,
+      "unrealized_pnl": 6.96,
+      "unrealized_plpc": 0.01
     },
     {
       "symbol": "APP",
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 184.0,
       "entry_price": 272.27,
-      "current_price": 275.38,
-      "market_value": 50670.69,
-      "unrealized_pnl": 573.01,
-      "unrealized_plpc": 1.14
+      "current_price": 276.81,
+      "market_value": 50933.04,
+      "unrealized_pnl": 835.36,
+      "unrealized_plpc": 1.67
     },
     {
       "symbol": "DDOG",
@@ -121,10 +121,10 @@
       "side": "long",
       "qty": 239.0,
       "entry_price": 263.84,
-      "current_price": 261.49,
-      "market_value": 62494.92,
-      "unrealized_pnl": -562.85,
-      "unrealized_plpc": -0.89
+      "current_price": 260.69,
+      "market_value": 62303.71,
+      "unrealized_pnl": -754.04,
+      "unrealized_plpc": -1.2
     },
     {
       "symbol": "DELL",
@@ -132,10 +132,10 @@
       "side": "long",
       "qty": 107.0,
       "entry_price": 465.82,
-      "current_price": 461.72,
-      "market_value": 49404.04,
-      "unrealized_pnl": -438.72,
-      "unrealized_plpc": -0.88
+      "current_price": 470.3,
+      "market_value": 50322.13,
+      "unrealized_pnl": 479.37,
+      "unrealized_plpc": 0.96
     },
     {
       "symbol": "INTU",
@@ -143,10 +143,10 @@
       "side": "short",
       "qty": 151.0,
       "entry_price": 330.23,
-      "current_price": 330.74,
-      "market_value": 49940.99,
-      "unrealized_pnl": -76.25,
-      "unrealized_plpc": -0.15
+      "current_price": 328.36,
+      "market_value": 49582.36,
+      "unrealized_pnl": 282.37,
+      "unrealized_plpc": 0.57
     },
     {
       "symbol": "ISRG",
@@ -154,10 +154,10 @@
       "side": "long",
       "qty": 147.0,
       "entry_price": 422.6,
-      "current_price": 422.51,
-      "market_value": 62108.97,
-      "unrealized_pnl": -13.29,
-      "unrealized_plpc": -0.02
+      "current_price": 423.62,
+      "market_value": 62272.14,
+      "unrealized_pnl": 149.88,
+      "unrealized_plpc": 0.24
     },
     {
       "symbol": "LULU",
@@ -165,10 +165,10 @@
       "side": "long",
       "qty": 512.0,
       "entry_price": 97.82,
-      "current_price": 98.37,
-      "market_value": 50365.44,
-      "unrealized_pnl": 281.65,
-      "unrealized_plpc": 0.56
+      "current_price": 98.52,
+      "market_value": 50439.68,
+      "unrealized_pnl": 355.89,
+      "unrealized_plpc": 0.71
     },
     {
       "symbol": "RDDT",
@@ -176,10 +176,10 @@
       "side": "long",
       "qty": 330.0,
       "entry_price": 151.69,
-      "current_price": 153.5,
-      "market_value": 50655.0,
-      "unrealized_pnl": 597.3,
-      "unrealized_plpc": 1.19
+      "current_price": 154.61,
+      "market_value": 51021.3,
+      "unrealized_pnl": 963.6,
+      "unrealized_plpc": 1.93
     },
     {
       "symbol": "SHOP",
@@ -187,10 +187,10 @@
       "side": "long",
       "qty": 370.0,
       "entry_price": 168.51,
-      "current_price": 171.39,
-      "market_value": 63414.3,
-      "unrealized_pnl": 1064.46,
-      "unrealized_plpc": 1.71
+      "current_price": 171.49,
+      "market_value": 63449.45,
+      "unrealized_pnl": 1099.61,
+      "unrealized_plpc": 1.76
     },
     {
       "symbol": "SMCI",
@@ -198,10 +198,10 @@
       "side": "long",
       "qty": 1501.0,
       "entry_price": 33.25,
-      "current_price": 33.31,
-      "market_value": 49998.31,
-      "unrealized_pnl": 95.0,
-      "unrealized_plpc": 0.19
+      "current_price": 33.48,
+      "market_value": 50245.97,
+      "unrealized_pnl": 342.66,
+      "unrealized_plpc": 0.69
     },
     {
       "symbol": "SNDK",
@@ -209,21 +209,10 @@
       "side": "long",
       "qty": 38.0,
       "entry_price": 1290.87,
-      "current_price": 1312.71,
-      "market_value": 49882.98,
-      "unrealized_pnl": 830.01,
-      "unrealized_plpc": 1.69
-    },
-    {
-      "symbol": "SPOT",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 95.0,
-      "entry_price": 524.73,
-      "current_price": 523.03,
-      "market_value": 49687.85,
-      "unrealized_pnl": -161.45,
-      "unrealized_plpc": -0.32
+      "current_price": 1342.8,
+      "market_value": 51026.4,
+      "unrealized_pnl": 1973.43,
+      "unrealized_plpc": 4.02
     },
     {
       "symbol": "TTD",
@@ -231,10 +220,10 @@
       "side": "long",
       "qty": 29.0,
       "entry_price": 12.77,
-      "current_price": 12.9,
-      "market_value": 374.1,
-      "unrealized_pnl": 3.77,
-      "unrealized_plpc": 1.02
+      "current_price": 12.87,
+      "market_value": 373.08,
+      "unrealized_pnl": 2.75,
+      "unrealized_plpc": 0.74
     },
     {
       "symbol": "WDAY",
@@ -242,10 +231,10 @@
       "side": "short",
       "qty": 250.0,
       "entry_price": 199.06,
-      "current_price": 198.71,
-      "market_value": 49677.5,
-      "unrealized_pnl": 87.5,
-      "unrealized_plpc": 0.18
+      "current_price": 197.79,
+      "market_value": 49447.5,
+      "unrealized_pnl": 317.5,
+      "unrealized_plpc": 0.64
     }
   ],
   "recent_trades": [
@@ -345,8 +334,8 @@
       "direction": "LONG",
       "shares": 330.0,
       "price": 151.21,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 154.77,
+      "realized_pnl": 1174.8,
       "date": "2026-10-15 06:50:14"
     },
     {
@@ -711,13 +700,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 990248.54,
-      "daily_pnl": 414.18,
-      "cum_return": -0.98
+      "portfolio_value": 994323.33,
+      "daily_pnl": 4488.97,
+      "cum_return": -0.57
     }
   ],
   "logs": [
-    "2026-10-15 05:44:47 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:45:19 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:45:50 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:46:22 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -836,6 +824,7 @@
     "2026-10-15 07:05:33 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 250 shares of WDAY @ ~$199.47 (Order ID: 586d7315-0cb8-4af6-ac0b-ec8c400c270a)",
     "2026-10-15 07:05:33 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 3891 shares of TTD @ ~$12.85 (Order ID: b48c4918-8897-4999-b260-eb44b8c0d789)",
     "2026-10-15 07:05:33 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 199 shares of AJG @ ~$250.10 (Order ID: 3ece1057-d994-49fa-a031-dea35a0775f8)",
-    "2026-10-15 07:19:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG SPOT @ $523.11 | P&L: -9.50 (-0.02%) | Reason: Breakeven Floor Protected"
+    "2026-10-15 07:19:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG SPOT @ $523.11 | P&L: -9.50 (-0.02%) | Reason: Breakeven Floor Protected",
+    "2026-10-15 07:50:21 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG RDDT @ $154.77 | P&L: +1174.80 (+2.35%) | Reason: Scheduled 60-Min Micro Exit (+2.35%)"
   ]
 }
