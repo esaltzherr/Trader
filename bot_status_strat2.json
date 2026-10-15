@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 07:18:01 AM PT",
-  "timestamp_utc": "2026-10-15T14:18:01.591506+00:00",
+  "updated_at": "2026-10-15 07:19:03 AM PT",
+  "timestamp_utc": "2026-10-15T14:19:03.964261+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10143.88,
-    "cash": 13879.35,
-    "buying_power": 30800.92,
-    "total_pnl": 143.88,
-    "total_return_pct": "+1.44",
-    "today_pnl": 8.92,
-    "today_return_pct": "+0.09",
+    "portfolio_value": 10134.2,
+    "cash": 12932.69,
+    "buying_power": 31894.4,
+    "total_pnl": 134.2,
+    "total_return_pct": "+1.34",
+    "today_pnl": -0.76,
+    "today_return_pct": "-0.01",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 21,
-    "wins": 19,
+    "total_trades": 22,
+    "wins": 20,
     "losses": 2,
-    "win_rate": "90.5%",
-    "profit_factor": "6.61"
+    "win_rate": "90.9%",
+    "profit_factor": "6.62"
   },
   "open_positions": [
     {
@@ -57,21 +57,10 @@
       "side": "long",
       "qty": 4.1499,
       "entry_price": 244.51,
-      "current_price": 244.59,
-      "market_value": 1015.02,
-      "unrealized_pnl": 0.33,
-      "unrealized_plpc": 0.03
-    },
-    {
-      "symbol": "MCHP",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 13.0,
-      "entry_price": 72.79,
-      "current_price": 72.57,
-      "market_value": 943.41,
-      "unrealized_pnl": 2.91,
-      "unrealized_plpc": 0.31
+      "current_price": 244.14,
+      "market_value": 1013.16,
+      "unrealized_pnl": -1.54,
+      "unrealized_plpc": -0.15
     },
     {
       "symbol": "QCOM",
@@ -79,10 +68,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 176.49,
-      "current_price": 174.28,
-      "market_value": 871.4,
-      "unrealized_pnl": 11.05,
-      "unrealized_plpc": 1.25
+      "current_price": 174.6,
+      "market_value": 873.0,
+      "unrealized_pnl": 9.45,
+      "unrealized_plpc": 1.07
     },
     {
       "symbol": "RIVN",
@@ -90,10 +79,10 @@
       "side": "short",
       "qty": 80.0,
       "entry_price": 12.55,
-      "current_price": 12.75,
-      "market_value": 1020.0,
-      "unrealized_pnl": -16.04,
-      "unrealized_plpc": -1.6
+      "current_price": 12.73,
+      "market_value": 1018.8,
+      "unrealized_pnl": -14.84,
+      "unrealized_plpc": -1.48
     },
     {
       "symbol": "TEM",
@@ -101,10 +90,10 @@
       "side": "short",
       "qty": 15.0,
       "entry_price": 67.69,
-      "current_price": 67.88,
-      "market_value": 1018.2,
-      "unrealized_pnl": -2.91,
-      "unrealized_plpc": -0.29
+      "current_price": 68.17,
+      "market_value": 1022.62,
+      "unrealized_pnl": -7.33,
+      "unrealized_plpc": -0.72
     },
     {
       "symbol": "TT",
@@ -112,10 +101,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 453.36,
-      "current_price": 448.74,
-      "market_value": 897.48,
-      "unrealized_pnl": 9.24,
-      "unrealized_plpc": 1.02
+      "current_price": 448.61,
+      "market_value": 897.22,
+      "unrealized_pnl": 9.5,
+      "unrealized_plpc": 1.05
     }
   ],
   "recent_trades": [
@@ -175,8 +164,8 @@
       "direction": "SHORT",
       "shares": 13.0,
       "price": 72.665,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 72.78,
+      "realized_pnl": 0.179998,
       "date": "2026-10-15 06:45:10"
     },
     {
@@ -411,14 +400,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10143.88,
-      "daily_pnl": 8.92,
-      "cum_return": 1.44
+      "portfolio_value": 10134.2,
+      "daily_pnl": -0.76,
+      "cum_return": 1.34
     }
   ],
   "logs": [
-    "2026-10-14 06:45:07 PT  INFO        ASML   Surge: +2.60%  Price: $1720.28",
-    "2026-10-14 06:45:07 PT  INFO        LLY    Surge: +2.59%  Price: $1207.35",
     "2026-10-14 06:45:07 PT  INFO        SHOP   Surge: +2.25%  Price: $178.29",
     "2026-10-14 06:45:07 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 14 shares of TEM at ~$69.88",
     "2026-10-14 06:45:08 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 2 shares of UNH at ~$393.19",
@@ -536,6 +523,8 @@
     "2026-10-15 07:03:58 PT  INFO      [RATCHET BREAKEVEN] NXPI Short hit breakeven stop. Zero loss exit!",
     "2026-10-15 07:03:58 PT  INFO      [CLOSED POSITION] NXPI 4.0 shares @ $226.59 (Entry: $226.81, P&L: $+0.86) [RATCHET_BREAKEVEN]",
     "2026-10-15 07:12:17 PT  INFO      [RATCHET BREAKEVEN] FICO Long hit breakeven stop. Zero loss exit!",
-    "2026-10-15 07:12:17 PT  INFO      [CLOSED POSITION] FICO 1.3552 shares @ $749.42 (Entry: $749.00, P&L: $+0.57) [RATCHET_BREAKEVEN]"
+    "2026-10-15 07:12:17 PT  INFO      [CLOSED POSITION] FICO 1.3552 shares @ $749.42 (Entry: $749.00, P&L: $+0.57) [RATCHET_BREAKEVEN]",
+    "2026-10-15 07:18:43 PT  INFO      [RATCHET BREAKEVEN] MCHP Short hit breakeven stop. Zero loss exit!",
+    "2026-10-15 07:18:43 PT  INFO      [CLOSED POSITION] MCHP 13.0 shares @ $72.78 (Entry: $72.79, P&L: $+0.18) [RATCHET_BREAKEVEN]"
   ]
 }
