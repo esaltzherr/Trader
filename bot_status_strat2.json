@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 06:45:10 AM PT",
-  "timestamp_utc": "2026-10-15T13:45:11.077718+00:00",
+  "updated_at": "2026-10-15 07:00:14 AM PT",
+  "timestamp_utc": "2026-10-15T14:00:14.282051+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10134.96,
-    "cash": 10134.96,
-    "buying_power": 34726.52,
-    "total_pnl": 134.96,
-    "total_return_pct": "+1.35",
-    "today_pnl": 0.0,
-    "today_return_pct": "+0.00",
+    "portfolio_value": 10153.14,
+    "cash": 14831.62,
+    "buying_power": 27706.18,
+    "total_pnl": 153.14,
+    "total_return_pct": "+1.53",
+    "today_pnl": 18.18,
+    "today_return_pct": "+0.18",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -50,8 +50,104 @@
     "win_rate": "88.9%",
     "profit_factor": "6.41"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "CRCL",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 12.0,
+      "entry_price": 78.78,
+      "current_price": 77.62,
+      "market_value": 931.44,
+      "unrealized_pnl": 13.92,
+      "unrealized_plpc": 1.47
+    },
+    {
+      "symbol": "MCHP",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 13.0,
+      "entry_price": 72.79,
+      "current_price": 73.12,
+      "market_value": 950.62,
+      "unrealized_pnl": -4.31,
+      "unrealized_plpc": -0.46
+    },
+    {
+      "symbol": "NXPI",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 4.0,
+      "entry_price": 226.81,
+      "current_price": 226.69,
+      "market_value": 906.78,
+      "unrealized_pnl": 0.46,
+      "unrealized_plpc": 0.05
+    },
+    {
+      "symbol": "QCOM",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 5.0,
+      "entry_price": 176.49,
+      "current_price": 175.53,
+      "market_value": 877.65,
+      "unrealized_pnl": 4.8,
+      "unrealized_plpc": 0.54
+    },
+    {
+      "symbol": "TEM",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 15.0,
+      "entry_price": 67.69,
+      "current_price": 67.47,
+      "market_value": 1012.05,
+      "unrealized_pnl": 3.24,
+      "unrealized_plpc": 0.32
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "FICO",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 1.3552,
+      "price": 747.83,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 07:00:13"
+    },
+    {
+      "symbol": "ADSK",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 4.1499,
+      "price": 244.22,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 07:00:13"
+    },
+    {
+      "symbol": "TT",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "SHORT",
+      "shares": 2.0,
+      "price": 452.7,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 07:00:13"
+    },
+    {
+      "symbol": "RIVN",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "SHORT",
+      "shares": 80.0,
+      "price": 12.545,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 07:00:12"
+    },
     {
       "symbol": "NXPI",
       "strategy": "INTRADAY_15M_RUNNER_FADE",
@@ -304,28 +400,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10134.96,
-      "daily_pnl": 0.0,
-      "cum_return": 1.35
+      "portfolio_value": 10153.14,
+      "daily_pnl": 18.18,
+      "cum_return": 1.53
     }
   ],
   "logs": [
-    "2026-10-13 22:33:53 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 6.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 23:03:55 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 6.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-13 23:33:57 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 5.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 00:03:58 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 5.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 00:34:00 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 4.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 01:04:02 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 4.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 01:34:04 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 3.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 02:04:05 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 3.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 02:34:07 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 2.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 03:04:09 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 2.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 03:34:11 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 1.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 04:04:13 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 1.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 04:34:14 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 0.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 05:04:17 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 0.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 05:30:02 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
-    "2026-10-14 05:30:02 PT  INFO      Waiting 75.0 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
     "2026-10-14 06:45:00 PT  INFO      ============================================================",
     "2026-10-14 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
     "2026-10-14 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
@@ -429,6 +509,22 @@
     "2026-10-15 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of QCOM at ~$175.94",
     "2026-10-15 06:45:10 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 15 shares of TEM at ~$67.55",
     "2026-10-15 06:45:10 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 13 shares of MCHP at ~$72.67",
-    "2026-10-15 06:45:10 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 4 shares of NXPI at ~$226.79"
+    "2026-10-15 06:45:10 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 4 shares of NXPI at ~$226.79",
+    "2026-10-15 06:45:12 PT  INFO      Waiting 14.8 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
+    "2026-10-15 07:00:00 PT  INFO      ============================================================",
+    "2026-10-15 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
+    "2026-10-15 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
+    "2026-10-15 07:00:00 PT  INFO      ============================================================",
+    "2026-10-15 07:00:12 PT  INFO      Selected 5 30M ORB Trend Candidates:",
+    "2026-10-15 07:00:12 PT  INFO        RIVN   SHORT Breakout: +0.48%  Price: $12.54",
+    "2026-10-15 07:00:12 PT  INFO        TT     SHORT Breakout: +0.47%  Price: $452.70",
+    "2026-10-15 07:00:12 PT  INFO        ADSK   LONG Breakout: +0.40%  Price: $244.22",
+    "2026-10-15 07:00:12 PT  INFO        MCHP   LONG Breakout: +0.34%  Price: $73.21",
+    "2026-10-15 07:00:12 PT  INFO        FICO   LONG Breakout: +0.31%  Price: $747.83",
+    "2026-10-15 07:00:12 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 80 shares of RIVN at ~$12.54",
+    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 2 shares of TT at ~$452.70",
+    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.1499 shares of ADSK at ~$244.22",
+    "2026-10-15 07:00:13 PT  ERROR     Failed to submit order for MCHP: {\"available\":\"13\",\"code\":40310000,\"existing_qty\":\"13\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 13.8437, available: 13)\",\"symbol\":\"MCHP\"}",
+    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 1.3552 shares of FICO at ~$747.83"
   ]
 }
