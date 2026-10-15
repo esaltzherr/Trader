@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-15 12:50:02 PM PT",
-  "timestamp_utc": "2026-10-15T19:50:02.895871+00:00",
+  "updated_at": "2026-10-15 12:50:04 PM PT",
+  "timestamp_utc": "2026-10-15T19:50:05.063798+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999691.93,
+    "portfolio_value": 999737.81,
     "cash": 789630.79,
-    "buying_power": 3509906.64,
-    "total_pnl": -308.07,
+    "buying_power": 3510041.05,
+    "total_pnl": -262.19,
     "total_return_pct": "-0.03",
-    "today_pnl": 9857.57,
+    "today_pnl": 9903.45,
     "today_return_pct": "+1.00",
     "last_equity": 989834.36,
     "starting_equity": 1000000.0,
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 36,
+    "total_trades": 37,
     "wins": 10,
-    "losses": 26,
-    "win_rate": "27.8%",
-    "profit_factor": "0.67"
+    "losses": 27,
+    "win_rate": "27.0%",
+    "profit_factor": "0.66"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 282.0,
       "entry_price": 222.37,
-      "current_price": 225.13,
-      "market_value": 63486.66,
-      "unrealized_pnl": 779.49,
-      "unrealized_plpc": 1.24
+      "current_price": 225.19,
+      "market_value": 63503.58,
+      "unrealized_pnl": 796.41,
+      "unrealized_plpc": 1.27
     },
     {
       "symbol": "AJG",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 239.0,
       "entry_price": 263.84,
-      "current_price": 266.23,
-      "market_value": 63628.97,
-      "unrealized_pnl": 571.21,
-      "unrealized_plpc": 0.91
+      "current_price": 266.38,
+      "market_value": 63664.82,
+      "unrealized_pnl": 607.06,
+      "unrealized_plpc": 0.96
     },
     {
       "symbol": "ISRG",
@@ -121,9 +121,9 @@
       "side": "long",
       "qty": 370.0,
       "entry_price": 168.51,
-      "current_price": 177.39,
-      "market_value": 65634.3,
-      "unrealized_pnl": 3284.46,
+      "current_price": 177.4,
+      "market_value": 65638.0,
+      "unrealized_pnl": 3288.16,
       "unrealized_plpc": 5.27
     },
     {
@@ -132,10 +132,10 @@
       "side": "long",
       "qty": 1501.0,
       "entry_price": 33.25,
-      "current_price": 34.99,
-      "market_value": 52527.5,
-      "unrealized_pnl": 2624.18,
-      "unrealized_plpc": 5.26
+      "current_price": 34.98,
+      "market_value": 52497.47,
+      "unrealized_pnl": 2594.16,
+      "unrealized_plpc": 5.2
     },
     {
       "symbol": "TTD",
@@ -144,9 +144,9 @@
       "qty": 29.0,
       "entry_price": 12.77,
       "current_price": 13.11,
-      "market_value": 380.05,
-      "unrealized_pnl": 9.71,
-      "unrealized_plpc": 2.62
+      "market_value": 380.19,
+      "unrealized_pnl": 9.86,
+      "unrealized_plpc": 2.66
     },
     {
       "symbol": "WDAY",
@@ -154,9 +154,9 @@
       "side": "short",
       "qty": 250.0,
       "entry_price": 199.06,
-      "current_price": 195.28,
-      "market_value": 48820.0,
-      "unrealized_pnl": 945.0,
+      "current_price": 195.27,
+      "market_value": 48817.53,
+      "unrealized_pnl": 947.48,
       "unrealized_plpc": 1.9
     }
   ],
@@ -167,8 +167,8 @@
       "direction": "SHORT",
       "shares": 199.0,
       "price": 250.1,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 250.46,
+      "realized_pnl": -71.64,
       "date": "2026-10-15 07:05:33"
     },
     {
@@ -623,13 +623,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 999691.93,
-      "daily_pnl": 9857.57,
+      "portfolio_value": 999737.81,
+      "daily_pnl": 9903.45,
       "cum_return": -0.03
     }
   ],
   "logs": [
-    "2026-10-15 05:50:04 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:50:37 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:51:08 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:51:40 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -748,6 +747,7 @@
     "2026-10-15 12:38:11 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT ADSK @ $245.14 | P&L: -14.28 (-0.03%) | Reason: Breakeven Floor Protected",
     "2026-10-15 12:50:02 PT  INFO      >>> TIME TRIGGER: 12:50 PM PT -> EOD Liquidation of all Portfolio 3 positions...",
     "2026-10-15 12:50:02 PT  INFO      Closing all 8 active positions for Scheduled EOD Liquidation...",
-    "2026-10-15 12:50:02 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ACN @ $225.13 | P&L: +1022.25 (+1.64%) | Reason: Scheduled EOD Liquidation"
+    "2026-10-15 12:50:02 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ACN @ $225.13 | P&L: +1022.25 (+1.64%) | Reason: Scheduled EOD Liquidation",
+    "2026-10-15 12:50:04 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT AJG @ $250.46 | P&L: -71.64 (-0.14%) | Reason: Scheduled EOD Liquidation"
   ]
 }
