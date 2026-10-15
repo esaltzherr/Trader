@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 08:06:51 AM PT",
-  "timestamp_utc": "2026-10-15T15:06:52.090046+00:00",
+  "updated_at": "2026-10-15 08:07:54 AM PT",
+  "timestamp_utc": "2026-10-15T15:07:54.245615+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10114.04,
+    "portfolio_value": 10114.99,
     "cash": 10137.1,
-    "buying_power": 35096.59,
-    "total_pnl": 114.04,
-    "total_return_pct": "+1.14",
-    "today_pnl": -20.92,
-    "today_return_pct": "-0.21",
+    "buying_power": 35107.6,
+    "total_pnl": 114.99,
+    "total_return_pct": "+1.15",
+    "today_pnl": -19.97,
+    "today_return_pct": "-0.20",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 4.1499,
       "entry_price": 244.51,
-      "current_price": 244.09,
-      "market_value": 1012.95,
-      "unrealized_pnl": -1.74,
-      "unrealized_plpc": -0.17
+      "current_price": 243.93,
+      "market_value": 1012.29,
+      "unrealized_pnl": -2.41,
+      "unrealized_plpc": -0.24
     },
     {
       "symbol": "RIVN",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 80.0,
       "entry_price": 12.55,
-      "current_price": 12.95,
-      "market_value": 1036.01,
-      "unrealized_pnl": -32.05,
-      "unrealized_plpc": -3.19
+      "current_price": 12.93,
+      "market_value": 1034.4,
+      "unrealized_pnl": -30.44,
+      "unrealized_plpc": -3.03
     }
   ],
   "recent_trades": [
@@ -367,9 +367,9 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10114.04,
-      "daily_pnl": -20.92,
-      "cum_return": 1.14
+      "portfolio_value": 10114.99,
+      "daily_pnl": -19.97,
+      "cum_return": 1.15
     }
   ],
   "logs": [
