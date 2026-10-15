@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 12:49:29 PM PT",
-  "timestamp_utc": "2026-10-15T19:49:29.754740+00:00",
+  "updated_at": "2026-10-15 12:50:05 PM PT",
+  "timestamp_utc": "2026-10-15T19:50:05.654029+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10116.83,
-    "cash": 9097.1,
-    "buying_power": 39243.66,
-    "total_pnl": 116.83,
-    "total_return_pct": "+1.17",
-    "today_pnl": -18.13,
-    "today_return_pct": "-0.18",
+    "portfolio_value": 10115.24,
+    "cash": 10115.24,
+    "buying_power": 40460.96,
+    "total_pnl": 115.24,
+    "total_return_pct": "+1.15",
+    "today_pnl": -19.72,
+    "today_return_pct": "-0.19",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,25 +44,13 @@
     }
   ],
   "stats": {
-    "total_trades": 26,
-    "wins": 23,
+    "total_trades": 27,
+    "wins": 24,
     "losses": 3,
-    "win_rate": "88.5%",
-    "profit_factor": "3.00"
+    "win_rate": "88.9%",
+    "profit_factor": "3.06"
   },
-  "open_positions": [
-    {
-      "symbol": "ADSK",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 4.1499,
-      "entry_price": 244.51,
-      "current_price": 245.72,
-      "market_value": 1019.73,
-      "unrealized_pnl": 5.04,
-      "unrealized_plpc": 0.5
-    }
-  ],
+  "open_positions": [],
   "recent_trades": [
     {
       "symbol": "FICO",
@@ -80,8 +68,8 @@
       "direction": "LONG",
       "shares": 4.1499,
       "price": 244.22,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 245.44,
+      "realized_pnl": 3.859407,
       "date": "2026-10-15 07:00:13"
     },
     {
@@ -356,15 +344,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10116.83,
-      "daily_pnl": -18.13,
-      "cum_return": 1.17
+      "portfolio_value": 10115.24,
+      "daily_pnl": -19.72,
+      "cum_return": 1.15
     }
   ],
   "logs": [
-    "2026-10-14 07:00:00 PT  INFO      ============================================================",
-    "2026-10-14 07:00:08 PT  INFO      Selected 5 30M ORB Trend Candidates:",
-    "2026-10-14 07:00:08 PT  INFO        MARA   SHORT Breakout: +1.43%  Price: $8.59",
     "2026-10-14 07:00:08 PT  INFO        BMNR   SHORT Breakout: +1.42%  Price: $22.50",
     "2026-10-14 07:00:08 PT  INFO        CRCL   SHORT Breakout: +1.40%  Price: $80.85",
     "2026-10-14 07:00:08 PT  INFO        HIMS   SHORT Breakout: +1.38%  Price: $28.65",
@@ -481,6 +466,9 @@
     "2026-10-15 07:45:00 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-15 07:45:00 PT  INFO      [CLOSED POSITION] QCOM 5.0 shares @ $175.12 (Entry: $176.49, P&L: $+6.85) [1H_SCHEDULED_EXIT]",
     "2026-10-15 08:11:54 PT  WARNING   [STOP LOSS] RIVN Short hit -3.5% cut. Protecting capital!",
-    "2026-10-15 08:11:54 PT  INFO      [CLOSED POSITION] RIVN 80.0 shares @ $13.00 (Entry: $12.55, P&L: $-35.77) [STOP_LOSS]"
+    "2026-10-15 08:11:54 PT  INFO      [CLOSED POSITION] RIVN 80.0 shares @ $13.00 (Entry: $12.55, P&L: $-35.77) [STOP_LOSS]",
+    "2026-10-15 12:50:01 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
+    "2026-10-15 12:50:01 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
+    "2026-10-15 12:50:01 PT  INFO      [CLOSED POSITION] ADSK 4.1499 shares @ $245.44 (Entry: $244.51, P&L: $+3.86) [SCHEDULED_EOD]"
   ]
 }
