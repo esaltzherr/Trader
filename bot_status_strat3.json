@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 01:30:17 PM PT",
-  "timestamp_utc": "2026-10-15T20:30:17.379143+00:00",
+  "updated_at": "2026-10-15 02:00:19 PM PT",
+  "timestamp_utc": "2026-10-15T21:00:19.308720+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999413.24,
+    "portfolio_value": 999516.62,
     "cash": 964027.34,
-    "buying_power": 3932187.32,
-    "total_pnl": -586.76,
-    "total_return_pct": "-0.06",
-    "today_pnl": 9578.88,
-    "today_return_pct": "+0.97",
+    "buying_power": 3932476.78,
+    "total_pnl": -483.38,
+    "total_return_pct": "-0.05",
+    "today_pnl": 9682.26,
+    "today_return_pct": "+0.98",
     "last_equity": 989834.36,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 3446.0,
       "entry_price": 13.11,
-      "current_price": 13.05,
-      "market_value": 44970.3,
-      "unrealized_pnl": -196.9,
-      "unrealized_plpc": -0.44
+      "current_price": 13.08,
+      "market_value": 45073.68,
+      "unrealized_pnl": -93.52,
+      "unrealized_plpc": -0.21
     },
     {
       "symbol": "WDAY",
@@ -557,13 +557,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 999413.24,
-      "daily_pnl": 9578.88,
-      "cum_return": -0.06
+      "portfolio_value": 999516.62,
+      "daily_pnl": 9682.26,
+      "cum_return": -0.05
     }
   ],
   "logs": [
-    "2026-10-15 05:56:26 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:56:57 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:57:29 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:58:00 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -682,6 +681,7 @@
     "2026-10-15 12:50:41 PT  INFO      Recovered open position into ratchet state on restart: TTD (LONG 3446.0 shares @ $13.11) -> Engine: INTRADAY_MICRO_BURST_RATCHET",
     "2026-10-15 12:50:41 PT  INFO      Recovered open position into ratchet state on restart: WDAY (SHORT 49.0 shares @ $199.06) -> Engine: PARABOLIC_BLOWOFF_FADE",
     "2026-10-15 13:00:14 PT  INFO      Market closed. Sleeping 16.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
-    "2026-10-15 13:30:17 PT  INFO      Market closed. Sleeping 16.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT"
+    "2026-10-15 13:30:17 PT  INFO      Market closed. Sleeping 16.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
+    "2026-10-15 14:00:18 PT  INFO      Market closed. Sleeping 15.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT"
   ]
 }
