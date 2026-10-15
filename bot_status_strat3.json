@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 06:40:17 AM PT",
-  "timestamp_utc": "2026-10-15T13:40:17.525590+00:00",
+  "updated_at": "2026-10-15 06:50:15 AM PT",
+  "timestamp_utc": "2026-10-15T13:50:15.556333+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 990995.74,
-    "cash": 739597.33,
-    "buying_power": 3264830.81,
-    "total_pnl": -9004.26,
-    "total_return_pct": "-0.90",
-    "today_pnl": 1161.38,
-    "today_return_pct": "+0.12",
+    "portfolio_value": 988843.71,
+    "cash": 491535.96,
+    "buying_power": 2971012.19,
+    "total_pnl": -11156.29,
+    "total_return_pct": "-1.12",
+    "today_pnl": -990.65,
+    "today_return_pct": "-0.10",
     "last_equity": 989834.36,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 282.0,
       "entry_price": 222.37,
-      "current_price": 224.0,
-      "market_value": 63168.03,
-      "unrealized_pnl": 460.86,
-      "unrealized_plpc": 0.73
+      "current_price": 220.33,
+      "market_value": 62133.06,
+      "unrealized_pnl": -574.11,
+      "unrealized_plpc": -0.92
     },
     {
       "symbol": "DDOG",
@@ -88,10 +88,21 @@
       "side": "long",
       "qty": 239.0,
       "entry_price": 263.84,
-      "current_price": 266.49,
-      "market_value": 63691.11,
-      "unrealized_pnl": 633.35,
-      "unrealized_plpc": 1.0
+      "current_price": 266.38,
+      "market_value": 63664.82,
+      "unrealized_pnl": 607.06,
+      "unrealized_plpc": 0.96
+    },
+    {
+      "symbol": "DELL",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 107.0,
+      "entry_price": 465.82,
+      "current_price": 462.57,
+      "market_value": 49495.53,
+      "unrealized_pnl": -347.24,
+      "unrealized_plpc": -0.7
     },
     {
       "symbol": "ISRG",
@@ -99,10 +110,32 @@
       "side": "long",
       "qty": 147.0,
       "entry_price": 422.6,
-      "current_price": 419.72,
-      "market_value": 61698.47,
-      "unrealized_pnl": -423.79,
-      "unrealized_plpc": -0.68
+      "current_price": 421.24,
+      "market_value": 61922.28,
+      "unrealized_pnl": -199.98,
+      "unrealized_plpc": -0.32
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 293.0,
+      "entry_price": 169.25,
+      "current_price": 167.54,
+      "market_value": 49089.22,
+      "unrealized_pnl": -501.57,
+      "unrealized_plpc": -1.01
+    },
+    {
+      "symbol": "RKLB",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 963.0,
+      "entry_price": 51.58,
+      "current_price": 51.03,
+      "market_value": 49141.89,
+      "unrealized_pnl": -529.65,
+      "unrealized_plpc": -1.07
     },
     {
       "symbol": "SHOP",
@@ -110,13 +143,85 @@
       "side": "long",
       "qty": 370.0,
       "entry_price": 168.51,
-      "current_price": 169.84,
-      "market_value": 62840.8,
-      "unrealized_pnl": 490.96,
-      "unrealized_plpc": 0.79
+      "current_price": 169.88,
+      "market_value": 62855.6,
+      "unrealized_pnl": 505.76,
+      "unrealized_plpc": 0.81
+    },
+    {
+      "symbol": "SMCI",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 1501.0,
+      "entry_price": 33.25,
+      "current_price": 32.91,
+      "market_value": 49397.91,
+      "unrealized_pnl": -505.4,
+      "unrealized_plpc": -1.01
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 38.0,
+      "entry_price": 1290.87,
+      "current_price": 1304.1,
+      "market_value": 49555.8,
+      "unrealized_pnl": 502.83,
+      "unrealized_plpc": 1.03
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "APP",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 184.0,
+      "price": 271.68,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 06:50:14"
+    },
+    {
+      "symbol": "LULU",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 512.0,
+      "price": 97.63,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 06:50:14"
+    },
+    {
+      "symbol": "SPOT",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 95.0,
+      "price": 523.21,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 06:50:14"
+    },
+    {
+      "symbol": "TTD",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 3920.0,
+      "price": 12.755,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 06:50:14"
+    },
+    {
+      "symbol": "RDDT",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 330.0,
+      "price": 151.21,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-15 06:50:14"
+    },
     {
       "symbol": "SMCI",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -479,20 +584,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 990995.74,
-      "daily_pnl": 1161.38,
-      "cum_return": -0.9
+      "portfolio_value": 988843.71,
+      "daily_pnl": -990.65,
+      "cum_return": -1.12
     }
   ],
   "logs": [
-    "2026-10-15 05:34:46 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:35:18 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:35:49 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:36:21 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:36:53 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:37:24 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:37:56 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:38:27 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:38:59 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:39:30 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:40:02 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -604,6 +701,14 @@
     "2026-10-15 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 293 shares of NBIS @ ~$170.08 (Order ID: fe5dbca6-5622-413c-a04f-6cc159989cfb)",
     "2026-10-15 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 107 shares of DELL @ ~$465.67 (Order ID: 60198fb2-980b-4a92-92f4-88068c6882c7)",
     "2026-10-15 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 38 shares of SNDK @ ~$1294.80 (Order ID: f70eef43-68fc-4571-bd85-f31546e685de)",
-    "2026-10-15 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1501 shares of SMCI @ ~$33.29 (Order ID: fc8b08ba-936c-4e16-ac37-ade4e98c4ee4)"
+    "2026-10-15 06:40:17 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1501 shares of SMCI @ ~$33.29 (Order ID: fc8b08ba-936c-4e16-ac37-ade4e98c4ee4)",
+    "2026-10-15 06:50:07 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-15 06:50:07 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-15 06:50:14 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['RDDT', 'TTD', 'SPOT', 'LULU', 'APP']",
+    "2026-10-15 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 330 shares of RDDT @ ~$151.21 (Order ID: 7870a213-c546-4599-82bd-62c4553df20f)",
+    "2026-10-15 06:50:15 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 3920 shares of TTD @ ~$12.76 (Order ID: 6575c7f0-8709-4c61-aac4-88d19b7b5f26)",
+    "2026-10-15 06:50:15 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 95 shares of SPOT @ ~$523.21 (Order ID: c6572014-7849-452a-aefb-6a33dc107588)",
+    "2026-10-15 06:50:15 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 512 shares of LULU @ ~$97.63 (Order ID: cdf858c1-0e00-46fb-b523-19aba1c7cc8f)",
+    "2026-10-15 06:50:15 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 184 shares of APP @ ~$271.68 (Order ID: ac87ed09-364d-42e1-a5d1-cba7a3aeb24b)"
   ]
 }
