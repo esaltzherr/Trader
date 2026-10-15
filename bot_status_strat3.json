@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-15 12:50:07 PM PT",
-  "timestamp_utc": "2026-10-15T19:50:07.288483+00:00",
+  "updated_at": "2026-10-15 12:50:12 PM PT",
+  "timestamp_utc": "2026-10-15T19:50:12.595522+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999624.14,
-    "cash": 853117.01,
-    "buying_power": 3585945.29,
-    "total_pnl": -375.86,
+    "portfolio_value": 999597.33,
+    "cash": 831198.11,
+    "buying_power": 3679187.26,
+    "total_pnl": -402.67,
     "total_return_pct": "-0.04",
-    "today_pnl": 9789.78,
+    "today_pnl": 9762.97,
     "today_return_pct": "+0.99",
     "last_equity": 989834.36,
     "starting_equity": 1000000.0,
@@ -64,33 +64,22 @@
     }
   ],
   "stats": {
-    "total_trades": 38,
-    "wins": 11,
+    "total_trades": 39,
+    "wins": 12,
     "losses": 27,
-    "win_rate": "28.9%",
-    "profit_factor": "0.72"
+    "win_rate": "30.8%",
+    "profit_factor": "0.76"
   },
   "open_positions": [
-    {
-      "symbol": "AJG",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 199.0,
-      "entry_price": 249.96,
-      "current_price": 250.46,
-      "market_value": 49841.54,
-      "unrealized_pnl": -99.5,
-      "unrealized_plpc": -0.2
-    },
     {
       "symbol": "DDOG",
       "direction": "LONG",
       "side": "long",
-      "qty": 239.0,
+      "qty": 134.0,
       "entry_price": 263.84,
       "current_price": 266.38,
-      "market_value": 63664.82,
-      "unrealized_pnl": 607.06,
+      "market_value": 35694.92,
+      "unrealized_pnl": 340.36,
       "unrealized_plpc": 0.96
     },
     {
@@ -110,10 +99,10 @@
       "side": "long",
       "qty": 370.0,
       "entry_price": 168.51,
-      "current_price": 177.34,
-      "market_value": 65617.65,
-      "unrealized_pnl": 3267.81,
-      "unrealized_plpc": 5.24
+      "current_price": 177.38,
+      "market_value": 65630.6,
+      "unrealized_pnl": 3280.76,
+      "unrealized_plpc": 5.26
     },
     {
       "symbol": "SMCI",
@@ -122,9 +111,9 @@
       "qty": 1501.0,
       "entry_price": 33.25,
       "current_price": 34.97,
-      "market_value": 52482.46,
-      "unrealized_pnl": 2579.15,
-      "unrealized_plpc": 5.17
+      "market_value": 52489.97,
+      "unrealized_pnl": 2586.66,
+      "unrealized_plpc": 5.18
     },
     {
       "symbol": "TTD",
@@ -306,8 +295,8 @@
       "direction": "LONG",
       "shares": 147.0,
       "price": 423.985,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 429.015,
+      "realized_pnl": 739.41,
       "date": "2026-10-15 06:35:22"
     },
     {
@@ -612,13 +601,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 999624.14,
-      "daily_pnl": 9789.78,
+      "portfolio_value": 999597.33,
+      "daily_pnl": 9762.97,
       "cum_return": -0.04
     }
   ],
   "logs": [
-    "2026-10-15 05:51:08 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:51:40 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:52:12 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:52:43 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -737,6 +725,7 @@
     "2026-10-15 12:50:02 PT  INFO      Closing all 8 active positions for Scheduled EOD Liquidation...",
     "2026-10-15 12:50:02 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ACN @ $225.13 | P&L: +1022.25 (+1.64%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:04 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT AJG @ $250.46 | P&L: -71.64 (-0.14%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $266.23 | P&L: +1149.59 (+1.84%) | Reason: Scheduled EOD Liquidation"
+    "2026-10-15 12:50:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $266.23 | P&L: +1149.59 (+1.84%) | Reason: Scheduled EOD Liquidation",
+    "2026-10-15 12:50:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ISRG @ $429.01 | P&L: +739.41 (+1.19%) | Reason: Scheduled EOD Liquidation"
   ]
 }
