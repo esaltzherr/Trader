@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 08:32:48 AM PT",
-  "timestamp_utc": "2026-10-15T15:32:48.623771+00:00",
+  "updated_at": "2026-10-15 08:33:50 AM PT",
+  "timestamp_utc": "2026-10-15T15:33:50.426301+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -58,8 +58,8 @@
       "qty": 4.1499,
       "entry_price": 244.51,
       "current_price": 242.72,
-      "market_value": 1007.28,
-      "unrealized_pnl": -7.41,
+      "market_value": 1007.24,
+      "unrealized_pnl": -7.45,
       "unrealized_plpc": -0.73
     }
   ],
