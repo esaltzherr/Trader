@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 12:50:05 PM PT",
-  "timestamp_utc": "2026-10-15T19:50:05.654029+00:00",
+  "updated_at": "2026-10-15 01:30:30 PM PT",
+  "timestamp_utc": "2026-10-15T20:30:30.434019+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -17,9 +17,9 @@
     "status": "ACTIVE"
   },
   "market": {
-    "is_open": true,
+    "is_open": false,
     "next_open": "2026-10-16 06:30 AM PT",
-    "next_close": "2026-10-15 01:00 PM PT"
+    "next_close": "2026-10-16 01:00 PM PT"
   },
   "strategies": [
     {
@@ -350,10 +350,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 07:00:08 PT  INFO        BMNR   SHORT Breakout: +1.42%  Price: $22.50",
-    "2026-10-14 07:00:08 PT  INFO        CRCL   SHORT Breakout: +1.40%  Price: $80.85",
-    "2026-10-14 07:00:08 PT  INFO        HIMS   SHORT Breakout: +1.38%  Price: $28.65",
-    "2026-10-14 07:00:08 PT  INFO        SOFI   SHORT Breakout: +0.92%  Price: $14.53",
     "2026-10-14 07:00:08 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 117 shares of MARA at ~$8.59",
     "2026-10-14 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 44 shares of BMNR at ~$22.50",
     "2026-10-14 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 12 shares of CRCL at ~$80.85",
@@ -469,6 +465,10 @@
     "2026-10-15 08:11:54 PT  INFO      [CLOSED POSITION] RIVN 80.0 shares @ $13.00 (Entry: $12.55, P&L: $-35.77) [STOP_LOSS]",
     "2026-10-15 12:50:01 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
     "2026-10-15 12:50:01 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
-    "2026-10-15 12:50:01 PT  INFO      [CLOSED POSITION] ADSK 4.1499 shares @ $245.44 (Entry: $244.51, P&L: $+3.86) [SCHEDULED_EOD]"
+    "2026-10-15 12:50:01 PT  INFO      [CLOSED POSITION] ADSK 4.1499 shares @ $245.44 (Entry: $244.51, P&L: $+3.86) [SCHEDULED_EOD]",
+    "2026-10-15 12:50:09 PT  INFO      All positions closed and recorded successfully.",
+    "2026-10-15 12:50:09 PT  INFO      Today's session (2026-10-15) already executed. Waiting for market close...",
+    "2026-10-15 12:50:09 PT  INFO      Waiting 9.8 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
+    "2026-10-15 13:00:30 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 16.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
