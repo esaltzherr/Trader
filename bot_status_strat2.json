@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-15 12:31:26 AM PT",
-  "timestamp_utc": "2026-10-15T07:31:26.674117+00:00",
+  "updated_at": "2026-10-15 01:01:28 AM PT",
+  "timestamp_utc": "2026-10-15T08:01:28.685838+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10135.13,
-    "cash": 10135.13,
-    "buying_power": 40540.52,
-    "total_pnl": 135.13,
+    "portfolio_value": 10134.96,
+    "cash": 10134.96,
+    "buying_power": 40539.84,
+    "total_pnl": 134.96,
     "total_return_pct": "+1.35",
-    "today_pnl": 63.41,
-    "today_return_pct": "+0.63",
-    "last_equity": 10071.72,
+    "today_pnl": 0.0,
+    "today_return_pct": "+0.00",
+    "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -254,13 +254,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10135.13,
-      "daily_pnl": 63.41,
+      "portfolio_value": 10134.96,
+      "daily_pnl": 0.0,
       "cum_return": 1.35
     }
   ],
   "logs": [
-    "2026-10-13 16:19:27 PT  INFO       Account: PA3EM0YADDLM | Equity: $10,071.92",
     "2026-10-13 16:19:27 PT  INFO       Dual Architecture: 15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT)",
     "2026-10-13 16:19:27 PT  INFO      ============================================================",
     "2026-10-13 16:19:28 PT  INFO      Market closed. Next open: 2026-10-14 06:30 AM PT (09:30 ET). Sleeping 13.2h until pre-market prep at 05:30 AM PT...",
@@ -379,6 +378,7 @@
     "2026-10-14 22:31:20 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 23:01:21 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 6.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 23:31:23 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 6.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-15 00:01:26 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 5.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-15 00:01:26 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 5.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-15 00:31:28 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 5.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
