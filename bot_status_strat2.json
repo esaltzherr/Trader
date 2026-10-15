@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 07:02:23 AM PT",
-  "timestamp_utc": "2026-10-15T14:02:23.480743+00:00",
+  "updated_at": "2026-10-15 07:03:26 AM PT",
+  "timestamp_utc": "2026-10-15T14:03:26.700488+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10154.23,
+    "portfolio_value": 10148.22,
     "cash": 13770.39,
-    "buying_power": 28546.36,
-    "total_pnl": 154.23,
-    "total_return_pct": "+1.54",
-    "today_pnl": 19.27,
-    "today_return_pct": "+0.19",
+    "buying_power": 28508.13,
+    "total_pnl": 148.22,
+    "total_return_pct": "+1.48",
+    "today_pnl": 13.26,
+    "today_return_pct": "+0.13",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 4.1499,
       "entry_price": 244.51,
-      "current_price": 245.79,
-      "market_value": 1020.02,
-      "unrealized_pnl": 5.33,
-      "unrealized_plpc": 0.53
+      "current_price": 246.0,
+      "market_value": 1020.88,
+      "unrealized_pnl": 6.18,
+      "unrealized_plpc": 0.61
     },
     {
       "symbol": "FICO",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 1.3552,
       "entry_price": 749.0,
-      "current_price": 753.46,
-      "market_value": 1021.09,
-      "unrealized_pnl": 6.04,
-      "unrealized_plpc": 0.6
+      "current_price": 753.61,
+      "market_value": 1021.29,
+      "unrealized_pnl": 6.24,
+      "unrealized_plpc": 0.61
     },
     {
       "symbol": "MCHP",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 13.0,
       "entry_price": 72.79,
-      "current_price": 72.8,
-      "market_value": 946.4,
-      "unrealized_pnl": -0.08,
-      "unrealized_plpc": -0.01
+      "current_price": 72.76,
+      "market_value": 945.88,
+      "unrealized_pnl": 0.44,
+      "unrealized_plpc": 0.05
     },
     {
       "symbol": "NXPI",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 226.81,
-      "current_price": 225.79,
-      "market_value": 903.18,
-      "unrealized_pnl": 4.06,
-      "unrealized_plpc": 0.45
+      "current_price": 226.23,
+      "market_value": 904.92,
+      "unrealized_pnl": 2.32,
+      "unrealized_plpc": 0.26
     },
     {
       "symbol": "QCOM",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 176.49,
-      "current_price": 175.31,
-      "market_value": 876.55,
-      "unrealized_pnl": 5.9,
-      "unrealized_plpc": 0.67
+      "current_price": 175.55,
+      "market_value": 877.75,
+      "unrealized_pnl": 4.7,
+      "unrealized_plpc": 0.53
     },
     {
       "symbol": "RIVN",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 80.0,
       "entry_price": 12.55,
-      "current_price": 12.64,
-      "market_value": 1011.6,
-      "unrealized_pnl": -7.64,
-      "unrealized_plpc": -0.76
+      "current_price": 12.66,
+      "market_value": 1013.2,
+      "unrealized_pnl": -9.24,
+      "unrealized_plpc": -0.92
     },
     {
       "symbol": "TEM",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 15.0,
       "entry_price": 67.69,
-      "current_price": 67.73,
-      "market_value": 1015.89,
-      "unrealized_pnl": -0.6,
-      "unrealized_plpc": -0.06
+      "current_price": 68.0,
+      "market_value": 1020.0,
+      "unrealized_pnl": -4.71,
+      "unrealized_plpc": -0.46
     },
     {
       "symbol": "TT",
@@ -134,10 +134,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 453.36,
-      "current_price": 451.83,
-      "market_value": 903.65,
-      "unrealized_pnl": 3.07,
-      "unrealized_plpc": 0.34
+      "current_price": 451.29,
+      "market_value": 902.58,
+      "unrealized_pnl": 4.14,
+      "unrealized_plpc": 0.46
     }
   ],
   "recent_trades": [
@@ -433,9 +433,9 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10154.23,
-      "daily_pnl": 19.27,
-      "cum_return": 1.54
+      "portfolio_value": 10148.22,
+      "daily_pnl": 13.26,
+      "cum_return": 1.48
     }
   ],
   "logs": [
