@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 07:16:55 AM PT",
-  "timestamp_utc": "2026-10-15T14:16:55.918720+00:00",
+  "updated_at": "2026-10-15 07:18:01 AM PT",
+  "timestamp_utc": "2026-10-15T14:18:01.591506+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10149.34,
+    "portfolio_value": 10143.88,
     "cash": 13879.35,
-    "buying_power": 30828.7,
-    "total_pnl": 149.34,
-    "total_return_pct": "+1.49",
-    "today_pnl": 14.38,
-    "today_return_pct": "+0.14",
+    "buying_power": 30800.92,
+    "total_pnl": 143.88,
+    "total_return_pct": "+1.44",
+    "today_pnl": 8.92,
+    "today_return_pct": "+0.09",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 4.1499,
       "entry_price": 244.51,
-      "current_price": 244.71,
-      "market_value": 1015.52,
-      "unrealized_pnl": 0.83,
-      "unrealized_plpc": 0.08
+      "current_price": 244.59,
+      "market_value": 1015.02,
+      "unrealized_pnl": 0.33,
+      "unrealized_plpc": 0.03
     },
     {
       "symbol": "MCHP",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 13.0,
       "entry_price": 72.79,
-      "current_price": 72.3,
-      "market_value": 939.9,
-      "unrealized_pnl": 6.42,
-      "unrealized_plpc": 0.68
+      "current_price": 72.57,
+      "market_value": 943.41,
+      "unrealized_pnl": 2.91,
+      "unrealized_plpc": 0.31
     },
     {
       "symbol": "QCOM",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 176.49,
-      "current_price": 174.24,
-      "market_value": 871.2,
-      "unrealized_pnl": 11.25,
-      "unrealized_plpc": 1.27
+      "current_price": 174.28,
+      "market_value": 871.4,
+      "unrealized_pnl": 11.05,
+      "unrealized_plpc": 1.25
     },
     {
       "symbol": "RIVN",
@@ -91,9 +91,9 @@
       "qty": 80.0,
       "entry_price": 12.55,
       "current_price": 12.75,
-      "market_value": 1019.78,
-      "unrealized_pnl": -15.82,
-      "unrealized_plpc": -1.57
+      "market_value": 1020.0,
+      "unrealized_pnl": -16.04,
+      "unrealized_plpc": -1.6
     },
     {
       "symbol": "TEM",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 15.0,
       "entry_price": 67.69,
-      "current_price": 67.8,
-      "market_value": 1017.0,
-      "unrealized_pnl": -1.71,
-      "unrealized_plpc": -0.17
+      "current_price": 67.88,
+      "market_value": 1018.2,
+      "unrealized_pnl": -2.91,
+      "unrealized_plpc": -0.29
     },
     {
       "symbol": "TT",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 453.36,
-      "current_price": 448.83,
-      "market_value": 897.66,
-      "unrealized_pnl": 9.06,
-      "unrealized_plpc": 1.0
+      "current_price": 448.74,
+      "market_value": 897.48,
+      "unrealized_pnl": 9.24,
+      "unrealized_plpc": 1.02
     }
   ],
   "recent_trades": [
@@ -411,9 +411,9 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10149.34,
-      "daily_pnl": 14.38,
-      "cum_return": 1.49
+      "portfolio_value": 10143.88,
+      "daily_pnl": 8.92,
+      "cum_return": 1.44
     }
   ],
   "logs": [
