@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 05:59:36 AM PT",
-  "timestamp_utc": "2026-10-15T12:59:36.567824+00:00",
+  "updated_at": "2026-10-15 06:00:07 AM PT",
+  "timestamp_utc": "2026-10-15T13:00:08.122235+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -350,7 +350,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 07:05:03 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
     "2026-10-14 07:05:16 PT  INFO      [Engine 4] Selected 2 Parabolic Blowoff Fade short targets: ['LLY', 'UNH']",
     "2026-10-14 07:05:16 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 103 shares of LLY @ ~$1211.54 (Order ID: 2b4c0e41-1d64-4583-bda1-fb80a1815584)",
     "2026-10-14 07:05:16 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 319 shares of UNH @ ~$391.02 (Order ID: ae4207cd-b87d-4102-a80c-3d4d34e258ec)",
@@ -469,6 +468,7 @@
     "2026-10-15 05:58:00 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:58:32 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:59:04 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:59:36 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
+    "2026-10-15 05:59:36 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
+    "2026-10-15 06:00:07 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
   ]
 }
