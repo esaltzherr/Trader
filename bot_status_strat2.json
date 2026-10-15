@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 07:00:14 AM PT",
-  "timestamp_utc": "2026-10-15T14:00:14.282051+00:00",
+  "updated_at": "2026-10-15 07:00:15 AM PT",
+  "timestamp_utc": "2026-10-15T14:00:16.042950+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10153.14,
+    "portfolio_value": 10152.5,
     "cash": 14831.62,
-    "buying_power": 27706.18,
-    "total_pnl": 153.14,
-    "total_return_pct": "+1.53",
-    "today_pnl": 18.18,
-    "today_return_pct": "+0.18",
+    "buying_power": 27702.9,
+    "total_pnl": 152.5,
+    "total_return_pct": "+1.52",
+    "today_pnl": 17.54,
+    "today_return_pct": "+0.17",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 176.49,
-      "current_price": 175.53,
-      "market_value": 877.65,
-      "unrealized_pnl": 4.8,
-      "unrealized_plpc": 0.54
+      "current_price": 175.65,
+      "market_value": 878.23,
+      "unrealized_pnl": 4.22,
+      "unrealized_plpc": 0.48
     },
     {
       "symbol": "TEM",
@@ -400,13 +400,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10153.14,
-      "daily_pnl": 18.18,
-      "cum_return": 1.53
+      "portfolio_value": 10152.5,
+      "daily_pnl": 17.54,
+      "cum_return": 1.52
     }
   ],
   "logs": [
-    "2026-10-14 06:45:00 PT  INFO      ============================================================",
     "2026-10-14 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
     "2026-10-14 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
     "2026-10-14 06:45:00 PT  INFO      ============================================================",
@@ -525,6 +524,7 @@
     "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 2 shares of TT at ~$452.70",
     "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.1499 shares of ADSK at ~$244.22",
     "2026-10-15 07:00:13 PT  ERROR     Failed to submit order for MCHP: {\"available\":\"13\",\"code\":40310000,\"existing_qty\":\"13\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 13.8437, available: 13)\",\"symbol\":\"MCHP\"}",
-    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 1.3552 shares of FICO at ~$747.83"
+    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 1.3552 shares of FICO at ~$747.83",
+    "2026-10-15 07:00:15 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
