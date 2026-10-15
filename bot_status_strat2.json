@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 04:30:41 PM PT",
-  "timestamp_utc": "2026-10-14T23:30:41.226347+00:00",
+  "updated_at": "2026-10-14 05:00:42 PM PT",
+  "timestamp_utc": "2026-10-15T00:00:42.851849+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -239,7 +239,6 @@
     }
   ],
   "logs": [
-    "2026-10-13 11:19:00 PT  INFO      [RATCHET TIER 2] CAT Short peaked at +2.6%, crossed locked floor. Securing gains!",
     "2026-10-13 11:19:00 PT  INFO      [CLOSED POSITION] CAT 1.0 shares @ $766.26 (Entry: $775.54, P&L: $+9.28) [RATCHET_TIER2]",
     "2026-10-13 12:50:03 PT  INFO      9.9 min to close. Triggering scheduled EOD liquidation...",
     "2026-10-13 12:50:03 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
@@ -358,6 +357,7 @@
     "2026-10-14 14:30:35 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 15:00:37 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-14 15:30:39 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-14 16:00:41 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 13.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-14 16:00:41 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 13.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-14 16:30:42 PT  INFO      Market closed. Next open: 2026-10-15 06:30 AM PT (09:30 ET). Sleeping 13.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
