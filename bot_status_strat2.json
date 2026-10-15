@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 07:03:26 AM PT",
-  "timestamp_utc": "2026-10-15T14:03:26.700488+00:00",
+  "updated_at": "2026-10-15 07:04:28 AM PT",
+  "timestamp_utc": "2026-10-15T14:04:28.909541+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10148.22,
-    "cash": 13770.39,
-    "buying_power": 28508.13,
-    "total_pnl": 148.22,
-    "total_return_pct": "+1.48",
-    "today_pnl": 13.26,
-    "today_return_pct": "+0.13",
+    "portfolio_value": 10141.14,
+    "cash": 12863.6,
+    "buying_power": 29562.47,
+    "total_pnl": 141.14,
+    "total_return_pct": "+1.41",
+    "today_pnl": 6.18,
+    "today_return_pct": "+0.06",
     "last_equity": 10134.96,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 19,
-    "wins": 17,
+    "total_trades": 20,
+    "wins": 18,
     "losses": 2,
-    "win_rate": "89.5%",
-    "profit_factor": "6.56"
+    "win_rate": "90.0%",
+    "profit_factor": "6.59"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 4.1499,
       "entry_price": 244.51,
-      "current_price": 246.0,
-      "market_value": 1020.88,
-      "unrealized_pnl": 6.18,
-      "unrealized_plpc": 0.61
+      "current_price": 245.4,
+      "market_value": 1018.39,
+      "unrealized_pnl": 3.69,
+      "unrealized_plpc": 0.36
     },
     {
       "symbol": "FICO",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 1.3552,
       "entry_price": 749.0,
-      "current_price": 753.61,
-      "market_value": 1021.29,
-      "unrealized_pnl": 6.24,
-      "unrealized_plpc": 0.61
+      "current_price": 751.47,
+      "market_value": 1018.39,
+      "unrealized_pnl": 3.35,
+      "unrealized_plpc": 0.33
     },
     {
       "symbol": "MCHP",
@@ -79,21 +79,10 @@
       "side": "short",
       "qty": 13.0,
       "entry_price": 72.79,
-      "current_price": 72.76,
-      "market_value": 945.88,
-      "unrealized_pnl": 0.44,
-      "unrealized_plpc": 0.05
-    },
-    {
-      "symbol": "NXPI",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 4.0,
-      "entry_price": 226.81,
-      "current_price": 226.23,
-      "market_value": 904.92,
-      "unrealized_pnl": 2.32,
-      "unrealized_plpc": 0.26
+      "current_price": 72.78,
+      "market_value": 946.14,
+      "unrealized_pnl": 0.18,
+      "unrealized_plpc": 0.02
     },
     {
       "symbol": "QCOM",
@@ -101,10 +90,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 176.49,
-      "current_price": 175.55,
-      "market_value": 877.75,
-      "unrealized_pnl": 4.7,
-      "unrealized_plpc": 0.53
+      "current_price": 175.12,
+      "market_value": 875.62,
+      "unrealized_pnl": 6.83,
+      "unrealized_plpc": 0.77
     },
     {
       "symbol": "RIVN",
@@ -112,10 +101,10 @@
       "side": "short",
       "qty": 80.0,
       "entry_price": 12.55,
-      "current_price": 12.66,
-      "market_value": 1013.2,
-      "unrealized_pnl": -9.24,
-      "unrealized_plpc": -0.92
+      "current_price": 12.7,
+      "market_value": 1016.0,
+      "unrealized_pnl": -12.04,
+      "unrealized_plpc": -1.2
     },
     {
       "symbol": "TEM",
@@ -134,10 +123,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 453.36,
-      "current_price": 451.29,
-      "market_value": 902.58,
-      "unrealized_pnl": 4.14,
-      "unrealized_plpc": 0.46
+      "current_price": 451.17,
+      "market_value": 902.34,
+      "unrealized_pnl": 4.38,
+      "unrealized_plpc": 0.48
     }
   ],
   "recent_trades": [
@@ -187,8 +176,8 @@
       "direction": "SHORT",
       "shares": 4.0,
       "price": 226.79,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 226.595,
+      "realized_pnl": 0.86,
       "date": "2026-10-15 06:45:10"
     },
     {
@@ -433,14 +422,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 10148.22,
-      "daily_pnl": 13.26,
-      "cum_return": 1.48
+      "portfolio_value": 10141.14,
+      "daily_pnl": 6.18,
+      "cum_return": 1.41
     }
   ],
   "logs": [
-    "2026-10-14 06:45:00 PT  INFO      ============================================================",
-    "2026-10-14 06:45:07 PT  INFO      Selected 5 Morning Runners to SHORT:",
     "2026-10-14 06:45:07 PT  INFO        TEM    Surge: +4.81%  Price: $69.88",
     "2026-10-14 06:45:07 PT  INFO        UNH    Surge: +2.64%  Price: $393.19",
     "2026-10-14 06:45:07 PT  INFO        ASML   Surge: +2.60%  Price: $1720.28",
@@ -558,6 +545,8 @@
     "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 1.3552 shares of FICO at ~$747.83",
     "2026-10-15 07:00:15 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-15 07:01:52 PT  INFO      [RATCHET TIER 1] CRCL Short peaked at +1.6%, crossed locked floor. Securing gains!",
-    "2026-10-15 07:01:53 PT  INFO      [CLOSED POSITION] CRCL 12.0 shares @ $78.45 (Entry: $78.78, P&L: $+3.96) [RATCHET_TIER1]"
+    "2026-10-15 07:01:53 PT  INFO      [CLOSED POSITION] CRCL 12.0 shares @ $78.45 (Entry: $78.78, P&L: $+3.96) [RATCHET_TIER1]",
+    "2026-10-15 07:03:58 PT  INFO      [RATCHET BREAKEVEN] NXPI Short hit breakeven stop. Zero loss exit!",
+    "2026-10-15 07:03:58 PT  INFO      [CLOSED POSITION] NXPI 4.0 shares @ $226.59 (Entry: $226.81, P&L: $+0.86) [RATCHET_BREAKEVEN]"
   ]
 }
