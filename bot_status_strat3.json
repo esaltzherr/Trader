@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 05:51:08 AM PT",
-  "timestamp_utc": "2026-10-15T12:51:08.992474+00:00",
+  "updated_at": "2026-10-15 05:51:40 AM PT",
+  "timestamp_utc": "2026-10-15T12:51:40.518892+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -350,7 +350,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 06:40:12 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-14 06:40:16 PT  INFO      [Engine 2] Selected 5 Capitulation Bounce targets: ['CRWV', 'PGR', 'NBIS', 'DELL', 'BAC']",
     "2026-10-14 06:40:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 742 shares of CRWV @ ~$67.36 (Order ID: b6d2e057-8ad6-405b-aff2-ccf5dcb8e93e)",
     "2026-10-14 06:40:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 246 shares of PGR @ ~$203.00 (Order ID: ca125252-8d92-486f-a502-639bf8d100bf)",
@@ -469,6 +468,7 @@
     "2026-10-15 05:49:32 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:50:04 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:50:37 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:51:08 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
+    "2026-10-15 05:51:08 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
+    "2026-10-15 05:51:40 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
   ]
 }
