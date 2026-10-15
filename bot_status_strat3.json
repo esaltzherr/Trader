@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-15 12:31:29 AM PT",
-  "timestamp_utc": "2026-10-15T07:31:29.545047+00:00",
+  "updated_at": "2026-10-15 01:01:30 AM PT",
+  "timestamp_utc": "2026-10-15T08:01:31.202456+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 989854.72,
-    "cash": 989854.72,
-    "buying_power": 3959418.88,
-    "total_pnl": -10145.28,
-    "total_return_pct": "-1.01",
-    "today_pnl": -10418.49,
-    "today_return_pct": "-1.04",
-    "last_equity": 1000273.21,
+    "portfolio_value": 989834.36,
+    "cash": 989834.36,
+    "buying_power": 3959337.44,
+    "total_pnl": -10165.64,
+    "total_return_pct": "-1.02",
+    "today_pnl": 0.0,
+    "today_return_pct": "+0.00",
+    "last_equity": 989834.36,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -344,13 +344,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 989854.72,
-      "daily_pnl": -10418.49,
-      "cum_return": -1.01
+      "portfolio_value": 989834.36,
+      "daily_pnl": 0.0,
+      "cum_return": -1.02
     }
   ],
   "logs": [
-    "2026-10-14 06:08:32 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:09:03 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:09:35 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
     "2026-10-14 06:10:06 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-14 05:30 AM PT",
@@ -469,6 +468,7 @@
     "2026-10-14 23:01:23 PT  INFO      Market closed. Sleeping 6.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-14 23:31:25 PT  INFO      Market closed. Sleeping 6.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 00:01:27 PT  INFO      Market closed. Sleeping 5.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 00:31:29 PT  INFO      Market closed. Sleeping 5.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
+    "2026-10-15 00:31:29 PT  INFO      Market closed. Sleeping 5.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
+    "2026-10-15 01:01:30 PT  INFO      Market closed. Sleeping 4.5 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
   ]
 }
