@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-15 02:30:20 PM PT",
-  "timestamp_utc": "2026-10-15T21:30:21.239394+00:00",
+  "updated_at": "2026-10-15 03:00:23 PM PT",
+  "timestamp_utc": "2026-10-15T22:00:23.433704+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999432.88,
+    "portfolio_value": 999589.96,
     "cash": 964027.34,
-    "buying_power": 3932242.32,
-    "total_pnl": -567.12,
-    "total_return_pct": "-0.06",
-    "today_pnl": 9598.52,
-    "today_return_pct": "+0.97",
+    "buying_power": 3932940.86,
+    "total_pnl": -410.04,
+    "total_return_pct": "-0.04",
+    "today_pnl": 9755.6,
+    "today_return_pct": "+0.99",
     "last_equity": 989834.36,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 3446.0,
       "entry_price": 13.11,
-      "current_price": 13.06,
-      "market_value": 44989.94,
-      "unrealized_pnl": -177.26,
-      "unrealized_plpc": -0.39
+      "current_price": 13.07,
+      "market_value": 45039.22,
+      "unrealized_pnl": -127.98,
+      "unrealized_plpc": -0.28
     },
     {
       "symbol": "WDAY",
@@ -88,10 +88,10 @@
       "side": "short",
       "qty": 49.0,
       "entry_price": 199.06,
-      "current_price": 195.6,
-      "market_value": 9584.4,
-      "unrealized_pnl": 169.54,
-      "unrealized_plpc": 1.74
+      "current_price": 193.4,
+      "market_value": 9476.6,
+      "unrealized_pnl": 277.34,
+      "unrealized_plpc": 2.84
     }
   ],
   "recent_trades": [
@@ -557,13 +557,12 @@
     },
     {
       "date": "2026-10-15",
-      "portfolio_value": 999432.88,
-      "daily_pnl": 9598.52,
-      "cum_return": -0.06
+      "portfolio_value": 999589.96,
+      "daily_pnl": 9755.6,
+      "cum_return": -0.04
     }
   ],
   "logs": [
-    "2026-10-15 05:57:29 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:58:00 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:58:32 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:59:04 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -682,6 +681,7 @@
     "2026-10-15 13:00:14 PT  INFO      Market closed. Sleeping 16.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
     "2026-10-15 13:30:17 PT  INFO      Market closed. Sleeping 16.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
     "2026-10-15 14:00:18 PT  INFO      Market closed. Sleeping 15.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
-    "2026-10-15 14:30:20 PT  INFO      Market closed. Sleeping 15.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT"
+    "2026-10-15 14:30:20 PT  INFO      Market closed. Sleeping 15.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
+    "2026-10-15 15:00:23 PT  INFO      Market closed. Sleeping 14.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT"
   ]
 }
