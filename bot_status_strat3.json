@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 05:47:25 AM PT",
-  "timestamp_utc": "2026-10-15T12:47:26.156063+00:00",
+  "updated_at": "2026-10-15 05:47:57 AM PT",
+  "timestamp_utc": "2026-10-15T12:47:57.746925+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -350,7 +350,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 06:35:07 PT  INFO      [Engine 1] Selected 5 Super Momentum leaders: ['DDOG', 'SHOP', 'SNPS', 'META', 'ISRG']",
     "2026-10-14 06:35:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 178 shares of DDOG @ ~$280.88 (Order ID: 86339609-09a7-423e-87b6-cfba9eb4ffb2)",
     "2026-10-14 06:35:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 282 shares of SHOP @ ~$176.78 (Order ID: 8d59e900-0890-4ce3-ac15-269684a58b9f)",
     "2026-10-14 06:35:08 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 101 shares of SNPS @ ~$493.28 (Order ID: d395df32-dd09-4092-9ab6-ec46c847b67f)",
@@ -469,6 +468,7 @@
     "2026-10-15 05:45:50 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:46:22 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 05:46:54 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 05:47:25 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
+    "2026-10-15 05:47:25 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
+    "2026-10-15 05:47:57 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT"
   ]
 }
