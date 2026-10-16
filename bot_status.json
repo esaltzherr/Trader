@@ -2,8 +2,8 @@
   "is_paper_trading": true,
   "environment": "Alpaca Paper Trading Simulator (Virtual Currency - No Real Capital)",
   "timezone": "America/Los_Angeles (PT)",
-  "updated_at": "2026-10-16 03:30:11 PM PT",
-  "timestamp_iso": "2026-10-16T15:30:11.722584-07:00",
+  "updated_at": "2026-10-16 04:00:14 PM PT",
+  "timestamp_iso": "2026-10-16T16:00:14.378023-07:00",
   "account_id": "PKWUL6SHOQRV6B6JR6VY3YMP7S",
   "account_label": "Portfolio 1: Market-Neutral Pairs ($100k)",
   "market_status": "Market Closed (Next Open: 2026-10-19 06:30 AM PT)",
@@ -1890,9 +1890,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 07:30:18 PT  INFO        [GAP_BOTTOM_LONG] SELL 20.9662 INTC -> order 90edfacf...",
-    "2026-10-16 07:30:18 PT  INFO        [GAP_BOTTOM_LONG] SELL 28.9141 AEHR -> order f2107769...",
-    "2026-10-16 07:30:18 PT  INFO        [GAP_BOTTOM_LONG] SELL 8.4999 BE -> order 734eb7bc...",
     "2026-10-16 07:30:18 PT  INFO        [GAP_BOTTOM_LONG] SELL 2.1611 MU -> order 6be5fdd3...",
     "2026-10-16 07:30:18 PT  INFO        [GAP_BOTTOM_LONG] SELL 159.9911 WULF -> order e95eaf32...",
     "2026-10-16 07:30:19 PT  INFO        [GAP_BOTTOM_LONG] SELL 1.446 SNDK -> order 9fe42df3...",
@@ -2009,6 +2006,9 @@
     "2026-10-16 14:30:08 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 63.0h until pre-fetch at 05:30 AM PT...",
     "2026-10-16 15:00:10 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
     "2026-10-16 15:00:11 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
-    "2026-10-16 15:00:11 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 62.5h until pre-fetch at 05:30 AM PT..."
+    "2026-10-16 15:00:11 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 62.5h until pre-fetch at 05:30 AM PT...",
+    "2026-10-16 15:30:12 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
+    "2026-10-16 15:30:14 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
+    "2026-10-16 15:30:14 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 62.0h until pre-fetch at 05:30 AM PT..."
   ]
 }
