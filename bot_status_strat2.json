@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 07:59:08 AM PT",
-  "timestamp_utc": "2026-10-16T14:59:08.214817+00:00",
+  "updated_at": "2026-10-16 08:00:09 AM PT",
+  "timestamp_utc": "2026-10-16T15:00:10.568217+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10165.46,
+    "portfolio_value": 10164.91,
     "cash": 11017.29,
-    "buying_power": 37166.12,
-    "total_pnl": 165.46,
+    "buying_power": 37165.99,
+    "total_pnl": 164.91,
     "total_return_pct": "+1.65",
-    "today_pnl": 50.41,
-    "today_return_pct": "+0.50",
+    "today_pnl": 49.86,
+    "today_return_pct": "+0.49",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 227.37,
-      "market_value": 909.46,
-      "unrealized_pnl": -9.78,
-      "unrealized_plpc": -1.09
+      "current_price": 227.27,
+      "market_value": 909.08,
+      "unrealized_pnl": -9.4,
+      "unrealized_plpc": -1.04
     },
     {
       "symbol": "NEM",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 8.6086,
       "entry_price": 117.69,
-      "current_price": 119.72,
-      "market_value": 1030.63,
-      "unrealized_pnl": 17.47,
-      "unrealized_plpc": 1.72
+      "current_price": 119.59,
+      "market_value": 1029.5,
+      "unrealized_pnl": 16.34,
+      "unrealized_plpc": 1.61
     },
     {
       "symbol": "PLTR",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 194.6,
-      "market_value": 973.0,
-      "unrealized_pnl": -4.15,
-      "unrealized_plpc": -0.43
+      "current_price": 194.56,
+      "market_value": 972.8,
+      "unrealized_pnl": -3.95,
+      "unrealized_plpc": -0.41
     }
   ],
   "recent_trades": [
@@ -484,8 +484,8 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10165.46,
-      "daily_pnl": 50.41,
+      "portfolio_value": 10164.91,
+      "daily_pnl": 49.86,
       "cum_return": 1.65
     }
   ],
