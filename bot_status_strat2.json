@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 06:05:59 PM PT",
-  "timestamp_utc": "2026-10-16T01:05:59.489382+00:00",
+  "updated_at": "2026-10-15 06:36:01 PM PT",
+  "timestamp_utc": "2026-10-16T01:36:01.256092+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -350,8 +350,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 12:50:01 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
-    "2026-10-14 12:50:01 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
     "2026-10-14 12:50:01 PT  INFO      [CLOSED POSITION] HIMS 35.0 shares @ $27.70 (Entry: $28.63, P&L: $+32.62) [SCHEDULED_EOD]",
     "2026-10-14 12:50:07 PT  INFO      All positions closed and recorded successfully.",
     "2026-10-14 12:50:07 PT  INFO      Today's session (2026-10-14) already executed. Waiting for market close...",
@@ -469,6 +467,8 @@
     "2026-10-15 17:05:55 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
     "2026-10-15 17:05:57 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 12.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 17:35:57 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
-    "2026-10-15 17:35:59 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 11.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-15 17:35:59 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 11.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-15 18:05:59 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
+    "2026-10-15 18:06:01 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 11.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
