@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 06:35:22 AM PT",
-  "timestamp_utc": "2026-10-16T13:35:22.728642+00:00",
+  "updated_at": "2026-10-16 06:40:15 AM PT",
+  "timestamp_utc": "2026-10-16T13:40:15.602985+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999424.86,
-    "cash": 999424.86,
-    "buying_power": 3747867.86,
-    "total_pnl": -575.14,
-    "total_return_pct": "-0.06",
-    "today_pnl": 0.0,
-    "today_return_pct": "+0.00",
+    "portfolio_value": 996790.09,
+    "cash": 749973.82,
+    "buying_power": 3191930.86,
+    "total_pnl": -3209.91,
+    "total_return_pct": "-0.32",
+    "today_pnl": -2634.77,
+    "today_return_pct": "-0.26",
     "last_equity": 999424.86,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,14 +64,89 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
+    "total_trades": 42,
     "wins": 15,
-    "losses": 28,
-    "win_rate": "34.9%",
-    "profit_factor": "1.05"
+    "losses": 27,
+    "win_rate": "35.7%",
+    "profit_factor": "1.06"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "ACN",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 272.0,
+      "entry_price": 229.47,
+      "current_price": 229.06,
+      "market_value": 62304.32,
+      "unrealized_pnl": -110.68,
+      "unrealized_plpc": -0.18
+    },
+    {
+      "symbol": "DDOG",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 236.0,
+      "entry_price": 263.6,
+      "current_price": 254.22,
+      "market_value": 59994.74,
+      "unrealized_pnl": -2215.0,
+      "unrealized_plpc": -3.56
+    },
+    {
+      "symbol": "ISRG",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 145.0,
+      "entry_price": 430.88,
+      "current_price": 431.78,
+      "market_value": 62608.1,
+      "unrealized_pnl": 130.04,
+      "unrealized_plpc": 0.21
+    },
+    {
+      "symbol": "SHOP",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 349.0,
+      "entry_price": 178.65,
+      "current_price": 177.39,
+      "market_value": 61909.11,
+      "unrealized_pnl": -439.13,
+      "unrealized_plpc": -0.7
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "CRWD",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 356.0,
+      "price": 233.995,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:40:15"
+    },
+    {
+      "symbol": "NBIS",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 465.0,
+      "price": 178.975,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:40:15"
+    },
+    {
+      "symbol": "CRWV",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 1276.0,
+      "price": 65.275,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:40:15"
+    },
     {
       "symbol": "ISRG",
       "strategy": "SUPER_MOMENTUM_RUNNER",
@@ -541,16 +616,6 @@
       "close_price": 495.4,
       "realized_pnl": -458.87,
       "date": "2026-10-13 06:35:11"
-    },
-    {
-      "symbol": "DDOG",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 174.0,
-      "price": 285.99,
-      "close_price": 285.42,
-      "realized_pnl": -99.18,
-      "date": "2026-10-13 06:35:11"
     }
   ],
   "history": [
@@ -580,19 +645,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 999424.86,
-      "daily_pnl": 0.0,
-      "cum_return": -0.06
+      "portfolio_value": 996790.09,
+      "daily_pnl": -2634.77,
+      "cum_return": -0.32
     }
   ],
   "logs": [
-    "2026-10-15 12:50:02 PT  INFO      Closing all 8 active positions for Scheduled EOD Liquidation...",
-    "2026-10-15 12:50:02 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ACN @ $225.13 | P&L: +1022.25 (+1.64%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:04 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT AJG @ $250.46 | P&L: -71.64 (-0.14%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:07 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $266.23 | P&L: +1149.59 (+1.84%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG ISRG @ $429.01 | P&L: +739.41 (+1.19%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:14 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SHOP @ $177.39 | P&L: +3222.70 (+5.16%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG SMCI @ $34.99 | P&L: +2559.20 (+5.12%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:18 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT TTD @ $13.11 | P&L: -992.21 (-1.98%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:20 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT WDAY @ $195.28 | P&L: +1047.50 (+2.10%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:26 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
@@ -705,6 +763,13 @@
     "2026-10-16 06:35:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 349 shares of SHOP @ ~$179.05 (Order ID: 2c3077c5-ef5d-4f90-8124-d1fadc31175c)",
     "2026-10-16 06:35:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 272 shares of ACN @ ~$229.67 (Order ID: 17e19387-5f2b-40d9-8852-ada605ac9917)",
     "2026-10-16 06:35:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 236 shares of DDOG @ ~$264.37 (Order ID: ffee9e54-036a-42d8-a690-f7f8cef85fdc)",
-    "2026-10-16 06:35:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 145 shares of ISRG @ ~$430.04 (Order ID: 2afbed92-e3b2-4c81-883a-225c3c04b02a)"
+    "2026-10-16 06:35:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 145 shares of ISRG @ ~$430.04 (Order ID: 2afbed92-e3b2-4c81-883a-225c3c04b02a)",
+    "2026-10-16 06:35:22 PT  INFO      GitHub Pages deployment cooldown: last push was 3.7s ago. Waiting 41.3s to prevent deployment lock collision...",
+    "2026-10-16 06:40:06 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
+    "2026-10-16 06:40:06 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
+    "2026-10-16 06:40:15 PT  INFO      [Engine 2] Selected 3 Capitulation Bounce targets: ['CRWV', 'NBIS', 'CRWD']",
+    "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1276 shares of CRWV @ ~$65.28 (Order ID: 7893a719-a03d-44a8-a199-d21060ee681b)",
+    "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 465 shares of NBIS @ ~$178.97 (Order ID: 36c05418-b147-4848-98a8-dd7cbeaced18)",
+    "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 356 shares of CRWD @ ~$234.00 (Order ID: 6b308742-4bfc-42c6-928b-2935a2920e9e)"
   ]
 }
