@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-16 06:40:15 AM PT",
-  "timestamp_utc": "2026-10-16T13:40:15.602985+00:00",
+  "updated_at": "2026-10-16 06:40:21 AM PT",
+  "timestamp_utc": "2026-10-16T13:40:21.292713+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 996790.09,
-    "cash": 749973.82,
-    "buying_power": 3191930.86,
-    "total_pnl": -3209.91,
+    "portfolio_value": 996781.57,
+    "cash": 500345.04,
+    "buying_power": 3158591.82,
+    "total_pnl": -3218.43,
     "total_return_pct": "-0.32",
-    "today_pnl": -2634.77,
+    "today_pnl": -2643.29,
     "today_return_pct": "-0.26",
     "last_equity": 999424.86,
     "starting_equity": 1000000.0,
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 42,
+    "total_trades": 43,
     "wins": 15,
-    "losses": 27,
-    "win_rate": "35.7%",
-    "profit_factor": "1.06"
+    "losses": 28,
+    "win_rate": "34.9%",
+    "profit_factor": "0.94"
   },
   "open_positions": [
     {
@@ -77,10 +77,32 @@
       "side": "long",
       "qty": 272.0,
       "entry_price": 229.47,
-      "current_price": 229.06,
-      "market_value": 62304.32,
-      "unrealized_pnl": -110.68,
-      "unrealized_plpc": -0.18
+      "current_price": 228.98,
+      "market_value": 62282.56,
+      "unrealized_pnl": -132.44,
+      "unrealized_plpc": -0.21
+    },
+    {
+      "symbol": "CRWD",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 356.0,
+      "entry_price": 234.09,
+      "current_price": 233.91,
+      "market_value": 83271.96,
+      "unrealized_pnl": -64.08,
+      "unrealized_plpc": -0.08
+    },
+    {
+      "symbol": "CRWV",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 1276.0,
+      "entry_price": 65.15,
+      "current_price": 65.14,
+      "market_value": 83118.64,
+      "unrealized_pnl": -12.76,
+      "unrealized_plpc": -0.01
     },
     {
       "symbol": "DDOG",
@@ -88,10 +110,10 @@
       "side": "long",
       "qty": 236.0,
       "entry_price": 263.6,
-      "current_price": 254.22,
-      "market_value": 59994.74,
-      "unrealized_pnl": -2215.0,
-      "unrealized_plpc": -3.56
+      "current_price": 254.59,
+      "market_value": 60082.06,
+      "unrealized_pnl": -2127.68,
+      "unrealized_plpc": -3.42
     },
     {
       "symbol": "ISRG",
@@ -105,15 +127,26 @@
       "unrealized_plpc": 0.21
     },
     {
+      "symbol": "NBIS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 465.0,
+      "entry_price": 178.84,
+      "current_price": 178.81,
+      "market_value": 83146.65,
+      "unrealized_pnl": -14.69,
+      "unrealized_plpc": -0.02
+    },
+    {
       "symbol": "SHOP",
       "direction": "LONG",
       "side": "long",
       "qty": 349.0,
       "entry_price": 178.65,
-      "current_price": 177.39,
-      "market_value": 61909.11,
-      "unrealized_pnl": -439.13,
-      "unrealized_plpc": -0.7
+      "current_price": 177.44,
+      "market_value": 61926.56,
+      "unrealized_pnl": -421.68,
+      "unrealized_plpc": -0.68
     }
   ],
   "recent_trades": [
@@ -163,8 +196,8 @@
       "direction": "LONG",
       "shares": 236.0,
       "price": 264.37,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 253.78,
+      "realized_pnl": -2499.24,
       "date": "2026-10-16 06:35:22"
     },
     {
@@ -645,13 +678,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 996790.09,
-      "daily_pnl": -2634.77,
+      "portfolio_value": 996781.57,
+      "daily_pnl": -2643.29,
       "cum_return": -0.32
     }
   ],
   "logs": [
-    "2026-10-15 12:50:18 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT TTD @ $13.11 | P&L: -992.21 (-1.98%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:20 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT WDAY @ $195.28 | P&L: +1047.50 (+2.10%) | Reason: Scheduled EOD Liquidation",
     "2026-10-15 12:50:26 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
     "2026-10-15 12:50:41 PT  INFO      Recovered open position into ratchet state on restart: TTD (LONG 3446.0 shares @ $13.11) -> Engine: INTRADAY_MICRO_BURST_RATCHET",
@@ -770,6 +802,7 @@
     "2026-10-16 06:40:15 PT  INFO      [Engine 2] Selected 3 Capitulation Bounce targets: ['CRWV', 'NBIS', 'CRWD']",
     "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1276 shares of CRWV @ ~$65.28 (Order ID: 7893a719-a03d-44a8-a199-d21060ee681b)",
     "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 465 shares of NBIS @ ~$178.97 (Order ID: 36c05418-b147-4848-98a8-dd7cbeaced18)",
-    "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 356 shares of CRWD @ ~$234.00 (Order ID: 6b308742-4bfc-42c6-928b-2935a2920e9e)"
+    "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 356 shares of CRWD @ ~$234.00 (Order ID: 6b308742-4bfc-42c6-928b-2935a2920e9e)",
+    "2026-10-16 06:40:21 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $253.78 | P&L: -2499.24 (-4.01%) | Reason: Hard Stop Triggered (-4.01%)"
   ]
 }
