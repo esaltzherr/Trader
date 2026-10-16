@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 07:18:05 AM PT",
-  "timestamp_utc": "2026-10-16T14:18:06.090629+00:00",
+  "updated_at": "2026-10-16 07:19:07 AM PT",
+  "timestamp_utc": "2026-10-16T14:19:08.234543+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10131.68,
-    "cash": 15779.91,
-    "buying_power": 28523.25,
-    "total_pnl": 131.68,
-    "total_return_pct": "+1.32",
-    "today_pnl": 16.63,
-    "today_return_pct": "+0.16",
+    "portfolio_value": 10126.99,
+    "cash": 14823.75,
+    "buying_power": 32317.46,
+    "total_pnl": 126.99,
+    "total_return_pct": "+1.27",
+    "today_pnl": 11.94,
+    "today_return_pct": "+0.12",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,10 +44,10 @@
     }
   ],
   "stats": {
-    "total_trades": 29,
+    "total_trades": 30,
     "wins": 25,
-    "losses": 4,
-    "win_rate": "86.2%",
+    "losses": 5,
+    "win_rate": "83.3%",
     "profit_factor": "3.08"
   },
   "open_positions": [
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 227.03,
-      "market_value": 908.12,
-      "unrealized_pnl": -8.44,
-      "unrealized_plpc": -0.94
+      "current_price": 227.16,
+      "market_value": 908.64,
+      "unrealized_pnl": -8.96,
+      "unrealized_plpc": -1.0
     },
     {
       "symbol": "GEV",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 947.28,
-      "current_price": 930.52,
-      "market_value": 930.52,
-      "unrealized_pnl": 16.76,
-      "unrealized_plpc": 1.77
+      "current_price": 929.71,
+      "market_value": 929.71,
+      "unrealized_pnl": 17.57,
+      "unrealized_plpc": 1.85
     },
     {
       "symbol": "NEM",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 8.6086,
       "entry_price": 117.69,
-      "current_price": 118.33,
-      "market_value": 1018.64,
-      "unrealized_pnl": 5.48,
-      "unrealized_plpc": 0.54
+      "current_price": 118.37,
+      "market_value": 1019.0,
+      "unrealized_pnl": 5.84,
+      "unrealized_plpc": 0.58
     },
     {
       "symbol": "PLTR",
@@ -90,21 +90,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 196.95,
-      "market_value": 984.75,
-      "unrealized_pnl": -15.9,
-      "unrealized_plpc": -1.64
-    },
-    {
-      "symbol": "SNOW",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 3.0,
-      "entry_price": 318.04,
-      "current_price": 317.9,
-      "market_value": 953.7,
-      "unrealized_pnl": 0.43,
-      "unrealized_plpc": 0.04
+      "current_price": 196.89,
+      "market_value": 984.45,
+      "unrealized_pnl": -15.6,
+      "unrealized_plpc": -1.61
     },
     {
       "symbol": "SOFI",
@@ -112,10 +101,10 @@
       "side": "short",
       "qty": 65.0,
       "entry_price": 15.35,
-      "current_price": 15.25,
-      "market_value": 991.25,
-      "unrealized_pnl": 6.5,
-      "unrealized_plpc": 0.65
+      "current_price": 15.27,
+      "market_value": 992.68,
+      "unrealized_pnl": 5.07,
+      "unrealized_plpc": 0.51
     },
     {
       "symbol": "TEM",
@@ -123,10 +112,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 67.46,
-      "current_price": 68.21,
-      "market_value": 954.94,
-      "unrealized_pnl": -10.5,
-      "unrealized_plpc": -1.11
+      "current_price": 68.14,
+      "market_value": 953.96,
+      "unrealized_pnl": -9.52,
+      "unrealized_plpc": -1.01
     },
     {
       "symbol": "ZTS",
@@ -134,10 +123,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.2,
-      "current_price": 78.69,
-      "market_value": 944.34,
-      "unrealized_pnl": 18.06,
-      "unrealized_plpc": 1.88
+      "current_price": 78.86,
+      "market_value": 946.32,
+      "unrealized_pnl": 16.08,
+      "unrealized_plpc": 1.67
     }
   ],
   "recent_trades": [
@@ -177,8 +166,8 @@
       "direction": "SHORT",
       "shares": 3.0,
       "price": 317.555,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 318.07,
+      "realized_pnl": -0.080001,
       "date": "2026-10-16 07:00:14"
     },
     {
@@ -539,14 +528,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10131.68,
-      "daily_pnl": 16.63,
-      "cum_return": 1.32
+      "portfolio_value": 10126.99,
+      "daily_pnl": 11.94,
+      "cum_return": 1.27
     }
   ],
   "logs": [
-    "2026-10-15 07:33:27 PT  INFO      [RATCHET BREAKEVEN] TEM Short hit breakeven stop. Zero loss exit!",
-    "2026-10-15 07:33:27 PT  INFO      [CLOSED POSITION] TEM 15.0 shares @ $67.64 (Entry: $67.69, P&L: $+0.69) [RATCHET_BREAKEVEN]",
     "2026-10-15 07:38:59 PT  INFO      [RATCHET TIER 1] TT Short peaked at +1.4%, crossed locked floor. Securing gains!",
     "2026-10-15 07:38:59 PT  INFO      [CLOSED POSITION] TT 2.0 shares @ $450.94 (Entry: $453.36, P&L: $+4.84) [RATCHET_TIER1]",
     "2026-10-15 07:45:00 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
@@ -664,6 +651,8 @@
     "2026-10-16 07:02:03 PT  INFO      [CLOSED POSITION] OKLO 33.0 shares @ $29.86 (Entry: $30.00, P&L: $+4.62) [RATCHET_TIER1]",
     "2026-10-16 07:02:04 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-16 07:07:45 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
-    "2026-10-16 07:13:25 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision..."
+    "2026-10-16 07:13:25 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision...",
+    "2026-10-16 07:18:17 PT  INFO      [RATCHET BREAKEVEN] SNOW Short hit breakeven stop. Zero loss exit!",
+    "2026-10-16 07:18:17 PT  INFO      [CLOSED POSITION] SNOW 3.0 shares @ $318.07 (Entry: $318.04, P&L: $-0.08) [RATCHET_BREAKEVEN]"
   ]
 }
