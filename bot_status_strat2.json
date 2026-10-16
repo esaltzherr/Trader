@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 08:33:13 AM PT",
-  "timestamp_utc": "2026-10-16T15:33:14.124682+00:00",
+  "updated_at": "2026-10-16 08:34:47 AM PT",
+  "timestamp_utc": "2026-10-16T15:34:47.233729+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10187.1,
+    "portfolio_value": 10189.1,
     "cash": 12037.93,
-    "buying_power": 38527.4,
-    "total_pnl": 187.1,
-    "total_return_pct": "+1.87",
-    "today_pnl": 72.05,
-    "today_return_pct": "+0.71",
+    "buying_power": 38537.8,
+    "total_pnl": 189.1,
+    "total_return_pct": "+1.89",
+    "today_pnl": 74.05,
+    "today_return_pct": "+0.73",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 227.75,
-      "market_value": 910.98,
-      "unrealized_pnl": -11.3,
-      "unrealized_plpc": -1.26
+      "current_price": 227.77,
+      "market_value": 911.08,
+      "unrealized_pnl": -11.4,
+      "unrealized_plpc": -1.27
     },
     {
       "symbol": "PLTR",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 187.97,
-      "market_value": 939.85,
-      "unrealized_pnl": 29.0,
-      "unrealized_plpc": 2.99
+      "current_price": 187.55,
+      "market_value": 937.75,
+      "unrealized_pnl": 31.1,
+      "unrealized_plpc": 3.21
     }
   ],
   "recent_trades": [
@@ -473,13 +473,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10187.1,
-      "daily_pnl": 72.05,
-      "cum_return": 1.87
+      "portfolio_value": 10189.1,
+      "daily_pnl": 74.05,
+      "cum_return": 1.89
     }
   ],
   "logs": [
-    "2026-10-15 16:05:07 PT  INFO       STARTING STRATEGY 2 BOT (3.2.1-strat2) - $10,000 CAPITAL",
     "2026-10-15 16:05:07 PT  INFO       Account: PA3EM0YADDLM | Equity: $10,115.24",
     "2026-10-15 16:05:07 PT  INFO       Dual Architecture: 15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT)",
     "2026-10-15 16:05:07 PT  INFO      ============================================================",
@@ -598,6 +597,7 @@
     "2026-10-16 08:17:44 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
     "2026-10-16 08:21:21 PT  INFO      GitHub Pages deployment cooldown: last push was 13.9s ago. Waiting 31.1s to prevent deployment lock collision...",
     "2026-10-16 08:22:54 PT  INFO      [RATCHET TIER 1] NEM Long peaked at +2.0%, crossed locked floor. Securing gains!",
-    "2026-10-16 08:22:54 PT  INFO      [CLOSED POSITION] NEM 8.6086 shares @ $118.61 (Entry: $117.69, P&L: $+7.91) [RATCHET_TIER1]"
+    "2026-10-16 08:22:54 PT  INFO      [CLOSED POSITION] NEM 8.6086 shares @ $118.61 (Entry: $117.69, P&L: $+7.91) [RATCHET_TIER1]",
+    "2026-10-16 08:33:14 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision..."
   ]
 }
