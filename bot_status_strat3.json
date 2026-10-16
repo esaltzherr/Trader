@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 06:40:21 AM PT",
-  "timestamp_utc": "2026-10-16T13:40:21.292713+00:00",
+  "updated_at": "2026-10-16 06:50:22 AM PT",
+  "timestamp_utc": "2026-10-16T13:50:22.916597+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 996781.57,
-    "cash": 500345.04,
-    "buying_power": 3158591.82,
-    "total_pnl": -3218.43,
-    "total_return_pct": "-0.32",
-    "today_pnl": -2643.29,
-    "today_return_pct": "-0.26",
+    "portfolio_value": 996191.91,
+    "cash": 560202.61,
+    "buying_power": 2980207.45,
+    "total_pnl": -3808.09,
+    "total_return_pct": "-0.38",
+    "today_pnl": -3232.95,
+    "today_return_pct": "-0.32",
     "last_equity": 999424.86,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
-    "wins": 15,
-    "losses": 28,
-    "win_rate": "34.9%",
-    "profit_factor": "0.94"
+    "total_trades": 38,
+    "wins": 13,
+    "losses": 25,
+    "win_rate": "34.2%",
+    "profit_factor": "0.84"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 272.0,
       "entry_price": 229.47,
-      "current_price": 228.98,
-      "market_value": 62282.56,
-      "unrealized_pnl": -132.44,
-      "unrealized_plpc": -0.21
+      "current_price": 227.1,
+      "market_value": 61772.56,
+      "unrealized_pnl": -642.44,
+      "unrealized_plpc": -1.03
     },
     {
       "symbol": "CRWD",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 356.0,
       "entry_price": 234.09,
-      "current_price": 233.91,
-      "market_value": 83271.96,
-      "unrealized_pnl": -64.08,
-      "unrealized_plpc": -0.08
+      "current_price": 235.14,
+      "market_value": 83709.84,
+      "unrealized_pnl": 373.8,
+      "unrealized_plpc": 0.45
     },
     {
       "symbol": "CRWV",
@@ -99,21 +99,10 @@
       "side": "long",
       "qty": 1276.0,
       "entry_price": 65.15,
-      "current_price": 65.14,
-      "market_value": 83118.64,
-      "unrealized_pnl": -12.76,
-      "unrealized_plpc": -0.01
-    },
-    {
-      "symbol": "DDOG",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 236.0,
-      "entry_price": 263.6,
-      "current_price": 254.59,
-      "market_value": 60082.06,
-      "unrealized_pnl": -2127.68,
-      "unrealized_plpc": -3.42
+      "current_price": 64.76,
+      "market_value": 82633.76,
+      "unrealized_pnl": -497.64,
+      "unrealized_plpc": -0.6
     },
     {
       "symbol": "ISRG",
@@ -121,10 +110,10 @@
       "side": "long",
       "qty": 145.0,
       "entry_price": 430.88,
-      "current_price": 431.78,
-      "market_value": 62608.1,
-      "unrealized_pnl": 130.04,
-      "unrealized_plpc": 0.21
+      "current_price": 432.43,
+      "market_value": 62702.35,
+      "unrealized_pnl": 224.29,
+      "unrealized_plpc": 0.36
     },
     {
       "symbol": "NBIS",
@@ -132,10 +121,10 @@
       "side": "long",
       "qty": 465.0,
       "entry_price": 178.84,
-      "current_price": 178.81,
-      "market_value": 83146.65,
-      "unrealized_pnl": -14.69,
-      "unrealized_plpc": -0.02
+      "current_price": 178.66,
+      "market_value": 83079.23,
+      "unrealized_pnl": -82.11,
+      "unrealized_plpc": -0.1
     },
     {
       "symbol": "SHOP",
@@ -143,13 +132,63 @@
       "side": "long",
       "qty": 349.0,
       "entry_price": 178.65,
-      "current_price": 177.44,
-      "market_value": 61926.56,
-      "unrealized_pnl": -421.68,
-      "unrealized_plpc": -0.68
+      "current_price": 178.03,
+      "market_value": 62130.72,
+      "unrealized_pnl": -217.51,
+      "unrealized_plpc": -0.35
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "RTX",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 261.0,
+      "price": 190.925,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:50:22"
+    },
+    {
+      "symbol": "HUM",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 117.0,
+      "price": 424.63,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:50:22"
+    },
+    {
+      "symbol": "LMT",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 91.0,
+      "price": 546.045,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:50:22"
+    },
+    {
+      "symbol": "TT",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 108.0,
+      "price": 461.56,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:50:22"
+    },
+    {
+      "symbol": "APP",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 178.0,
+      "price": 279.55,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:50:22"
+    },
     {
       "symbol": "CRWD",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -599,56 +638,6 @@
       "close_price": 945.32,
       "realized_pnl": -71.28,
       "date": "2026-10-13 06:40:06"
-    },
-    {
-      "symbol": "NBIS",
-      "strategy": "CAPITULATION_PANIC_BOUNCE",
-      "direction": "LONG",
-      "shares": 418.0,
-      "price": 199.325,
-      "close_price": 206.72,
-      "realized_pnl": 3091.11,
-      "date": "2026-10-13 06:40:06"
-    },
-    {
-      "symbol": "SHOP",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 285.0,
-      "price": 174.99,
-      "close_price": 177.136211,
-      "realized_pnl": 611.67,
-      "date": "2026-10-13 06:35:11"
-    },
-    {
-      "symbol": "PANW",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 124.0,
-      "price": 403.04,
-      "close_price": 399.02,
-      "realized_pnl": -498.48,
-      "date": "2026-10-13 06:35:11"
-    },
-    {
-      "symbol": "CRWD",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 189.0,
-      "price": 264.43,
-      "close_price": 261.46,
-      "realized_pnl": -561.33,
-      "date": "2026-10-13 06:35:11"
-    },
-    {
-      "symbol": "SNPS",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 99.0,
-      "price": 500.035,
-      "close_price": 495.4,
-      "realized_pnl": -458.87,
-      "date": "2026-10-13 06:35:11"
     }
   ],
   "history": [
@@ -678,21 +667,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 996781.57,
-      "daily_pnl": -2643.29,
-      "cum_return": -0.32
+      "portfolio_value": 996191.91,
+      "daily_pnl": -3232.95,
+      "cum_return": -0.38
     }
   ],
   "logs": [
-    "2026-10-15 12:50:20 PT  INFO      [PARABOLIC_BLOWOFF_FADE] CLOSED SHORT WDAY @ $195.28 | P&L: +1047.50 (+2.10%) | Reason: Scheduled EOD Liquidation",
-    "2026-10-15 12:50:26 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
-    "2026-10-15 12:50:41 PT  INFO      Recovered open position into ratchet state on restart: TTD (LONG 3446.0 shares @ $13.11) -> Engine: INTRADAY_MICRO_BURST_RATCHET",
-    "2026-10-15 12:50:41 PT  INFO      Recovered open position into ratchet state on restart: WDAY (SHORT 49.0 shares @ $199.06) -> Engine: PARABOLIC_BLOWOFF_FADE",
-    "2026-10-15 13:00:14 PT  INFO      Market closed. Sleeping 16.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
-    "2026-10-15 13:30:17 PT  INFO      Market closed. Sleeping 16.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
-    "2026-10-15 14:00:18 PT  INFO      Market closed. Sleeping 15.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
-    "2026-10-15 14:30:20 PT  INFO      Market closed. Sleeping 15.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
-    "2026-10-15 15:00:23 PT  INFO      Market closed. Sleeping 14.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
     "2026-10-15 15:30:25 PT  INFO      Market closed. Sleeping 14.0 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
     "2026-10-15 16:00:27 PT  INFO      Market closed. Sleeping 13.5 hrs until pre-market prep at 2026-10-16 05:30 AM PT",
     "2026-10-15 16:05:07 PT  INFO      =================================================================",
@@ -803,6 +783,15 @@
     "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1276 shares of CRWV @ ~$65.28 (Order ID: 7893a719-a03d-44a8-a199-d21060ee681b)",
     "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 465 shares of NBIS @ ~$178.97 (Order ID: 36c05418-b147-4848-98a8-dd7cbeaced18)",
     "2026-10-16 06:40:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 356 shares of CRWD @ ~$234.00 (Order ID: 6b308742-4bfc-42c6-928b-2935a2920e9e)",
-    "2026-10-16 06:40:21 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $253.78 | P&L: -2499.24 (-4.01%) | Reason: Hard Stop Triggered (-4.01%)"
+    "2026-10-16 06:40:21 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG DDOG @ $253.78 | P&L: -2499.24 (-4.01%) | Reason: Hard Stop Triggered (-4.01%)",
+    "2026-10-16 06:40:21 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
+    "2026-10-16 06:50:10 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-16 06:50:10 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-16 06:50:22 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['APP', 'TT', 'LMT', 'HUM', 'RTX']",
+    "2026-10-16 06:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 178 shares of APP @ ~$279.55 (Order ID: eea4cca4-b31f-4bb2-8c71-bdf042a2b7fb)",
+    "2026-10-16 06:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 108 shares of TT @ ~$461.56 (Order ID: 59f80935-23ce-4601-99a0-46c4d3563560)",
+    "2026-10-16 06:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 91 shares of LMT @ ~$546.04 (Order ID: c1b5898c-0660-4501-ba37-921dcd4e1d04)",
+    "2026-10-16 06:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 117 shares of HUM @ ~$424.63 (Order ID: 6416d222-4b7c-4a8a-a8b0-c8039f1dfa27)",
+    "2026-10-16 06:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 261 shares of RTX @ ~$190.93 (Order ID: 9f03df38-c404-4b72-9679-a5c85f97b578)"
   ]
 }
