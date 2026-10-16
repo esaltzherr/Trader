@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 09:03:48 AM PT",
-  "timestamp_utc": "2026-10-16T16:03:49.135833+00:00",
+  "updated_at": "2026-10-16 09:05:22 AM PT",
+  "timestamp_utc": "2026-10-16T16:05:23.152266+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10187.27,
+    "portfolio_value": 10185.95,
     "cash": 11092.51,
-    "buying_power": 39662.79,
-    "total_pnl": 187.27,
-    "total_return_pct": "+1.87",
-    "today_pnl": 72.22,
-    "today_return_pct": "+0.71",
+    "buying_power": 39655.93,
+    "total_pnl": 185.95,
+    "total_return_pct": "+1.86",
+    "today_pnl": 70.9,
+    "today_return_pct": "+0.70",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 226.31,
-      "market_value": 905.24,
-      "unrealized_pnl": -5.56,
-      "unrealized_plpc": -0.62
+      "current_price": 226.64,
+      "market_value": 906.56,
+      "unrealized_pnl": -6.88,
+      "unrealized_plpc": -0.77
     }
   ],
   "recent_trades": [
@@ -462,13 +462,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10187.27,
-      "daily_pnl": 72.22,
-      "cum_return": 1.87
+      "portfolio_value": 10185.95,
+      "daily_pnl": 70.9,
+      "cum_return": 1.86
     }
   ],
   "logs": [
-    "2026-10-15 16:35:09 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision...",
     "2026-10-15 16:35:55 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 12.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 17:05:55 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
     "2026-10-15 17:05:57 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 12.4h until pre-market prep at 05:30 AM PT...",
@@ -587,6 +586,7 @@
     "2026-10-16 08:35:49 PT  INFO      GitHub Pages deployment cooldown: last push was 13.3s ago. Waiting 31.7s to prevent deployment lock collision...",
     "2026-10-16 08:41:52 PT  INFO      [RATCHET TIER 3] PLTR Short peaked at +3.4%, crossed trail px $188.97. Securing gains!",
     "2026-10-16 08:41:52 PT  INFO      [CLOSED POSITION] PLTR 5.0 shares @ $189.04 (Entry: $193.77, P&L: $+23.62) [RATCHET_TIER3]",
-    "2026-10-16 08:48:45 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision..."
+    "2026-10-16 08:48:45 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
+    "2026-10-16 09:03:49 PT  INFO      GitHub Pages deployment cooldown: last push was 12.8s ago. Waiting 32.2s to prevent deployment lock collision..."
   ]
 }
