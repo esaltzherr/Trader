@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 07:46:40 AM PT",
-  "timestamp_utc": "2026-10-16T14:46:40.241710+00:00",
+  "updated_at": "2026-10-16 07:48:12 AM PT",
+  "timestamp_utc": "2026-10-16T14:48:13.097245+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10149.82,
+    "portfolio_value": 10146.68,
     "cash": 11017.29,
-    "buying_power": 37095.35,
-    "total_pnl": 149.82,
-    "total_return_pct": "+1.50",
-    "today_pnl": 34.77,
-    "today_return_pct": "+0.34",
+    "buying_power": 37079.04,
+    "total_pnl": 146.68,
+    "total_return_pct": "+1.47",
+    "today_pnl": 31.63,
+    "today_return_pct": "+0.31",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 228.0,
-      "market_value": 912.02,
-      "unrealized_pnl": -12.34,
-      "unrealized_plpc": -1.37
+      "current_price": 228.26,
+      "market_value": 913.04,
+      "unrealized_pnl": -13.36,
+      "unrealized_plpc": -1.49
     },
     {
       "symbol": "NEM",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 196.34,
-      "market_value": 981.68,
-      "unrealized_pnl": -12.83,
-      "unrealized_plpc": -1.32
+      "current_price": 196.76,
+      "market_value": 983.8,
+      "unrealized_pnl": -14.95,
+      "unrealized_plpc": -1.54
     }
   ],
   "recent_trades": [
@@ -484,13 +484,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10149.82,
-      "daily_pnl": 34.77,
-      "cum_return": 1.5
+      "portfolio_value": 10146.68,
+      "daily_pnl": 31.63,
+      "cum_return": 1.47
     }
   ],
   "logs": [
-    "2026-10-15 12:50:09 PT  INFO      Today's session (2026-10-15) already executed. Waiting for market close...",
     "2026-10-15 12:50:09 PT  INFO      Waiting 9.8 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
     "2026-10-15 13:00:30 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 13:30:31 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
@@ -609,6 +608,7 @@
     "2026-10-16 07:33:52 PT  INFO      [CLOSED POSITION] TEM 14.0 shares @ $67.09 (Entry: $67.46, P&L: $+5.14) [RATCHET_TIER1]",
     "2026-10-16 07:45:07 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-16 07:45:07 PT  INFO      [CLOSED POSITION] ZTS 12.0 shares @ $78.50 (Entry: $80.20, P&L: $+20.40) [1H_SCHEDULED_EXIT]",
-    "2026-10-16 07:45:07 PT  INFO      [CLOSED POSITION] SOFI 65.0 shares @ $15.16 (Entry: $15.35, P&L: $+12.03) [1H_SCHEDULED_EXIT]"
+    "2026-10-16 07:45:07 PT  INFO      [CLOSED POSITION] SOFI 65.0 shares @ $15.16 (Entry: $15.35, P&L: $+12.03) [1H_SCHEDULED_EXIT]",
+    "2026-10-16 07:46:40 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision..."
   ]
 }
