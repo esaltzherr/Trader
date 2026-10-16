@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 07:21:43 AM PT",
-  "timestamp_utc": "2026-10-16T14:21:44.088994+00:00",
+  "updated_at": "2026-10-16 07:22:46 AM PT",
+  "timestamp_utc": "2026-10-16T14:22:46.371227+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10137.96,
+    "portfolio_value": 10132.96,
     "cash": 14823.75,
-    "buying_power": 32365.0,
-    "total_pnl": 137.96,
-    "total_return_pct": "+1.38",
-    "today_pnl": 22.91,
-    "today_return_pct": "+0.23",
+    "buying_power": 32334.79,
+    "total_pnl": 132.96,
+    "total_return_pct": "+1.33",
+    "today_pnl": 17.91,
+    "today_return_pct": "+0.18",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 226.2,
-      "market_value": 904.8,
-      "unrealized_pnl": -5.12,
-      "unrealized_plpc": -0.57
+      "current_price": 226.3,
+      "market_value": 905.2,
+      "unrealized_pnl": -5.52,
+      "unrealized_plpc": -0.61
     },
     {
       "symbol": "GEV",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 947.28,
-      "current_price": 931.24,
-      "market_value": 931.24,
-      "unrealized_pnl": 16.04,
-      "unrealized_plpc": 1.69
+      "current_price": 935.23,
+      "market_value": 935.23,
+      "unrealized_pnl": 12.05,
+      "unrealized_plpc": 1.27
     },
     {
       "symbol": "NEM",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 8.6086,
       "entry_price": 117.69,
-      "current_price": 118.81,
-      "market_value": 1022.74,
-      "unrealized_pnl": 9.59,
-      "unrealized_plpc": 0.95
+      "current_price": 119.14,
+      "market_value": 1025.63,
+      "unrealized_pnl": 12.47,
+      "unrealized_plpc": 1.23
     },
     {
       "symbol": "PLTR",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 196.25,
-      "market_value": 981.23,
-      "unrealized_pnl": -12.38,
-      "unrealized_plpc": -1.28
+      "current_price": 196.27,
+      "market_value": 981.35,
+      "unrealized_pnl": -12.5,
+      "unrealized_plpc": -1.29
     },
     {
       "symbol": "SOFI",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 65.0,
       "entry_price": 15.35,
-      "current_price": 15.27,
-      "market_value": 992.23,
-      "unrealized_pnl": 5.53,
-      "unrealized_plpc": 0.55
+      "current_price": 15.3,
+      "market_value": 994.5,
+      "unrealized_pnl": 3.25,
+      "unrealized_plpc": 0.33
     },
     {
       "symbol": "TEM",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 67.46,
-      "current_price": 67.94,
-      "market_value": 951.16,
-      "unrealized_pnl": -6.72,
-      "unrealized_plpc": -0.71
+      "current_price": 68.13,
+      "market_value": 953.82,
+      "unrealized_pnl": -9.38,
+      "unrealized_plpc": -0.99
     },
     {
       "symbol": "ZTS",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.2,
-      "current_price": 78.99,
-      "market_value": 947.88,
-      "unrealized_pnl": 14.52,
-      "unrealized_plpc": 1.51
+      "current_price": 78.86,
+      "market_value": 946.32,
+      "unrealized_pnl": 16.08,
+      "unrealized_plpc": 1.67
     }
   ],
   "recent_trades": [
@@ -528,9 +528,9 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10137.96,
-      "daily_pnl": 22.91,
-      "cum_return": 1.38
+      "portfolio_value": 10132.96,
+      "daily_pnl": 17.91,
+      "cum_return": 1.33
     }
   ],
   "logs": [
