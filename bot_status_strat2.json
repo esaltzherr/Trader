@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 07:33:09 AM PT",
-  "timestamp_utc": "2026-10-16T14:33:09.951387+00:00",
+  "updated_at": "2026-10-16 07:34:12 AM PT",
+  "timestamp_utc": "2026-10-16T14:34:12.342636+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10171.13,
-    "cash": 13886.96,
-    "buying_power": 33636.51,
-    "total_pnl": 171.13,
-    "total_return_pct": "+1.71",
-    "today_pnl": 56.08,
-    "today_return_pct": "+0.55",
+    "portfolio_value": 10162.28,
+    "cash": 12946.3,
+    "buying_power": 34721.44,
+    "total_pnl": 162.28,
+    "total_return_pct": "+1.62",
+    "today_pnl": 47.23,
+    "today_return_pct": "+0.47",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 31,
-    "wins": 26,
+    "total_trades": 32,
+    "wins": 27,
     "losses": 5,
-    "win_rate": "83.9%",
-    "profit_factor": "3.25"
+    "win_rate": "84.4%",
+    "profit_factor": "3.33"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 227.16,
-      "market_value": 908.64,
-      "unrealized_pnl": -8.96,
-      "unrealized_plpc": -1.0
+      "current_price": 227.3,
+      "market_value": 909.2,
+      "unrealized_pnl": -9.52,
+      "unrealized_plpc": -1.06
     },
     {
       "symbol": "NEM",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 8.6086,
       "entry_price": 117.69,
-      "current_price": 119.75,
-      "market_value": 1030.92,
-      "unrealized_pnl": 17.76,
-      "unrealized_plpc": 1.75
+      "current_price": 119.67,
+      "market_value": 1030.19,
+      "unrealized_pnl": 17.03,
+      "unrealized_plpc": 1.68
     },
     {
       "symbol": "PLTR",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 194.09,
-      "market_value": 970.45,
-      "unrealized_pnl": -1.6,
-      "unrealized_plpc": -0.17
+      "current_price": 194.37,
+      "market_value": 971.85,
+      "unrealized_pnl": -3.0,
+      "unrealized_plpc": -0.31
     },
     {
       "symbol": "SOFI",
@@ -91,20 +91,9 @@
       "qty": 65.0,
       "entry_price": 15.35,
       "current_price": 15.2,
-      "market_value": 987.67,
-      "unrealized_pnl": 10.07,
-      "unrealized_plpc": 1.01
-    },
-    {
-      "symbol": "TEM",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 14.0,
-      "entry_price": 67.46,
-      "current_price": 66.84,
-      "market_value": 935.83,
-      "unrealized_pnl": 8.61,
-      "unrealized_plpc": 0.91
+      "market_value": 988.0,
+      "unrealized_pnl": 9.75,
+      "unrealized_plpc": 0.98
     },
     {
       "symbol": "ZTS",
@@ -112,10 +101,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.2,
-      "current_price": 78.68,
-      "market_value": 944.16,
-      "unrealized_pnl": 18.24,
-      "unrealized_plpc": 1.9
+      "current_price": 78.73,
+      "market_value": 944.76,
+      "unrealized_pnl": 17.64,
+      "unrealized_plpc": 1.83
     }
   ],
   "recent_trades": [
@@ -165,8 +154,8 @@
       "direction": "SHORT",
       "shares": 14.0,
       "price": 67.51,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 67.093,
+      "realized_pnl": 5.138,
       "date": "2026-10-16 07:00:13"
     },
     {
@@ -517,14 +506,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10171.13,
-      "daily_pnl": 56.08,
-      "cum_return": 1.71
+      "portfolio_value": 10162.28,
+      "daily_pnl": 47.23,
+      "cum_return": 1.62
     }
   ],
   "logs": [
-    "2026-10-15 08:11:54 PT  INFO      [CLOSED POSITION] RIVN 80.0 shares @ $13.00 (Entry: $12.55, P&L: $-35.77) [STOP_LOSS]",
-    "2026-10-15 12:50:01 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
     "2026-10-15 12:50:01 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
     "2026-10-15 12:50:01 PT  INFO      [CLOSED POSITION] ADSK 4.1499 shares @ $245.44 (Entry: $244.51, P&L: $+3.86) [SCHEDULED_EOD]",
     "2026-10-15 12:50:09 PT  INFO      All positions closed and recorded successfully.",
@@ -642,6 +629,8 @@
     "2026-10-16 07:24:51 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-16 07:27:37 PT  INFO      [RATCHET TIER 2] GEV Short peaked at +2.0%, crossed locked floor. Securing gains!",
     "2026-10-16 07:27:37 PT  INFO      [CLOSED POSITION] GEV 1.0 shares @ $936.37 (Entry: $947.28, P&L: $+10.91) [RATCHET_TIER2]",
-    "2026-10-16 07:30:32 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision..."
+    "2026-10-16 07:30:32 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
+    "2026-10-16 07:33:51 PT  INFO      [RATCHET TIER 1] TEM Short peaked at +1.2%, crossed locked floor. Securing gains!",
+    "2026-10-16 07:33:52 PT  INFO      [CLOSED POSITION] TEM 14.0 shares @ $67.09 (Entry: $67.46, P&L: $+5.14) [RATCHET_TIER1]"
   ]
 }
