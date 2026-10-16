@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-16 05:30:00 AM PT",
-  "timestamp_utc": "2026-10-16T12:30:00.411768+00:00",
+  "updated_at": "2026-10-16 06:45:13 AM PT",
+  "timestamp_utc": "2026-10-16T13:45:13.450506+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
     "portfolio_value": 10115.05,
     "cash": 10115.05,
-    "buying_power": 40460.2,
+    "buying_power": 33887.47,
     "total_pnl": 115.05,
     "total_return_pct": "+1.15",
     "today_pnl": 0.0,
@@ -17,8 +17,8 @@
     "status": "ACTIVE"
   },
   "market": {
-    "is_open": false,
-    "next_open": "2026-10-16 06:30 AM PT",
+    "is_open": true,
+    "next_open": "2026-10-19 06:30 AM PT",
     "next_close": "2026-10-16 01:00 PM PT"
   },
   "strategies": [
@@ -52,6 +52,56 @@
   },
   "open_positions": [],
   "recent_trades": [
+    {
+      "symbol": "SOFI",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 65.0,
+      "price": 15.425,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:45:13"
+    },
+    {
+      "symbol": "RGTI",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 80.0,
+      "price": 12.58,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:45:12"
+    },
+    {
+      "symbol": "ZTS",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 12.0,
+      "price": 80.29,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:45:12"
+    },
+    {
+      "symbol": "GEV",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 1.0,
+      "price": 945.67,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:45:12"
+    },
+    {
+      "symbol": "OKLO",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 33.0,
+      "price": 30.13,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 06:45:12"
+    },
     {
       "symbol": "FICO",
       "strategy": "ORB_30M_TREND_RATCHET",
@@ -356,23 +406,6 @@
     }
   ],
   "logs": [
-    "2026-10-15 05:30:01 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
-    "2026-10-15 05:30:02 PT  INFO      Waiting 75.0 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
-    "2026-10-15 06:45:00 PT  INFO      ============================================================",
-    "2026-10-15 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
-    "2026-10-15 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
-    "2026-10-15 06:45:00 PT  INFO      ============================================================",
-    "2026-10-15 06:45:09 PT  INFO      Selected 5 Morning Runners to SHORT:",
-    "2026-10-15 06:45:09 PT  INFO        CRCL   Surge: +4.48%  Price: $78.87",
-    "2026-10-15 06:45:09 PT  INFO        QCOM   Surge: +4.10%  Price: $175.94",
-    "2026-10-15 06:45:09 PT  INFO        TEM    Surge: +3.92%  Price: $67.55",
-    "2026-10-15 06:45:09 PT  INFO        MCHP   Surge: +3.87%  Price: $72.67",
-    "2026-10-15 06:45:09 PT  INFO        NXPI   Surge: +3.46%  Price: $226.79",
-    "2026-10-15 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 12 shares of CRCL at ~$78.87",
-    "2026-10-15 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of QCOM at ~$175.94",
-    "2026-10-15 06:45:10 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 15 shares of TEM at ~$67.55",
-    "2026-10-15 06:45:10 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 13 shares of MCHP at ~$72.67",
-    "2026-10-15 06:45:10 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 4 shares of NXPI at ~$226.79",
     "2026-10-15 06:45:12 PT  INFO      Waiting 14.8 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
     "2026-10-15 07:00:00 PT  INFO      ============================================================",
     "2026-10-15 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
@@ -475,6 +508,23 @@
     "2026-10-16 04:36:42 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
     "2026-10-16 04:36:44 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 0.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 05:06:44 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
-    "2026-10-16 05:06:46 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 0.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-16 05:06:46 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 0.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-16 05:30:02 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
+    "2026-10-16 05:30:02 PT  INFO      Waiting 75.0 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
+    "2026-10-16 06:45:00 PT  INFO      ============================================================",
+    "2026-10-16 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
+    "2026-10-16 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
+    "2026-10-16 06:45:00 PT  INFO      ============================================================",
+    "2026-10-16 06:45:11 PT  INFO      Selected 5 Morning Runners to SHORT:",
+    "2026-10-16 06:45:11 PT  INFO        OKLO   Surge: +3.04%  Price: $30.13",
+    "2026-10-16 06:45:11 PT  INFO        GEV    Surge: +2.81%  Price: $945.67",
+    "2026-10-16 06:45:11 PT  INFO        ZTS    Surge: +2.44%  Price: $80.29",
+    "2026-10-16 06:45:11 PT  INFO        RGTI   Surge: +2.28%  Price: $12.58",
+    "2026-10-16 06:45:11 PT  INFO        SOFI   Surge: +2.19%  Price: $15.43",
+    "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 33 shares of OKLO at ~$30.13",
+    "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 1 shares of GEV at ~$945.67",
+    "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 12 shares of ZTS at ~$80.29",
+    "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 80 shares of RGTI at ~$12.58",
+    "2026-10-16 06:45:13 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 65 shares of SOFI at ~$15.43"
   ]
 }
