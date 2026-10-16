@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16 05:30:00 AM PT",
-  "timestamp_utc": "2026-10-16T12:30:16.175153+00:00",
+  "updated_at": "2026-10-16 05:30:53 AM PT",
+  "timestamp_utc": "2026-10-16T12:30:53.895232+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -546,8 +546,6 @@
     }
   ],
   "logs": [
-    "2026-10-15 06:16:03 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
-    "2026-10-15 06:16:35 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 06:17:07 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 06:17:39 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 06:18:10 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -665,6 +663,8 @@
     "2026-10-16 03:35:53 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 1.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 04:05:55 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 1.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 04:35:57 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 0.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-16 05:06:00 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 0.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-16 05:06:00 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 0.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-16 05:30:16 PT  INFO      GitHub Pages deployment cooldown: last push was 11.5s ago. Waiting 33.5s to prevent deployment lock collision...",
+    "2026-10-16 05:30:53 PT  INFO      Within pre-market preparation window (05:30 - 06:30 AM PT). Performing session prep..."
   ]
 }
