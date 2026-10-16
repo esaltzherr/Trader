@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 08:02:15 AM PT",
-  "timestamp_utc": "2026-10-16T15:02:15.292056+00:00",
+  "updated_at": "2026-10-16 08:03:47 AM PT",
+  "timestamp_utc": "2026-10-16T15:03:48.153366+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10171.28,
+    "portfolio_value": 10174.51,
     "cash": 11017.29,
-    "buying_power": 37199.2,
-    "total_pnl": 171.28,
-    "total_return_pct": "+1.71",
-    "today_pnl": 56.23,
-    "today_return_pct": "+0.56",
+    "buying_power": 37214.68,
+    "total_pnl": 174.51,
+    "total_return_pct": "+1.75",
+    "today_pnl": 59.46,
+    "today_return_pct": "+0.59",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 226.85,
-      "market_value": 907.42,
-      "unrealized_pnl": -7.74,
-      "unrealized_plpc": -0.86
+      "current_price": 226.78,
+      "market_value": 907.12,
+      "unrealized_pnl": -7.44,
+      "unrealized_plpc": -0.83
     },
     {
       "symbol": "NEM",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 8.6086,
       "entry_price": 117.69,
-      "current_price": 119.58,
-      "market_value": 1029.46,
-      "unrealized_pnl": 16.3,
-      "unrealized_plpc": 1.61
+      "current_price": 119.65,
+      "market_value": 1030.02,
+      "unrealized_pnl": 16.86,
+      "unrealized_plpc": 1.66
     },
     {
       "symbol": "PLTR",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 193.61,
-      "market_value": 968.05,
-      "unrealized_pnl": 0.8,
-      "unrealized_plpc": 0.08
+      "current_price": 193.13,
+      "market_value": 965.67,
+      "unrealized_pnl": 3.17,
+      "unrealized_plpc": 0.33
     }
   ],
   "recent_trades": [
@@ -484,13 +484,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10171.28,
-      "daily_pnl": 56.23,
-      "cum_return": 1.71
+      "portfolio_value": 10174.51,
+      "daily_pnl": 59.46,
+      "cum_return": 1.75
     }
   ],
   "logs": [
-    "2026-10-15 14:00:33 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 14:30:35 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 15:00:37 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 15:30:39 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
@@ -609,6 +608,7 @@
     "2026-10-16 07:46:40 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision...",
     "2026-10-16 07:51:18 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-16 07:52:51 PT  INFO      GitHub Pages deployment cooldown: last push was 11.5s ago. Waiting 33.5s to prevent deployment lock collision...",
-    "2026-10-16 07:54:26 PT  INFO      GitHub Pages deployment cooldown: last push was 11.6s ago. Waiting 33.4s to prevent deployment lock collision..."
+    "2026-10-16 07:54:26 PT  INFO      GitHub Pages deployment cooldown: last push was 11.6s ago. Waiting 33.4s to prevent deployment lock collision...",
+    "2026-10-16 08:02:15 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
   ]
 }
