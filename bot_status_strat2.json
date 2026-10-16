@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 07:00:17 AM PT",
-  "timestamp_utc": "2026-10-16T14:00:17.232493+00:00",
+  "updated_at": "2026-10-16 07:02:03 AM PT",
+  "timestamp_utc": "2026-10-16T14:02:04.101280+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10164.62,
-    "cash": 15014.22,
-    "buying_power": 25883.8,
-    "total_pnl": 164.62,
-    "total_return_pct": "+1.65",
-    "today_pnl": 49.57,
-    "today_return_pct": "+0.49",
+    "portfolio_value": 10134.86,
+    "cash": 16764.96,
+    "buying_power": 27372.56,
+    "total_pnl": 134.86,
+    "total_return_pct": "+1.35",
+    "today_pnl": 19.81,
+    "today_return_pct": "+0.20",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,23 +44,45 @@
     }
   ],
   "stats": {
-    "total_trades": 27,
-    "wins": 24,
-    "losses": 3,
-    "win_rate": "88.9%",
-    "profit_factor": "3.06"
+    "total_trades": 29,
+    "wins": 25,
+    "losses": 4,
+    "win_rate": "86.2%",
+    "profit_factor": "3.08"
   },
   "open_positions": [
+    {
+      "symbol": "ACN",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 4.0,
+      "entry_price": 224.92,
+      "current_price": 225.2,
+      "market_value": 900.8,
+      "unrealized_pnl": -1.12,
+      "unrealized_plpc": -0.12
+    },
     {
       "symbol": "GEV",
       "direction": "SHORT",
       "side": "short",
       "qty": 1.0,
       "entry_price": 947.28,
-      "current_price": 933.48,
-      "market_value": 933.48,
-      "unrealized_pnl": 13.8,
-      "unrealized_plpc": 1.46
+      "current_price": 936.74,
+      "market_value": 936.74,
+      "unrealized_pnl": 10.54,
+      "unrealized_plpc": 1.11
+    },
+    {
+      "symbol": "NEM",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 8.6086,
+      "entry_price": 117.69,
+      "current_price": 117.69,
+      "market_value": 1013.15,
+      "unrealized_pnl": -0.01,
+      "unrealized_plpc": -0.0
     },
     {
       "symbol": "OKLO",
@@ -68,21 +90,32 @@
       "side": "short",
       "qty": 33.0,
       "entry_price": 30.0,
-      "current_price": 29.6,
-      "market_value": 976.68,
-      "unrealized_pnl": 13.32,
-      "unrealized_plpc": 1.34
+      "current_price": 29.86,
+      "market_value": 985.38,
+      "unrealized_pnl": 4.62,
+      "unrealized_plpc": 0.47
     },
     {
-      "symbol": "RGTI",
+      "symbol": "PLTR",
       "direction": "SHORT",
       "side": "short",
-      "qty": 80.0,
-      "entry_price": 12.52,
-      "current_price": 12.43,
-      "market_value": 994.4,
-      "unrealized_pnl": 7.34,
-      "unrealized_plpc": 0.73
+      "qty": 5.0,
+      "entry_price": 193.77,
+      "current_price": 194.35,
+      "market_value": 971.75,
+      "unrealized_pnl": -2.9,
+      "unrealized_plpc": -0.3
+    },
+    {
+      "symbol": "SNOW",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 3.0,
+      "entry_price": 318.04,
+      "current_price": 318.03,
+      "market_value": 954.09,
+      "unrealized_pnl": 0.04,
+      "unrealized_plpc": 0.0
     },
     {
       "symbol": "SOFI",
@@ -90,10 +123,21 @@
       "side": "short",
       "qty": 65.0,
       "entry_price": 15.35,
-      "current_price": 15.23,
-      "market_value": 989.95,
-      "unrealized_pnl": 7.8,
-      "unrealized_plpc": 0.78
+      "current_price": 15.29,
+      "market_value": 993.52,
+      "unrealized_pnl": 4.22,
+      "unrealized_plpc": 0.42
+    },
+    {
+      "symbol": "TEM",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 14.0,
+      "entry_price": 67.46,
+      "current_price": 67.52,
+      "market_value": 945.28,
+      "unrealized_pnl": -0.84,
+      "unrealized_plpc": -0.09
     },
     {
       "symbol": "ZTS",
@@ -101,10 +145,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.2,
-      "current_price": 79.58,
-      "market_value": 954.96,
-      "unrealized_pnl": 7.44,
-      "unrealized_plpc": 0.77
+      "current_price": 79.64,
+      "market_value": 955.68,
+      "unrealized_pnl": 6.72,
+      "unrealized_plpc": 0.7
     }
   ],
   "recent_trades": [
@@ -174,8 +218,8 @@
       "direction": "SHORT",
       "shares": 80.0,
       "price": 12.58,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 12.535,
+      "realized_pnl": -1.06,
       "date": "2026-10-16 06:45:12"
     },
     {
@@ -204,8 +248,8 @@
       "direction": "SHORT",
       "shares": 33.0,
       "price": 30.13,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 29.86,
+      "realized_pnl": 4.62,
       "date": "2026-10-16 06:45:12"
     },
     {
@@ -506,17 +550,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10164.62,
-      "daily_pnl": 49.57,
-      "cum_return": 1.65
+      "portfolio_value": 10134.86,
+      "daily_pnl": 19.81,
+      "cum_return": 1.35
     }
   ],
   "logs": [
-    "2026-10-15 07:01:52 PT  INFO      [RATCHET TIER 1] CRCL Short peaked at +1.6%, crossed locked floor. Securing gains!",
-    "2026-10-15 07:01:53 PT  INFO      [CLOSED POSITION] CRCL 12.0 shares @ $78.45 (Entry: $78.78, P&L: $+3.96) [RATCHET_TIER1]",
-    "2026-10-15 07:03:58 PT  INFO      [RATCHET BREAKEVEN] NXPI Short hit breakeven stop. Zero loss exit!",
-    "2026-10-15 07:03:58 PT  INFO      [CLOSED POSITION] NXPI 4.0 shares @ $226.59 (Entry: $226.81, P&L: $+0.86) [RATCHET_BREAKEVEN]",
-    "2026-10-15 07:12:17 PT  INFO      [RATCHET BREAKEVEN] FICO Long hit breakeven stop. Zero loss exit!",
     "2026-10-15 07:12:17 PT  INFO      [CLOSED POSITION] FICO 1.3552 shares @ $749.42 (Entry: $749.00, P&L: $+0.57) [RATCHET_BREAKEVEN]",
     "2026-10-15 07:18:43 PT  INFO      [RATCHET BREAKEVEN] MCHP Short hit breakeven stop. Zero loss exit!",
     "2026-10-15 07:18:43 PT  INFO      [CLOSED POSITION] MCHP 13.0 shares @ $72.78 (Entry: $72.79, P&L: $+0.18) [RATCHET_BREAKEVEN]",
@@ -631,6 +670,11 @@
     "2026-10-16 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 5 shares of PLTR at ~$193.95",
     "2026-10-16 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 4 shares of ACN at ~$226.01",
     "2026-10-16 07:00:15 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 8.6086 shares of NEM at ~$117.50",
-    "2026-10-16 07:00:16 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
+    "2026-10-16 07:00:16 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
+    "2026-10-16 07:00:17 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
+    "2026-10-16 07:01:53 PT  INFO      [RATCHET BREAKEVEN] RGTI Short hit breakeven stop. Zero loss exit!",
+    "2026-10-16 07:01:53 PT  INFO      [CLOSED POSITION] RGTI 80.0 shares @ $12.54 (Entry: $12.52, P&L: $-1.06) [RATCHET_BREAKEVEN]",
+    "2026-10-16 07:02:03 PT  INFO      [RATCHET TIER 1] OKLO Short peaked at +1.3%, crossed locked floor. Securing gains!",
+    "2026-10-16 07:02:03 PT  INFO      [CLOSED POSITION] OKLO 33.0 shares @ $29.86 (Entry: $30.00, P&L: $+4.62) [RATCHET_TIER1]"
   ]
 }
