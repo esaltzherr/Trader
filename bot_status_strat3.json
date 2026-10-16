@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16 02:05:45 AM PT",
-  "timestamp_utc": "2026-10-16T09:05:45.814749+00:00",
+  "updated_at": "2026-10-16 02:35:47 AM PT",
+  "timestamp_utc": "2026-10-16T09:35:47.905934+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -546,7 +546,6 @@
     }
   ],
   "logs": [
-    "2026-10-15 06:12:22 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 06:12:53 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 06:13:25 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
     "2026-10-15 06:13:56 PT  INFO      Market closed. Sleeping 0.0 hrs until pre-market prep at 2026-10-15 05:30 AM PT",
@@ -665,6 +664,7 @@
     "2026-10-16 00:05:39 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 5.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 00:35:41 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 4.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 01:05:43 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 4.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-16 01:35:45 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 3.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-16 01:35:45 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 3.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-16 02:05:47 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT. Sleeping 3.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
