@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 07:06:42 AM PT",
-  "timestamp_utc": "2026-10-16T14:06:43.108938+00:00",
+  "updated_at": "2026-10-16 07:07:45 AM PT",
+  "timestamp_utc": "2026-10-16T14:07:45.222757+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10135.69,
+    "portfolio_value": 10151.06,
     "cash": 15779.91,
-    "buying_power": 28573.01,
-    "total_pnl": 135.69,
-    "total_return_pct": "+1.36",
-    "today_pnl": 20.64,
-    "today_return_pct": "+0.20",
+    "buying_power": 28659.18,
+    "total_pnl": 151.06,
+    "total_return_pct": "+1.51",
+    "today_pnl": 36.01,
+    "today_return_pct": "+0.36",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,9 +57,9 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 225.11,
-      "market_value": 900.44,
-      "unrealized_pnl": -0.76,
+      "current_price": 225.09,
+      "market_value": 900.36,
+      "unrealized_pnl": -0.68,
       "unrealized_plpc": -0.08
     },
     {
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 947.28,
-      "current_price": 936.76,
-      "market_value": 936.76,
-      "unrealized_pnl": 10.52,
-      "unrealized_plpc": 1.11
+      "current_price": 934.28,
+      "market_value": 934.28,
+      "unrealized_pnl": 13.0,
+      "unrealized_plpc": 1.37
     },
     {
       "symbol": "NEM",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 8.6086,
       "entry_price": 117.69,
-      "current_price": 117.26,
-      "market_value": 1009.44,
-      "unrealized_pnl": -3.72,
-      "unrealized_plpc": -0.37
+      "current_price": 117.59,
+      "market_value": 1012.29,
+      "unrealized_pnl": -0.87,
+      "unrealized_plpc": -0.09
     },
     {
       "symbol": "PLTR",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.77,
-      "current_price": 194.73,
-      "market_value": 973.65,
-      "unrealized_pnl": -4.8,
-      "unrealized_plpc": -0.5
+      "current_price": 194.46,
+      "market_value": 972.29,
+      "unrealized_pnl": -3.44,
+      "unrealized_plpc": -0.36
     },
     {
       "symbol": "SNOW",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 3.0,
       "entry_price": 318.04,
-      "current_price": 317.29,
-      "market_value": 951.87,
-      "unrealized_pnl": 2.26,
-      "unrealized_plpc": 0.24
+      "current_price": 315.62,
+      "market_value": 946.86,
+      "unrealized_pnl": 7.27,
+      "unrealized_plpc": 0.76
     },
     {
       "symbol": "SOFI",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 65.0,
       "entry_price": 15.35,
-      "current_price": 15.27,
-      "market_value": 992.68,
-      "unrealized_pnl": 5.07,
-      "unrealized_plpc": 0.51
+      "current_price": 15.26,
+      "market_value": 991.9,
+      "unrealized_pnl": 5.85,
+      "unrealized_plpc": 0.59
     },
     {
       "symbol": "TEM",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 67.46,
-      "current_price": 67.64,
-      "market_value": 946.96,
-      "unrealized_pnl": -2.52,
-      "unrealized_plpc": -0.27
+      "current_price": 67.56,
+      "market_value": 945.77,
+      "unrealized_pnl": -1.33,
+      "unrealized_plpc": -0.14
     },
     {
       "symbol": "ZTS",
@@ -134,10 +134,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 80.2,
-      "current_price": 79.28,
-      "market_value": 951.3,
-      "unrealized_pnl": 11.1,
-      "unrealized_plpc": 1.15
+      "current_price": 79.14,
+      "market_value": 949.68,
+      "unrealized_pnl": 12.72,
+      "unrealized_plpc": 1.32
     }
   ],
   "recent_trades": [
@@ -539,9 +539,9 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10135.69,
-      "daily_pnl": 20.64,
-      "cum_return": 1.36
+      "portfolio_value": 10151.06,
+      "daily_pnl": 36.01,
+      "cum_return": 1.51
     }
   ],
   "logs": [
