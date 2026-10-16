@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-16 06:45:13 AM PT",
-  "timestamp_utc": "2026-10-16T13:45:13.450506+00:00",
+  "updated_at": "2026-10-16 07:00:15 AM PT",
+  "timestamp_utc": "2026-10-16T14:00:15.595838+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10115.05,
-    "cash": 10115.05,
-    "buying_power": 33887.47,
-    "total_pnl": 115.05,
-    "total_return_pct": "+1.15",
-    "today_pnl": 0.0,
-    "today_return_pct": "+0.00",
+    "portfolio_value": 10164.22,
+    "cash": 15014.22,
+    "buying_power": 25884.45,
+    "total_pnl": 164.22,
+    "total_return_pct": "+1.64",
+    "today_pnl": 49.17,
+    "today_return_pct": "+0.49",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -50,8 +50,114 @@
     "win_rate": "88.9%",
     "profit_factor": "3.06"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "GEV",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 1.0,
+      "entry_price": 947.28,
+      "current_price": 934.55,
+      "market_value": 934.55,
+      "unrealized_pnl": 12.73,
+      "unrealized_plpc": 1.34
+    },
+    {
+      "symbol": "OKLO",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 33.0,
+      "entry_price": 30.0,
+      "current_price": 29.58,
+      "market_value": 976.14,
+      "unrealized_pnl": 13.86,
+      "unrealized_plpc": 1.4
+    },
+    {
+      "symbol": "RGTI",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 80.0,
+      "entry_price": 12.52,
+      "current_price": 12.43,
+      "market_value": 994.4,
+      "unrealized_pnl": 7.34,
+      "unrealized_plpc": 0.73
+    },
+    {
+      "symbol": "SOFI",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 65.0,
+      "entry_price": 15.35,
+      "current_price": 15.23,
+      "market_value": 989.95,
+      "unrealized_pnl": 7.8,
+      "unrealized_plpc": 0.78
+    },
+    {
+      "symbol": "ZTS",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 12.0,
+      "entry_price": 80.2,
+      "current_price": 79.58,
+      "market_value": 954.96,
+      "unrealized_pnl": 7.44,
+      "unrealized_plpc": 0.77
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "NEM",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 8.6086,
+      "price": 117.5,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 07:00:15"
+    },
+    {
+      "symbol": "ACN",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "SHORT",
+      "shares": 4.0,
+      "price": 226.01,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 07:00:14"
+    },
+    {
+      "symbol": "PLTR",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "SHORT",
+      "shares": 5.0,
+      "price": 193.95,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 07:00:14"
+    },
+    {
+      "symbol": "SNOW",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "SHORT",
+      "shares": 3.0,
+      "price": 317.555,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 07:00:14"
+    },
+    {
+      "symbol": "TEM",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "SHORT",
+      "shares": 14.0,
+      "price": 67.51,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-16 07:00:13"
+    },
     {
       "symbol": "SOFI",
       "strategy": "INTRADAY_15M_RUNNER_FADE",
@@ -400,28 +506,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10115.05,
-      "daily_pnl": 0.0,
-      "cum_return": 1.15
+      "portfolio_value": 10164.22,
+      "daily_pnl": 49.17,
+      "cum_return": 1.64
     }
   ],
   "logs": [
-    "2026-10-15 06:45:12 PT  INFO      Waiting 14.8 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
-    "2026-10-15 07:00:00 PT  INFO      ============================================================",
-    "2026-10-15 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
-    "2026-10-15 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
-    "2026-10-15 07:00:00 PT  INFO      ============================================================",
-    "2026-10-15 07:00:12 PT  INFO      Selected 5 30M ORB Trend Candidates:",
-    "2026-10-15 07:00:12 PT  INFO        RIVN   SHORT Breakout: +0.48%  Price: $12.54",
-    "2026-10-15 07:00:12 PT  INFO        TT     SHORT Breakout: +0.47%  Price: $452.70",
-    "2026-10-15 07:00:12 PT  INFO        ADSK   LONG Breakout: +0.40%  Price: $244.22",
-    "2026-10-15 07:00:12 PT  INFO        MCHP   LONG Breakout: +0.34%  Price: $73.21",
-    "2026-10-15 07:00:12 PT  INFO        FICO   LONG Breakout: +0.31%  Price: $747.83",
-    "2026-10-15 07:00:12 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 80 shares of RIVN at ~$12.54",
-    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 2 shares of TT at ~$452.70",
-    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.1499 shares of ADSK at ~$244.22",
-    "2026-10-15 07:00:13 PT  ERROR     Failed to submit order for MCHP: {\"available\":\"13\",\"code\":40310000,\"existing_qty\":\"13\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 13.8437, available: 13)\",\"symbol\":\"MCHP\"}",
-    "2026-10-15 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 1.3552 shares of FICO at ~$747.83",
     "2026-10-15 07:00:15 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-15 07:01:52 PT  INFO      [RATCHET TIER 1] CRCL Short peaked at +1.6%, crossed locked floor. Securing gains!",
     "2026-10-15 07:01:53 PT  INFO      [CLOSED POSITION] CRCL 12.0 shares @ $78.45 (Entry: $78.78, P&L: $+3.96) [RATCHET_TIER1]",
@@ -525,6 +615,22 @@
     "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 1 shares of GEV at ~$945.67",
     "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 12 shares of ZTS at ~$80.29",
     "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 80 shares of RGTI at ~$12.58",
-    "2026-10-16 06:45:13 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 65 shares of SOFI at ~$15.43"
+    "2026-10-16 06:45:13 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 65 shares of SOFI at ~$15.43",
+    "2026-10-16 06:45:15 PT  INFO      Waiting 14.7 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
+    "2026-10-16 07:00:00 PT  INFO      ============================================================",
+    "2026-10-16 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
+    "2026-10-16 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
+    "2026-10-16 07:00:00 PT  INFO      ============================================================",
+    "2026-10-16 07:00:13 PT  INFO      Selected 5 30M ORB Trend Candidates:",
+    "2026-10-16 07:00:13 PT  INFO        TEM    SHORT Breakout: +0.98%  Price: $67.51",
+    "2026-10-16 07:00:13 PT  INFO        SNOW   SHORT Breakout: +0.83%  Price: $317.56",
+    "2026-10-16 07:00:13 PT  INFO        PLTR   SHORT Breakout: +0.39%  Price: $193.95",
+    "2026-10-16 07:00:13 PT  INFO        ACN    SHORT Breakout: +0.28%  Price: $226.01",
+    "2026-10-16 07:00:13 PT  INFO        NEM    LONG Breakout: +0.27%  Price: $117.50",
+    "2026-10-16 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 14 shares of TEM at ~$67.51",
+    "2026-10-16 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 3 shares of SNOW at ~$317.56",
+    "2026-10-16 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 5 shares of PLTR at ~$193.95",
+    "2026-10-16 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 4 shares of ACN at ~$226.01",
+    "2026-10-16 07:00:15 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 8.6086 shares of NEM at ~$117.50"
   ]
 }
