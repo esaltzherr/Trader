@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15 04:35:09 PM PT",
-  "timestamp_utc": "2026-10-15T23:35:09.446795+00:00",
+  "updated_at": "2026-10-15 05:05:55 PM PT",
+  "timestamp_utc": "2026-10-16T00:05:55.750585+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -350,8 +350,6 @@
     }
   ],
   "logs": [
-    "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] UNH 2.0 shares @ $388.05 (Entry: $394.00, P&L: $+11.91) [1H_SCHEDULED_EXIT]",
-    "2026-10-14 07:45:06 PT  INFO      [CLOSED POSITION] SHOP 5.0 shares @ $175.19 (Entry: $178.46, P&L: $+16.32) [1H_SCHEDULED_EXIT]",
     "2026-10-14 07:48:01 PT  INFO      [RATCHET TIER 2] BMNR Short peaked at +2.4%, crossed locked floor. Securing gains!",
     "2026-10-14 07:48:01 PT  INFO      [CLOSED POSITION] BMNR 44.0 shares @ $22.22 (Entry: $22.48, P&L: $+11.64) [RATCHET_TIER2]",
     "2026-10-14 10:01:05 PT  INFO      [RATCHET TIER 2] CRCL Short peaked at +2.7%, crossed locked floor. Securing gains!",
@@ -469,6 +467,8 @@
     "2026-10-15 16:05:07 PT  INFO       Account: PA3EM0YADDLM | Equity: $10,115.24",
     "2026-10-15 16:05:07 PT  INFO       Dual Architecture: 15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT)",
     "2026-10-15 16:05:07 PT  INFO      ============================================================",
-    "2026-10-15 16:05:09 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 13.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-15 16:05:09 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 13.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-15 16:35:09 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision...",
+    "2026-10-15 16:35:55 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 12.9h until pre-market prep at 05:30 AM PT..."
   ]
 }
