@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-16 10:19:40 AM PT",
-  "timestamp_utc": "2026-10-16T17:19:40.677892+00:00",
+  "updated_at": "2026-10-16 10:21:13 AM PT",
+  "timestamp_utc": "2026-10-16T17:21:13.274432+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10194.19,
+    "portfolio_value": 10193.91,
     "cash": 11092.51,
-    "buying_power": 39698.78,
-    "total_pnl": 194.19,
+    "buying_power": 39697.32,
+    "total_pnl": 193.91,
     "total_return_pct": "+1.94",
-    "today_pnl": 79.14,
+    "today_pnl": 78.86,
     "today_return_pct": "+0.78",
     "last_equity": 10115.05,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 224.92,
-      "current_price": 224.58,
-      "market_value": 898.32,
-      "unrealized_pnl": 1.36,
-      "unrealized_plpc": 0.15
+      "current_price": 224.65,
+      "market_value": 898.6,
+      "unrealized_pnl": 1.08,
+      "unrealized_plpc": 0.12
     }
   ],
   "recent_trades": [
@@ -462,13 +462,12 @@
     },
     {
       "date": "2026-10-16",
-      "portfolio_value": 10194.19,
-      "daily_pnl": 79.14,
+      "portfolio_value": 10193.91,
+      "daily_pnl": 78.86,
       "cum_return": 1.94
     }
   ],
   "logs": [
-    "2026-10-15 18:05:59 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
     "2026-10-15 18:06:01 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 11.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-15 18:36:01 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
     "2026-10-15 18:36:02 PT  INFO      Market closed. Next open: 2026-10-16 06:30 AM PT (09:30 ET). Sleeping 10.9h until pre-market prep at 05:30 AM PT...",
@@ -587,6 +586,7 @@
     "2026-10-16 09:33:58 PT  INFO      GitHub Pages deployment cooldown: last push was 8.7s ago. Waiting 36.3s to prevent deployment lock collision...",
     "2026-10-16 09:49:01 PT  INFO      GitHub Pages deployment cooldown: last push was 8.6s ago. Waiting 36.4s to prevent deployment lock collision...",
     "2026-10-16 10:04:05 PT  INFO      GitHub Pages deployment cooldown: last push was 9.5s ago. Waiting 35.5s to prevent deployment lock collision...",
-    "2026-10-16 10:15:02 PT  INFO      GitHub Pages deployment cooldown: last push was 14.4s ago. Waiting 30.6s to prevent deployment lock collision..."
+    "2026-10-16 10:15:02 PT  INFO      GitHub Pages deployment cooldown: last push was 14.4s ago. Waiting 30.6s to prevent deployment lock collision...",
+    "2026-10-16 10:19:40 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision..."
   ]
 }
