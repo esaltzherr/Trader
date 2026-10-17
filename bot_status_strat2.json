@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16 08:31:26 PM PT",
-  "timestamp_utc": "2026-10-17T03:31:26.480040+00:00",
+  "updated_at": "2026-10-16 09:01:28 PM PT",
+  "timestamp_utc": "2026-10-17T04:01:28.765129+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -456,8 +456,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 06:45:11 PT  INFO        SOFI   Surge: +2.19%  Price: $15.43",
-    "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 33 shares of OKLO at ~$30.13",
     "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 1 shares of GEV at ~$945.67",
     "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 12 shares of ZTS at ~$80.29",
     "2026-10-16 06:45:12 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 80 shares of RGTI at ~$12.58",
@@ -575,6 +573,8 @@
     "2026-10-16 19:31:21 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-16 19:31:23 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 58.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 20:01:23 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
-    "2026-10-16 20:01:26 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 57.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-16 20:01:26 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 57.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-16 20:31:26 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
+    "2026-10-16 20:31:28 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 57.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
