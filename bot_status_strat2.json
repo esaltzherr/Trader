@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 01:31:51 AM PT",
-  "timestamp_utc": "2026-10-17T08:31:51.840879+00:00",
+  "updated_at": "2026-10-17 02:01:54 AM PT",
+  "timestamp_utc": "2026-10-17T09:01:54.704693+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -462,8 +462,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 4 shares of ACN at ~$226.01",
-    "2026-10-16 07:00:15 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 8.6086 shares of NEM at ~$117.50",
     "2026-10-16 07:00:16 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-16 07:00:17 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
     "2026-10-16 07:01:53 PT  INFO      [RATCHET BREAKEVEN] RGTI Short hit breakeven stop. Zero loss exit!",
@@ -581,6 +579,8 @@
     "2026-10-17 00:31:46 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
     "2026-10-17 00:31:49 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 53.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 01:01:49 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
-    "2026-10-17 01:01:51 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 52.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 01:01:51 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 52.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 01:31:51 PT  INFO      GitHub Pages deployment cooldown: last push was 43.9s ago. Waiting 1.1s to prevent deployment lock collision...",
+    "2026-10-17 01:31:54 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 52.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
