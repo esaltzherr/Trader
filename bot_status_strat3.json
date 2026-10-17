@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 09:03:18 AM PT",
-  "timestamp_utc": "2026-10-17T16:03:18.785129+00:00",
+  "updated_at": "2026-10-17 09:33:21 AM PT",
+  "timestamp_utc": "2026-10-17T16:33:21.724332+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -612,8 +612,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 06:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 117 shares of HUM @ ~$424.63 (Order ID: 6416d222-4b7c-4a8a-a8b0-c8039f1dfa27)",
-    "2026-10-16 06:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 261 shares of RTX @ ~$190.93 (Order ID: 9f03df38-c404-4b72-9679-a5c85f97b578)",
     "2026-10-16 07:05:14 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
     "2026-10-16 07:05:14 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
     "2026-10-16 07:05:31 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
@@ -731,6 +729,8 @@
     "2026-10-17 08:03:13 PT  INFO      GitHub Pages deployment cooldown: last push was 43.6s ago. Waiting 1.4s to prevent deployment lock collision...",
     "2026-10-17 08:03:16 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 45.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 08:33:16 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
-    "2026-10-17 08:33:18 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 44.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 08:33:18 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 44.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 09:03:18 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
+    "2026-10-17 09:03:21 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 44.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
