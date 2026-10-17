@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 02:03:44 PM PT",
-  "timestamp_utc": "2026-10-17T21:03:45.108810+00:00",
+  "updated_at": "2026-10-17 02:33:48 PM PT",
+  "timestamp_utc": "2026-10-17T21:33:48.430764+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -612,8 +612,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 08:35:12 PT  INFO      GitHub Pages deployment cooldown: last push was 23.8s ago. Waiting 21.2s to prevent deployment lock collision...",
-    "2026-10-16 10:14:00 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SHOP @ $171.32 | P&L: -2697.77 (-4.32%) | Reason: Hard Stop Triggered (-4.32%)",
     "2026-10-16 10:14:01 PT  INFO      GitHub Pages deployment cooldown: last push was 0.2s ago. Waiting 44.8s to prevent deployment lock collision...",
     "2026-10-16 12:50:03 PT  INFO      >>> TIME TRIGGER: 12:50 PM PT -> EOD Liquidation of all Portfolio 3 positions...",
     "2026-10-16 12:50:05 PT  INFO      Closing all 2 active positions for Scheduled EOD Liquidation...",
@@ -731,6 +729,8 @@
     "2026-10-17 13:03:40 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-17 13:03:42 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 40.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 13:33:42 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
-    "2026-10-17 13:33:44 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 39.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 13:33:44 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 39.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 14:03:45 PT  INFO      GitHub Pages deployment cooldown: last push was 43.6s ago. Waiting 1.4s to prevent deployment lock collision...",
+    "2026-10-17 14:03:48 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 39.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
