@@ -2,8 +2,8 @@
   "is_paper_trading": true,
   "environment": "Alpaca Paper Trading Simulator (Virtual Currency - No Real Capital)",
   "timezone": "America/Los_Angeles (PT)",
-  "updated_at": "2026-10-17 12:31:00 AM PT",
-  "timestamp_iso": "2026-10-17T00:31:00.287557-07:00",
+  "updated_at": "2026-10-17 01:01:02 AM PT",
+  "timestamp_iso": "2026-10-17T01:01:02.902943-07:00",
   "account_id": "PKWUL6SHOQRV6B6JR6VY3YMP7S",
   "account_label": "Portfolio 1: Market-Neutral Pairs ($100k)",
   "market_status": "Market Closed (Next Open: 2026-10-19 06:30 AM PT)",
@@ -15,14 +15,14 @@
   },
   "bot_status": "Paper Bot Active -- Standby (Next Open: 2026-10-19 06:30 AM PT)",
   "account": {
-    "portfolio_value": 98163.74,
-    "cash": 98163.74,
-    "buying_power": 392654.96,
+    "portfolio_value": 98161.73,
+    "cash": 98161.73,
+    "buying_power": 392646.92,
     "initial_capital": 100000.0,
-    "total_pnl": -1836.26,
+    "total_pnl": -1838.27,
     "total_return_pct": -1.84,
-    "today_pnl": -230.78,
-    "today_return_pct": -0.23
+    "today_pnl": 0.0,
+    "today_return_pct": 0.0
   },
   "history": [
     {
@@ -97,9 +97,9 @@
     },
     {
       "date": "2026-10-17",
-      "equity": 98163.74,
-      "daily_pnl": -230.78,
-      "daily_pct": -0.23,
+      "equity": 98161.73,
+      "daily_pnl": 0.0,
+      "daily_pct": 0.0,
       "cumulative_pct": -1.84
     }
   ],
@@ -1897,9 +1897,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 10:49:36 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
-    "2026-10-16 11:04:38 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
-    "2026-10-16 11:04:40 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
     "2026-10-16 11:19:42 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
     "2026-10-16 11:19:44 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
     "2026-10-16 11:34:47 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
@@ -2016,6 +2013,9 @@
     "2026-10-16 23:30:57 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 54.0h until pre-fetch at 05:30 AM PT...",
     "2026-10-17 00:00:58 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
     "2026-10-17 00:01:00 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
-    "2026-10-17 00:01:00 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 53.5h until pre-fetch at 05:30 AM PT..."
+    "2026-10-17 00:01:00 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 53.5h until pre-fetch at 05:30 AM PT...",
+    "2026-10-17 00:31:01 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
+    "2026-10-17 00:31:02 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
+    "2026-10-17 00:31:02 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 53.0h until pre-fetch at 05:30 AM PT..."
   ]
 }
