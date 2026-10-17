@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 05:02:56 AM PT",
-  "timestamp_utc": "2026-10-17T12:02:57.160788+00:00",
+  "updated_at": "2026-10-17 05:32:59 AM PT",
+  "timestamp_utc": "2026-10-17T12:32:59.693426+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -612,8 +612,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 06:35:22 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 145 shares of ISRG @ ~$430.04 (Order ID: 2afbed92-e3b2-4c81-883a-225c3c04b02a)",
-    "2026-10-16 06:35:22 PT  INFO      GitHub Pages deployment cooldown: last push was 3.7s ago. Waiting 41.3s to prevent deployment lock collision...",
     "2026-10-16 06:40:06 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
     "2026-10-16 06:40:06 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-16 06:40:15 PT  INFO      [Engine 2] Selected 3 Capitulation Bounce targets: ['CRWV', 'NBIS', 'CRWD']",
@@ -731,6 +729,8 @@
     "2026-10-17 04:02:52 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
     "2026-10-17 04:02:54 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 49.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 04:32:55 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-17 04:32:56 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 49.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 04:32:56 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 49.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 05:02:57 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
+    "2026-10-17 05:02:59 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 48.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
