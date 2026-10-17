@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 09:32:35 AM PT",
-  "timestamp_utc": "2026-10-17T16:32:35.256370+00:00",
+  "updated_at": "2026-10-17 10:02:37 AM PT",
+  "timestamp_utc": "2026-10-17T17:02:37.789689+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -462,8 +462,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 08:22:54 PT  INFO      [CLOSED POSITION] NEM 8.6086 shares @ $118.61 (Entry: $117.69, P&L: $+7.91) [RATCHET_TIER1]",
-    "2026-10-16 08:33:14 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision...",
     "2026-10-16 08:35:49 PT  INFO      GitHub Pages deployment cooldown: last push was 13.3s ago. Waiting 31.7s to prevent deployment lock collision...",
     "2026-10-16 08:41:52 PT  INFO      [RATCHET TIER 3] PLTR Short peaked at +3.4%, crossed trail px $188.97. Securing gains!",
     "2026-10-16 08:41:52 PT  INFO      [CLOSED POSITION] PLTR 5.0 shares @ $189.04 (Entry: $193.77, P&L: $+23.62) [RATCHET_TIER3]",
@@ -581,6 +579,8 @@
     "2026-10-17 08:32:30 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-17 08:32:32 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 45.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 09:02:32 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
-    "2026-10-17 09:02:35 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 44.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 09:02:35 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 44.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 09:32:35 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
+    "2026-10-17 09:32:37 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 44.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
