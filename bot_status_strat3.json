@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 09:33:21 AM PT",
-  "timestamp_utc": "2026-10-17T16:33:21.724332+00:00",
+  "updated_at": "2026-10-17 10:03:23 AM PT",
+  "timestamp_utc": "2026-10-17T17:03:23.984567+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -612,8 +612,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 07:05:14 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
-    "2026-10-16 07:05:14 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
     "2026-10-16 07:05:31 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
     "2026-10-16 07:05:31 PT  INFO      [PARABOLIC_BLOWOFF_FADE] No qualifying candidates found.",
     "2026-10-16 07:50:29 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG APP @ $276.65 | P&L: -516.20 (-1.04%) | Reason: Scheduled 60-Min Micro Exit (-1.04%)",
@@ -731,6 +729,8 @@
     "2026-10-17 08:33:16 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
     "2026-10-17 08:33:18 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 44.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 09:03:18 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
-    "2026-10-17 09:03:21 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 44.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 09:03:21 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 44.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 09:33:21 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
+    "2026-10-17 09:33:23 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 43.9h until pre-market prep at 05:30 AM PT..."
   ]
 }
