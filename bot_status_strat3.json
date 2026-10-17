@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 03:02:45 AM PT",
-  "timestamp_utc": "2026-10-17T10:02:46.101375+00:00",
+  "updated_at": "2026-10-17 03:32:49 AM PT",
+  "timestamp_utc": "2026-10-17T10:32:49.318714+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -612,8 +612,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 06:28:42 PT  INFO      Pre-market standby: 1.3 minutes until market open at 06:30 AM PT.",
-    "2026-10-16 06:29:42 PT  INFO      Pre-market standby: 0.3 minutes until market open at 06:30 AM PT.",
     "2026-10-16 06:35:01 PT  INFO      >>> TIME TRIGGER: 06:35 AM PT -> Executing Engine 1 (Super Momentum Runner)...",
     "2026-10-16 06:35:01 PT  INFO      [Engine 1] Scanning for 20-Day Super Momentum leaders (>= +25%)...",
     "2026-10-16 06:35:22 PT  INFO      [Engine 1] Selected 4 Super Momentum leaders: ['SHOP', 'ACN', 'DDOG', 'ISRG']",
@@ -731,6 +729,8 @@
     "2026-10-17 02:02:41 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
     "2026-10-17 02:02:43 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 51.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 02:32:43 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
-    "2026-10-17 02:32:45 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 51.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 02:32:45 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 51.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 03:02:46 PT  INFO      GitHub Pages deployment cooldown: last push was 43.4s ago. Waiting 1.6s to prevent deployment lock collision...",
+    "2026-10-17 03:02:49 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 50.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
