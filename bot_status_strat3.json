@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17 06:34:09 PM PT",
-  "timestamp_utc": "2026-10-18T01:34:10.192753+00:00",
+  "updated_at": "2026-10-17 07:04:12 PM PT",
+  "timestamp_utc": "2026-10-18T02:04:12.639131+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -612,8 +612,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 12:50:19 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
-    "2026-10-16 12:50:23 PT  INFO      GitHub Pages deployment cooldown: last push was 14.8s ago. Waiting 30.2s to prevent deployment lock collision...",
     "2026-10-16 12:50:54 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
     "2026-10-16 13:00:12 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 64.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 13:30:12 PT  INFO      GitHub Pages deployment cooldown: last push was 9.4s ago. Waiting 35.6s to prevent deployment lock collision...",
@@ -731,6 +729,8 @@
     "2026-10-17 17:34:04 PT  INFO      GitHub Pages deployment cooldown: last push was 43.4s ago. Waiting 1.6s to prevent deployment lock collision...",
     "2026-10-17 17:34:07 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 35.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-17 18:04:07 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
-    "2026-10-17 18:04:09 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 35.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-17 18:04:09 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 35.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-17 18:34:10 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
+    "2026-10-17 18:34:12 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 34.9h until pre-market prep at 05:30 AM PT..."
   ]
 }
