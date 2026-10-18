@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-18 02:34:53 AM PT",
-  "timestamp_utc": "2026-10-18T09:34:53.897721+00:00",
+  "updated_at": "2026-10-18 03:04:56 AM PT",
+  "timestamp_utc": "2026-10-18T10:04:56.266783+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -618,8 +618,6 @@
     }
   ],
   "logs": [
-    "2026-10-16 20:32:13 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-16 20:32:14 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 57.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 21:02:15 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
     "2026-10-16 21:02:17 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 56.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-16 21:32:17 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
@@ -737,6 +735,8 @@
     "2026-10-18 01:34:48 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
     "2026-10-18 01:34:50 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 27.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 02:04:51 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-18 02:04:53 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 27.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-18 02:04:53 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 27.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-18 02:34:54 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
+    "2026-10-18 02:34:56 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 26.9h until pre-market prep at 05:30 AM PT..."
   ]
 }
