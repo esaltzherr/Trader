@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-19 07:06:19 AM PT",
-  "timestamp_utc": "2026-10-19T14:06:19.712537+00:00",
+  "updated_at": "2026-10-19 07:07:52 AM PT",
+  "timestamp_utc": "2026-10-19T14:07:52.426295+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10175.53,
-    "cash": 16373.38,
-    "buying_power": 33264.72,
-    "total_pnl": 175.53,
-    "total_return_pct": "+1.76",
-    "today_pnl": -2.49,
-    "today_return_pct": "-0.02",
+    "portfolio_value": 10180.89,
+    "cash": 15575.29,
+    "buying_power": 34250.28,
+    "total_pnl": 180.89,
+    "total_return_pct": "+1.81",
+    "today_pnl": 2.87,
+    "today_return_pct": "+0.03",
     "last_equity": 10178.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -52,26 +52,15 @@
   },
   "open_positions": [
     {
-      "symbol": "CEG",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 3.0,
-      "entry_price": 266.15,
-      "current_price": 265.9,
-      "market_value": 797.7,
-      "unrealized_pnl": 0.74,
-      "unrealized_plpc": 0.09
-    },
-    {
       "symbol": "CRDO",
       "direction": "SHORT",
       "side": "short",
       "qty": 5.0,
       "entry_price": 171.0,
-      "current_price": 170.6,
-      "market_value": 853.0,
-      "unrealized_pnl": 2.0,
-      "unrealized_plpc": 0.23
+      "current_price": 170.37,
+      "market_value": 851.85,
+      "unrealized_pnl": 3.15,
+      "unrealized_plpc": 0.37
     },
     {
       "symbol": "MRVL",
@@ -79,10 +68,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 236.27,
-      "current_price": 236.35,
-      "market_value": 945.42,
-      "unrealized_pnl": -0.34,
-      "unrealized_plpc": -0.04
+      "current_price": 236.24,
+      "market_value": 944.96,
+      "unrealized_pnl": 0.12,
+      "unrealized_plpc": 0.01
     },
     {
       "symbol": "PLTR",
@@ -90,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 189.75,
-      "current_price": 191.23,
-      "market_value": 956.13,
-      "unrealized_pnl": -7.38,
-      "unrealized_plpc": -0.78
+      "current_price": 191.0,
+      "market_value": 955.0,
+      "unrealized_pnl": -6.25,
+      "unrealized_plpc": -0.66
     },
     {
       "symbol": "PYPL",
@@ -101,10 +90,10 @@
       "side": "short",
       "qty": 18.0,
       "entry_price": 56.49,
-      "current_price": 56.53,
-      "market_value": 1017.54,
-      "unrealized_pnl": -0.72,
-      "unrealized_plpc": -0.07
+      "current_price": 56.45,
+      "market_value": 1016.1,
+      "unrealized_pnl": 0.72,
+      "unrealized_plpc": 0.07
     },
     {
       "symbol": "TGT",
@@ -112,10 +101,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 155.11,
-      "current_price": 154.99,
-      "market_value": 929.91,
-      "unrealized_pnl": 0.75,
-      "unrealized_plpc": 0.08
+      "current_price": 154.91,
+      "market_value": 929.46,
+      "unrealized_pnl": 1.2,
+      "unrealized_plpc": 0.13
     },
     {
       "symbol": "WDC",
@@ -123,10 +112,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 350.05,
-      "current_price": 349.07,
-      "market_value": 698.15,
-      "unrealized_pnl": 1.95,
-      "unrealized_plpc": 0.28
+      "current_price": 348.51,
+      "market_value": 697.03,
+      "unrealized_pnl": 3.07,
+      "unrealized_plpc": 0.44
     }
   ],
   "recent_trades": [
@@ -626,13 +615,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 10175.53,
-      "daily_pnl": -2.49,
-      "cum_return": 1.76
+      "portfolio_value": 10180.89,
+      "daily_pnl": 2.87,
+      "cum_return": 1.81
     }
   ],
   "logs": [
-    "2026-10-18 09:04:45 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 20.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 09:34:45 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
     "2026-10-18 09:34:48 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 19.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 10:04:48 PT  INFO      GitHub Pages deployment cooldown: last push was 43.6s ago. Waiting 1.4s to prevent deployment lock collision...",
@@ -751,6 +739,7 @@
     "2026-10-19 07:05:49 PT  INFO      [RATCHET BREAKEVEN] ALAB Short hit breakeven stop. Zero loss exit!",
     "2026-10-19 07:05:49 PT  INFO      [CLOSED POSITION] ALAB 3.0 shares @ $288.05 (Entry: $288.17, P&L: $+0.37) [RATCHET_BREAKEVEN]",
     "2026-10-19 07:06:19 PT  INFO      [RATCHET BREAKEVEN] CEG Short hit breakeven stop. Zero loss exit!",
-    "2026-10-19 07:06:19 PT  INFO      [CLOSED POSITION] CEG 3.0 shares @ $265.90 (Entry: $266.15, P&L: $+0.74) [RATCHET_BREAKEVEN]"
+    "2026-10-19 07:06:19 PT  INFO      [CLOSED POSITION] CEG 3.0 shares @ $265.90 (Entry: $266.15, P&L: $+0.74) [RATCHET_BREAKEVEN]",
+    "2026-10-19 07:06:19 PT  INFO      GitHub Pages deployment cooldown: last push was 14.4s ago. Waiting 30.6s to prevent deployment lock collision..."
   ]
 }
