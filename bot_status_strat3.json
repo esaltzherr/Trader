@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-19 07:03:07 AM PT",
-  "timestamp_utc": "2026-10-19T14:03:08.026932+00:00",
+  "updated_at": "2026-10-19 07:05:30 AM PT",
+  "timestamp_utc": "2026-10-19T14:05:30.334571+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 982883.41,
-    "cash": 533383.29,
-    "buying_power": 3251617.7,
-    "total_pnl": -17116.59,
-    "total_return_pct": "-1.71",
-    "today_pnl": -1374.88,
-    "today_return_pct": "-0.14",
+    "portfolio_value": 982827.29,
+    "cash": 582275.41,
+    "buying_power": 3002195.35,
+    "total_pnl": -17172.71,
+    "total_return_pct": "-1.72",
+    "today_pnl": -1431.0,
+    "today_return_pct": "-0.15",
     "last_equity": 984258.29,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 44,
-    "wins": 16,
-    "losses": 28,
-    "win_rate": "36.4%",
-    "profit_factor": "0.62"
+    "total_trades": 39,
+    "wins": 14,
+    "losses": 25,
+    "win_rate": "35.9%",
+    "profit_factor": "0.58"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 547.0,
       "entry_price": 229.06,
-      "current_price": 231.4,
-      "market_value": 126573.07,
-      "unrealized_pnl": 1277.78,
-      "unrealized_plpc": 1.02
+      "current_price": 231.41,
+      "market_value": 126584.01,
+      "unrealized_pnl": 1288.72,
+      "unrealized_plpc": 1.03
     },
     {
       "symbol": "CDNS",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 153.0,
       "entry_price": 327.25,
-      "current_price": 326.07,
-      "market_value": 49888.71,
-      "unrealized_pnl": -180.54,
-      "unrealized_plpc": -0.36
+      "current_price": 326.25,
+      "market_value": 49917.01,
+      "unrealized_pnl": -152.24,
+      "unrealized_plpc": -0.3
     },
     {
       "symbol": "SHOP",
@@ -99,9 +99,9 @@
       "side": "long",
       "qty": 723.0,
       "entry_price": 172.94,
-      "current_price": 172.03,
-      "market_value": 124377.69,
-      "unrealized_pnl": -661.02,
+      "current_price": 172.02,
+      "market_value": 124370.46,
+      "unrealized_pnl": -668.25,
       "unrealized_plpc": -0.53
     },
     {
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 159.0,
       "entry_price": 314.59,
-      "current_price": 315.62,
-      "market_value": 50184.22,
-      "unrealized_pnl": 164.41,
-      "unrealized_plpc": 0.33
+      "current_price": 315.3,
+      "market_value": 50132.7,
+      "unrealized_pnl": 112.89,
+      "unrealized_plpc": 0.23
     },
     {
       "symbol": "SNPS",
@@ -121,24 +121,63 @@
       "side": "long",
       "qty": 108.0,
       "entry_price": 460.95,
-      "current_price": 458.7,
-      "market_value": 49539.6,
-      "unrealized_pnl": -243.0,
-      "unrealized_plpc": -0.49
-    },
-    {
-      "symbol": "VRT",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 213.0,
-      "entry_price": 211.38,
-      "current_price": 207.36,
-      "market_value": 44167.57,
-      "unrealized_pnl": -856.37,
-      "unrealized_plpc": -1.9
+      "current_price": 458.77,
+      "market_value": 49547.7,
+      "unrealized_pnl": -234.9,
+      "unrealized_plpc": -0.47
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "LRCX",
+      "strategy": "PARABOLIC_BLOWOFF_FADE",
+      "direction": "SHORT",
+      "shares": 182.0,
+      "price": 273.49,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-19 07:05:29"
+    },
+    {
+      "symbol": "INTC",
+      "strategy": "PARABOLIC_BLOWOFF_FADE",
+      "direction": "SHORT",
+      "shares": 535.0,
+      "price": 93.39,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-19 07:05:29"
+    },
+    {
+      "symbol": "DDOG",
+      "strategy": "PARABOLIC_BLOWOFF_FADE",
+      "direction": "SHORT",
+      "shares": 194.0,
+      "price": 257.54,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-19 07:05:29"
+    },
+    {
+      "symbol": "WDC",
+      "strategy": "PARABOLIC_BLOWOFF_FADE",
+      "direction": "SHORT",
+      "shares": 143.0,
+      "price": 348.04,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-19 07:05:29"
+    },
+    {
+      "symbol": "SNDK",
+      "strategy": "PARABOLIC_BLOWOFF_FADE",
+      "direction": "SHORT",
+      "shares": 36.0,
+      "price": 1365.93,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-19 07:05:29"
+    },
     {
       "symbol": "VRT",
       "strategy": "INTRADAY_MICRO_BURST_RATCHET",
@@ -588,56 +627,6 @@
       "close_price": 180.505,
       "realized_pnl": -782.0,
       "date": "2026-10-14 06:50:11"
-    },
-    {
-      "symbol": "BAC",
-      "strategy": "CAPITULATION_PANIC_BOUNCE",
-      "direction": "LONG",
-      "shares": 998.0,
-      "price": 50.08,
-      "close_price": 51.375,
-      "realized_pnl": 1292.41,
-      "date": "2026-10-14 06:40:16"
-    },
-    {
-      "symbol": "DELL",
-      "strategy": "CAPITULATION_PANIC_BOUNCE",
-      "direction": "LONG",
-      "shares": 94.0,
-      "price": 527.67,
-      "close_price": 508.23,
-      "realized_pnl": -1827.36,
-      "date": "2026-10-14 06:40:16"
-    },
-    {
-      "symbol": "NBIS",
-      "strategy": "CAPITULATION_PANIC_BOUNCE",
-      "direction": "LONG",
-      "shares": 263.0,
-      "price": 189.42,
-      "close_price": 184.2899,
-      "realized_pnl": -1349.22,
-      "date": "2026-10-14 06:40:16"
-    },
-    {
-      "symbol": "PGR",
-      "strategy": "CAPITULATION_PANIC_BOUNCE",
-      "direction": "LONG",
-      "shares": 246.0,
-      "price": 203.0,
-      "close_price": 213.99,
-      "realized_pnl": 2703.54,
-      "date": "2026-10-14 06:40:16"
-    },
-    {
-      "symbol": "CRWV",
-      "strategy": "CAPITULATION_PANIC_BOUNCE",
-      "direction": "LONG",
-      "shares": 742.0,
-      "price": 67.36,
-      "close_price": 64.94,
-      "realized_pnl": -1795.64,
-      "date": "2026-10-14 06:40:16"
     }
   ],
   "history": [
@@ -685,21 +674,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 982883.41,
-      "daily_pnl": -1374.88,
-      "cum_return": -1.71
+      "portfolio_value": 982827.29,
+      "daily_pnl": -1431.0,
+      "cum_return": -1.72
     }
   ],
   "logs": [
-    "2026-10-18 19:36:31 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 9.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-18 20:06:31 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
-    "2026-10-18 20:06:34 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 9.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-18 20:36:34 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-18 20:36:36 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 8.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-18 21:06:37 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
-    "2026-10-18 21:06:39 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 8.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-18 21:36:39 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
-    "2026-10-18 21:36:41 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 7.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 22:06:42 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
     "2026-10-18 22:06:44 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 7.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 22:36:45 PT  INFO      GitHub Pages deployment cooldown: last push was 43.9s ago. Waiting 1.1s to prevent deployment lock collision...",
@@ -810,6 +790,15 @@
     "2026-10-19 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 1774 shares of OKLO @ ~$28.17 (Order ID: 58750b51-2adc-454e-b9d5-aeb8774a2cf2)",
     "2026-10-19 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 236 shares of VRT @ ~$211.03 (Order ID: 48e55724-9cd4-4e84-a5b5-02a414dd1e00)",
     "2026-10-19 06:56:03 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG OKLO @ $27.73 | P&L: -780.56 (-1.56%) | Reason: Hard Stop Triggered (-1.56%)",
-    "2026-10-19 07:03:07 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG VRT @ $207.36 | P&L: -866.12 (-1.74%) | Reason: Hard Stop Triggered (-1.74%)"
+    "2026-10-19 07:03:07 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG VRT @ $207.36 | P&L: -866.12 (-1.74%) | Reason: Hard Stop Triggered (-1.74%)",
+    "2026-10-19 07:03:08 PT  INFO      GitHub Pages deployment cooldown: last push was 25.9s ago. Waiting 19.1s to prevent deployment lock collision...",
+    "2026-10-19 07:05:14 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
+    "2026-10-19 07:05:14 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
+    "2026-10-19 07:05:29 PT  INFO      [Engine 4] Selected 5 Parabolic Blowoff Fade short targets: ['SNDK', 'WDC', 'DDOG', 'INTC', 'LRCX']",
+    "2026-10-19 07:05:29 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 36 shares of SNDK @ ~$1365.93 (Order ID: 56f5dbdd-2f3d-42a9-b807-b507cc036328)",
+    "2026-10-19 07:05:29 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 143 shares of WDC @ ~$348.04 (Order ID: 4774f682-2c1d-4361-b530-9952ae030cc0)",
+    "2026-10-19 07:05:29 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 194 shares of DDOG @ ~$257.54 (Order ID: bcea86cb-67c7-4a42-b943-8716b3b7899b)",
+    "2026-10-19 07:05:30 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 535 shares of INTC @ ~$93.39 (Order ID: b0d800eb-eaf1-49b4-b09d-56a52f3a60c6)",
+    "2026-10-19 07:05:30 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 182 shares of LRCX @ ~$273.49 (Order ID: 1fa7a5b0-91ab-4ea5-a9bf-3d851dd140da)"
   ]
 }
