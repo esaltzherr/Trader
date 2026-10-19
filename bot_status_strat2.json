@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19 12:18:25 PM PT",
-  "timestamp_utc": "2026-10-19T19:18:26.074895+00:00",
+  "updated_at": "2026-10-19 12:20:04 PM PT",
+  "timestamp_utc": "2026-10-19T19:20:04.275749+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -554,7 +554,6 @@
     }
   ],
   "logs": [
-    "2026-10-18 18:05:37 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 11.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 18:35:37 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
     "2026-10-18 18:35:39 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 10.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 19:05:40 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
@@ -673,6 +672,7 @@
     "2026-10-19 11:18:07 PT  INFO      GitHub Pages deployment cooldown: last push was 11.1s ago. Waiting 33.9s to prevent deployment lock collision...",
     "2026-10-19 11:33:10 PT  INFO      GitHub Pages deployment cooldown: last push was 10.3s ago. Waiting 34.7s to prevent deployment lock collision...",
     "2026-10-19 11:48:14 PT  INFO      GitHub Pages deployment cooldown: last push was 9.3s ago. Waiting 35.7s to prevent deployment lock collision...",
-    "2026-10-19 12:03:25 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
+    "2026-10-19 12:03:25 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
+    "2026-10-19 12:18:26 PT  INFO      GitHub Pages deployment cooldown: last push was 9.0s ago. Waiting 36.0s to prevent deployment lock collision..."
   ]
 }
