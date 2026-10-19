@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-19 07:25:00 AM PT",
-  "timestamp_utc": "2026-10-19T14:25:00.973696+00:00",
+  "updated_at": "2026-10-19 07:26:31 AM PT",
+  "timestamp_utc": "2026-10-19T14:26:31.938705+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10148.84,
+    "portfolio_value": 10149.79,
     "cash": 14020.45,
-    "buying_power": 35949.43,
-    "total_pnl": 148.84,
-    "total_return_pct": "+1.49",
-    "today_pnl": -29.18,
-    "today_return_pct": "-0.29",
+    "buying_power": 35954.37,
+    "total_pnl": 149.79,
+    "total_return_pct": "+1.50",
+    "today_pnl": -28.23,
+    "today_return_pct": "-0.28",
     "last_equity": 10178.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 236.27,
-      "current_price": 240.39,
-      "market_value": 961.58,
-      "unrealized_pnl": -16.5,
-      "unrealized_plpc": -1.75
+      "current_price": 240.12,
+      "market_value": 960.48,
+      "unrealized_pnl": -15.4,
+      "unrealized_plpc": -1.63
     },
     {
       "symbol": "PLTR",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 189.75,
-      "current_price": 193.35,
-      "market_value": 966.75,
-      "unrealized_pnl": -18.0,
-      "unrealized_plpc": -1.9
+      "current_price": 193.5,
+      "market_value": 967.5,
+      "unrealized_pnl": -18.75,
+      "unrealized_plpc": -1.98
     },
     {
       "symbol": "PYPL",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 18.0,
       "entry_price": 56.49,
-      "current_price": 56.36,
-      "market_value": 1014.48,
-      "unrealized_pnl": 2.34,
-      "unrealized_plpc": 0.23
+      "current_price": 56.35,
+      "market_value": 1014.39,
+      "unrealized_pnl": 2.43,
+      "unrealized_plpc": 0.24
     },
     {
       "symbol": "TGT",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 155.11,
-      "current_price": 154.8,
-      "market_value": 928.8,
-      "unrealized_pnl": 1.86,
-      "unrealized_plpc": 0.2
+      "current_price": 154.72,
+      "market_value": 928.29,
+      "unrealized_pnl": 2.37,
+      "unrealized_plpc": 0.26
     }
   ],
   "recent_trades": [
@@ -593,13 +593,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 10148.84,
-      "daily_pnl": -29.18,
-      "cum_return": 1.49
+      "portfolio_value": 10149.79,
+      "daily_pnl": -28.23,
+      "cum_return": 1.5
     }
   ],
   "logs": [
-    "2026-10-18 11:04:57 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 18.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 11:34:57 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
     "2026-10-18 11:34:59 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 17.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 12:05:00 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
@@ -718,6 +717,7 @@
     "2026-10-19 07:13:33 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
     "2026-10-19 07:15:49 PT  INFO      [RATCHET BREAKEVEN] WDC Short hit breakeven stop. Zero loss exit!",
     "2026-10-19 07:15:49 PT  INFO      [CLOSED POSITION] WDC 2.0 shares @ $349.91 (Entry: $350.05, P&L: $+0.28) [RATCHET_BREAKEVEN]",
-    "2026-10-19 07:19:16 PT  INFO      GitHub Pages deployment cooldown: last push was 13.3s ago. Waiting 31.7s to prevent deployment lock collision..."
+    "2026-10-19 07:19:16 PT  INFO      GitHub Pages deployment cooldown: last push was 13.3s ago. Waiting 31.7s to prevent deployment lock collision...",
+    "2026-10-19 07:25:01 PT  INFO      GitHub Pages deployment cooldown: last push was 16.3s ago. Waiting 28.7s to prevent deployment lock collision..."
   ]
 }
