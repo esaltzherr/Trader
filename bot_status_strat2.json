@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19 08:32:12 AM PT",
-  "timestamp_utc": "2026-10-19T15:32:12.207253+00:00",
+  "updated_at": "2026-10-19 08:33:47 AM PT",
+  "timestamp_utc": "2026-10-19T15:33:47.502637+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -554,7 +554,6 @@
     }
   ],
   "logs": [
-    "2026-10-18 14:35:14 PT  INFO      GitHub Pages deployment cooldown: last push was 45.0s ago. Waiting 0.0s to prevent deployment lock collision...",
     "2026-10-18 14:35:15 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 14.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 15:05:16 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
     "2026-10-18 15:05:18 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 14.4h until pre-market prep at 05:30 AM PT...",
@@ -673,6 +672,7 @@
     "2026-10-19 08:02:03 PT  INFO      GitHub Pages deployment cooldown: last push was 13.9s ago. Waiting 31.1s to prevent deployment lock collision...",
     "2026-10-19 08:17:06 PT  INFO      GitHub Pages deployment cooldown: last push was 10.8s ago. Waiting 34.2s to prevent deployment lock collision...",
     "2026-10-19 08:22:21 PT  WARNING   [STOP LOSS] MRVL Short hit -3.5% cut. Protecting capital!",
-    "2026-10-19 08:22:21 PT  INFO      [CLOSED POSITION] MRVL 4.0 shares @ $244.55 (Entry: $236.27, P&L: $-33.12) [STOP_LOSS]"
+    "2026-10-19 08:22:21 PT  INFO      [CLOSED POSITION] MRVL 4.0 shares @ $244.55 (Entry: $236.27, P&L: $-33.12) [STOP_LOSS]",
+    "2026-10-19 08:32:12 PT  INFO      GitHub Pages deployment cooldown: last push was 12.1s ago. Waiting 32.9s to prevent deployment lock collision..."
   ]
 }
