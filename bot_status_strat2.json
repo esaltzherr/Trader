@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19 08:02:03 AM PT",
-  "timestamp_utc": "2026-10-19T15:02:03.884532+00:00",
+  "updated_at": "2026-10-19 08:03:36 AM PT",
+  "timestamp_utc": "2026-10-19T15:03:36.891160+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10141.8,
+    "portfolio_value": 10141.04,
     "cash": 11108.52,
-    "buying_power": 39407.14,
-    "total_pnl": 141.8,
-    "total_return_pct": "+1.42",
-    "today_pnl": -36.22,
+    "buying_power": 39403.18,
+    "total_pnl": 141.04,
+    "total_return_pct": "+1.41",
+    "today_pnl": -36.98,
     "today_return_pct": "-0.36",
     "last_equity": 10178.02,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 236.27,
-      "current_price": 241.68,
-      "market_value": 966.72,
-      "unrealized_pnl": -21.64,
-      "unrealized_plpc": -2.29
+      "current_price": 241.87,
+      "market_value": 967.48,
+      "unrealized_pnl": -22.4,
+      "unrealized_plpc": -2.37
     }
   ],
   "recent_trades": [
@@ -560,13 +560,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 10141.8,
-      "daily_pnl": -36.22,
-      "cum_return": 1.42
+      "portfolio_value": 10141.04,
+      "daily_pnl": -36.98,
+      "cum_return": 1.41
     }
   ],
   "logs": [
-    "2026-10-18 13:35:08 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
     "2026-10-18 13:35:10 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 15.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 14:05:11 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-18 14:05:14 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 15.4h until pre-market prep at 05:30 AM PT...",
@@ -685,6 +684,7 @@
     "2026-10-19 07:45:04 PT  INFO      [CLOSED POSITION] TGT 6.0 shares @ $154.55 (Entry: $155.11, P&L: $+3.36) [1H_SCHEDULED_EXIT]",
     "2026-10-19 07:46:47 PT  INFO      GitHub Pages deployment cooldown: last push was 12.5s ago. Waiting 32.5s to prevent deployment lock collision...",
     "2026-10-19 07:50:27 PT  INFO      GitHub Pages deployment cooldown: last push was 5.4s ago. Waiting 39.6s to prevent deployment lock collision...",
-    "2026-10-19 07:52:09 PT  INFO      GitHub Pages deployment cooldown: last push was 10.5s ago. Waiting 34.5s to prevent deployment lock collision..."
+    "2026-10-19 07:52:09 PT  INFO      GitHub Pages deployment cooldown: last push was 10.5s ago. Waiting 34.5s to prevent deployment lock collision...",
+    "2026-10-19 08:02:03 PT  INFO      GitHub Pages deployment cooldown: last push was 13.9s ago. Waiting 31.1s to prevent deployment lock collision..."
   ]
 }
