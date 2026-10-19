@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19 12:48:37 PM PT",
-  "timestamp_utc": "2026-10-19T19:48:37.372652+00:00",
+  "updated_at": "2026-10-19 12:50:07 PM PT",
+  "timestamp_utc": "2026-10-19T19:50:07.878870+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -554,9 +554,6 @@
     }
   ],
   "logs": [
-    "2026-10-18 18:35:39 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 10.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-18 19:05:40 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
-    "2026-10-18 19:05:42 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 10.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 19:35:42 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
     "2026-10-18 19:35:45 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 9.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 20:05:45 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
@@ -673,6 +670,9 @@
     "2026-10-19 11:48:14 PT  INFO      GitHub Pages deployment cooldown: last push was 9.3s ago. Waiting 35.7s to prevent deployment lock collision...",
     "2026-10-19 12:03:25 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
     "2026-10-19 12:18:26 PT  INFO      GitHub Pages deployment cooldown: last push was 9.0s ago. Waiting 36.0s to prevent deployment lock collision...",
-    "2026-10-19 12:33:30 PT  INFO      GitHub Pages deployment cooldown: last push was 7.2s ago. Waiting 37.8s to prevent deployment lock collision..."
+    "2026-10-19 12:33:30 PT  INFO      GitHub Pages deployment cooldown: last push was 7.2s ago. Waiting 37.8s to prevent deployment lock collision...",
+    "2026-10-19 12:48:37 PT  INFO      GitHub Pages deployment cooldown: last push was 9.8s ago. Waiting 35.2s to prevent deployment lock collision...",
+    "2026-10-19 12:50:04 PT  INFO      9.9 min to close. Triggering scheduled EOD liquidation...",
+    "2026-10-19 12:50:04 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash..."
   ]
 }
