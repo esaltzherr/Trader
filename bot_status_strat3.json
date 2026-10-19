@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-19 06:56:03 AM PT",
-  "timestamp_utc": "2026-10-19T13:56:03.732688+00:00",
+  "updated_at": "2026-10-19 07:03:07 AM PT",
+  "timestamp_utc": "2026-10-19T14:03:08.026932+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 982116.75,
-    "cash": 484175.63,
-    "buying_power": 3190777.56,
-    "total_pnl": -17883.25,
-    "total_return_pct": "-1.79",
-    "today_pnl": -2141.54,
-    "today_return_pct": "-0.22",
+    "portfolio_value": 982883.41,
+    "cash": 533383.29,
+    "buying_power": 3251617.7,
+    "total_pnl": -17116.59,
+    "total_return_pct": "-1.71",
+    "today_pnl": -1374.88,
+    "today_return_pct": "-0.14",
     "last_equity": 984258.29,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
+    "total_trades": 44,
     "wins": 16,
-    "losses": 27,
-    "win_rate": "37.2%",
-    "profit_factor": "0.63"
+    "losses": 28,
+    "win_rate": "36.4%",
+    "profit_factor": "0.62"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 547.0,
       "entry_price": 229.06,
-      "current_price": 230.09,
-      "market_value": 125859.28,
-      "unrealized_pnl": 563.99,
-      "unrealized_plpc": 0.45
+      "current_price": 231.4,
+      "market_value": 126573.07,
+      "unrealized_pnl": 1277.78,
+      "unrealized_plpc": 1.02
     },
     {
       "symbol": "CDNS",
@@ -88,21 +88,10 @@
       "side": "long",
       "qty": 153.0,
       "entry_price": 327.25,
-      "current_price": 325.44,
-      "market_value": 49792.17,
-      "unrealized_pnl": -277.08,
-      "unrealized_plpc": -0.55
-    },
-    {
-      "symbol": "OKLO",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 1774.0,
-      "entry_price": 28.18,
-      "current_price": 27.75,
-      "market_value": 49237.37,
-      "unrealized_pnl": -753.95,
-      "unrealized_plpc": -1.51
+      "current_price": 326.07,
+      "market_value": 49888.71,
+      "unrealized_pnl": -180.54,
+      "unrealized_plpc": -0.36
     },
     {
       "symbol": "SHOP",
@@ -110,10 +99,10 @@
       "side": "long",
       "qty": 723.0,
       "entry_price": 172.94,
-      "current_price": 171.74,
-      "market_value": 124168.02,
-      "unrealized_pnl": -870.69,
-      "unrealized_plpc": -0.7
+      "current_price": 172.03,
+      "market_value": 124377.69,
+      "unrealized_pnl": -661.02,
+      "unrealized_plpc": -0.53
     },
     {
       "symbol": "SNOW",
@@ -121,10 +110,10 @@
       "side": "long",
       "qty": 159.0,
       "entry_price": 314.59,
-      "current_price": 314.82,
-      "market_value": 50057.18,
-      "unrealized_pnl": 37.37,
-      "unrealized_plpc": 0.07
+      "current_price": 315.62,
+      "market_value": 50184.22,
+      "unrealized_pnl": 164.41,
+      "unrealized_plpc": 0.33
     },
     {
       "symbol": "SNPS",
@@ -132,21 +121,21 @@
       "side": "long",
       "qty": 108.0,
       "entry_price": 460.95,
-      "current_price": 457.33,
-      "market_value": 49392.18,
-      "unrealized_pnl": -390.42,
-      "unrealized_plpc": -0.78
+      "current_price": 458.7,
+      "market_value": 49539.6,
+      "unrealized_pnl": -243.0,
+      "unrealized_plpc": -0.49
     },
     {
       "symbol": "VRT",
       "direction": "LONG",
       "side": "long",
-      "qty": 236.0,
+      "qty": 213.0,
       "entry_price": 211.38,
-      "current_price": 209.47,
-      "market_value": 49434.92,
-      "unrealized_pnl": -450.76,
-      "unrealized_plpc": -0.9
+      "current_price": 207.36,
+      "market_value": 44167.57,
+      "unrealized_pnl": -856.37,
+      "unrealized_plpc": -1.9
     }
   ],
   "recent_trades": [
@@ -156,8 +145,8 @@
       "direction": "LONG",
       "shares": 236.0,
       "price": 211.03,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 207.36,
+      "realized_pnl": -866.12,
       "date": "2026-10-19 06:50:14"
     },
     {
@@ -696,13 +685,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 982116.75,
-      "daily_pnl": -2141.54,
-      "cum_return": -1.79
+      "portfolio_value": 982883.41,
+      "daily_pnl": -1374.88,
+      "cum_return": -1.71
     }
   ],
   "logs": [
-    "2026-10-18 19:36:28 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
     "2026-10-18 19:36:31 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 9.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 20:06:31 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
     "2026-10-18 20:06:34 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 9.4h until pre-market prep at 05:30 AM PT...",
@@ -821,6 +809,7 @@
     "2026-10-19 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 108 shares of SNPS @ ~$460.70 (Order ID: 981bb240-41c4-4095-bd6c-31607534ac75)",
     "2026-10-19 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 1774 shares of OKLO @ ~$28.17 (Order ID: 58750b51-2adc-454e-b9d5-aeb8774a2cf2)",
     "2026-10-19 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 236 shares of VRT @ ~$211.03 (Order ID: 48e55724-9cd4-4e84-a5b5-02a414dd1e00)",
-    "2026-10-19 06:56:03 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG OKLO @ $27.73 | P&L: -780.56 (-1.56%) | Reason: Hard Stop Triggered (-1.56%)"
+    "2026-10-19 06:56:03 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG OKLO @ $27.73 | P&L: -780.56 (-1.56%) | Reason: Hard Stop Triggered (-1.56%)",
+    "2026-10-19 07:03:07 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG VRT @ $207.36 | P&L: -866.12 (-1.74%) | Reason: Hard Stop Triggered (-1.74%)"
   ]
 }
