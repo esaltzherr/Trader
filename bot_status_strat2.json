@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-19 07:13:33 AM PT",
-  "timestamp_utc": "2026-10-19T14:13:33.960471+00:00",
+  "updated_at": "2026-10-19 07:15:06 AM PT",
+  "timestamp_utc": "2026-10-19T14:15:07.456291+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10165.59,
+    "portfolio_value": 10159.07,
     "cash": 14720.43,
-    "buying_power": 35196.55,
-    "total_pnl": 165.59,
-    "total_return_pct": "+1.66",
-    "today_pnl": -12.43,
-    "today_return_pct": "-0.12",
+    "buying_power": 35162.67,
+    "total_pnl": 159.07,
+    "total_return_pct": "+1.59",
+    "today_pnl": -18.95,
+    "today_return_pct": "-0.19",
     "last_equity": 10178.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 236.27,
-      "current_price": 237.82,
-      "market_value": 951.28,
-      "unrealized_pnl": -6.2,
-      "unrealized_plpc": -0.66
+      "current_price": 238.69,
+      "market_value": 954.76,
+      "unrealized_pnl": -9.68,
+      "unrealized_plpc": -1.02
     },
     {
       "symbol": "PLTR",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 189.75,
-      "current_price": 191.8,
-      "market_value": 959.0,
-      "unrealized_pnl": -10.25,
-      "unrealized_plpc": -1.08
+      "current_price": 192.25,
+      "market_value": 961.27,
+      "unrealized_pnl": -12.53,
+      "unrealized_plpc": -1.32
     },
     {
       "symbol": "PYPL",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 18.0,
       "entry_price": 56.49,
-      "current_price": 56.46,
-      "market_value": 1016.28,
-      "unrealized_pnl": 0.54,
-      "unrealized_plpc": 0.05
+      "current_price": 56.49,
+      "market_value": 1016.82,
+      "unrealized_pnl": 0.0,
+      "unrealized_plpc": 0.0
     },
     {
       "symbol": "TGT",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 155.11,
-      "current_price": 154.92,
-      "market_value": 929.52,
-      "unrealized_pnl": 1.14,
-      "unrealized_plpc": 0.12
+      "current_price": 154.9,
+      "market_value": 929.4,
+      "unrealized_pnl": 1.26,
+      "unrealized_plpc": 0.14
     },
     {
       "symbol": "WDC",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 350.05,
-      "current_price": 349.28,
-      "market_value": 698.56,
-      "unrealized_pnl": 1.54,
-      "unrealized_plpc": 0.22
+      "current_price": 349.55,
+      "market_value": 699.1,
+      "unrealized_pnl": 1.0,
+      "unrealized_plpc": 0.14
     }
   ],
   "recent_trades": [
@@ -604,13 +604,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 10165.59,
-      "daily_pnl": -12.43,
-      "cum_return": 1.66
+      "portfolio_value": 10159.07,
+      "daily_pnl": -18.95,
+      "cum_return": 1.59
     }
   ],
   "logs": [
-    "2026-10-18 10:04:51 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 19.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 10:34:51 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
     "2026-10-18 10:34:54 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 18.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 11:04:55 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
@@ -729,6 +728,7 @@
     "2026-10-19 07:06:19 PT  INFO      GitHub Pages deployment cooldown: last push was 14.4s ago. Waiting 30.6s to prevent deployment lock collision...",
     "2026-10-19 07:07:52 PT  INFO      GitHub Pages deployment cooldown: last push was 13.7s ago. Waiting 31.3s to prevent deployment lock collision...",
     "2026-10-19 07:11:09 PT  INFO      [RATCHET BREAKEVEN] CRDO Short hit breakeven stop. Zero loss exit!",
-    "2026-10-19 07:11:09 PT  INFO      [CLOSED POSITION] CRDO 5.0 shares @ $170.87 (Entry: $171.00, P&L: $+0.65) [RATCHET_BREAKEVEN]"
+    "2026-10-19 07:11:09 PT  INFO      [CLOSED POSITION] CRDO 5.0 shares @ $170.87 (Entry: $171.00, P&L: $+0.65) [RATCHET_BREAKEVEN]",
+    "2026-10-19 07:13:33 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
   ]
 }
