@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-19 07:46:47 AM PT",
-  "timestamp_utc": "2026-10-19T14:46:47.877554+00:00",
+  "updated_at": "2026-10-19 07:48:22 AM PT",
+  "timestamp_utc": "2026-10-19T14:48:22.553205+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10146.4,
+    "portfolio_value": 10144.8,
     "cash": 11108.52,
-    "buying_power": 39431.06,
-    "total_pnl": 146.4,
-    "total_return_pct": "+1.46",
-    "today_pnl": -31.62,
-    "today_return_pct": "-0.31",
+    "buying_power": 39422.74,
+    "total_pnl": 144.8,
+    "total_return_pct": "+1.45",
+    "today_pnl": -33.22,
+    "today_return_pct": "-0.33",
     "last_equity": 10178.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 236.27,
-      "current_price": 240.53,
-      "market_value": 962.12,
-      "unrealized_pnl": -17.04,
-      "unrealized_plpc": -1.8
+      "current_price": 240.93,
+      "market_value": 963.72,
+      "unrealized_pnl": -18.64,
+      "unrealized_plpc": -1.97
     }
   ],
   "recent_trades": [
@@ -560,13 +560,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 10146.4,
-      "daily_pnl": -31.62,
-      "cum_return": 1.46
+      "portfolio_value": 10144.8,
+      "daily_pnl": -33.22,
+      "cum_return": 1.45
     }
   ],
   "logs": [
-    "2026-10-18 12:35:05 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 16.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 13:05:05 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
     "2026-10-18 13:05:08 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 16.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 13:35:08 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
@@ -685,6 +684,7 @@
     "2026-10-19 07:45:04 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-19 07:45:04 PT  INFO      [CLOSED POSITION] PYPL 18.0 shares @ $56.41 (Entry: $56.49, P&L: $+1.53) [1H_SCHEDULED_EXIT]",
     "2026-10-19 07:45:04 PT  INFO      [CLOSED POSITION] PLTR 5.0 shares @ $193.78 (Entry: $189.75, P&L: $-20.18) [1H_SCHEDULED_EXIT]",
-    "2026-10-19 07:45:04 PT  INFO      [CLOSED POSITION] TGT 6.0 shares @ $154.55 (Entry: $155.11, P&L: $+3.36) [1H_SCHEDULED_EXIT]"
+    "2026-10-19 07:45:04 PT  INFO      [CLOSED POSITION] TGT 6.0 shares @ $154.55 (Entry: $155.11, P&L: $+3.36) [1H_SCHEDULED_EXIT]",
+    "2026-10-19 07:46:47 PT  INFO      GitHub Pages deployment cooldown: last push was 12.5s ago. Waiting 32.5s to prevent deployment lock collision..."
   ]
 }
