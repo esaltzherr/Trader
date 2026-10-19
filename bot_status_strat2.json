@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19 07:00:15 AM PT",
-  "timestamp_utc": "2026-10-19T14:00:15.838925+00:00",
+  "updated_at": "2026-10-19 07:00:17 AM PT",
+  "timestamp_utc": "2026-10-19T14:00:17.767105+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10176.4,
+    "portfolio_value": 10176.03,
     "cash": 13774.35,
-    "buying_power": 32097.42,
-    "total_pnl": 176.4,
+    "buying_power": 32096.0,
+    "total_pnl": 176.03,
     "total_return_pct": "+1.76",
-    "today_pnl": -1.62,
+    "today_pnl": -1.99,
     "today_return_pct": "-0.02",
     "last_equity": 10178.02,
     "starting_equity": 10000.0,
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 18.0,
       "entry_price": 56.49,
-      "current_price": 56.49,
-      "market_value": 1016.82,
-      "unrealized_pnl": 0.0,
-      "unrealized_plpc": 0.0
+      "current_price": 56.51,
+      "market_value": 1017.18,
+      "unrealized_pnl": -0.36,
+      "unrealized_plpc": -0.03
     },
     {
       "symbol": "TGT",
@@ -90,9 +90,9 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 350.05,
-      "current_price": 350.51,
-      "market_value": 701.03,
-      "unrealized_pnl": -0.93,
+      "current_price": 350.52,
+      "market_value": 701.04,
+      "unrealized_pnl": -0.94,
       "unrealized_plpc": -0.13
     }
   ],
@@ -593,13 +593,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 10176.4,
-      "daily_pnl": -1.62,
+      "portfolio_value": 10176.03,
+      "daily_pnl": -1.99,
       "cum_return": 1.76
     }
   ],
   "logs": [
-    "2026-10-18 07:04:33 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 22.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 07:34:34 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
     "2026-10-18 07:34:36 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT (09:30 ET). Sleeping 21.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 08:04:37 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
@@ -718,6 +717,7 @@
     "2026-10-19 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 4 shares of MRVL at ~$236.05",
     "2026-10-19 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 5 shares of CRDO at ~$172.19",
     "2026-10-19 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 3 shares of CEG at ~$266.92",
-    "2026-10-19 07:00:15 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 3 shares of ALAB at ~$288.53"
+    "2026-10-19 07:00:15 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 3 shares of ALAB at ~$288.53",
+    "2026-10-19 07:00:17 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
