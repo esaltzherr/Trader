@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-19 07:50:20 AM PT",
-  "timestamp_utc": "2026-10-19T14:50:20.629560+00:00",
+  "updated_at": "2026-10-19 07:50:22 AM PT",
+  "timestamp_utc": "2026-10-19T14:50:22.536774+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 981103.54,
-    "cash": 831217.15,
-    "buying_power": 2998053.52,
-    "total_pnl": -18896.46,
-    "total_return_pct": "-1.89",
-    "today_pnl": -3154.75,
-    "today_return_pct": "-0.32",
+    "portfolio_value": 981017.39,
+    "cash": 881330.77,
+    "buying_power": 3058005.48,
+    "total_pnl": -18982.61,
+    "total_return_pct": "-1.90",
+    "today_pnl": -3240.9,
+    "today_return_pct": "-0.33",
     "last_equity": 984258.29,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 40,
-    "wins": 15,
+    "total_trades": 41,
+    "wins": 16,
     "losses": 25,
-    "win_rate": "37.5%",
-    "profit_factor": "0.59"
+    "win_rate": "39.0%",
+    "profit_factor": "0.62"
   },
   "open_positions": [
     {
@@ -77,21 +77,10 @@
       "side": "long",
       "qty": 547.0,
       "entry_price": 229.06,
-      "current_price": 230.79,
-      "market_value": 126244.87,
-      "unrealized_pnl": 949.58,
-      "unrealized_plpc": 0.76
-    },
-    {
-      "symbol": "CDNS",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 153.0,
-      "entry_price": 327.25,
-      "current_price": 327.77,
-      "market_value": 50148.81,
-      "unrealized_pnl": 79.56,
-      "unrealized_plpc": 0.16
+      "current_price": 230.69,
+      "market_value": 126187.43,
+      "unrealized_pnl": 892.14,
+      "unrealized_plpc": 0.71
     },
     {
       "symbol": "DDOG",
@@ -99,10 +88,10 @@
       "side": "short",
       "qty": 194.0,
       "entry_price": 258.04,
-      "current_price": 262.64,
-      "market_value": 50952.16,
-      "unrealized_pnl": -892.35,
-      "unrealized_plpc": -1.78
+      "current_price": 262.47,
+      "market_value": 50919.18,
+      "unrealized_pnl": -859.37,
+      "unrealized_plpc": -1.72
     },
     {
       "symbol": "INTC",
@@ -110,10 +99,10 @@
       "side": "short",
       "qty": 535.0,
       "entry_price": 93.5,
-      "current_price": 93.89,
-      "market_value": 50231.15,
-      "unrealized_pnl": -208.65,
-      "unrealized_plpc": -0.42
+      "current_price": 93.9,
+      "market_value": 50236.5,
+      "unrealized_pnl": -214.0,
+      "unrealized_plpc": -0.43
     },
     {
       "symbol": "LRCX",
@@ -132,10 +121,10 @@
       "side": "long",
       "qty": 723.0,
       "entry_price": 172.94,
-      "current_price": 172.97,
-      "market_value": 125057.31,
-      "unrealized_pnl": 18.6,
-      "unrealized_plpc": 0.01
+      "current_price": 172.95,
+      "market_value": 125042.85,
+      "unrealized_pnl": 4.14,
+      "unrealized_plpc": 0.0
     },
     {
       "symbol": "SNDK",
@@ -143,10 +132,10 @@
       "side": "short",
       "qty": 36.0,
       "entry_price": 1368.0,
-      "current_price": 1389.77,
-      "market_value": 50031.72,
-      "unrealized_pnl": -783.72,
-      "unrealized_plpc": -1.59
+      "current_price": 1389.84,
+      "market_value": 50034.24,
+      "unrealized_pnl": -786.24,
+      "unrealized_plpc": -1.6
     },
     {
       "symbol": "SNOW",
@@ -176,10 +165,10 @@
       "side": "short",
       "qty": 143.0,
       "entry_price": 348.17,
-      "current_price": 351.81,
-      "market_value": 50308.83,
-      "unrealized_pnl": -520.52,
-      "unrealized_plpc": -1.04
+      "current_price": 351.82,
+      "market_value": 50310.26,
+      "unrealized_pnl": -521.95,
+      "unrealized_plpc": -1.05
     }
   ],
   "recent_trades": [
@@ -269,8 +258,8 @@
       "direction": "LONG",
       "shares": 159.0,
       "price": 313.19,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 318.62,
+      "realized_pnl": 863.37,
       "date": "2026-10-19 06:50:14"
     },
     {
@@ -729,13 +718,12 @@
     },
     {
       "date": "2026-10-19",
-      "portfolio_value": 981103.54,
-      "daily_pnl": -3154.75,
-      "cum_return": -1.89
+      "portfolio_value": 981017.39,
+      "daily_pnl": -3240.9,
+      "cum_return": -1.9
     }
   ],
   "logs": [
-    "2026-10-18 22:36:45 PT  INFO      GitHub Pages deployment cooldown: last push was 43.9s ago. Waiting 1.1s to prevent deployment lock collision...",
     "2026-10-18 22:36:47 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 6.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-18 23:06:47 PT  INFO      GitHub Pages deployment cooldown: last push was 43.9s ago. Waiting 1.1s to prevent deployment lock collision...",
     "2026-10-18 23:06:50 PT  INFO      Market closed. Next open: 2026-10-19 06:30 AM PT. Sleeping 6.4h until pre-market prep at 05:30 AM PT...",
@@ -854,6 +842,7 @@
     "2026-10-19 07:05:30 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 535 shares of INTC @ ~$93.39 (Order ID: b0d800eb-eaf1-49b4-b09d-56a52f3a60c6)",
     "2026-10-19 07:05:30 PT  INFO      [PARABOLIC_BLOWOFF_FADE] SUBMITTED SHORT order: 182 shares of LRCX @ ~$273.49 (Order ID: 1fa7a5b0-91ab-4ea5-a9bf-3d851dd140da)",
     "2026-10-19 07:05:30 PT  INFO      GitHub Pages deployment cooldown: last push was 11.6s ago. Waiting 33.4s to prevent deployment lock collision...",
-    "2026-10-19 07:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CDNS @ $327.71 | P&L: +213.43 (+0.43%) | Reason: Scheduled 60-Min Micro Exit (+0.43%)"
+    "2026-10-19 07:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CDNS @ $327.71 | P&L: +213.43 (+0.43%) | Reason: Scheduled 60-Min Micro Exit (+0.43%)",
+    "2026-10-19 07:50:22 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG SNOW @ $318.62 | P&L: +863.37 (+1.73%) | Reason: Scheduled 60-Min Micro Exit (+1.73%)"
   ]
 }
