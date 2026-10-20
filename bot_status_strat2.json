@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 10:03:17 AM PT",
-  "timestamp_utc": "2026-10-20T17:03:17.464695+00:00",
+  "updated_at": "2026-10-20 10:04:59 AM PT",
+  "timestamp_utc": "2026-10-20T17:05:00.001364+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10167.37,
+    "portfolio_value": 10168.98,
     "cash": 9133.79,
-    "buying_power": 39429.18,
-    "total_pnl": 167.37,
-    "total_return_pct": "+1.67",
-    "today_pnl": 37.35,
-    "today_return_pct": "+0.37",
+    "buying_power": 39433.69,
+    "total_pnl": 168.98,
+    "total_return_pct": "+1.69",
+    "today_pnl": 38.96,
+    "today_return_pct": "+0.38",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 462.12,
-      "market_value": 1033.58,
-      "unrealized_pnl": 19.28,
-      "unrealized_plpc": 1.9
+      "current_price": 462.87,
+      "market_value": 1035.26,
+      "unrealized_pnl": 20.96,
+      "unrealized_plpc": 2.07
     }
   ],
   "recent_trades": [
@@ -616,13 +616,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10167.37,
-      "daily_pnl": 37.35,
-      "cum_return": 1.67
+      "portfolio_value": 10168.98,
+      "daily_pnl": 38.96,
+      "cum_return": 1.69
     }
   ],
   "logs": [
-    "2026-10-19 12:50:04 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
     "2026-10-19 12:50:09 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-19 12:50:09 PT  INFO      Today's session (2026-10-19) already executed. Waiting for market close...",
     "2026-10-19 12:50:09 PT  INFO      Waiting 9.8 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
@@ -741,6 +740,7 @@
     "2026-10-20 08:12:31 PT  INFO      [RATCHET TIER 3] AAL Long peaked at +4.1%, crossed trail px $12.47. Securing gains!",
     "2026-10-20 08:12:31 PT  INFO      [CLOSED POSITION] AAL 83.65 shares @ $12.43 (Entry: $12.13, P&L: $+24.68) [RATCHET_TIER3]",
     "2026-10-20 08:20:26 PT  INFO      [RATCHET BREAKEVEN] SE Short hit breakeven stop. Zero loss exit!",
-    "2026-10-20 08:20:26 PT  INFO      [CLOSED POSITION] SE 12.0 shares @ $82.20 (Entry: $82.28, P&L: $+0.96) [RATCHET_BREAKEVEN]"
+    "2026-10-20 08:20:26 PT  INFO      [CLOSED POSITION] SE 12.0 shares @ $82.20 (Entry: $82.28, P&L: $+0.96) [RATCHET_BREAKEVEN]",
+    "2026-10-20 10:03:17 PT  INFO      GitHub Pages deployment cooldown: last push was 4.5s ago. Waiting 40.5s to prevent deployment lock collision..."
   ]
 }
