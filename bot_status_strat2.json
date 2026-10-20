@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 08:01:58 AM PT",
-  "timestamp_utc": "2026-10-20T15:01:58.959790+00:00",
+  "updated_at": "2026-10-20 08:03:31 AM PT",
+  "timestamp_utc": "2026-10-20T15:03:31.852385+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10194.37,
-    "cash": 8020.47,
-    "buying_power": 35795.26,
-    "total_pnl": 194.37,
-    "total_return_pct": "+1.94",
-    "today_pnl": 64.35,
-    "today_return_pct": "+0.64",
+    "portfolio_value": 10189.2,
+    "cash": 9082.32,
+    "buying_power": 37057.71,
+    "total_pnl": 189.2,
+    "total_return_pct": "+1.89",
+    "today_pnl": 59.18,
+    "today_return_pct": "+0.58",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 46,
-    "wins": 35,
+    "total_trades": 47,
+    "wins": 36,
     "losses": 11,
-    "win_rate": "76.1%",
-    "profit_factor": "1.27"
+    "win_rate": "76.6%",
+    "profit_factor": "1.52"
   },
   "open_positions": [
     {
@@ -57,21 +57,10 @@
       "side": "long",
       "qty": 83.65,
       "entry_price": 12.13,
-      "current_price": 12.58,
-      "market_value": 1052.32,
-      "unrealized_pnl": 37.64,
-      "unrealized_plpc": 3.71
-    },
-    {
-      "symbol": "BMNR",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 45.8683,
-      "entry_price": 22.11,
-      "current_price": 23.23,
-      "market_value": 1065.29,
-      "unrealized_pnl": 51.09,
-      "unrealized_plpc": 5.04
+      "current_price": 12.55,
+      "market_value": 1050.23,
+      "unrealized_pnl": 35.55,
+      "unrealized_plpc": 3.5
     },
     {
       "symbol": "DELL",
@@ -79,10 +68,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 467.35,
-      "market_value": 1045.28,
-      "unrealized_pnl": 30.98,
-      "unrealized_plpc": 3.05
+      "current_price": 467.01,
+      "market_value": 1044.51,
+      "unrealized_pnl": 30.21,
+      "unrealized_plpc": 2.98
     },
     {
       "symbol": "SE",
@@ -90,10 +79,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 82.28,
-      "current_price": 82.42,
-      "market_value": 988.98,
-      "unrealized_pnl": -1.62,
-      "unrealized_plpc": -0.16
+      "current_price": 82.32,
+      "market_value": 987.85,
+      "unrealized_pnl": -0.49,
+      "unrealized_plpc": -0.05
     }
   ],
   "recent_trades": [
@@ -143,8 +132,8 @@
       "direction": "LONG",
       "shares": 45.8683,
       "price": 22.085,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 23.155,
+      "realized_pnl": 47.882378,
       "date": "2026-10-20 07:00:11"
     },
     {
@@ -649,15 +638,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10194.37,
-      "daily_pnl": 64.35,
-      "cum_return": 1.94
+      "portfolio_value": 10189.2,
+      "daily_pnl": 59.18,
+      "cum_return": 1.89
     }
   ],
   "logs": [
-    "2026-10-19 11:18:07 PT  INFO      GitHub Pages deployment cooldown: last push was 11.1s ago. Waiting 33.9s to prevent deployment lock collision...",
-    "2026-10-19 11:33:10 PT  INFO      GitHub Pages deployment cooldown: last push was 10.3s ago. Waiting 34.7s to prevent deployment lock collision...",
-    "2026-10-19 11:48:14 PT  INFO      GitHub Pages deployment cooldown: last push was 9.3s ago. Waiting 35.7s to prevent deployment lock collision...",
     "2026-10-19 12:03:25 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
     "2026-10-19 12:18:26 PT  INFO      GitHub Pages deployment cooldown: last push was 9.0s ago. Waiting 36.0s to prevent deployment lock collision...",
     "2026-10-19 12:33:30 PT  INFO      GitHub Pages deployment cooldown: last push was 7.2s ago. Waiting 37.8s to prevent deployment lock collision...",
@@ -774,6 +760,9 @@
     "2026-10-20 07:45:04 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-20 07:45:04 PT  INFO      [CLOSED POSITION] MMM 6.0 shares @ $171.42 (Entry: $167.31, P&L: $-24.66) [1H_SCHEDULED_EXIT]",
     "2026-10-20 07:45:04 PT  INFO      [CLOSED POSITION] NOC 1.0 shares @ $542.12 (Entry: $540.00, P&L: $-2.12) [1H_SCHEDULED_EXIT]",
-    "2026-10-20 07:51:05 PT  INFO      GitHub Pages deployment cooldown: last push was 14.4s ago. Waiting 30.6s to prevent deployment lock collision..."
+    "2026-10-20 07:51:05 PT  INFO      GitHub Pages deployment cooldown: last push was 14.4s ago. Waiting 30.6s to prevent deployment lock collision...",
+    "2026-10-20 08:01:58 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
+    "2026-10-20 08:02:51 PT  INFO      [RATCHET TIER 3] BMNR Long peaked at +6.0%, crossed trail px $23.16. Securing gains!",
+    "2026-10-20 08:02:51 PT  INFO      [CLOSED POSITION] BMNR 45.8683 shares @ $23.16 (Entry: $22.11, P&L: $+47.88) [RATCHET_TIER3]"
   ]
 }
