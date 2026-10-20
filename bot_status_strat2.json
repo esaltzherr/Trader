@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-20 07:50:03 AM PT",
-  "timestamp_utc": "2026-10-20T14:50:03.647844+00:00",
+  "updated_at": "2026-10-20 07:51:05 AM PT",
+  "timestamp_utc": "2026-10-20T14:51:05.855745+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10181.85,
+    "portfolio_value": 10181.66,
     "cash": 8020.47,
-    "buying_power": 35769.26,
-    "total_pnl": 181.85,
+    "buying_power": 35766.15,
+    "total_pnl": 181.66,
     "total_return_pct": "+1.82",
-    "today_pnl": 51.83,
+    "today_pnl": 51.64,
     "today_return_pct": "+0.51",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 83.65,
       "entry_price": 12.13,
-      "current_price": 12.5,
-      "market_value": 1045.62,
-      "unrealized_pnl": 30.95,
-      "unrealized_plpc": 3.05
+      "current_price": 12.54,
+      "market_value": 1048.95,
+      "unrealized_pnl": 34.27,
+      "unrealized_plpc": 3.38
     },
     {
       "symbol": "BMNR",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 45.8683,
       "entry_price": 22.11,
-      "current_price": 23.21,
-      "market_value": 1064.6,
-      "unrealized_pnl": 50.41,
-      "unrealized_plpc": 4.97
+      "current_price": 23.16,
+      "market_value": 1062.31,
+      "unrealized_pnl": 48.11,
+      "unrealized_plpc": 4.74
     },
     {
       "symbol": "DELL",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 463.36,
-      "market_value": 1036.35,
-      "unrealized_pnl": 22.05,
-      "unrealized_plpc": 2.17
+      "current_price": 463.3,
+      "market_value": 1036.22,
+      "unrealized_pnl": 21.92,
+      "unrealized_plpc": 2.16
     },
     {
       "symbol": "SE",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 82.28,
-      "current_price": 82.1,
-      "market_value": 985.2,
-      "unrealized_pnl": 2.16,
-      "unrealized_plpc": 0.22
+      "current_price": 82.19,
+      "market_value": 986.28,
+      "unrealized_pnl": 1.08,
+      "unrealized_plpc": 0.11
     }
   ],
   "recent_trades": [
@@ -649,8 +649,8 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10181.85,
-      "daily_pnl": 51.83,
+      "portfolio_value": 10181.66,
+      "daily_pnl": 51.64,
       "cum_return": 1.82
     }
   ],
