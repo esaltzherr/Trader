@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 08:07:09 AM PT",
-  "timestamp_utc": "2026-10-20T15:07:09.426764+00:00",
+  "updated_at": "2026-10-20 08:08:11 AM PT",
+  "timestamp_utc": "2026-10-20T15:08:11.412879+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10185.28,
+    "portfolio_value": 10184.4,
     "cash": 9082.32,
-    "buying_power": 37041.57,
-    "total_pnl": 185.28,
-    "total_return_pct": "+1.85",
-    "today_pnl": 55.26,
-    "today_return_pct": "+0.55",
+    "buying_power": 37038.52,
+    "total_pnl": 184.4,
+    "total_return_pct": "+1.84",
+    "today_pnl": 54.38,
+    "today_return_pct": "+0.54",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 83.65,
       "entry_price": 12.13,
-      "current_price": 12.55,
-      "market_value": 1049.82,
-      "unrealized_pnl": 35.14,
-      "unrealized_plpc": 3.46
+      "current_price": 12.56,
+      "market_value": 1050.64,
+      "unrealized_pnl": 35.97,
+      "unrealized_plpc": 3.55
     },
     {
       "symbol": "DELL",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 466.21,
-      "market_value": 1042.73,
-      "unrealized_pnl": 28.43,
-      "unrealized_plpc": 2.8
+      "current_price": 465.74,
+      "market_value": 1041.67,
+      "unrealized_pnl": 27.38,
+      "unrealized_plpc": 2.7
     },
     {
       "symbol": "SE",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 82.28,
-      "current_price": 82.5,
-      "market_value": 990.0,
-      "unrealized_pnl": -2.64,
-      "unrealized_plpc": -0.27
+      "current_price": 82.52,
+      "market_value": 990.24,
+      "unrealized_pnl": -2.88,
+      "unrealized_plpc": -0.29
     }
   ],
   "recent_trades": [
@@ -638,9 +638,9 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10185.28,
-      "daily_pnl": 55.26,
-      "cum_return": 1.85
+      "portfolio_value": 10184.4,
+      "daily_pnl": 54.38,
+      "cum_return": 1.84
     }
   ],
   "logs": [
