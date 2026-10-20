@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19 10:02:24 PM PT",
-  "timestamp_utc": "2026-10-20T05:02:24.875956+00:00",
+  "updated_at": "2026-10-19 10:32:27 PM PT",
+  "timestamp_utc": "2026-10-20T05:32:27.381025+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -624,8 +624,6 @@
     }
   ],
   "logs": [
-    "2026-10-19 05:50:52 PT  INFO      Pre-market standby: 39.1 minutes until market open at 06:30 AM PT.",
-    "2026-10-19 05:51:52 PT  INFO      Pre-market standby: 38.1 minutes until market open at 06:30 AM PT.",
     "2026-10-19 05:52:52 PT  INFO      Pre-market standby: 37.1 minutes until market open at 06:30 AM PT.",
     "2026-10-19 05:53:52 PT  INFO      Pre-market standby: 36.1 minutes until market open at 06:30 AM PT.",
     "2026-10-19 05:54:52 PT  INFO      Pre-market standby: 35.1 minutes until market open at 06:30 AM PT.",
@@ -743,6 +741,8 @@
     "2026-10-19 21:02:19 PT  INFO      GitHub Pages deployment cooldown: last push was 43.4s ago. Waiting 1.6s to prevent deployment lock collision...",
     "2026-10-19 21:02:22 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 8.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-19 21:32:22 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-19 21:32:24 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-19 21:32:24 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-19 22:02:24 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
+    "2026-10-19 22:02:27 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
