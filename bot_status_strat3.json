@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 08:03:15 AM PT",
-  "timestamp_utc": "2026-10-20T15:03:15.639054+00:00",
+  "updated_at": "2026-10-20 10:03:11 AM PT",
+  "timestamp_utc": "2026-10-20T17:03:11.407484+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999865.77,
-    "cash": 576159.37,
-    "buying_power": 3244393.19,
-    "total_pnl": -134.23,
-    "total_return_pct": "-0.01",
-    "today_pnl": 15806.44,
-    "today_return_pct": "+1.61",
+    "portfolio_value": 993874.27,
+    "cash": 664175.41,
+    "buying_power": 3579858.44,
+    "total_pnl": -6125.73,
+    "total_return_pct": "-0.61",
+    "today_pnl": 9814.94,
+    "today_return_pct": "+1.00",
     "last_equity": 984059.33,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 46,
+    "total_trades": 47,
     "wins": 17,
-    "losses": 29,
-    "win_rate": "37.0%",
-    "profit_factor": "1.04"
+    "losses": 30,
+    "win_rate": "36.2%",
+    "profit_factor": "0.94"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 520.0,
       "entry_price": 239.68,
-      "current_price": 241.88,
-      "market_value": 125777.6,
-      "unrealized_pnl": 1145.79,
-      "unrealized_plpc": 0.92
+      "current_price": 238.78,
+      "market_value": 124165.6,
+      "unrealized_pnl": -466.21,
+      "unrealized_plpc": -0.37
     },
     {
       "symbol": "GM",
@@ -88,21 +88,10 @@
       "side": "long",
       "qty": 1061.0,
       "entry_price": 78.35,
-      "current_price": 78.49,
-      "market_value": 83277.89,
-      "unrealized_pnl": 144.69,
-      "unrealized_plpc": 0.17
-    },
-    {
-      "symbol": "NBIS",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 512.0,
-      "entry_price": 161.76,
-      "current_price": 172.03,
-      "market_value": 88079.36,
-      "unrealized_pnl": 5258.24,
-      "unrealized_plpc": 6.35
+      "current_price": 75.72,
+      "market_value": 80344.23,
+      "unrealized_pnl": -2788.98,
+      "unrealized_plpc": -3.36
     },
     {
       "symbol": "SHOP",
@@ -110,10 +99,10 @@
       "side": "long",
       "qty": 721.0,
       "entry_price": 173.02,
-      "current_price": 175.55,
-      "market_value": 126571.55,
-      "unrealized_pnl": 1827.42,
-      "unrealized_plpc": 1.47
+      "current_price": 173.63,
+      "market_value": 125189.03,
+      "unrealized_pnl": 444.9,
+      "unrealized_plpc": 0.36
     }
   ],
   "recent_trades": [
@@ -183,8 +172,8 @@
       "direction": "LONG",
       "shares": 1061.0,
       "price": 78.47,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 75.71,
+      "realized_pnl": -2928.36,
       "date": "2026-10-20 06:40:13"
     },
     {
@@ -669,14 +658,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 999865.77,
-      "daily_pnl": 15806.44,
-      "cum_return": -0.01
+      "portfolio_value": 993874.27,
+      "daily_pnl": 9814.94,
+      "cum_return": -0.61
     }
   ],
   "logs": [
-    "2026-10-20 03:02:56 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 2.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 03:32:56 PT  INFO      GitHub Pages deployment cooldown: last push was 43.6s ago. Waiting 1.4s to prevent deployment lock collision...",
     "2026-10-20 03:32:59 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 2.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 04:02:59 PT  INFO      GitHub Pages deployment cooldown: last push was 37.0s ago. Waiting 8.0s to prevent deployment lock collision...",
     "2026-10-20 04:03:10 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 1.4h until pre-market prep at 05:30 AM PT...",
@@ -794,6 +781,8 @@
     "2026-10-20 07:51:06 PT  INFO      GitHub Pages deployment cooldown: last push was 15.3s ago. Waiting 29.7s to prevent deployment lock collision...",
     "2026-10-20 08:01:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG CRWV @ $63.32 | P&L: +7974.26 (+9.57%) | Reason: Bounce Trail Locked (+9.57% from peak +11.08%)",
     "2026-10-20 08:01:14 PT  INFO      GitHub Pages deployment cooldown: last push was 15.7s ago. Waiting 29.3s to prevent deployment lock collision...",
-    "2026-10-20 08:03:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG NBIS @ $171.79 | P&L: +4700.16 (+5.65%) | Reason: Bounce Trail Locked (+5.65% from peak +7.30%)"
+    "2026-10-20 08:03:15 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG NBIS @ $171.79 | P&L: +4700.16 (+5.65%) | Reason: Bounce Trail Locked (+5.65% from peak +7.30%)",
+    "2026-10-20 08:03:15 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
+    "2026-10-20 10:03:11 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG GM @ $75.71 | P&L: -2928.36 (-3.52%) | Reason: Hard Stop Triggered (-3.52%)"
   ]
 }
