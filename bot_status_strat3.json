@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 06:35:15 AM PT",
-  "timestamp_utc": "2026-10-20T13:35:15.968827+00:00",
+  "updated_at": "2026-10-20 06:40:14 AM PT",
+  "timestamp_utc": "2026-10-20T13:40:14.420462+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 984059.33,
-    "cash": 984059.33,
-    "buying_power": 3686381.73,
-    "total_pnl": -15940.67,
-    "total_return_pct": "-1.59",
-    "today_pnl": 0.0,
-    "today_return_pct": "+0.00",
+    "portfolio_value": 984594.28,
+    "cash": 734683.39,
+    "buying_power": 3140642.32,
+    "total_pnl": -15405.72,
+    "total_return_pct": "-1.54",
+    "today_pnl": 534.95,
+    "today_return_pct": "+0.05",
     "last_equity": 984059.33,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,14 +64,67 @@
     }
   ],
   "stats": {
-    "total_trades": 47,
+    "total_trades": 44,
     "wins": 18,
-    "losses": 29,
-    "win_rate": "38.3%",
-    "profit_factor": "0.73"
+    "losses": 26,
+    "win_rate": "40.9%",
+    "profit_factor": "0.77"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "ACN",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 520.0,
+      "entry_price": 239.68,
+      "current_price": 239.77,
+      "market_value": 124680.4,
+      "unrealized_pnl": 48.59,
+      "unrealized_plpc": 0.04
+    },
+    {
+      "symbol": "SHOP",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 721.0,
+      "entry_price": 173.02,
+      "current_price": 173.86,
+      "market_value": 125353.06,
+      "unrealized_pnl": 608.93,
+      "unrealized_plpc": 0.49
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "NBIS",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 512.0,
+      "price": 162.61,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:40:13"
+    },
+    {
+      "symbol": "GM",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 1061.0,
+      "price": 78.47,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:40:13"
+    },
+    {
+      "symbol": "CRWV",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 1442.0,
+      "price": 57.79,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:40:13"
+    },
     {
       "symbol": "ACN",
       "strategy": "SUPER_MOMENTUM_RUNNER",
@@ -541,36 +594,6 @@
       "close_price": 1211.5101,
       "realized_pnl": 3.08,
       "date": "2026-10-14 07:05:16"
-    },
-    {
-      "symbol": "PANW",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 131.0,
-      "price": 379.69,
-      "close_price": 379.05,
-      "realized_pnl": -83.84,
-      "date": "2026-10-14 06:50:11"
-    },
-    {
-      "symbol": "INTU",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 160.0,
-      "price": 310.68,
-      "close_price": 305.75,
-      "realized_pnl": -788.8,
-      "date": "2026-10-14 06:50:11"
-    },
-    {
-      "symbol": "HON",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 236.0,
-      "price": 211.1,
-      "close_price": 209.39,
-      "realized_pnl": -403.56,
-      "date": "2026-10-14 06:50:11"
     }
   ],
   "history": [
@@ -624,18 +647,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 984059.33,
-      "daily_pnl": 0.0,
-      "cum_return": -1.59
+      "portfolio_value": 984594.28,
+      "daily_pnl": 534.95,
+      "cum_return": -1.54
     }
   ],
   "logs": [
-    "2026-10-19 15:31:49 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 16:01:49 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
-    "2026-10-19 16:01:51 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 13.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 16:31:52 PT  INFO      GitHub Pages deployment cooldown: last push was 43.9s ago. Waiting 1.1s to prevent deployment lock collision...",
-    "2026-10-19 16:31:54 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 13.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 17:01:55 PT  INFO      GitHub Pages deployment cooldown: last push was 42.7s ago. Waiting 2.3s to prevent deployment lock collision...",
     "2026-10-19 17:01:59 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 12.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-19 17:31:59 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-19 17:32:01 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 12.0h until pre-market prep at 05:30 AM PT...",
@@ -749,6 +766,12 @@
     "2026-10-20 06:35:01 PT  INFO      [Engine 1] Scanning for 20-Day Super Momentum leaders (>= +25%)...",
     "2026-10-20 06:35:15 PT  INFO      [Engine 1] Selected 2 Super Momentum leaders: ['SHOP', 'ACN']",
     "2026-10-20 06:35:15 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 721 shares of SHOP @ ~$173.18 (Order ID: 8308c7e5-1a92-43a2-b298-d05d410470af)",
-    "2026-10-20 06:35:15 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 520 shares of ACN @ ~$240.31 (Order ID: d4ddc475-ef94-4337-b878-1ab9b9461d46)"
+    "2026-10-20 06:35:15 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 520 shares of ACN @ ~$240.31 (Order ID: d4ddc475-ef94-4337-b878-1ab9b9461d46)",
+    "2026-10-20 06:40:04 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
+    "2026-10-20 06:40:04 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
+    "2026-10-20 06:40:13 PT  INFO      [Engine 2] Selected 3 Capitulation Bounce targets: ['CRWV', 'GM', 'NBIS']",
+    "2026-10-20 06:40:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1442 shares of CRWV @ ~$57.79 (Order ID: bc6bc64d-fb7b-40e2-bc37-da09e7d87d08)",
+    "2026-10-20 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1061 shares of GM @ ~$78.47 (Order ID: ea15858c-bdca-4470-83eb-e687b76483c4)",
+    "2026-10-20 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 512 shares of NBIS @ ~$162.61 (Order ID: 1793615e-2f2f-422d-818f-d4362c6fb594)"
   ]
 }
