@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-20 07:36:01 AM PT",
-  "timestamp_utc": "2026-10-20T14:36:01.504227+00:00",
+  "updated_at": "2026-10-20 07:37:03 AM PT",
+  "timestamp_utc": "2026-10-20T14:37:03.744495+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10180.6,
+    "portfolio_value": 10181.07,
     "cash": 8566.81,
-    "buying_power": 32636.78,
-    "total_pnl": 180.6,
+    "buying_power": 32629.03,
+    "total_pnl": 181.07,
     "total_return_pct": "+1.81",
-    "today_pnl": 50.58,
+    "today_pnl": 51.05,
     "today_return_pct": "+0.50",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 45.8683,
       "entry_price": 22.11,
-      "current_price": 23.14,
-      "market_value": 1061.39,
-      "unrealized_pnl": 47.19,
-      "unrealized_plpc": 4.65
+      "current_price": 23.16,
+      "market_value": 1062.08,
+      "unrealized_pnl": 47.88,
+      "unrealized_plpc": 4.72
     },
     {
       "symbol": "DELL",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 462.65,
-      "market_value": 1034.77,
-      "unrealized_pnl": 20.48,
-      "unrealized_plpc": 2.02
+      "current_price": 463.35,
+      "market_value": 1036.33,
+      "unrealized_pnl": 22.03,
+      "unrealized_plpc": 2.17
     },
     {
       "symbol": "GEV",
@@ -90,10 +90,10 @@
       "side": "long",
       "qty": 1.1305,
       "entry_price": 899.0,
-      "current_price": 909.19,
-      "market_value": 1027.84,
-      "unrealized_pnl": 11.52,
-      "unrealized_plpc": 1.13
+      "current_price": 910.96,
+      "market_value": 1029.84,
+      "unrealized_pnl": 13.52,
+      "unrealized_plpc": 1.33
     },
     {
       "symbol": "MMM",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 167.31,
-      "current_price": 170.56,
-      "market_value": 1023.36,
-      "unrealized_pnl": -19.5,
-      "unrealized_plpc": -1.94
+      "current_price": 171.26,
+      "market_value": 1027.59,
+      "unrealized_pnl": -23.73,
+      "unrealized_plpc": -2.36
     },
     {
       "symbol": "NOC",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 540.0,
-      "current_price": 541.86,
-      "market_value": 541.86,
-      "unrealized_pnl": -1.85,
-      "unrealized_plpc": -0.34
+      "current_price": 542.06,
+      "market_value": 542.06,
+      "unrealized_pnl": -2.06,
+      "unrealized_plpc": -0.38
     },
     {
       "symbol": "SE",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 82.28,
-      "current_price": 83.08,
-      "market_value": 996.9,
-      "unrealized_pnl": -9.54,
-      "unrealized_plpc": -0.97
+      "current_price": 83.02,
+      "market_value": 996.24,
+      "unrealized_pnl": -8.88,
+      "unrealized_plpc": -0.9
     }
   ],
   "recent_trades": [
@@ -682,8 +682,8 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10180.6,
-      "daily_pnl": 50.58,
+      "portfolio_value": 10181.07,
+      "daily_pnl": 51.05,
       "cum_return": 1.81
     }
   ],
