@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20 02:02:02 AM PT",
-  "timestamp_utc": "2026-10-20T09:02:02.318366+00:00",
+  "updated_at": "2026-10-20 02:32:05 AM PT",
+  "timestamp_utc": "2026-10-20T09:32:05.266675+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -560,8 +560,6 @@
     }
   ],
   "logs": [
-    "2026-10-19 06:45:13 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of PLTR at ~$190.53",
-    "2026-10-19 06:45:13 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 6 shares of TGT at ~$155.24",
     "2026-10-19 06:45:15 PT  INFO      Waiting 14.7 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
     "2026-10-19 07:00:00 PT  INFO      ============================================================",
     "2026-10-19 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
@@ -679,6 +677,8 @@
     "2026-10-20 01:01:56 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
     "2026-10-20 01:01:58 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 4.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 01:31:59 PT  INFO      GitHub Pages deployment cooldown: last push was 43.4s ago. Waiting 1.6s to prevent deployment lock collision...",
-    "2026-10-20 01:32:02 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 4.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-20 01:32:02 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 4.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-20 02:02:02 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
+    "2026-10-20 02:02:04 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 3.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
