@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 06:50:14 AM PT",
-  "timestamp_utc": "2026-10-20T13:50:14.914607+00:00",
+  "updated_at": "2026-10-20 07:05:07 AM PT",
+  "timestamp_utc": "2026-10-20T14:05:07.861739+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 987234.97,
-    "cash": 485641.71,
-    "buying_power": 2863114.48,
-    "total_pnl": -12765.03,
-    "total_return_pct": "-1.28",
-    "today_pnl": 3175.64,
-    "today_return_pct": "+0.32",
+    "portfolio_value": 989251.33,
+    "cash": 235153.3,
+    "buying_power": 2813421.94,
+    "total_pnl": -10748.67,
+    "total_return_pct": "-1.07",
+    "today_pnl": 5192.0,
+    "today_return_pct": "+0.53",
     "last_equity": 984059.33,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 39,
+    "total_trades": 40,
     "wins": 14,
-    "losses": 25,
-    "win_rate": "35.9%",
-    "profit_factor": "0.57"
+    "losses": 26,
+    "win_rate": "35.0%",
+    "profit_factor": "0.56"
   },
   "open_positions": [
     {
@@ -77,10 +77,21 @@
       "side": "long",
       "qty": 520.0,
       "entry_price": 239.68,
-      "current_price": 242.41,
-      "market_value": 126053.25,
-      "unrealized_pnl": 1421.44,
-      "unrealized_plpc": 1.14
+      "current_price": 240.99,
+      "market_value": 125314.8,
+      "unrealized_pnl": 682.99,
+      "unrealized_plpc": 0.55
+    },
+    {
+      "symbol": "CHTR",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 449.0,
+      "entry_price": 111.78,
+      "current_price": 111.21,
+      "market_value": 49933.29,
+      "unrealized_pnl": -256.08,
+      "unrealized_plpc": -0.51
     },
     {
       "symbol": "CRWV",
@@ -88,10 +99,21 @@
       "side": "long",
       "qty": 1442.0,
       "entry_price": 57.62,
-      "current_price": 57.85,
-      "market_value": 83421.14,
-      "unrealized_pnl": 333.78,
-      "unrealized_plpc": 0.4
+      "current_price": 59.09,
+      "market_value": 85207.78,
+      "unrealized_pnl": 2120.42,
+      "unrealized_plpc": 2.55
+    },
+    {
+      "symbol": "FIG",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 2259.0,
+      "entry_price": 22.19,
+      "current_price": 22.14,
+      "market_value": 50014.26,
+      "unrealized_pnl": -105.44,
+      "unrealized_plpc": -0.21
     },
     {
       "symbol": "GM",
@@ -99,10 +121,32 @@
       "side": "long",
       "qty": 1061.0,
       "entry_price": 78.35,
-      "current_price": 78.45,
-      "market_value": 83239.59,
-      "unrealized_pnl": 106.39,
-      "unrealized_plpc": 0.13
+      "current_price": 78.24,
+      "market_value": 83012.64,
+      "unrealized_pnl": -120.56,
+      "unrealized_plpc": -0.14
+    },
+    {
+      "symbol": "INTU",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 147.0,
+      "entry_price": 340.89,
+      "current_price": 337.83,
+      "market_value": 49661.75,
+      "unrealized_pnl": -449.08,
+      "unrealized_plpc": -0.9
+    },
+    {
+      "symbol": "MDB",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 144.0,
+      "entry_price": 348.0,
+      "current_price": 357.5,
+      "market_value": 51480.0,
+      "unrealized_pnl": 1368.0,
+      "unrealized_plpc": 2.73
     },
     {
       "symbol": "NBIS",
@@ -110,10 +154,21 @@
       "side": "long",
       "qty": 512.0,
       "entry_price": 161.76,
-      "current_price": 162.94,
-      "market_value": 83425.28,
-      "unrealized_pnl": 604.16,
-      "unrealized_plpc": 0.73
+      "current_price": 166.48,
+      "market_value": 85237.76,
+      "unrealized_pnl": 2416.64,
+      "unrealized_plpc": 2.92
+    },
+    {
+      "symbol": "NOW",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 334.0,
+      "entry_price": 149.57,
+      "current_price": 148.25,
+      "market_value": 49517.17,
+      "unrealized_pnl": -439.34,
+      "unrealized_plpc": -0.88
     },
     {
       "symbol": "SHOP",
@@ -121,10 +176,10 @@
       "side": "long",
       "qty": 721.0,
       "entry_price": 173.02,
-      "current_price": 174.0,
-      "market_value": 125454.0,
-      "unrealized_pnl": 709.87,
-      "unrealized_plpc": 0.57
+      "current_price": 172.98,
+      "market_value": 124718.58,
+      "unrealized_pnl": -25.55,
+      "unrealized_plpc": -0.02
     }
   ],
   "recent_trades": [
@@ -174,8 +229,8 @@
       "direction": "LONG",
       "shares": 2259.0,
       "price": 22.13,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 22.08,
+      "realized_pnl": -112.95,
       "date": "2026-10-20 06:50:14"
     },
     {
@@ -680,33 +735,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 987234.97,
-      "daily_pnl": 3175.64,
-      "cum_return": -1.28
+      "portfolio_value": 989251.33,
+      "daily_pnl": 5192.0,
+      "cum_return": -1.07
     }
   ],
   "logs": [
-    "2026-10-19 19:02:10 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 10.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 19:32:10 PT  INFO      GitHub Pages deployment cooldown: last push was 43.7s ago. Waiting 1.3s to prevent deployment lock collision...",
-    "2026-10-19 19:32:13 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 10.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 20:02:13 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
-    "2026-10-19 20:02:16 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 9.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 20:32:16 PT  INFO      GitHub Pages deployment cooldown: last push was 43.9s ago. Waiting 1.1s to prevent deployment lock collision...",
-    "2026-10-19 20:32:18 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 9.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 21:02:19 PT  INFO      GitHub Pages deployment cooldown: last push was 43.4s ago. Waiting 1.6s to prevent deployment lock collision...",
-    "2026-10-19 21:02:22 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 8.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 21:32:22 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-19 21:32:24 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 22:02:24 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
-    "2026-10-19 22:02:27 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 22:32:27 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
-    "2026-10-19 22:32:29 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 23:02:30 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
-    "2026-10-19 23:02:32 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 23:32:33 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
-    "2026-10-19 23:32:35 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 6.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 00:02:36 PT  INFO      GitHub Pages deployment cooldown: last push was 43.5s ago. Waiting 1.5s to prevent deployment lock collision...",
-    "2026-10-20 00:02:39 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 5.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 00:32:39 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
     "2026-10-20 00:32:42 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 5.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 01:02:42 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
@@ -805,6 +839,27 @@
     "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 449 shares of CHTR @ ~$111.34 (Order ID: 25077511-659d-47de-9604-504de7f9eecc)",
     "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 334 shares of NOW @ ~$149.41 (Order ID: 521fc9b1-7fc8-4283-a9b8-a8344178266c)",
     "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 147 shares of INTU @ ~$339.97 (Order ID: d32cfb60-c479-49da-9e3d-415e7bd523fe)",
-    "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 144 shares of MDB @ ~$346.85 (Order ID: 5b1c2717-0c8a-4458-9679-615f2e65681a)"
+    "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 144 shares of MDB @ ~$346.85 (Order ID: 5b1c2717-0c8a-4458-9679-615f2e65681a)",
+    "2026-10-20 07:05:06 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
+    "2026-10-20 07:05:06 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
+    "2026-10-20 07:05:07 PT  WARNING   Could not fetch shortable assets list: 5 validation errors for list[Asset]",
+    "1003.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "1238.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "7525.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "12003.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "12711.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "2026-10-20 07:05:07 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
+    "2026-10-20 07:05:07 PT  INFO      [PARABOLIC_BLOWOFF_FADE] No qualifying candidates found.",
+    "2026-10-20 07:05:07 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG FIG @ $22.08 | P&L: -112.95 (-0.23%) | Reason: Breakeven Floor Protected"
   ]
 }
