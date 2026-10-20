@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20 03:02:07 AM PT",
-  "timestamp_utc": "2026-10-20T10:02:07.871857+00:00",
+  "updated_at": "2026-10-20 03:32:10 AM PT",
+  "timestamp_utc": "2026-10-20T10:32:10.429393+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -560,8 +560,6 @@
     }
   ],
   "logs": [
-    "2026-10-19 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
-    "2026-10-19 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
     "2026-10-19 07:00:00 PT  INFO      ============================================================",
     "2026-10-19 07:00:13 PT  INFO      Selected 5 30M ORB Trend Candidates:",
     "2026-10-19 07:00:13 PT  INFO        MRVL   SHORT Breakout: +0.56%  Price: $236.05",
@@ -679,6 +677,8 @@
     "2026-10-20 02:02:02 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
     "2026-10-20 02:02:04 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 3.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 02:32:05 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
-    "2026-10-20 02:32:07 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 3.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-20 02:32:07 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 3.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-20 03:02:07 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
+    "2026-10-20 03:02:10 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
