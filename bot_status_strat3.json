@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 06:40:14 AM PT",
-  "timestamp_utc": "2026-10-20T13:40:14.420462+00:00",
+  "updated_at": "2026-10-20 06:50:14 AM PT",
+  "timestamp_utc": "2026-10-20T13:50:14.914607+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 984594.28,
-    "cash": 734683.39,
-    "buying_power": 3140642.32,
-    "total_pnl": -15405.72,
-    "total_return_pct": "-1.54",
-    "today_pnl": 534.95,
-    "today_return_pct": "+0.05",
+    "portfolio_value": 987234.97,
+    "cash": 485641.71,
+    "buying_power": 2863114.48,
+    "total_pnl": -12765.03,
+    "total_return_pct": "-1.28",
+    "today_pnl": 3175.64,
+    "today_return_pct": "+0.32",
     "last_equity": 984059.33,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 44,
-    "wins": 18,
-    "losses": 26,
-    "win_rate": "40.9%",
-    "profit_factor": "0.77"
+    "total_trades": 39,
+    "wins": 14,
+    "losses": 25,
+    "win_rate": "35.9%",
+    "profit_factor": "0.57"
   },
   "open_positions": [
     {
@@ -77,10 +77,43 @@
       "side": "long",
       "qty": 520.0,
       "entry_price": 239.68,
-      "current_price": 239.77,
-      "market_value": 124680.4,
-      "unrealized_pnl": 48.59,
-      "unrealized_plpc": 0.04
+      "current_price": 242.41,
+      "market_value": 126053.25,
+      "unrealized_pnl": 1421.44,
+      "unrealized_plpc": 1.14
+    },
+    {
+      "symbol": "CRWV",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 1442.0,
+      "entry_price": 57.62,
+      "current_price": 57.85,
+      "market_value": 83421.14,
+      "unrealized_pnl": 333.78,
+      "unrealized_plpc": 0.4
+    },
+    {
+      "symbol": "GM",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 1061.0,
+      "entry_price": 78.35,
+      "current_price": 78.45,
+      "market_value": 83239.59,
+      "unrealized_pnl": 106.39,
+      "unrealized_plpc": 0.13
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 512.0,
+      "entry_price": 161.76,
+      "current_price": 162.94,
+      "market_value": 83425.28,
+      "unrealized_pnl": 604.16,
+      "unrealized_plpc": 0.73
     },
     {
       "symbol": "SHOP",
@@ -88,13 +121,63 @@
       "side": "long",
       "qty": 721.0,
       "entry_price": 173.02,
-      "current_price": 173.86,
-      "market_value": 125353.06,
-      "unrealized_pnl": 608.93,
-      "unrealized_plpc": 0.49
+      "current_price": 174.0,
+      "market_value": 125454.0,
+      "unrealized_pnl": 709.87,
+      "unrealized_plpc": 0.57
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "MDB",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 144.0,
+      "price": 346.85,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:50:14"
+    },
+    {
+      "symbol": "INTU",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 147.0,
+      "price": 339.97,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:50:14"
+    },
+    {
+      "symbol": "NOW",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 334.0,
+      "price": 149.41,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:50:14"
+    },
+    {
+      "symbol": "CHTR",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 449.0,
+      "price": 111.34,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:50:14"
+    },
+    {
+      "symbol": "FIG",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 2259.0,
+      "price": 22.13,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-20 06:50:14"
+    },
     {
       "symbol": "NBIS",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -544,56 +627,6 @@
       "close_price": 429.015,
       "realized_pnl": 739.41,
       "date": "2026-10-15 06:35:22"
-    },
-    {
-      "symbol": "ACN",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 282.0,
-      "price": 221.505,
-      "close_price": 225.13,
-      "realized_pnl": 1022.25,
-      "date": "2026-10-15 06:35:22"
-    },
-    {
-      "symbol": "DDOG",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 239.0,
-      "price": 261.42,
-      "close_price": 266.23,
-      "realized_pnl": 1149.59,
-      "date": "2026-10-15 06:35:22"
-    },
-    {
-      "symbol": "SHOP",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 370.0,
-      "price": 168.68,
-      "close_price": 177.39,
-      "realized_pnl": 3222.7,
-      "date": "2026-10-15 06:35:22"
-    },
-    {
-      "symbol": "UNH",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 319.0,
-      "price": 391.025,
-      "close_price": 391.17,
-      "realized_pnl": -46.26,
-      "date": "2026-10-14 07:05:16"
-    },
-    {
-      "symbol": "LLY",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 103.0,
-      "price": 1211.54,
-      "close_price": 1211.5101,
-      "realized_pnl": 3.08,
-      "date": "2026-10-14 07:05:16"
     }
   ],
   "history": [
@@ -647,20 +680,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 984594.28,
-      "daily_pnl": 534.95,
-      "cum_return": -1.54
+      "portfolio_value": 987234.97,
+      "daily_pnl": 3175.64,
+      "cum_return": -1.28
     }
   ],
   "logs": [
-    "2026-10-19 17:01:59 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 12.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 17:31:59 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-19 17:32:01 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 12.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 18:02:02 PT  INFO      GitHub Pages deployment cooldown: last push was 43.8s ago. Waiting 1.2s to prevent deployment lock collision...",
-    "2026-10-19 18:02:04 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 11.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 18:32:04 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
-    "2026-10-19 18:32:07 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 11.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-19 19:02:07 PT  INFO      GitHub Pages deployment cooldown: last push was 43.6s ago. Waiting 1.4s to prevent deployment lock collision...",
     "2026-10-19 19:02:10 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 10.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-19 19:32:10 PT  INFO      GitHub Pages deployment cooldown: last push was 43.7s ago. Waiting 1.3s to prevent deployment lock collision...",
     "2026-10-19 19:32:13 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT. Sleeping 10.0h until pre-market prep at 05:30 AM PT...",
@@ -772,6 +797,14 @@
     "2026-10-20 06:40:13 PT  INFO      [Engine 2] Selected 3 Capitulation Bounce targets: ['CRWV', 'GM', 'NBIS']",
     "2026-10-20 06:40:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1442 shares of CRWV @ ~$57.79 (Order ID: bc6bc64d-fb7b-40e2-bc37-da09e7d87d08)",
     "2026-10-20 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 1061 shares of GM @ ~$78.47 (Order ID: ea15858c-bdca-4470-83eb-e687b76483c4)",
-    "2026-10-20 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 512 shares of NBIS @ ~$162.61 (Order ID: 1793615e-2f2f-422d-818f-d4362c6fb594)"
+    "2026-10-20 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 512 shares of NBIS @ ~$162.61 (Order ID: 1793615e-2f2f-422d-818f-d4362c6fb594)",
+    "2026-10-20 06:50:04 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-20 06:50:04 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-20 06:50:14 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['FIG', 'CHTR', 'NOW', 'INTU', 'MDB']",
+    "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 2259 shares of FIG @ ~$22.13 (Order ID: 514655b6-e4cb-4d09-bc9b-296a73696552)",
+    "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 449 shares of CHTR @ ~$111.34 (Order ID: 25077511-659d-47de-9604-504de7f9eecc)",
+    "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 334 shares of NOW @ ~$149.41 (Order ID: 521fc9b1-7fc8-4283-a9b8-a8344178266c)",
+    "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 147 shares of INTU @ ~$339.97 (Order ID: d32cfb60-c479-49da-9e3d-415e7bd523fe)",
+    "2026-10-20 06:50:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 144 shares of MDB @ ~$346.85 (Order ID: 5b1c2717-0c8a-4458-9679-615f2e65681a)"
   ]
 }
