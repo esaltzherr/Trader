@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 08:12:19 AM PT",
-  "timestamp_utc": "2026-10-20T15:12:19.735272+00:00",
+  "updated_at": "2026-10-20 08:13:21 AM PT",
+  "timestamp_utc": "2026-10-20T15:13:21.813540+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10180.67,
-    "cash": 9082.32,
-    "buying_power": 37043.06,
-    "total_pnl": 180.67,
-    "total_return_pct": "+1.81",
-    "today_pnl": 50.65,
-    "today_return_pct": "+0.50",
+    "portfolio_value": 10171.44,
+    "cash": 10120.55,
+    "buying_power": 38269.31,
+    "total_pnl": 171.44,
+    "total_return_pct": "+1.71",
+    "today_pnl": 41.42,
+    "today_return_pct": "+0.41",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,34 +44,23 @@
     }
   ],
   "stats": {
-    "total_trades": 47,
-    "wins": 36,
+    "total_trades": 48,
+    "wins": 37,
     "losses": 11,
-    "win_rate": "76.6%",
-    "profit_factor": "1.52"
+    "win_rate": "77.1%",
+    "profit_factor": "1.65"
   },
   "open_positions": [
-    {
-      "symbol": "AAL",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 83.65,
-      "entry_price": 12.13,
-      "current_price": 12.51,
-      "market_value": 1046.04,
-      "unrealized_pnl": 31.37,
-      "unrealized_plpc": 3.09
-    },
     {
       "symbol": "DELL",
       "direction": "LONG",
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 463.06,
-      "market_value": 1035.68,
-      "unrealized_pnl": 21.38,
-      "unrealized_plpc": 2.11
+      "current_price": 461.55,
+      "market_value": 1032.3,
+      "unrealized_pnl": 18.0,
+      "unrealized_plpc": 1.77
     },
     {
       "symbol": "SE",
@@ -79,10 +68,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 82.28,
-      "current_price": 81.99,
-      "market_value": 983.88,
-      "unrealized_pnl": 3.48,
-      "unrealized_plpc": 0.35
+      "current_price": 81.78,
+      "market_value": 981.41,
+      "unrealized_pnl": 5.95,
+      "unrealized_plpc": 0.6
     }
   ],
   "recent_trades": [
@@ -112,8 +101,8 @@
       "direction": "LONG",
       "shares": 83.65,
       "price": 12.11,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 12.425,
+      "realized_pnl": 24.67675,
       "date": "2026-10-20 07:00:12"
     },
     {
@@ -638,14 +627,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10180.67,
-      "daily_pnl": 50.65,
-      "cum_return": 1.81
+      "portfolio_value": 10171.44,
+      "daily_pnl": 41.42,
+      "cum_return": 1.71
     }
   ],
   "logs": [
-    "2026-10-19 12:18:26 PT  INFO      GitHub Pages deployment cooldown: last push was 9.0s ago. Waiting 36.0s to prevent deployment lock collision...",
-    "2026-10-19 12:33:30 PT  INFO      GitHub Pages deployment cooldown: last push was 7.2s ago. Waiting 37.8s to prevent deployment lock collision...",
     "2026-10-19 12:48:37 PT  INFO      GitHub Pages deployment cooldown: last push was 9.8s ago. Waiting 35.2s to prevent deployment lock collision...",
     "2026-10-19 12:50:04 PT  INFO      9.9 min to close. Triggering scheduled EOD liquidation...",
     "2026-10-19 12:50:04 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
@@ -763,6 +750,8 @@
     "2026-10-20 08:01:58 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
     "2026-10-20 08:02:51 PT  INFO      [RATCHET TIER 3] BMNR Long peaked at +6.0%, crossed trail px $23.16. Securing gains!",
     "2026-10-20 08:02:51 PT  INFO      [CLOSED POSITION] BMNR 45.8683 shares @ $23.16 (Entry: $22.11, P&L: $+47.88) [RATCHET_TIER3]",
-    "2026-10-20 08:03:31 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision..."
+    "2026-10-20 08:03:31 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
+    "2026-10-20 08:12:31 PT  INFO      [RATCHET TIER 3] AAL Long peaked at +4.1%, crossed trail px $12.47. Securing gains!",
+    "2026-10-20 08:12:31 PT  INFO      [CLOSED POSITION] AAL 83.65 shares @ $12.43 (Entry: $12.13, P&L: $+24.68) [RATCHET_TIER3]"
   ]
 }
