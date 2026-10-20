@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 08:19:34 AM PT",
-  "timestamp_utc": "2026-10-20T15:19:34.303644+00:00",
+  "updated_at": "2026-10-20 08:20:36 AM PT",
+  "timestamp_utc": "2026-10-20T15:20:36.392091+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10177.53,
-    "cash": 10120.55,
-    "buying_power": 38283.87,
-    "total_pnl": 177.53,
-    "total_return_pct": "+1.78",
-    "today_pnl": 47.51,
-    "today_return_pct": "+0.47",
+    "portfolio_value": 10172.82,
+    "cash": 9133.79,
+    "buying_power": 39444.46,
+    "total_pnl": 172.82,
+    "total_return_pct": "+1.73",
+    "today_pnl": 42.8,
+    "today_return_pct": "+0.42",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 48,
-    "wins": 37,
+    "total_trades": 49,
+    "wins": 38,
     "losses": 11,
-    "win_rate": "77.1%",
-    "profit_factor": "1.65"
+    "win_rate": "77.6%",
+    "profit_factor": "1.66"
   },
   "open_positions": [
     {
@@ -57,21 +57,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 464.73,
-      "market_value": 1039.42,
-      "unrealized_pnl": 25.12,
-      "unrealized_plpc": 2.48
-    },
-    {
-      "symbol": "SE",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 12.0,
-      "entry_price": 82.28,
-      "current_price": 81.87,
-      "market_value": 982.44,
-      "unrealized_pnl": 4.92,
-      "unrealized_plpc": 0.5
+      "current_price": 464.56,
+      "market_value": 1039.03,
+      "unrealized_pnl": 24.74,
+      "unrealized_plpc": 2.44
     }
   ],
   "recent_trades": [
@@ -111,8 +100,8 @@
       "direction": "SHORT",
       "shares": 12.0,
       "price": 82.02,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 82.2,
+      "realized_pnl": 0.96,
       "date": "2026-10-20 07:00:12"
     },
     {
@@ -627,14 +616,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10177.53,
-      "daily_pnl": 47.51,
-      "cum_return": 1.78
+      "portfolio_value": 10172.82,
+      "daily_pnl": 42.8,
+      "cum_return": 1.73
     }
   ],
   "logs": [
-    "2026-10-19 12:48:37 PT  INFO      GitHub Pages deployment cooldown: last push was 9.8s ago. Waiting 35.2s to prevent deployment lock collision...",
-    "2026-10-19 12:50:04 PT  INFO      9.9 min to close. Triggering scheduled EOD liquidation...",
     "2026-10-19 12:50:04 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
     "2026-10-19 12:50:09 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-19 12:50:09 PT  INFO      Today's session (2026-10-19) already executed. Waiting for market close...",
@@ -752,6 +739,8 @@
     "2026-10-20 08:02:51 PT  INFO      [CLOSED POSITION] BMNR 45.8683 shares @ $23.16 (Entry: $22.11, P&L: $+47.88) [RATCHET_TIER3]",
     "2026-10-20 08:03:31 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-20 08:12:31 PT  INFO      [RATCHET TIER 3] AAL Long peaked at +4.1%, crossed trail px $12.47. Securing gains!",
-    "2026-10-20 08:12:31 PT  INFO      [CLOSED POSITION] AAL 83.65 shares @ $12.43 (Entry: $12.13, P&L: $+24.68) [RATCHET_TIER3]"
+    "2026-10-20 08:12:31 PT  INFO      [CLOSED POSITION] AAL 83.65 shares @ $12.43 (Entry: $12.13, P&L: $+24.68) [RATCHET_TIER3]",
+    "2026-10-20 08:20:26 PT  INFO      [RATCHET BREAKEVEN] SE Short hit breakeven stop. Zero loss exit!",
+    "2026-10-20 08:20:26 PT  INFO      [CLOSED POSITION] SE 12.0 shares @ $82.20 (Entry: $82.28, P&L: $+0.96) [RATCHET_BREAKEVEN]"
   ]
 }
