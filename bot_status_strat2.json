@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 07:38:37 AM PT",
-  "timestamp_utc": "2026-10-20T14:38:37.318686+00:00",
+  "updated_at": "2026-10-20 07:39:39 AM PT",
+  "timestamp_utc": "2026-10-20T14:39:39.872259+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10181.0,
+    "portfolio_value": 10170.82,
     "cash": 8566.81,
-    "buying_power": 32635.25,
-    "total_pnl": 181.0,
-    "total_return_pct": "+1.81",
-    "today_pnl": 50.98,
-    "today_return_pct": "+0.50",
+    "buying_power": 32604.65,
+    "total_pnl": 170.82,
+    "total_return_pct": "+1.71",
+    "today_pnl": 40.8,
+    "today_return_pct": "+0.40",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
-    "wins": 34,
+    "total_trades": 44,
+    "wins": 35,
     "losses": 9,
-    "win_rate": "79.1%",
-    "profit_factor": "1.43"
+    "win_rate": "79.5%",
+    "profit_factor": "1.48"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 83.65,
       "entry_price": 12.13,
-      "current_price": 12.55,
-      "market_value": 1050.23,
-      "unrealized_pnl": 35.55,
-      "unrealized_plpc": 3.5
+      "current_price": 12.54,
+      "market_value": 1048.98,
+      "unrealized_pnl": 34.3,
+      "unrealized_plpc": 3.38
     },
     {
       "symbol": "BMNR",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 45.8683,
       "entry_price": 22.11,
-      "current_price": 23.16,
-      "market_value": 1062.54,
-      "unrealized_pnl": 48.34,
-      "unrealized_plpc": 4.77
+      "current_price": 23.11,
+      "market_value": 1060.25,
+      "unrealized_pnl": 46.05,
+      "unrealized_plpc": 4.54
     },
     {
       "symbol": "DELL",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 463.17,
-      "market_value": 1035.91,
-      "unrealized_pnl": 21.62,
-      "unrealized_plpc": 2.13
+      "current_price": 462.58,
+      "market_value": 1034.61,
+      "unrealized_pnl": 20.31,
+      "unrealized_plpc": 2.0
     },
     {
       "symbol": "GEV",
@@ -90,10 +90,10 @@
       "side": "long",
       "qty": 1.1305,
       "entry_price": 899.0,
-      "current_price": 909.98,
-      "market_value": 1028.73,
-      "unrealized_pnl": 12.41,
-      "unrealized_plpc": 1.22
+      "current_price": 906.03,
+      "market_value": 1024.27,
+      "unrealized_pnl": 7.95,
+      "unrealized_plpc": 0.78
     },
     {
       "symbol": "MMM",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 167.31,
-      "current_price": 171.09,
-      "market_value": 1026.51,
-      "unrealized_pnl": -22.65,
-      "unrealized_plpc": -2.26
+      "current_price": 171.35,
+      "market_value": 1028.1,
+      "unrealized_pnl": -24.24,
+      "unrealized_plpc": -2.42
     },
     {
       "symbol": "NOC",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 82.28,
-      "current_price": 83.02,
-      "market_value": 996.24,
-      "unrealized_pnl": -8.88,
-      "unrealized_plpc": -0.9
+      "current_price": 82.96,
+      "market_value": 995.52,
+      "unrealized_pnl": -8.16,
+      "unrealized_plpc": -0.83
     }
   ],
   "recent_trades": [
@@ -136,8 +136,8 @@
       "direction": "LONG",
       "shares": 1.1305,
       "price": 896.06,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 906.03,
+      "realized_pnl": 7.947415,
       "date": "2026-10-20 07:00:13"
     },
     {
@@ -682,14 +682,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10181.0,
-      "daily_pnl": 50.98,
-      "cum_return": 1.81
+      "portfolio_value": 10170.82,
+      "daily_pnl": 40.8,
+      "cum_return": 1.71
     }
   ],
   "logs": [
-    "2026-10-19 09:47:35 PT  INFO      GitHub Pages deployment cooldown: last push was 9.2s ago. Waiting 35.8s to prevent deployment lock collision...",
-    "2026-10-19 10:02:46 PT  INFO      GitHub Pages deployment cooldown: last push was 13.9s ago. Waiting 31.1s to prevent deployment lock collision...",
     "2026-10-19 10:17:49 PT  INFO      GitHub Pages deployment cooldown: last push was 11.5s ago. Waiting 33.5s to prevent deployment lock collision...",
     "2026-10-19 10:32:51 PT  INFO      GitHub Pages deployment cooldown: last push was 10.0s ago. Waiting 35.0s to prevent deployment lock collision...",
     "2026-10-19 10:47:55 PT  INFO      GitHub Pages deployment cooldown: last push was 9.7s ago. Waiting 35.3s to prevent deployment lock collision...",
@@ -807,6 +805,8 @@
     "2026-10-20 07:18:03 PT  INFO      [CLOSED POSITION] CRCL 12.0 shares @ $85.29 (Entry: $82.38, P&L: $-34.92) [STOP_LOSS]",
     "2026-10-20 07:34:18 PT  INFO      [RATCHET BREAKEVEN] CRM Short hit breakeven stop. Zero loss exit!",
     "2026-10-20 07:34:18 PT  INFO      [CLOSED POSITION] CRM 4.0 shares @ $240.51 (Entry: $240.74, P&L: $+0.92) [RATCHET_BREAKEVEN]",
-    "2026-10-20 07:37:03 PT  INFO      GitHub Pages deployment cooldown: last push was 13.5s ago. Waiting 31.5s to prevent deployment lock collision..."
+    "2026-10-20 07:37:03 PT  INFO      GitHub Pages deployment cooldown: last push was 13.5s ago. Waiting 31.5s to prevent deployment lock collision...",
+    "2026-10-20 07:39:39 PT  INFO      [RATCHET TIER 1] GEV Long peaked at +1.9%, crossed locked floor. Securing gains!",
+    "2026-10-20 07:39:39 PT  INFO      [CLOSED POSITION] GEV 1.1305 shares @ $906.03 (Entry: $899.00, P&L: $+7.95) [RATCHET_TIER1]"
   ]
 }
