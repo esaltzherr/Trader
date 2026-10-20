@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-20 07:51:05 AM PT",
-  "timestamp_utc": "2026-10-20T14:51:05.855745+00:00",
+  "updated_at": "2026-10-20 07:52:38 AM PT",
+  "timestamp_utc": "2026-10-20T14:52:38.434480+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10181.66,
+    "portfolio_value": 10188.56,
     "cash": 8020.47,
-    "buying_power": 35766.15,
-    "total_pnl": 181.66,
-    "total_return_pct": "+1.82",
-    "today_pnl": 51.64,
-    "today_return_pct": "+0.51",
+    "buying_power": 35788.05,
+    "total_pnl": 188.56,
+    "total_return_pct": "+1.89",
+    "today_pnl": 58.54,
+    "today_return_pct": "+0.58",
     "last_equity": 10130.02,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 83.65,
       "entry_price": 12.13,
-      "current_price": 12.54,
-      "market_value": 1048.95,
-      "unrealized_pnl": 34.27,
-      "unrealized_plpc": 3.38
+      "current_price": 12.57,
+      "market_value": 1051.9,
+      "unrealized_pnl": 37.22,
+      "unrealized_plpc": 3.67
     },
     {
       "symbol": "BMNR",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 45.8683,
       "entry_price": 22.11,
-      "current_price": 23.16,
-      "market_value": 1062.31,
-      "unrealized_pnl": 48.11,
-      "unrealized_plpc": 4.74
+      "current_price": 23.17,
+      "market_value": 1062.77,
+      "unrealized_pnl": 48.57,
+      "unrealized_plpc": 4.79
     },
     {
       "symbol": "DELL",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.2366,
       "entry_price": 453.5,
-      "current_price": 463.3,
-      "market_value": 1036.22,
-      "unrealized_pnl": 21.92,
-      "unrealized_plpc": 2.16
+      "current_price": 464.38,
+      "market_value": 1038.62,
+      "unrealized_pnl": 24.32,
+      "unrealized_plpc": 2.4
     },
     {
       "symbol": "SE",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 82.28,
-      "current_price": 82.19,
-      "market_value": 986.28,
-      "unrealized_pnl": 1.08,
-      "unrealized_plpc": 0.11
+      "current_price": 82.1,
+      "market_value": 985.2,
+      "unrealized_pnl": 2.16,
+      "unrealized_plpc": 0.22
     }
   ],
   "recent_trades": [
@@ -649,13 +649,12 @@
     },
     {
       "date": "2026-10-20",
-      "portfolio_value": 10181.66,
-      "daily_pnl": 51.64,
-      "cum_return": 1.82
+      "portfolio_value": 10188.56,
+      "daily_pnl": 58.54,
+      "cum_return": 1.89
     }
   ],
   "logs": [
-    "2026-10-19 11:02:59 PT  INFO      GitHub Pages deployment cooldown: last push was 9.3s ago. Waiting 35.7s to prevent deployment lock collision...",
     "2026-10-19 11:18:07 PT  INFO      GitHub Pages deployment cooldown: last push was 11.1s ago. Waiting 33.9s to prevent deployment lock collision...",
     "2026-10-19 11:33:10 PT  INFO      GitHub Pages deployment cooldown: last push was 10.3s ago. Waiting 34.7s to prevent deployment lock collision...",
     "2026-10-19 11:48:14 PT  INFO      GitHub Pages deployment cooldown: last push was 9.3s ago. Waiting 35.7s to prevent deployment lock collision...",
@@ -774,6 +773,7 @@
     "2026-10-20 07:39:39 PT  INFO      [CLOSED POSITION] GEV 1.1305 shares @ $906.03 (Entry: $899.00, P&L: $+7.95) [RATCHET_TIER1]",
     "2026-10-20 07:45:04 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-20 07:45:04 PT  INFO      [CLOSED POSITION] MMM 6.0 shares @ $171.42 (Entry: $167.31, P&L: $-24.66) [1H_SCHEDULED_EXIT]",
-    "2026-10-20 07:45:04 PT  INFO      [CLOSED POSITION] NOC 1.0 shares @ $542.12 (Entry: $540.00, P&L: $-2.12) [1H_SCHEDULED_EXIT]"
+    "2026-10-20 07:45:04 PT  INFO      [CLOSED POSITION] NOC 1.0 shares @ $542.12 (Entry: $540.00, P&L: $-2.12) [1H_SCHEDULED_EXIT]",
+    "2026-10-20 07:51:05 PT  INFO      GitHub Pages deployment cooldown: last push was 14.4s ago. Waiting 30.6s to prevent deployment lock collision..."
   ]
 }
