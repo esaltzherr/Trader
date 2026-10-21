@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21 07:04:03 AM PT",
-  "timestamp_utc": "2026-10-21T14:04:03.988610+00:00",
+  "updated_at": "2026-10-21 07:06:08 AM PT",
+  "timestamp_utc": "2026-10-21T14:06:08.631262+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 992367.45,
-    "cash": 293244.06,
-    "buying_power": 3130521.72,
-    "total_pnl": -7632.55,
-    "total_return_pct": "-0.76",
-    "today_pnl": -1166.66,
-    "today_return_pct": "-0.12",
+    "portfolio_value": 990555.81,
+    "cash": 342411.1,
+    "buying_power": 3184449.58,
+    "total_pnl": -9444.19,
+    "total_return_pct": "-0.94",
+    "today_pnl": -2978.3,
+    "today_return_pct": "-0.30",
     "last_equity": 993534.11,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 44,
+    "total_trades": 45,
     "wins": 14,
-    "losses": 30,
-    "win_rate": "31.8%",
-    "profit_factor": "0.78"
+    "losses": 31,
+    "win_rate": "31.1%",
+    "profit_factor": "0.76"
   },
   "open_positions": [
     {
@@ -77,21 +77,10 @@
       "side": "long",
       "qty": 524.0,
       "entry_price": 238.31,
-      "current_price": 238.7,
-      "market_value": 125078.8,
-      "unrealized_pnl": 204.36,
-      "unrealized_plpc": 0.16
-    },
-    {
-      "symbol": "CRCL",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 571.0,
-      "entry_price": 87.57,
-      "current_price": 86.42,
-      "market_value": 49345.82,
-      "unrealized_pnl": -656.65,
-      "unrealized_plpc": -1.31
+      "current_price": 238.84,
+      "market_value": 125152.16,
+      "unrealized_pnl": 277.72,
+      "unrealized_plpc": 0.22
     },
     {
       "symbol": "DDOG",
@@ -99,21 +88,10 @@
       "side": "long",
       "qty": 185.0,
       "entry_price": 269.76,
-      "current_price": 270.45,
-      "market_value": 50033.25,
-      "unrealized_pnl": 127.53,
-      "unrealized_plpc": 0.26
-    },
-    {
-      "symbol": "HIMS",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 1696.0,
-      "entry_price": 29.47,
-      "current_price": 29.0,
-      "market_value": 49192.48,
-      "unrealized_pnl": -792.02,
-      "unrealized_plpc": -1.58
+      "current_price": 270.98,
+      "market_value": 50131.3,
+      "unrealized_pnl": 225.58,
+      "unrealized_plpc": 0.45
     },
     {
       "symbol": "SHOP",
@@ -121,10 +99,10 @@
       "side": "long",
       "qty": 721.0,
       "entry_price": 173.51,
-      "current_price": 175.51,
-      "market_value": 126546.32,
-      "unrealized_pnl": 1449.17,
-      "unrealized_plpc": 1.16
+      "current_price": 175.0,
+      "market_value": 126175.0,
+      "unrealized_pnl": 1077.86,
+      "unrealized_plpc": 0.86
     },
     {
       "symbol": "T",
@@ -132,10 +110,10 @@
       "side": "long",
       "qty": 11125.0,
       "entry_price": 22.42,
-      "current_price": 22.32,
-      "market_value": 248310.0,
-      "unrealized_pnl": -1112.5,
-      "unrealized_plpc": -0.45
+      "current_price": 22.23,
+      "market_value": 247364.38,
+      "unrealized_pnl": -2058.12,
+      "unrealized_plpc": -0.83
     },
     {
       "symbol": "UAL",
@@ -143,10 +121,10 @@
       "side": "long",
       "qty": 498.0,
       "entry_price": 100.45,
-      "current_price": 101.64,
-      "market_value": 50616.72,
-      "unrealized_pnl": 592.62,
-      "unrealized_plpc": 1.19
+      "current_price": 100.94,
+      "market_value": 50268.12,
+      "unrealized_pnl": 244.02,
+      "unrealized_plpc": 0.49
     }
   ],
   "recent_trades": [
@@ -196,8 +174,8 @@
       "direction": "LONG",
       "shares": 571.0,
       "price": 87.48,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 85.91,
+      "realized_pnl": -896.47,
       "date": "2026-10-21 06:50:19"
     },
     {
@@ -708,36 +686,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 992367.45,
-      "daily_pnl": -1166.66,
-      "cum_return": -0.76
+      "portfolio_value": 990555.81,
+      "daily_pnl": -2978.3,
+      "cum_return": -0.94
     }
   ],
   "logs": [
-    "2026-10-20 13:00:05 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 13:30:07 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 14:00:10 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 14:30:12 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 15:00:14 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 15:30:17 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 16:00:19 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 13.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 16:30:21 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 13.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 17:00:24 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 12.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 17:30:26 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 12.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 18:00:28 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 11.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 18:30:30 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 11.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 19:00:33 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 10.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 19:30:35 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 10.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 20:00:38 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 9.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 20:30:41 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 9.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 21:00:43 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 8.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 21:30:45 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 22:00:48 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 22:30:50 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 23:00:52 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 23:19:45 PT  INFO      =================================================================",
-    "2026-10-20 23:19:46 PT  INFO       STARTING PORTFOLIO 3 BOT (3.2.1-strat3) - $1,000,000 CAPITAL",
-    "2026-10-20 23:19:46 PT  INFO       Account: PA33UNIQCZOZ | Starting Equity: $1,000,000.00",
     "2026-10-20 23:19:46 PT  INFO       4 Alpha Engines: Super Momentum, Capitulation Bounce, Micro-Burst, Parabolic Fade",
     "2026-10-20 23:19:46 PT  INFO      =================================================================",
     "2026-10-20 23:19:46 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 6.2h until pre-market prep at 05:30 AM PT...",
@@ -833,6 +787,30 @@
     "2026-10-21 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 498 shares of UAL @ ~$100.29 (Order ID: e0d98ded-4755-4f73-9f0e-b6e4defbc9da)",
     "2026-10-21 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 1696 shares of HIMS @ ~$29.48 (Order ID: 763121cb-f24a-4f44-9827-2572f4a85d96)",
     "2026-10-21 07:02:01 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG COIN @ $173.15 | P&L: -931.07 (-1.86%) | Reason: Hard Stop Triggered (-1.86%)",
-    "2026-10-21 07:04:03 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG HIMS @ $29.02 | P&L: -771.68 (-1.54%) | Reason: Hard Stop Triggered (-1.54%)"
+    "2026-10-21 07:04:03 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG HIMS @ $29.02 | P&L: -771.68 (-1.54%) | Reason: Hard Stop Triggered (-1.54%)",
+    "2026-10-21 07:05:07 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
+    "2026-10-21 07:05:07 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
+    "2026-10-21 07:05:07 PT  WARNING   Could not fetch shortable assets list: 6 validation errors for list[Asset]",
+    "1733.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "2875.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "7451.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "8709.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "9223.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "11597.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "2026-10-21 07:05:07 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
+    "2026-10-21 07:05:07 PT  INFO      [PARABOLIC_BLOWOFF_FADE] No qualifying candidates found.",
+    "2026-10-21 07:06:08 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CRCL @ $85.91 | P&L: -896.47 (-1.79%) | Reason: Hard Stop Triggered (-1.79%)"
   ]
 }
