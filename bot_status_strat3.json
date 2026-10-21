@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21 06:50:20 AM PT",
-  "timestamp_utc": "2026-10-21T13:51:40.465022+00:00",
+  "updated_at": "2026-10-21 07:02:01 AM PT",
+  "timestamp_utc": "2026-10-21T14:02:01.588971+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 995133.98,
+    "portfolio_value": 993107.44,
     "cash": 244285.06,
-    "buying_power": 3079517.2,
-    "total_pnl": -4866.02,
-    "total_return_pct": "-0.49",
-    "today_pnl": 1599.87,
-    "today_return_pct": "+0.16",
+    "buying_power": 3073842.9,
+    "total_pnl": -6892.56,
+    "total_return_pct": "-0.69",
+    "today_pnl": -426.67,
+    "today_return_pct": "-0.04",
     "last_equity": 993534.11,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 42,
+    "total_trades": 43,
     "wins": 14,
-    "losses": 28,
-    "win_rate": "33.3%",
-    "profit_factor": "0.83"
+    "losses": 29,
+    "win_rate": "32.6%",
+    "profit_factor": "0.80"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 524.0,
       "entry_price": 238.31,
-      "current_price": 240.03,
-      "market_value": 125775.72,
-      "unrealized_pnl": 901.28,
-      "unrealized_plpc": 0.72
+      "current_price": 239.35,
+      "market_value": 125422.02,
+      "unrealized_pnl": 547.58,
+      "unrealized_plpc": 0.44
     },
     {
       "symbol": "COIN",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 283.0,
       "entry_price": 176.46,
-      "current_price": 176.46,
-      "market_value": 49936.76,
-      "unrealized_pnl": -1.42,
-      "unrealized_plpc": -0.0
+      "current_price": 173.03,
+      "market_value": 48967.49,
+      "unrealized_pnl": -970.69,
+      "unrealized_plpc": -1.94
     },
     {
       "symbol": "CRCL",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 571.0,
       "entry_price": 87.57,
-      "current_price": 87.78,
-      "market_value": 50125.24,
-      "unrealized_pnl": 122.77,
-      "unrealized_plpc": 0.25
+      "current_price": 86.71,
+      "market_value": 49511.41,
+      "unrealized_pnl": -491.06,
+      "unrealized_plpc": -0.98
     },
     {
       "symbol": "DDOG",
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 185.0,
       "entry_price": 269.76,
-      "current_price": 268.83,
-      "market_value": 49733.55,
-      "unrealized_pnl": -172.17,
-      "unrealized_plpc": -0.34
+      "current_price": 268.54,
+      "market_value": 49678.99,
+      "unrealized_pnl": -226.73,
+      "unrealized_plpc": -0.45
     },
     {
       "symbol": "HIMS",
@@ -121,10 +121,10 @@
       "side": "long",
       "qty": 1696.0,
       "entry_price": 29.47,
-      "current_price": 29.41,
-      "market_value": 49887.84,
-      "unrealized_pnl": -96.66,
-      "unrealized_plpc": -0.19
+      "current_price": 29.02,
+      "market_value": 49218.26,
+      "unrealized_pnl": -766.24,
+      "unrealized_plpc": -1.53
     },
     {
       "symbol": "SHOP",
@@ -132,10 +132,10 @@
       "side": "long",
       "qty": 721.0,
       "entry_price": 173.51,
-      "current_price": 175.85,
-      "market_value": 126787.85,
-      "unrealized_pnl": 1690.71,
-      "unrealized_plpc": 1.35
+      "current_price": 175.63,
+      "market_value": 126629.23,
+      "unrealized_pnl": 1532.09,
+      "unrealized_plpc": 1.23
     },
     {
       "symbol": "T",
@@ -143,10 +143,10 @@
       "side": "long",
       "qty": 11125.0,
       "entry_price": 22.42,
-      "current_price": 22.33,
-      "market_value": 248423.48,
-      "unrealized_pnl": -999.02,
-      "unrealized_plpc": -0.4
+      "current_price": 22.36,
+      "market_value": 248810.62,
+      "unrealized_pnl": -611.88,
+      "unrealized_plpc": -0.24
     },
     {
       "symbol": "UAL",
@@ -154,10 +154,10 @@
       "side": "long",
       "qty": 498.0,
       "entry_price": 100.45,
-      "current_price": 100.76,
-      "market_value": 50178.48,
-      "unrealized_pnl": 154.38,
-      "unrealized_plpc": 0.31
+      "current_price": 101.58,
+      "market_value": 50584.35,
+      "unrealized_pnl": 560.25,
+      "unrealized_plpc": 1.12
     }
   ],
   "recent_trades": [
@@ -187,8 +187,8 @@
       "direction": "LONG",
       "shares": 283.0,
       "price": 176.44,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 173.15,
+      "realized_pnl": -931.07,
       "date": "2026-10-21 06:50:19"
     },
     {
@@ -719,13 +719,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 995133.98,
-      "daily_pnl": 1599.87,
-      "cum_return": -0.49
+      "portfolio_value": 993107.44,
+      "daily_pnl": -426.67,
+      "cum_return": -0.69
     }
   ],
   "logs": [
-    "2026-10-20 12:50:16 PT  INFO      GitHub Pages deployment cooldown: last push was 34.6s ago. Waiting 10.4s to prevent deployment lock collision...",
     "2026-10-20 12:50:31 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
     "2026-10-20 13:00:05 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 13:30:07 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
@@ -844,6 +843,7 @@
     "2026-10-21 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 185 shares of DDOG @ ~$268.98 (Order ID: 9d3b6279-2d7d-494b-ad94-e28ffcaac74e)",
     "2026-10-21 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 283 shares of COIN @ ~$176.44 (Order ID: 1aae6570-c2cd-4598-bb3d-1f2d8bbf54a4)",
     "2026-10-21 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 498 shares of UAL @ ~$100.29 (Order ID: e0d98ded-4755-4f73-9f0e-b6e4defbc9da)",
-    "2026-10-21 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 1696 shares of HIMS @ ~$29.48 (Order ID: 763121cb-f24a-4f44-9827-2572f4a85d96)"
+    "2026-10-21 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 1696 shares of HIMS @ ~$29.48 (Order ID: 763121cb-f24a-4f44-9827-2572f4a85d96)",
+    "2026-10-21 07:02:01 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG COIN @ $173.15 | P&L: -931.07 (-1.86%) | Reason: Hard Stop Triggered (-1.86%)"
   ]
 }
