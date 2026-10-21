@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21 07:16:55 AM PT",
-  "timestamp_utc": "2026-10-21T14:16:55.956108+00:00",
+  "updated_at": "2026-10-21 07:17:58 AM PT",
+  "timestamp_utc": "2026-10-21T14:17:58.274418+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10194.37,
-    "cash": 17263.92,
-    "buying_power": 32293.99,
-    "total_pnl": 194.37,
-    "total_return_pct": "+1.94",
-    "today_pnl": 27.86,
-    "today_return_pct": "+0.27",
+    "portfolio_value": 10192.42,
+    "cash": 15498.84,
+    "buying_power": 34401.95,
+    "total_pnl": 192.42,
+    "total_return_pct": "+1.92",
+    "today_pnl": 25.91,
+    "today_return_pct": "+0.25",
     "last_equity": 10166.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 42,
-    "wins": 33,
+    "total_trades": 44,
+    "wins": 35,
     "losses": 9,
-    "win_rate": "78.6%",
-    "profit_factor": "1.70"
+    "win_rate": "79.5%",
+    "profit_factor": "1.76"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 105.16,
-      "current_price": 104.47,
-      "market_value": 940.23,
-      "unrealized_pnl": 6.21,
-      "unrealized_plpc": 0.66
+      "current_price": 104.25,
+      "market_value": 938.25,
+      "unrealized_pnl": 8.19,
+      "unrealized_plpc": 0.86
     },
     {
       "symbol": "BX",
@@ -68,32 +68,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 109.51,
-      "current_price": 109.68,
-      "market_value": 987.12,
-      "unrealized_pnl": -1.53,
-      "unrealized_plpc": -0.15
-    },
-    {
-      "symbol": "GILD",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 6.0,
-      "entry_price": 153.36,
-      "current_price": 152.84,
-      "market_value": 917.04,
-      "unrealized_pnl": 3.1,
-      "unrealized_plpc": 0.34
-    },
-    {
-      "symbol": "ISRG",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 2.0,
-      "entry_price": 427.12,
-      "current_price": 421.5,
-      "market_value": 843.0,
-      "unrealized_pnl": 11.23,
-      "unrealized_plpc": 1.31
+      "current_price": 109.66,
+      "market_value": 986.94,
+      "unrealized_pnl": -1.35,
+      "unrealized_plpc": -0.14
     },
     {
       "symbol": "NEE",
@@ -101,10 +79,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 78.41,
-      "current_price": 78.56,
-      "market_value": 942.72,
-      "unrealized_pnl": -1.78,
-      "unrealized_plpc": -0.19
+      "current_price": 78.57,
+      "market_value": 942.84,
+      "unrealized_pnl": -1.9,
+      "unrealized_plpc": -0.2
     },
     {
       "symbol": "PDD",
@@ -112,10 +90,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 79.16,
-      "current_price": 78.25,
-      "market_value": 939.0,
-      "unrealized_pnl": 10.94,
-      "unrealized_plpc": 1.15
+      "current_price": 78.19,
+      "market_value": 938.28,
+      "unrealized_pnl": 11.66,
+      "unrealized_plpc": 1.23
     },
     {
       "symbol": "PM",
@@ -123,10 +101,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.76,
-      "current_price": 195.34,
-      "market_value": 976.7,
-      "unrealized_pnl": -7.9,
-      "unrealized_plpc": -0.81
+      "current_price": 195.12,
+      "market_value": 975.62,
+      "unrealized_pnl": -6.83,
+      "unrealized_plpc": -0.7
     },
     {
       "symbol": "SPOT",
@@ -134,10 +112,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 526.9,
-      "current_price": 523.75,
-      "market_value": 523.75,
-      "unrealized_pnl": 3.15,
-      "unrealized_plpc": 0.6
+      "current_price": 524.49,
+      "market_value": 524.49,
+      "unrealized_pnl": 2.41,
+      "unrealized_plpc": 0.46
     }
   ],
   "recent_trades": [
@@ -187,8 +165,8 @@
       "direction": "SHORT",
       "shares": 6.0,
       "price": 153.62,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 153.265,
+      "realized_pnl": 0.550002,
       "date": "2026-10-21 07:00:08"
     },
     {
@@ -237,8 +215,8 @@
       "direction": "SHORT",
       "shares": 2.0,
       "price": 426.66,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 422.22,
+      "realized_pnl": 9.79,
       "date": "2026-10-21 06:45:09"
     },
     {
@@ -699,16 +677,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 10194.37,
-      "daily_pnl": 27.86,
-      "cum_return": 1.94
+      "portfolio_value": 10192.42,
+      "daily_pnl": 25.91,
+      "cum_return": 1.92
     }
   ],
   "logs": [
-    "2026-10-20 12:50:02 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
-    "2026-10-20 12:50:02 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
-    "2026-10-20 12:50:03 PT  INFO      [CLOSED POSITION] DELL 2.2366 shares @ $462.04 (Entry: $453.50, P&L: $+19.09) [SCHEDULED_EOD]",
-    "2026-10-20 12:50:04 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-20 12:50:05 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-20 12:50:06 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-20 12:50:07 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
@@ -824,6 +798,10 @@
     "2026-10-21 07:14:29 PT  INFO      [RATCHET BREAKEVEN] TMO Short hit breakeven stop. Zero loss exit!",
     "2026-10-21 07:14:29 PT  INFO      [CLOSED POSITION] TMO 1.0 shares @ $693.60 (Entry: $694.24, P&L: $+0.64) [RATCHET_BREAKEVEN]",
     "2026-10-21 07:16:45 PT  INFO      [RATCHET TIER 1] DHR Short peaked at +1.7%, crossed locked floor. Securing gains!",
-    "2026-10-21 07:16:45 PT  INFO      [CLOSED POSITION] DHR 4.0 shares @ $230.40 (Entry: $231.76, P&L: $+5.44) [RATCHET_TIER1]"
+    "2026-10-21 07:16:45 PT  INFO      [CLOSED POSITION] DHR 4.0 shares @ $230.40 (Entry: $231.76, P&L: $+5.44) [RATCHET_TIER1]",
+    "2026-10-21 07:17:17 PT  INFO      [RATCHET TIER 2] ISRG Short peaked at +2.8%, crossed locked floor. Securing gains!",
+    "2026-10-21 07:17:17 PT  INFO      [CLOSED POSITION] ISRG 2.0 shares @ $422.22 (Entry: $427.12, P&L: $+9.79) [RATCHET_TIER2]",
+    "2026-10-21 07:17:27 PT  INFO      [RATCHET BREAKEVEN] GILD Short hit breakeven stop. Zero loss exit!",
+    "2026-10-21 07:17:27 PT  INFO      [CLOSED POSITION] GILD 6.0 shares @ $153.26 (Entry: $153.36, P&L: $+0.55) [RATCHET_BREAKEVEN]"
   ]
 }
