@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-21 12:50:38 AM PT",
-  "timestamp_utc": "2026-10-21T07:50:38.527298+00:00",
+  "updated_at": "2026-10-21 01:20:40 AM PT",
+  "timestamp_utc": "2026-10-21T08:20:40.598668+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10166.7,
-    "cash": 10166.7,
-    "buying_power": 40666.8,
-    "total_pnl": 166.7,
+    "portfolio_value": 10166.51,
+    "cash": 10166.51,
+    "buying_power": 40666.04,
+    "total_pnl": 166.51,
     "total_return_pct": "+1.67",
-    "today_pnl": 36.68,
-    "today_return_pct": "+0.36",
-    "last_equity": 10130.02,
+    "today_pnl": 0.0,
+    "today_return_pct": "+0.00",
+    "last_equity": 10166.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -610,13 +610,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 10166.7,
-      "daily_pnl": 36.68,
+      "portfolio_value": 10166.51,
+      "daily_pnl": 0.0,
       "cum_return": 1.67
     }
   ],
   "logs": [
-    "2026-10-20 04:02:23 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 1.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 04:32:24 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 1.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 05:02:26 PT  INFO      Market closed. Next open: 2026-10-20 06:30 AM PT (09:30 ET). Sleeping 0.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 05:30:02 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
@@ -735,6 +734,7 @@
     "2026-10-20 23:19:48 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 6.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 23:49:52 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 5.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-21 00:19:52 PT  INFO      GitHub Pages deployment cooldown: last push was 0.7s ago. Waiting 44.3s to prevent deployment lock collision...",
-    "2026-10-21 00:20:38 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 5.2h until pre-market prep at 05:30 AM PT..."
+    "2026-10-21 00:20:38 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 5.2h until pre-market prep at 05:30 AM PT...",
+    "2026-10-21 00:50:40 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 4.7h until pre-market prep at 05:30 AM PT..."
   ]
 }
