@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21 07:06:08 AM PT",
-  "timestamp_utc": "2026-10-21T14:06:08.631262+00:00",
+  "updated_at": "2026-10-21 07:07:14 AM PT",
+  "timestamp_utc": "2026-10-21T14:07:14.829477+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 990555.81,
-    "cash": 342411.1,
-    "buying_power": 3184449.58,
-    "total_pnl": -9444.19,
-    "total_return_pct": "-0.94",
-    "today_pnl": -2978.3,
-    "today_return_pct": "-0.30",
+    "portfolio_value": 990458.31,
+    "cash": 391465.71,
+    "buying_power": 3243042.12,
+    "total_pnl": -9541.69,
+    "total_return_pct": "-0.95",
+    "today_pnl": -3075.8,
+    "today_return_pct": "-0.31",
     "last_equity": 993534.11,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 45,
-    "wins": 14,
+    "total_trades": 46,
+    "wins": 15,
     "losses": 31,
-    "win_rate": "31.1%",
-    "profit_factor": "0.76"
+    "win_rate": "32.6%",
+    "profit_factor": "0.77"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 524.0,
       "entry_price": 238.31,
-      "current_price": 238.84,
-      "market_value": 125152.16,
-      "unrealized_pnl": 277.72,
-      "unrealized_plpc": 0.22
+      "current_price": 238.62,
+      "market_value": 125034.26,
+      "unrealized_pnl": 159.82,
+      "unrealized_plpc": 0.13
     },
     {
       "symbol": "DDOG",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 185.0,
       "entry_price": 269.76,
-      "current_price": 270.98,
-      "market_value": 50131.3,
-      "unrealized_pnl": 225.58,
-      "unrealized_plpc": 0.45
+      "current_price": 269.88,
+      "market_value": 49926.88,
+      "unrealized_pnl": 21.15,
+      "unrealized_plpc": 0.04
     },
     {
       "symbol": "SHOP",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 721.0,
       "entry_price": 173.51,
-      "current_price": 175.0,
-      "market_value": 126175.0,
-      "unrealized_pnl": 1077.86,
-      "unrealized_plpc": 0.86
+      "current_price": 175.07,
+      "market_value": 126225.47,
+      "unrealized_pnl": 1128.33,
+      "unrealized_plpc": 0.9
     },
     {
       "symbol": "T",
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 11125.0,
       "entry_price": 22.42,
-      "current_price": 22.23,
-      "market_value": 247364.38,
-      "unrealized_pnl": -2058.12,
-      "unrealized_plpc": -0.83
+      "current_price": 22.25,
+      "market_value": 247475.62,
+      "unrealized_pnl": -1946.88,
+      "unrealized_plpc": -0.78
     },
     {
       "symbol": "UAL",
@@ -121,10 +121,10 @@
       "side": "long",
       "qty": 498.0,
       "entry_price": 100.45,
-      "current_price": 100.94,
-      "market_value": 50268.12,
-      "unrealized_pnl": 244.02,
-      "unrealized_plpc": 0.49
+      "current_price": 101.06,
+      "market_value": 50330.37,
+      "unrealized_pnl": 306.27,
+      "unrealized_plpc": 0.61
     }
   ],
   "recent_trades": [
@@ -144,8 +144,8 @@
       "direction": "LONG",
       "shares": 498.0,
       "price": 100.29,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 100.87,
+      "realized_pnl": 288.84,
       "date": "2026-10-21 06:50:19"
     },
     {
@@ -686,14 +686,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 990555.81,
-      "daily_pnl": -2978.3,
-      "cum_return": -0.94
+      "portfolio_value": 990458.31,
+      "daily_pnl": -3075.8,
+      "cum_return": -0.95
     }
   ],
   "logs": [
-    "2026-10-20 23:19:46 PT  INFO       4 Alpha Engines: Super Momentum, Capitulation Bounce, Micro-Burst, Parabolic Fade",
-    "2026-10-20 23:19:46 PT  INFO      =================================================================",
     "2026-10-20 23:19:46 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 6.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 23:49:48 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 5.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-21 00:19:50 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT. Sleeping 5.2h until pre-market prep at 05:30 AM PT...",
@@ -811,6 +809,8 @@
     "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
     "2026-10-21 07:05:07 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
     "2026-10-21 07:05:07 PT  INFO      [PARABOLIC_BLOWOFF_FADE] No qualifying candidates found.",
-    "2026-10-21 07:06:08 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CRCL @ $85.91 | P&L: -896.47 (-1.79%) | Reason: Hard Stop Triggered (-1.79%)"
+    "2026-10-21 07:06:08 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CRCL @ $85.91 | P&L: -896.47 (-1.79%) | Reason: Hard Stop Triggered (-1.79%)",
+    "2026-10-21 07:06:09 PT  INFO      GitHub Pages deployment cooldown: last push was 12.5s ago. Waiting 32.5s to prevent deployment lock collision...",
+    "2026-10-21 07:07:14 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG UAL @ $100.87 | P&L: +288.84 (+0.58%) | Reason: Stepped Profit Lock (+0.6% Protected)"
   ]
 }
