@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-21 08:29:34 AM PT",
-  "timestamp_utc": "2026-10-21T15:29:34.693622+00:00",
+  "updated_at": "2026-10-21 08:30:37 AM PT",
+  "timestamp_utc": "2026-10-21T15:30:37.689571+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10178.55,
+    "portfolio_value": 10178.78,
     "cash": 13047.63,
-    "buying_power": 37271.3,
-    "total_pnl": 178.55,
+    "buying_power": 37272.51,
+    "total_pnl": 178.78,
     "total_return_pct": "+1.79",
-    "today_pnl": 12.04,
+    "today_pnl": 12.27,
     "today_return_pct": "+0.12",
     "last_equity": 10166.51,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 105.16,
-      "current_price": 104.38,
-      "market_value": 939.41,
-      "unrealized_pnl": 7.03,
-      "unrealized_plpc": 0.74
+      "current_price": 104.4,
+      "market_value": 939.6,
+      "unrealized_pnl": 6.84,
+      "unrealized_plpc": 0.72
     },
     {
       "symbol": "BX",
@@ -68,9 +68,9 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 109.51,
-      "current_price": 110.17,
-      "market_value": 991.58,
-      "unrealized_pnl": -5.99,
+      "current_price": 110.18,
+      "market_value": 991.62,
+      "unrealized_pnl": -6.03,
       "unrealized_plpc": -0.61
     },
     {
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 78.41,
-      "current_price": 78.17,
-      "market_value": 938.1,
-      "unrealized_pnl": 2.84,
-      "unrealized_plpc": 0.3
+      "current_price": 78.14,
+      "market_value": 937.63,
+      "unrealized_pnl": 3.31,
+      "unrealized_plpc": 0.35
     }
   ],
   "recent_trades": [
@@ -644,8 +644,8 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 10178.55,
-      "daily_pnl": 12.04,
+      "portfolio_value": 10178.78,
+      "daily_pnl": 12.27,
       "cum_return": 1.79
     }
   ],
