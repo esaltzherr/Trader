@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-21 12:49:21 PM PT",
-  "timestamp_utc": "2026-10-21T19:49:21.237797+00:00",
+  "updated_at": "2026-10-21 12:50:10 PM PT",
+  "timestamp_utc": "2026-10-21T19:50:10.290876+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10176.51,
-    "cash": 12106.86,
-    "buying_power": 38389.62,
-    "total_pnl": 176.51,
+    "portfolio_value": 10177.14,
+    "cash": 10177.14,
+    "buying_power": 40708.56,
+    "total_pnl": 177.14,
     "total_return_pct": "+1.77",
-    "today_pnl": 10.0,
+    "today_pnl": 10.63,
     "today_return_pct": "+0.10",
     "last_equity": 10166.51,
     "starting_equity": 10000.0,
@@ -44,36 +44,13 @@
     }
   ],
   "stats": {
-    "total_trades": 48,
+    "total_trades": 50,
     "wins": 38,
-    "losses": 10,
-    "win_rate": "79.2%",
-    "profit_factor": "1.71"
+    "losses": 12,
+    "win_rate": "76.0%",
+    "profit_factor": "1.68"
   },
-  "open_positions": [
-    {
-      "symbol": "BX",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 9.0,
-      "entry_price": 109.51,
-      "current_price": 109.79,
-      "market_value": 988.11,
-      "unrealized_pnl": -2.52,
-      "unrealized_plpc": -0.26
-    },
-    {
-      "symbol": "NEE",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 12.0,
-      "entry_price": 78.41,
-      "current_price": 78.52,
-      "market_value": 942.24,
-      "unrealized_pnl": -1.3,
-      "unrealized_plpc": -0.14
-    }
-  ],
+  "open_positions": [],
   "recent_trades": [
     {
       "symbol": "BABA",
@@ -91,8 +68,8 @@
       "direction": "SHORT",
       "shares": 9.0,
       "price": 109.705,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 109.72,
+      "realized_pnl": -1.89,
       "date": "2026-10-21 07:00:09"
     },
     {
@@ -101,8 +78,8 @@
       "direction": "SHORT",
       "shares": 12.0,
       "price": 78.555,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 78.49,
+      "realized_pnl": -0.939996,
       "date": "2026-10-21 07:00:08"
     },
     {
@@ -633,19 +610,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 10176.51,
-      "daily_pnl": 10.0,
+      "portfolio_value": 10177.14,
+      "daily_pnl": 10.63,
       "cum_return": 1.77
     }
   ],
   "logs": [
-    "2026-10-20 13:30:30 PT  INFO      GitHub Pages deployment cooldown: last push was 23.1s ago. Waiting 21.9s to prevent deployment lock collision...",
-    "2026-10-20 13:30:54 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 14:00:54 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-20 14:00:56 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 14:30:56 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
-    "2026-10-20 14:30:58 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-20 15:00:59 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-20 15:01:01 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-20 15:31:01 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
     "2026-10-20 15:31:03 PT  INFO      Market closed. Next open: 2026-10-21 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
@@ -758,6 +728,13 @@
     "2026-10-21 08:21:03 PT  INFO      [RATCHET TIER 1] PDD Short peaked at +1.4%, crossed locked floor. Securing gains!",
     "2026-10-21 08:21:03 PT  INFO      [CLOSED POSITION] PDD 12.0 shares @ $78.69 (Entry: $79.16, P&L: $+5.66) [RATCHET_TIER1]",
     "2026-10-21 08:33:03 PT  INFO      [RATCHET TIER 1] BABA Short peaked at +1.5%, crossed locked floor. Securing gains!",
-    "2026-10-21 08:33:03 PT  INFO      [CLOSED POSITION] BABA 9.0 shares @ $104.53 (Entry: $105.16, P&L: $+5.67) [RATCHET_TIER1]"
+    "2026-10-21 08:33:03 PT  INFO      [CLOSED POSITION] BABA 9.0 shares @ $104.53 (Entry: $105.16, P&L: $+5.67) [RATCHET_TIER1]",
+    "2026-10-21 12:50:02 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
+    "2026-10-21 12:50:02 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
+    "2026-10-21 12:50:04 PT  INFO      [CLOSED POSITION] BX 9.0 shares @ $109.72 (Entry: $109.51, P&L: $-1.89) [SCHEDULED_EOD]",
+    "2026-10-21 12:50:04 PT  INFO      [CLOSED POSITION] NEE 12.0 shares @ $78.49 (Entry: $78.41, P&L: $-0.94) [SCHEDULED_EOD]",
+    "2026-10-21 12:50:05 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-21 12:50:06 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-21 12:50:07 PT  INFO      Waiting for liquidation fills (2 positions remaining)..."
   ]
 }
