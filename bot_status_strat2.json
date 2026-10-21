@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21 07:00:13 AM PT",
-  "timestamp_utc": "2026-10-21T14:00:13.728911+00:00",
+  "updated_at": "2026-10-21 07:02:01 AM PT",
+  "timestamp_utc": "2026-10-21T14:02:01.364412+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10159.94,
-    "cash": 14909.44,
-    "buying_power": 30069.05,
-    "total_pnl": 159.94,
-    "total_return_pct": "+1.60",
-    "today_pnl": -6.57,
-    "today_return_pct": "-0.06",
+    "portfolio_value": 10169.15,
+    "cash": 18880.77,
+    "buying_power": 30222.66,
+    "total_pnl": 169.15,
+    "total_return_pct": "+1.69",
+    "today_pnl": 2.64,
+    "today_return_pct": "+0.03",
     "last_equity": 10166.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -52,26 +52,48 @@
   },
   "open_positions": [
     {
+      "symbol": "BABA",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 9.0,
+      "entry_price": 105.16,
+      "current_price": 104.94,
+      "market_value": 944.46,
+      "unrealized_pnl": 1.98,
+      "unrealized_plpc": 0.21
+    },
+    {
+      "symbol": "BX",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 9.0,
+      "entry_price": 109.51,
+      "current_price": 109.67,
+      "market_value": 987.03,
+      "unrealized_pnl": -1.44,
+      "unrealized_plpc": -0.15
+    },
+    {
       "symbol": "DHR",
       "direction": "SHORT",
       "side": "short",
       "qty": 4.0,
       "entry_price": 231.76,
-      "current_price": 232.14,
-      "market_value": 928.56,
-      "unrealized_pnl": -1.52,
-      "unrealized_plpc": -0.16
+      "current_price": 231.38,
+      "market_value": 925.52,
+      "unrealized_pnl": 1.52,
+      "unrealized_plpc": 0.16
     },
     {
       "symbol": "GILD",
       "direction": "SHORT",
       "side": "short",
-      "qty": 4.0,
-      "entry_price": 153.35,
-      "current_price": 153.44,
-      "market_value": 613.78,
-      "unrealized_pnl": -0.38,
-      "unrealized_plpc": -0.06
+      "qty": 6.0,
+      "entry_price": 153.36,
+      "current_price": 153.5,
+      "market_value": 921.0,
+      "unrealized_pnl": -0.86,
+      "unrealized_plpc": -0.09
     },
     {
       "symbol": "ISRG",
@@ -79,21 +101,32 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 427.12,
-      "current_price": 420.85,
-      "market_value": 841.7,
-      "unrealized_pnl": 12.53,
-      "unrealized_plpc": 1.47
+      "current_price": 419.76,
+      "market_value": 839.52,
+      "unrealized_pnl": 14.71,
+      "unrealized_plpc": 1.72
+    },
+    {
+      "symbol": "NEE",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 12.0,
+      "entry_price": 78.41,
+      "current_price": 78.48,
+      "market_value": 941.76,
+      "unrealized_pnl": -0.82,
+      "unrealized_plpc": -0.09
     },
     {
       "symbol": "PDD",
       "direction": "SHORT",
       "side": "short",
-      "qty": 2.0,
+      "qty": 12.0,
       "entry_price": 79.16,
-      "current_price": 79.18,
-      "market_value": 158.36,
-      "unrealized_pnl": -0.04,
-      "unrealized_plpc": -0.03
+      "current_price": 79.02,
+      "market_value": 948.24,
+      "unrealized_pnl": 1.7,
+      "unrealized_plpc": 0.18
     },
     {
       "symbol": "PM",
@@ -101,10 +134,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 193.76,
-      "current_price": 196.79,
-      "market_value": 983.95,
-      "unrealized_pnl": -15.15,
-      "unrealized_plpc": -1.56
+      "current_price": 196.71,
+      "market_value": 983.57,
+      "unrealized_pnl": -14.77,
+      "unrealized_plpc": -1.52
     },
     {
       "symbol": "SPOT",
@@ -112,10 +145,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 526.9,
-      "current_price": 525.96,
-      "market_value": 525.96,
-      "unrealized_pnl": 0.94,
-      "unrealized_plpc": 0.18
+      "current_price": 524.32,
+      "market_value": 524.32,
+      "unrealized_pnl": 2.58,
+      "unrealized_plpc": 0.49
     },
     {
       "symbol": "TMO",
@@ -123,10 +156,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 694.24,
-      "current_price": 697.19,
-      "market_value": 697.19,
-      "unrealized_pnl": -2.95,
-      "unrealized_plpc": -0.43
+      "current_price": 696.2,
+      "market_value": 696.2,
+      "unrealized_pnl": -1.96,
+      "unrealized_plpc": -0.28
     }
   ],
   "recent_trades": [
@@ -688,13 +721,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 10159.94,
-      "daily_pnl": -6.57,
-      "cum_return": 1.6
+      "portfolio_value": 10169.15,
+      "daily_pnl": 2.64,
+      "cum_return": 1.69
     }
   ],
   "logs": [
-    "2026-10-20 08:02:51 PT  INFO      [CLOSED POSITION] BMNR 45.8683 shares @ $23.16 (Entry: $22.11, P&L: $+47.88) [RATCHET_TIER3]",
     "2026-10-20 08:03:31 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-20 08:12:31 PT  INFO      [RATCHET TIER 3] AAL Long peaked at +4.1%, crossed trail px $12.47. Securing gains!",
     "2026-10-20 08:12:31 PT  INFO      [CLOSED POSITION] AAL 83.65 shares @ $12.43 (Entry: $12.13, P&L: $+24.68) [RATCHET_TIER3]",
@@ -813,6 +845,7 @@
     "2026-10-21 07:00:08 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 12 shares of NEE at ~$78.56",
     "2026-10-21 07:00:09 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 9 shares of BX at ~$109.70",
     "2026-10-21 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 9 shares of BABA at ~$105.14",
-    "2026-10-21 07:00:13 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
+    "2026-10-21 07:00:13 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
+    "2026-10-21 07:00:13 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision..."
   ]
 }
