@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21 07:51:27 AM PT",
-  "timestamp_utc": "2026-10-21T14:51:27.228763+00:00",
+  "updated_at": "2026-10-21 07:53:01 AM PT",
+  "timestamp_utc": "2026-10-21T14:53:01.613152+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10189.66,
+    "portfolio_value": 10187.69,
     "cash": 13992.16,
-    "buying_power": 36195.64,
-    "total_pnl": 189.66,
-    "total_return_pct": "+1.90",
-    "today_pnl": 23.15,
-    "today_return_pct": "+0.23",
+    "buying_power": 36185.38,
+    "total_pnl": 187.69,
+    "total_return_pct": "+1.88",
+    "today_pnl": 21.18,
+    "today_return_pct": "+0.21",
     "last_equity": 10166.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 105.16,
-      "current_price": 103.78,
-      "market_value": 934.02,
-      "unrealized_pnl": 12.42,
-      "unrealized_plpc": 1.31
+      "current_price": 103.89,
+      "market_value": 934.97,
+      "unrealized_pnl": 11.47,
+      "unrealized_plpc": 1.21
     },
     {
       "symbol": "BX",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 109.51,
-      "current_price": 109.72,
-      "market_value": 987.48,
-      "unrealized_pnl": -1.89,
-      "unrealized_plpc": -0.19
+      "current_price": 109.73,
+      "market_value": 987.55,
+      "unrealized_pnl": -1.96,
+      "unrealized_plpc": -0.2
     },
     {
       "symbol": "NEE",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 79.16,
-      "current_price": 78.17,
-      "market_value": 938.04,
-      "unrealized_pnl": 11.9,
-      "unrealized_plpc": 1.25
+      "current_price": 78.25,
+      "market_value": 939.0,
+      "unrealized_pnl": 10.94,
+      "unrealized_plpc": 1.15
     }
   ],
   "recent_trades": [
@@ -655,13 +655,12 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 10189.66,
-      "daily_pnl": 23.15,
-      "cum_return": 1.9
+      "portfolio_value": 10187.69,
+      "daily_pnl": 21.18,
+      "cum_return": 1.88
     }
   ],
   "logs": [
-    "2026-10-20 12:50:11 PT  INFO      GitHub Pages deployment cooldown: last push was 29.0s ago. Waiting 16.0s to prevent deployment lock collision...",
     "2026-10-20 12:50:28 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-20 12:50:28 PT  INFO      Today's session (2026-10-20) already executed. Waiting for market close...",
     "2026-10-20 12:50:28 PT  INFO      Waiting 9.5 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
@@ -780,6 +779,7 @@
     "2026-10-21 07:44:14 PT  INFO      [RATCHET TIER 1] SPOT Short peaked at +1.2%, crossed locked floor. Securing gains!",
     "2026-10-21 07:44:14 PT  INFO      [CLOSED POSITION] SPOT 1.0 shares @ $523.74 (Entry: $526.90, P&L: $+3.16) [RATCHET_TIER1]",
     "2026-10-21 07:45:04 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
-    "2026-10-21 07:45:04 PT  INFO      [CLOSED POSITION] PM 5.0 shares @ $196.46 (Entry: $193.76, P&L: $-13.50) [1H_SCHEDULED_EXIT]"
+    "2026-10-21 07:45:04 PT  INFO      [CLOSED POSITION] PM 5.0 shares @ $196.46 (Entry: $193.76, P&L: $-13.50) [1H_SCHEDULED_EXIT]",
+    "2026-10-21 07:51:27 PT  INFO      GitHub Pages deployment cooldown: last push was 15.0s ago. Waiting 30.0s to prevent deployment lock collision..."
   ]
 }
