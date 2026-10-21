@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-21 09:58:35 AM PT",
-  "timestamp_utc": "2026-10-21T16:58:35.236939+00:00",
+  "updated_at": "2026-10-21 09:59:37 AM PT",
+  "timestamp_utc": "2026-10-21T16:59:37.476588+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10174.45,
+    "portfolio_value": 10173.51,
     "cash": 12106.86,
-    "buying_power": 38378.92,
-    "total_pnl": 174.45,
+    "buying_power": 38374.02,
+    "total_pnl": 173.51,
     "total_return_pct": "+1.74",
-    "today_pnl": 7.94,
-    "today_return_pct": "+0.08",
+    "today_pnl": 7.0,
+    "today_return_pct": "+0.07",
     "last_equity": 10166.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 109.51,
-      "current_price": 110.19,
-      "market_value": 991.67,
-      "unrealized_pnl": -6.08,
-      "unrealized_plpc": -0.62
+      "current_price": 110.23,
+      "market_value": 992.07,
+      "unrealized_pnl": -6.48,
+      "unrealized_plpc": -0.66
     },
     {
       "symbol": "NEE",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 12.0,
       "entry_price": 78.41,
-      "current_price": 78.39,
-      "market_value": 940.74,
-      "unrealized_pnl": 0.2,
-      "unrealized_plpc": 0.02
+      "current_price": 78.44,
+      "market_value": 941.28,
+      "unrealized_pnl": -0.34,
+      "unrealized_plpc": -0.04
     }
   ],
   "recent_trades": [
@@ -633,8 +633,8 @@
     },
     {
       "date": "2026-10-21",
-      "portfolio_value": 10174.45,
-      "daily_pnl": 7.94,
+      "portfolio_value": 10173.51,
+      "daily_pnl": 7.0,
       "cum_return": 1.74
     }
   ],
