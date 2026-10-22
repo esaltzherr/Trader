@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-22 07:58:32 AM PT",
-  "timestamp_utc": "2026-10-22T14:58:32.607083+00:00",
+  "updated_at": "2026-10-22 07:59:34 AM PT",
+  "timestamp_utc": "2026-10-22T14:59:35.140735+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10051.83,
-    "cash": 8008.37,
-    "buying_power": 35481.92,
-    "total_pnl": 51.83,
+    "portfolio_value": 10052.2,
+    "cash": 7058.89,
+    "buying_power": 36616.84,
+    "total_pnl": 52.2,
     "total_return_pct": "+0.52",
-    "today_pnl": -125.12,
+    "today_pnl": -124.75,
     "today_return_pct": "-1.23",
     "last_equity": 10176.95,
     "starting_equity": 10000.0,
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 46,
-    "wins": 32,
+    "total_trades": 47,
+    "wins": 33,
     "losses": 14,
-    "win_rate": "69.6%",
-    "profit_factor": "1.10"
+    "win_rate": "70.2%",
+    "profit_factor": "1.11"
   },
   "open_positions": [
     {
@@ -57,21 +57,10 @@
       "side": "long",
       "qty": 11.6135,
       "entry_price": 87.78,
-      "current_price": 86.58,
-      "market_value": 1005.5,
-      "unrealized_pnl": -13.94,
-      "unrealized_plpc": -1.37
-    },
-    {
-      "symbol": "CRWD",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 4.0,
-      "entry_price": 237.53,
-      "current_price": 236.79,
-      "market_value": 947.18,
-      "unrealized_pnl": 2.92,
-      "unrealized_plpc": 0.31
+      "current_price": 86.68,
+      "market_value": 1006.66,
+      "unrealized_pnl": -12.77,
+      "unrealized_plpc": -1.25
     },
     {
       "symbol": "LRCX",
@@ -79,10 +68,10 @@
       "side": "long",
       "qty": 4.2186,
       "entry_price": 241.23,
-      "current_price": 233.53,
-      "market_value": 985.15,
-      "unrealized_pnl": -32.5,
-      "unrealized_plpc": -3.19
+      "current_price": 233.56,
+      "market_value": 985.32,
+      "unrealized_pnl": -32.34,
+      "unrealized_plpc": -3.18
     },
     {
       "symbol": "QCOM",
@@ -90,10 +79,10 @@
       "side": "long",
       "qty": 5.738,
       "entry_price": 177.18,
-      "current_price": 174.28,
-      "market_value": 999.99,
-      "unrealized_pnl": -16.66,
-      "unrealized_plpc": -1.64
+      "current_price": 174.51,
+      "market_value": 1001.34,
+      "unrealized_pnl": -15.31,
+      "unrealized_plpc": -1.51
     }
   ],
   "recent_trades": [
@@ -123,8 +112,8 @@
       "direction": "SHORT",
       "shares": 4.0,
       "price": 237.68,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 237.33,
+      "realized_pnl": 0.78,
       "date": "2026-10-22 07:00:10"
     },
     {
@@ -661,14 +650,12 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 10051.83,
-      "daily_pnl": -125.12,
+      "portfolio_value": 10052.2,
+      "daily_pnl": -124.75,
       "cum_return": 0.52
     }
   ],
   "logs": [
-    "2026-10-21 12:50:06 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-21 12:50:07 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-21 12:50:11 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-21 12:50:11 PT  INFO      Today's session (2026-10-21) already executed. Waiting for market close...",
     "2026-10-21 12:50:11 PT  INFO      Waiting 9.8 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
@@ -786,6 +773,8 @@
     "2026-10-22 07:46:51 PT  INFO      [CLOSED POSITION] MRVL 4.3266 shares @ $227.08 (Entry: $235.70, P&L: $-37.28) [STOP_LOSS]",
     "2026-10-22 07:47:41 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-22 07:51:18 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision...",
-    "2026-10-22 07:52:54 PT  INFO      GitHub Pages deployment cooldown: last push was 16.9s ago. Waiting 28.1s to prevent deployment lock collision..."
+    "2026-10-22 07:52:54 PT  INFO      GitHub Pages deployment cooldown: last push was 16.9s ago. Waiting 28.1s to prevent deployment lock collision...",
+    "2026-10-22 07:59:14 PT  INFO      [RATCHET BREAKEVEN] CRWD Short hit breakeven stop. Zero loss exit!",
+    "2026-10-22 07:59:14 PT  INFO      [CLOSED POSITION] CRWD 4.0 shares @ $237.33 (Entry: $237.53, P&L: $+0.78) [RATCHET_BREAKEVEN]"
   ]
 }
