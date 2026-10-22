@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22 03:32:47 AM PT",
-  "timestamp_utc": "2026-10-22T10:32:47.316637+00:00",
+  "updated_at": "2026-10-22 04:02:49 AM PT",
+  "timestamp_utc": "2026-10-22T11:02:50.046237+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -622,8 +622,6 @@
     }
   ],
   "logs": [
-    "2026-10-21 05:30:04 PT  INFO      Waiting 74.9 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
-    "2026-10-21 06:45:00 PT  INFO      ============================================================",
     "2026-10-21 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
     "2026-10-21 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
     "2026-10-21 06:45:00 PT  INFO      ============================================================",
@@ -741,6 +739,8 @@
     "2026-10-22 02:32:42 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-22 02:32:44 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 3.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 03:02:44 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
-    "2026-10-22 03:02:47 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-22 03:02:47 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-22 03:32:47 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
+    "2026-10-22 03:32:49 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 2.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
