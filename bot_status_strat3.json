@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 12:34:08 PM PT",
-  "timestamp_utc": "2026-10-22T19:34:08.854950+00:00",
+  "updated_at": "2026-10-22 12:37:02 PM PT",
+  "timestamp_utc": "2026-10-22T19:37:03.054271+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 986550.42,
-    "cash": 709855.84,
-    "buying_power": 3614168.19,
-    "total_pnl": -13449.58,
-    "total_return_pct": "-1.34",
-    "today_pnl": -2364.93,
-    "today_return_pct": "-0.24",
+    "portfolio_value": 986367.76,
+    "cash": 806202.48,
+    "buying_power": 3729272.7,
+    "total_pnl": -13632.24,
+    "total_return_pct": "-1.36",
+    "today_pnl": -2547.59,
+    "today_return_pct": "-0.26",
     "last_equity": 988915.35,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 47,
+    "total_trades": 48,
     "wins": 18,
-    "losses": 29,
-    "win_rate": "38.3%",
-    "profit_factor": "0.72"
+    "losses": 30,
+    "win_rate": "37.5%",
+    "profit_factor": "0.69"
   },
   "open_positions": [
     {
@@ -77,32 +77,10 @@
       "side": "long",
       "qty": 514.0,
       "entry_price": 243.44,
-      "current_price": 255.58,
-      "market_value": 131368.12,
-      "unrealized_pnl": 6239.96,
-      "unrealized_plpc": 4.99
-    },
-    {
-      "symbol": "INTC",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 566.0,
-      "entry_price": 88.05,
-      "current_price": 85.4,
-      "market_value": 48336.57,
-      "unrealized_pnl": -1497.47,
-      "unrealized_plpc": -3.0
-    },
-    {
-      "symbol": "KLAC",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 326.0,
-      "entry_price": 152.85,
-      "current_price": 147.67,
-      "market_value": 48140.42,
-      "unrealized_pnl": -1687.06,
-      "unrealized_plpc": -3.39
+      "current_price": 255.42,
+      "market_value": 131285.88,
+      "unrealized_pnl": 6157.72,
+      "unrealized_plpc": 4.92
     },
     {
       "symbol": "META",
@@ -110,10 +88,10 @@
       "side": "long",
       "qty": 76.0,
       "entry_price": 652.05,
-      "current_price": 642.76,
-      "market_value": 48849.47,
-      "unrealized_pnl": -706.33,
-      "unrealized_plpc": -1.43
+      "current_price": 643.21,
+      "market_value": 48883.96,
+      "unrealized_pnl": -671.84,
+      "unrealized_plpc": -1.36
     }
   ],
   "recent_trades": [
@@ -173,8 +151,8 @@
       "direction": "LONG",
       "shares": 566.0,
       "price": 88.3,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 85.2,
+      "realized_pnl": -1754.6,
       "date": "2026-10-22 06:40:06"
     },
     {
@@ -681,14 +659,12 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 986550.42,
-      "daily_pnl": -2364.93,
-      "cum_return": -1.34
+      "portfolio_value": 986367.76,
+      "daily_pnl": -2547.59,
+      "cum_return": -1.36
     }
   ],
   "logs": [
-    "2026-10-22 05:39:48 PT  INFO      Pre-market standby: 50.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-22 05:40:48 PT  INFO      Pre-market standby: 49.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 05:41:48 PT  INFO      Pre-market standby: 48.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 05:42:48 PT  INFO      Pre-market standby: 47.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 05:43:48 PT  INFO      Pre-market standby: 46.2 minutes until market open at 06:30 AM PT.",
@@ -806,6 +782,8 @@
     "2026-10-22 07:51:51 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
     "2026-10-22 11:32:13 PT  INFO      [SUPER_MOMENTUM_RUNNER] CLOSED LONG SHOP @ $165.71 | P&L: -5205.62 (-4.17%) | Reason: Hard Stop Triggered (-4.17%)",
     "2026-10-22 11:32:14 PT  INFO      GitHub Pages deployment cooldown: last push was 10.7s ago. Waiting 34.3s to prevent deployment lock collision...",
-    "2026-10-22 12:34:08 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG KLAC @ $147.71 | P&L: -1783.22 (-3.57%) | Reason: Hard Stop Triggered (-3.57%)"
+    "2026-10-22 12:34:08 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG KLAC @ $147.71 | P&L: -1783.22 (-3.57%) | Reason: Hard Stop Triggered (-3.57%)",
+    "2026-10-22 12:34:08 PT  INFO      GitHub Pages deployment cooldown: last push was 8.3s ago. Waiting 36.7s to prevent deployment lock collision...",
+    "2026-10-22 12:37:02 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG INTC @ $85.20 | P&L: -1754.60 (-3.51%) | Reason: Hard Stop Triggered (-3.51%)"
   ]
 }
