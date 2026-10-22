@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 06:35:12 AM PT",
-  "timestamp_utc": "2026-10-22T13:35:12.650041+00:00",
+  "updated_at": "2026-10-22 06:40:06 AM PT",
+  "timestamp_utc": "2026-10-22T13:40:07.211068+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 988915.35,
-    "cash": 988915.35,
-    "buying_power": 3706220.36,
-    "total_pnl": -11084.65,
-    "total_return_pct": "-1.11",
-    "today_pnl": 0.0,
-    "today_return_pct": "+0.00",
+    "portfolio_value": 987965.0,
+    "cash": 738729.57,
+    "buying_power": 3403886.77,
+    "total_pnl": -12035.0,
+    "total_return_pct": "-1.20",
+    "today_pnl": -950.35,
+    "today_return_pct": "-0.10",
     "last_equity": 988915.35,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,14 +64,87 @@
     }
   ],
   "stats": {
-    "total_trades": 48,
-    "wins": 17,
-    "losses": 31,
-    "win_rate": "35.4%",
-    "profit_factor": "0.74"
+    "total_trades": 43,
+    "wins": 15,
+    "losses": 28,
+    "win_rate": "34.9%",
+    "profit_factor": "0.70"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "ACN",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 514.0,
+      "entry_price": 243.44,
+      "current_price": 243.38,
+      "market_value": 125094.75,
+      "unrealized_pnl": -33.41,
+      "unrealized_plpc": -0.03
+    },
+    {
+      "symbol": "SHOP",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 722.0,
+      "entry_price": 173.21,
+      "current_price": 171.94,
+      "market_value": 124140.68,
+      "unrealized_pnl": -916.94,
+      "unrealized_plpc": -0.73
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "INTC",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 566.0,
+      "price": 88.3,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-22 06:40:06"
+    },
+    {
+      "symbol": "KLAC",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 326.0,
+      "price": 153.18,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-22 06:40:06"
+    },
+    {
+      "symbol": "AMAT",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 130.0,
+      "price": 383.18,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-22 06:40:06"
+    },
+    {
+      "symbol": "META",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 76.0,
+      "price": 652.85,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-22 06:40:06"
+    },
+    {
+      "symbol": "LRCX",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 214.0,
+      "price": 233.4,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-22 06:40:06"
+    },
     {
       "symbol": "ACN",
       "strategy": "SUPER_MOMENTUM_RUNNER",
@@ -521,56 +594,6 @@
       "close_price": 250.46,
       "realized_pnl": -71.64,
       "date": "2026-10-15 07:05:33"
-    },
-    {
-      "symbol": "TTD",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 3891.0,
-      "price": 12.85,
-      "close_price": 13.105,
-      "realized_pnl": -992.21,
-      "date": "2026-10-15 07:05:33"
-    },
-    {
-      "symbol": "WDAY",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 250.0,
-      "price": 199.47,
-      "close_price": 195.28,
-      "realized_pnl": 1047.5,
-      "date": "2026-10-15 07:05:33"
-    },
-    {
-      "symbol": "ADSK",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 204.0,
-      "price": 245.07,
-      "close_price": 245.14,
-      "realized_pnl": -14.28,
-      "date": "2026-10-15 07:05:33"
-    },
-    {
-      "symbol": "INTU",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 151.0,
-      "price": 331.015,
-      "close_price": 331.185,
-      "realized_pnl": -25.67,
-      "date": "2026-10-15 07:05:33"
-    },
-    {
-      "symbol": "APP",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 184.0,
-      "price": 271.68,
-      "close_price": 276.71,
-      "realized_pnl": 925.52,
-      "date": "2026-10-15 06:50:14"
     }
   ],
   "history": [
@@ -636,20 +659,12 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 988915.35,
-      "daily_pnl": 0.0,
-      "cum_return": -1.11
+      "portfolio_value": 987965.0,
+      "daily_pnl": -950.35,
+      "cum_return": -1.2
     }
   ],
   "logs": [
-    "2026-10-21 07:07:14 PT  INFO      GitHub Pages deployment cooldown: last push was 30.6s ago. Waiting 14.4s to prevent deployment lock collision...",
-    "2026-10-21 07:50:34 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG DDOG @ $272.58 | P&L: +666.00 (+1.34%) | Reason: Scheduled 60-Min Micro Exit (+1.34%)",
-    "2026-10-21 07:50:35 PT  INFO      GitHub Pages deployment cooldown: last push was 9.6s ago. Waiting 35.4s to prevent deployment lock collision...",
-    "2026-10-21 12:50:12 PT  INFO      >>> TIME TRIGGER: 12:50 PM PT -> EOD Liquidation of all Portfolio 3 positions...",
-    "2026-10-21 12:50:13 PT  INFO      Closing all 3 active positions for Scheduled EOD Liquidation...",
-    "2026-10-21 12:50:14 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
-    "2026-10-21 12:50:15 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
-    "2026-10-21 12:50:16 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
     "2026-10-21 12:50:17 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
     "2026-10-21 12:50:18 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
     "2026-10-21 12:50:19 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
@@ -761,6 +776,14 @@
     "2026-10-22 06:35:01 PT  INFO      [Engine 1] Scanning for 20-Day Super Momentum leaders (>= +25%)...",
     "2026-10-22 06:35:11 PT  INFO      [Engine 1] Selected 2 Super Momentum leaders: ['SHOP', 'ACN']",
     "2026-10-22 06:35:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 722 shares of SHOP @ ~$172.92 (Order ID: 59e4b066-c834-4d21-b16e-496374f9281a)",
-    "2026-10-22 06:35:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 514 shares of ACN @ ~$243.10 (Order ID: 19f22e86-0358-4a65-8d8d-e050d03c3447)"
+    "2026-10-22 06:35:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 514 shares of ACN @ ~$243.10 (Order ID: 19f22e86-0358-4a65-8d8d-e050d03c3447)",
+    "2026-10-22 06:40:00 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
+    "2026-10-22 06:40:00 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
+    "2026-10-22 06:40:06 PT  INFO      [Engine 2] Selected 5 Capitulation Bounce targets: ['LRCX', 'META', 'AMAT', 'KLAC', 'INTC']",
+    "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 214 shares of LRCX @ ~$233.40 (Order ID: 5cb89ccd-1792-4263-8fa7-ceda3074690d)",
+    "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 76 shares of META @ ~$652.85 (Order ID: a0e01d4d-b4dd-44da-b2d3-10cd9f5f6bbd)",
+    "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 130 shares of AMAT @ ~$383.18 (Order ID: a74addc6-722e-4830-9694-c973d0852307)",
+    "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 326 shares of KLAC @ ~$153.18 (Order ID: bc209959-0d97-4a95-8973-567b7b1edc4d)",
+    "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 566 shares of INTC @ ~$88.30 (Order ID: 69656942-718b-4493-886a-fb55440ed9dd)"
   ]
 }
