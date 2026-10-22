@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 07:00:11 AM PT",
-  "timestamp_utc": "2026-10-22T14:00:11.937549+00:00",
+  "updated_at": "2026-10-22 07:00:13 AM PT",
+  "timestamp_utc": "2026-10-22T14:00:14.168984+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10174.51,
+    "portfolio_value": 10173.34,
     "cash": 14675.02,
-    "buying_power": 29637.06,
-    "total_pnl": 174.51,
-    "total_return_pct": "+1.75",
-    "today_pnl": -2.44,
-    "today_return_pct": "-0.02",
+    "buying_power": 29631.59,
+    "total_pnl": 173.34,
+    "total_return_pct": "+1.73",
+    "today_pnl": -3.61,
+    "today_return_pct": "-0.04",
     "last_equity": 10176.95,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -80,9 +80,9 @@
       "qty": 31.0,
       "entry_price": 32.02,
       "current_price": 31.68,
-      "market_value": 982.1,
-      "unrealized_pnl": 10.48,
-      "unrealized_plpc": 1.06
+      "market_value": 982.24,
+      "unrealized_pnl": 10.35,
+      "unrealized_plpc": 1.04
     },
     {
       "symbol": "LMT",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 597.99,
-      "current_price": 584.42,
-      "market_value": 584.42,
-      "unrealized_pnl": 13.57,
-      "unrealized_plpc": 2.27
+      "current_price": 585.55,
+      "market_value": 585.55,
+      "unrealized_pnl": 12.44,
+      "unrealized_plpc": 2.08
     },
     {
       "symbol": "UNP",
@@ -672,13 +672,12 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 10174.51,
-      "daily_pnl": -2.44,
-      "cum_return": 1.75
+      "portfolio_value": 10173.34,
+      "daily_pnl": -3.61,
+      "cum_return": 1.73
     }
   ],
   "logs": [
-    "2026-10-21 07:17:17 PT  INFO      [CLOSED POSITION] ISRG 2.0 shares @ $422.22 (Entry: $427.12, P&L: $+9.79) [RATCHET_TIER2]",
     "2026-10-21 07:17:27 PT  INFO      [RATCHET BREAKEVEN] GILD Short hit breakeven stop. Zero loss exit!",
     "2026-10-21 07:17:27 PT  INFO      [CLOSED POSITION] GILD 6.0 shares @ $153.26 (Entry: $153.36, P&L: $+0.55) [RATCHET_BREAKEVEN]",
     "2026-10-21 07:44:14 PT  INFO      [RATCHET TIER 1] SPOT Short peaked at +1.2%, crossed locked floor. Securing gains!",
@@ -797,6 +796,7 @@
     "2026-10-22 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.2186 shares of LRCX at ~$241.24",
     "2026-10-22 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 4 shares of CRWD at ~$237.68",
     "2026-10-22 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 5.738 shares of QCOM at ~$177.36",
-    "2026-10-22 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.3266 shares of MRVL at ~$235.22"
+    "2026-10-22 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.3266 shares of MRVL at ~$235.22",
+    "2026-10-22 07:00:13 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
