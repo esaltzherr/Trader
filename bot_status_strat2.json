@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 07:21:48 AM PT",
-  "timestamp_utc": "2026-10-22T14:21:48.781800+00:00",
+  "updated_at": "2026-10-22 07:22:50 AM PT",
+  "timestamp_utc": "2026-10-22T14:22:50.818742+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10117.35,
+    "portfolio_value": 10101.51,
     "cash": 10079.07,
-    "buying_power": 30394.27,
-    "total_pnl": 117.35,
-    "total_return_pct": "+1.17",
-    "today_pnl": -59.6,
-    "today_return_pct": "-0.59",
+    "buying_power": 30349.38,
+    "total_pnl": 101.51,
+    "total_return_pct": "+1.02",
+    "today_pnl": -75.44,
+    "today_return_pct": "-0.74",
     "last_equity": 10176.95,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 83.0,
       "entry_price": 12.28,
-      "current_price": 12.57,
-      "market_value": 1043.72,
-      "unrealized_pnl": -24.48,
-      "unrealized_plpc": -2.4
+      "current_price": 12.61,
+      "market_value": 1046.21,
+      "unrealized_pnl": -26.98,
+      "unrealized_plpc": -2.65
     },
     {
       "symbol": "BX",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 111.83,
-      "current_price": 113.92,
-      "market_value": 1025.23,
-      "unrealized_pnl": -18.77,
-      "unrealized_plpc": -1.86
+      "current_price": 114.5,
+      "market_value": 1030.5,
+      "unrealized_pnl": -24.03,
+      "unrealized_plpc": -2.39
     },
     {
       "symbol": "CRCL",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 11.6135,
       "entry_price": 87.78,
-      "current_price": 87.17,
-      "market_value": 1012.35,
-      "unrealized_pnl": -7.08,
-      "unrealized_plpc": -0.69
+      "current_price": 87.0,
+      "market_value": 1010.37,
+      "unrealized_pnl": -9.06,
+      "unrealized_plpc": -0.89
     },
     {
       "symbol": "CRWD",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 237.53,
-      "current_price": 237.87,
-      "market_value": 951.48,
-      "unrealized_pnl": -1.38,
-      "unrealized_plpc": -0.14
+      "current_price": 237.03,
+      "market_value": 948.13,
+      "unrealized_pnl": 1.97,
+      "unrealized_plpc": 0.21
     },
     {
       "symbol": "IONQ",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 31.0,
       "entry_price": 32.02,
-      "current_price": 31.89,
-      "market_value": 988.59,
-      "unrealized_pnl": 3.99,
-      "unrealized_plpc": 0.4
+      "current_price": 31.8,
+      "market_value": 985.64,
+      "unrealized_pnl": 6.94,
+      "unrealized_plpc": 0.7
     },
     {
       "symbol": "LRCX",
@@ -112,10 +112,10 @@
       "side": "long",
       "qty": 4.2186,
       "entry_price": 241.23,
-      "current_price": 239.16,
-      "market_value": 1008.92,
-      "unrealized_pnl": -8.73,
-      "unrealized_plpc": -0.86
+      "current_price": 237.5,
+      "market_value": 1001.92,
+      "unrealized_pnl": -15.74,
+      "unrealized_plpc": -1.55
     },
     {
       "symbol": "MRVL",
@@ -123,10 +123,10 @@
       "side": "long",
       "qty": 4.3266,
       "entry_price": 235.7,
-      "current_price": 231.64,
-      "market_value": 1002.21,
-      "unrealized_pnl": -17.55,
-      "unrealized_plpc": -1.72
+      "current_price": 230.51,
+      "market_value": 997.32,
+      "unrealized_pnl": -22.44,
+      "unrealized_plpc": -2.2
     },
     {
       "symbol": "QCOM",
@@ -134,10 +134,10 @@
       "side": "long",
       "qty": 5.738,
       "entry_price": 177.18,
-      "current_price": 178.43,
-      "market_value": 1023.83,
-      "unrealized_pnl": 7.18,
-      "unrealized_plpc": 0.71
+      "current_price": 178.34,
+      "market_value": 1023.31,
+      "unrealized_pnl": 6.67,
+      "unrealized_plpc": 0.66
     }
   ],
   "recent_trades": [
@@ -705,9 +705,9 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 10117.35,
-      "daily_pnl": -59.6,
-      "cum_return": 1.17
+      "portfolio_value": 10101.51,
+      "daily_pnl": -75.44,
+      "cum_return": 1.02
     }
   ],
   "logs": [
