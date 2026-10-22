@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 07:51:18 AM PT",
-  "timestamp_utc": "2026-10-22T14:51:18.413377+00:00",
+  "updated_at": "2026-10-22 07:52:53 AM PT",
+  "timestamp_utc": "2026-10-22T14:52:54.082862+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10068.5,
+    "portfolio_value": 10066.88,
     "cash": 8008.37,
-    "buying_power": 35538.17,
-    "total_pnl": 68.5,
-    "total_return_pct": "+0.69",
-    "today_pnl": -108.45,
-    "today_return_pct": "-1.07",
+    "buying_power": 35532.08,
+    "total_pnl": 66.88,
+    "total_return_pct": "+0.67",
+    "today_pnl": -110.07,
+    "today_return_pct": "-1.08",
     "last_equity": 10176.95,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 11.6135,
       "entry_price": 87.78,
-      "current_price": 86.72,
-      "market_value": 1007.18,
-      "unrealized_pnl": -12.25,
-      "unrealized_plpc": -1.2
+      "current_price": 86.77,
+      "market_value": 1007.7,
+      "unrealized_pnl": -11.73,
+      "unrealized_plpc": -1.15
     },
     {
       "symbol": "CRWD",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 237.53,
-      "current_price": 235.8,
-      "market_value": 943.2,
-      "unrealized_pnl": 6.9,
-      "unrealized_plpc": 0.73
+      "current_price": 235.96,
+      "market_value": 943.84,
+      "unrealized_pnl": 6.26,
+      "unrealized_plpc": 0.66
     },
     {
       "symbol": "LRCX",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 4.2186,
       "entry_price": 241.23,
-      "current_price": 235.09,
-      "market_value": 991.77,
-      "unrealized_pnl": -25.88,
-      "unrealized_plpc": -2.54
+      "current_price": 234.62,
+      "market_value": 989.75,
+      "unrealized_pnl": -27.91,
+      "unrealized_plpc": -2.74
     },
     {
       "symbol": "QCOM",
@@ -90,10 +90,10 @@
       "side": "long",
       "qty": 5.738,
       "entry_price": 177.18,
-      "current_price": 175.04,
-      "market_value": 1004.38,
-      "unrealized_pnl": -12.27,
-      "unrealized_plpc": -1.21
+      "current_price": 175.13,
+      "market_value": 1004.9,
+      "unrealized_pnl": -11.75,
+      "unrealized_plpc": -1.16
     }
   ],
   "recent_trades": [
@@ -661,13 +661,12 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 10068.5,
-      "daily_pnl": -108.45,
-      "cum_return": 0.69
+      "portfolio_value": 10066.88,
+      "daily_pnl": -110.07,
+      "cum_return": 0.67
     }
   ],
   "logs": [
-    "2026-10-21 12:50:04 PT  INFO      [CLOSED POSITION] NEE 12.0 shares @ $78.49 (Entry: $78.41, P&L: $-0.94) [SCHEDULED_EOD]",
     "2026-10-21 12:50:05 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-21 12:50:06 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-21 12:50:07 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
@@ -786,6 +785,7 @@
     "2026-10-22 07:45:07 PT  INFO      [CLOSED POSITION] IONQ 31.0 shares @ $31.72 (Entry: $32.02, P&L: $+9.26) [1H_SCHEDULED_EXIT]",
     "2026-10-22 07:46:51 PT  WARNING   [STOP LOSS] MRVL Long hit -3.5% cut. Protecting capital!",
     "2026-10-22 07:46:51 PT  INFO      [CLOSED POSITION] MRVL 4.3266 shares @ $227.08 (Entry: $235.70, P&L: $-37.28) [STOP_LOSS]",
-    "2026-10-22 07:47:41 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision..."
+    "2026-10-22 07:47:41 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
+    "2026-10-22 07:51:18 PT  INFO      GitHub Pages deployment cooldown: last push was 14.0s ago. Waiting 31.0s to prevent deployment lock collision..."
   ]
 }
