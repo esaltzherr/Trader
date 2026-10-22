@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-22 09:51:35 AM PT",
-  "timestamp_utc": "2026-10-22T16:51:36.131776+00:00",
+  "updated_at": "2026-10-22 09:52:38 AM PT",
+  "timestamp_utc": "2026-10-22T16:52:38.488628+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10022.77,
+    "portfolio_value": 10022.91,
     "cash": 8040.73,
-    "buying_power": 37712.65,
-    "total_pnl": 22.77,
+    "buying_power": 37713.03,
+    "total_pnl": 22.91,
     "total_return_pct": "+0.23",
-    "today_pnl": -154.18,
+    "today_pnl": -154.04,
     "today_return_pct": "-1.51",
     "last_equity": 10176.95,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 11.6135,
       "entry_price": 87.78,
-      "current_price": 85.52,
-      "market_value": 993.19,
-      "unrealized_pnl": -26.25,
-      "unrealized_plpc": -2.57
+      "current_price": 85.47,
+      "market_value": 992.61,
+      "unrealized_pnl": -26.83,
+      "unrealized_plpc": -2.63
     },
     {
       "symbol": "QCOM",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 5.738,
       "entry_price": 177.18,
-      "current_price": 172.34,
-      "market_value": 988.86,
-      "unrealized_pnl": -27.79,
-      "unrealized_plpc": -2.73
+      "current_price": 172.46,
+      "market_value": 989.58,
+      "unrealized_pnl": -27.07,
+      "unrealized_plpc": -2.66
     }
   ],
   "recent_trades": [
@@ -639,8 +639,8 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 10022.77,
-      "daily_pnl": -154.18,
+      "portfolio_value": 10022.91,
+      "daily_pnl": -154.04,
       "cum_return": 0.23
     }
   ],
