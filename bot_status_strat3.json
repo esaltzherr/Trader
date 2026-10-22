@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 06:50:21 AM PT",
-  "timestamp_utc": "2026-10-22T13:50:21.266824+00:00",
+  "updated_at": "2026-10-22 06:56:09 AM PT",
+  "timestamp_utc": "2026-10-22T13:56:09.958587+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 989745.41,
-    "cash": 489999.73,
-    "buying_power": 3109289.55,
-    "total_pnl": -10254.59,
-    "total_return_pct": "-1.03",
-    "today_pnl": 830.06,
-    "today_return_pct": "+0.08",
+    "portfolio_value": 990861.25,
+    "cash": 240234.49,
+    "buying_power": 3062692.88,
+    "total_pnl": -9138.75,
+    "total_return_pct": "-0.91",
+    "today_pnl": 1945.9,
+    "today_return_pct": "+0.20",
     "last_equity": 988915.35,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 38,
+    "total_trades": 39,
     "wins": 15,
-    "losses": 23,
-    "win_rate": "39.5%",
-    "profit_factor": "0.86"
+    "losses": 24,
+    "win_rate": "38.5%",
+    "profit_factor": "0.83"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 514.0,
       "entry_price": 243.44,
-      "current_price": 244.6,
-      "market_value": 125726.46,
-      "unrealized_pnl": 598.3,
-      "unrealized_plpc": 0.48
+      "current_price": 244.7,
+      "market_value": 125775.8,
+      "unrealized_pnl": 647.64,
+      "unrealized_plpc": 0.52
     },
     {
       "symbol": "AMAT",
@@ -88,10 +88,32 @@
       "side": "long",
       "qty": 130.0,
       "entry_price": 382.64,
-      "current_price": 386.0,
-      "market_value": 50180.0,
-      "unrealized_pnl": 436.8,
-      "unrealized_plpc": 0.88
+      "current_price": 388.76,
+      "market_value": 50538.8,
+      "unrealized_pnl": 795.6,
+      "unrealized_plpc": 1.6
+    },
+    {
+      "symbol": "APO",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 441.0,
+      "entry_price": 113.35,
+      "current_price": 113.23,
+      "market_value": 49934.43,
+      "unrealized_pnl": -52.92,
+      "unrealized_plpc": -0.11
+    },
+    {
+      "symbol": "HON",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 241.0,
+      "entry_price": 208.02,
+      "current_price": 210.07,
+      "market_value": 50626.87,
+      "unrealized_pnl": 494.05,
+      "unrealized_plpc": 0.98
     },
     {
       "symbol": "INTC",
@@ -99,10 +121,10 @@
       "side": "long",
       "qty": 566.0,
       "entry_price": 88.05,
-      "current_price": 88.03,
-      "market_value": 49827.81,
-      "unrealized_pnl": -6.23,
-      "unrealized_plpc": -0.01
+      "current_price": 88.48,
+      "market_value": 50081.32,
+      "unrealized_pnl": 247.28,
+      "unrealized_plpc": 0.5
     },
     {
       "symbol": "KLAC",
@@ -110,10 +132,21 @@
       "side": "long",
       "qty": 326.0,
       "entry_price": 152.85,
-      "current_price": 153.46,
-      "market_value": 50026.33,
-      "unrealized_pnl": 198.85,
-      "unrealized_plpc": 0.4
+      "current_price": 154.39,
+      "market_value": 50331.14,
+      "unrealized_pnl": 503.66,
+      "unrealized_plpc": 1.01
+    },
+    {
+      "symbol": "LOW",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 249.0,
+      "entry_price": 200.46,
+      "current_price": 199.52,
+      "market_value": 49680.5,
+      "unrealized_pnl": -233.28,
+      "unrealized_plpc": -0.47
     },
     {
       "symbol": "LRCX",
@@ -121,10 +154,10 @@
       "side": "long",
       "qty": 214.0,
       "entry_price": 232.57,
-      "current_price": 237.46,
-      "market_value": 50815.65,
-      "unrealized_pnl": 1046.33,
-      "unrealized_plpc": 2.1
+      "current_price": 239.32,
+      "market_value": 51215.55,
+      "unrealized_pnl": 1446.23,
+      "unrealized_plpc": 2.91
     },
     {
       "symbol": "META",
@@ -132,10 +165,32 @@
       "side": "long",
       "qty": 76.0,
       "entry_price": 652.05,
-      "current_price": 653.44,
-      "market_value": 49661.44,
-      "unrealized_pnl": 105.64,
-      "unrealized_plpc": 0.21
+      "current_price": 654.61,
+      "market_value": 49750.19,
+      "unrealized_pnl": 194.39,
+      "unrealized_plpc": 0.39
+    },
+    {
+      "symbol": "NEM",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 439.0,
+      "entry_price": 113.86,
+      "current_price": 113.81,
+      "market_value": 49962.59,
+      "unrealized_pnl": -22.8,
+      "unrealized_plpc": -0.05
+    },
+    {
+      "symbol": "PANW",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 137.0,
+      "entry_price": 363.11,
+      "current_price": 358.15,
+      "market_value": 49066.55,
+      "unrealized_pnl": -679.34,
+      "unrealized_plpc": -1.37
     },
     {
       "symbol": "SHOP",
@@ -143,10 +198,10 @@
       "side": "long",
       "qty": 722.0,
       "entry_price": 173.21,
-      "current_price": 171.07,
-      "market_value": 123516.15,
-      "unrealized_pnl": -1541.47,
-      "unrealized_plpc": -1.23
+      "current_price": 171.26,
+      "market_value": 123653.33,
+      "unrealized_pnl": -1404.29,
+      "unrealized_plpc": -1.12
     }
   ],
   "recent_trades": [
@@ -166,8 +221,8 @@
       "direction": "LONG",
       "shares": 137.0,
       "price": 364.085,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 357.7,
+      "realized_pnl": -874.74,
       "date": "2026-10-22 06:50:20"
     },
     {
@@ -714,13 +769,12 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 989745.41,
-      "daily_pnl": 830.06,
-      "cum_return": -1.03
+      "portfolio_value": 990861.25,
+      "daily_pnl": 1945.9,
+      "cum_return": -0.91
     }
   ],
   "logs": [
-    "2026-10-21 12:50:25 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-21 12:50:26 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-21 12:50:30 PT  INFO      GitHub Pages deployment cooldown: last push was 18.7s ago. Waiting 26.3s to prevent deployment lock collision...",
     "2026-10-21 12:50:58 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
@@ -839,6 +893,7 @@
     "2026-10-22 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 249 shares of LOW @ ~$200.03 (Order ID: a774c5b2-26c2-47c3-89c1-17584b68e9e7)",
     "2026-10-22 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 241 shares of HON @ ~$207.28 (Order ID: 9f8bed41-201e-4570-a6f6-6d1c9f034b29)",
     "2026-10-22 06:50:20 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 137 shares of PANW @ ~$364.08 (Order ID: d59f8907-4203-4526-bcef-80c5a7643350)",
-    "2026-10-22 06:50:21 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 439 shares of NEM @ ~$113.88 (Order ID: 55897e42-b983-4537-944e-332fd734fb35)"
+    "2026-10-22 06:50:21 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 439 shares of NEM @ ~$113.88 (Order ID: 55897e42-b983-4537-944e-332fd734fb35)",
+    "2026-10-22 06:56:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG PANW @ $357.70 | P&L: -874.74 (-1.75%) | Reason: Hard Stop Triggered (-1.75%)"
   ]
 }
