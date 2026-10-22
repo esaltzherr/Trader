@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22 04:32:52 AM PT",
-  "timestamp_utc": "2026-10-22T11:32:52.595860+00:00",
+  "updated_at": "2026-10-22 05:02:54 AM PT",
+  "timestamp_utc": "2026-10-22T12:02:55.017993+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -622,8 +622,6 @@
     }
   ],
   "logs": [
-    "2026-10-21 06:45:00 PT  INFO      ============================================================",
-    "2026-10-21 06:45:09 PT  INFO      Selected 5 Morning Runners to SHORT:",
     "2026-10-21 06:45:09 PT  INFO        ISRG   Surge: +6.53%  Price: $426.66",
     "2026-10-21 06:45:09 PT  INFO        DHR    Surge: +6.41%  Price: $231.49",
     "2026-10-21 06:45:09 PT  INFO        PM     Surge: +5.17%  Price: $194.10",
@@ -741,6 +739,8 @@
     "2026-10-22 03:32:47 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-22 03:32:49 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 2.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 04:02:50 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
-    "2026-10-22 04:02:52 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 1.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-22 04:02:52 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 1.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-22 04:32:52 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
+    "2026-10-22 04:32:54 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 1.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
