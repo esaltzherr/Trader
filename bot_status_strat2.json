@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 11:58:31 AM PT",
-  "timestamp_utc": "2026-10-22T18:58:31.425072+00:00",
+  "updated_at": "2026-10-22 11:59:34 AM PT",
+  "timestamp_utc": "2026-10-22T18:59:34.293647+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10014.89,
+    "portfolio_value": 10014.37,
     "cash": 9023.65,
-    "buying_power": 38870.07,
-    "total_pnl": 14.89,
-    "total_return_pct": "+0.15",
-    "today_pnl": -162.06,
-    "today_return_pct": "-1.59",
+    "buying_power": 38868.62,
+    "total_pnl": 14.37,
+    "total_return_pct": "+0.14",
+    "today_pnl": -162.58,
+    "today_return_pct": "-1.60",
     "last_equity": 10176.95,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 5.738,
       "entry_price": 177.18,
-      "current_price": 172.75,
-      "market_value": 991.24,
-      "unrealized_pnl": -25.41,
-      "unrealized_plpc": -2.5
+      "current_price": 172.66,
+      "market_value": 990.72,
+      "unrealized_pnl": -25.93,
+      "unrealized_plpc": -2.55
     }
   ],
   "recent_trades": [
@@ -628,9 +628,9 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 10014.89,
-      "daily_pnl": -162.06,
-      "cum_return": 0.15
+      "portfolio_value": 10014.37,
+      "daily_pnl": -162.58,
+      "cum_return": 0.14
     }
   ],
   "logs": [
