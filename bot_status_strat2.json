@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-22 12:37:36 PM PT",
-  "timestamp_utc": "2026-10-22T19:37:36.985258+00:00",
+  "updated_at": "2026-10-22 12:39:10 PM PT",
+  "timestamp_utc": "2026-10-22T19:39:10.918385+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10011.82,
+    "portfolio_value": 10010.59,
     "cash": 9023.65,
-    "buying_power": 38861.48,
-    "total_pnl": 11.82,
-    "total_return_pct": "+0.12",
-    "today_pnl": -165.13,
-    "today_return_pct": "-1.62",
+    "buying_power": 38858.02,
+    "total_pnl": 10.59,
+    "total_return_pct": "+0.11",
+    "today_pnl": -166.36,
+    "today_return_pct": "-1.63",
     "last_equity": 10176.95,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 5.738,
       "entry_price": 177.18,
-      "current_price": 172.22,
-      "market_value": 988.17,
-      "unrealized_pnl": -28.48,
-      "unrealized_plpc": -2.8
+      "current_price": 172.0,
+      "market_value": 986.94,
+      "unrealized_pnl": -29.71,
+      "unrealized_plpc": -2.92
     }
   ],
   "recent_trades": [
@@ -628,13 +628,12 @@
     },
     {
       "date": "2026-10-22",
-      "portfolio_value": 10011.82,
-      "daily_pnl": -165.13,
-      "cum_return": 0.12
+      "portfolio_value": 10010.59,
+      "daily_pnl": -166.36,
+      "cum_return": 0.11
     }
   ],
   "logs": [
-    "2026-10-21 14:00:51 PT  INFO      GitHub Pages deployment cooldown: last push was 0.2s ago. Waiting 44.8s to prevent deployment lock collision...",
     "2026-10-21 14:01:38 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-21 14:31:38 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
     "2026-10-21 14:31:40 PT  INFO      Market closed. Next open: 2026-10-22 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
@@ -753,6 +752,7 @@
     "2026-10-22 10:05:13 PT  WARNING   [STOP LOSS] CRCL Long hit -3.5% cut. Protecting capital!",
     "2026-10-22 10:05:13 PT  INFO      [CLOSED POSITION] CRCL 11.6135 shares @ $84.68 (Entry: $87.78, P&L: $-36.00) [STOP_LOSS]",
     "2026-10-22 11:33:04 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
-    "2026-10-22 12:35:01 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision..."
+    "2026-10-22 12:35:01 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
+    "2026-10-22 12:37:36 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision..."
   ]
 }
