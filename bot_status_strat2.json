@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 09:37:55 AM PT",
-  "timestamp_utc": "2026-10-23T16:37:55.942568+00:00",
+  "updated_at": "2026-10-23 09:38:57 AM PT",
+  "timestamp_utc": "2026-10-23T16:38:57.940494+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10055.74,
+    "portfolio_value": 10055.59,
     "cash": 10942.28,
-    "buying_power": 36729.84,
-    "total_pnl": 55.74,
+    "buying_power": 36729.65,
+    "total_pnl": 55.59,
     "total_return_pct": "+0.56",
-    "today_pnl": 40.83,
+    "today_pnl": 40.68,
     "today_return_pct": "+0.41",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 93.22,
-      "market_value": 932.25,
-      "unrealized_pnl": 2.15,
-      "unrealized_plpc": 0.23
+      "current_price": 93.21,
+      "market_value": 932.1,
+      "unrealized_pnl": 2.3,
+      "unrealized_plpc": 0.25
     },
     {
       "symbol": "OXY",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 15.6093,
       "entry_price": 64.23,
-      "current_price": 64.84,
-      "market_value": 1012.19,
-      "unrealized_pnl": 9.6,
-      "unrealized_plpc": 0.96
+      "current_price": 64.83,
+      "market_value": 1011.95,
+      "unrealized_pnl": 9.37,
+      "unrealized_plpc": 0.93
     },
     {
       "symbol": "PG",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.06,
-      "market_value": 966.36,
-      "unrealized_pnl": 6.48,
-      "unrealized_plpc": 0.67
+      "current_price": 161.09,
+      "market_value": 966.54,
+      "unrealized_pnl": 6.3,
+      "unrealized_plpc": 0.65
     }
   ],
   "recent_trades": [
@@ -656,8 +656,8 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10055.74,
-      "daily_pnl": 40.83,
+      "portfolio_value": 10055.59,
+      "daily_pnl": 40.68,
       "cum_return": 0.56
     }
   ],
