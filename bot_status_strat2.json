@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23 12:49:56 PM PT",
-  "timestamp_utc": "2026-10-23T19:49:57.160742+00:00",
+  "updated_at": "2026-10-23 12:50:28 PM PT",
+  "timestamp_utc": "2026-10-23T19:50:29.205266+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10053.27,
+    "portfolio_value": 10053.78,
     "cash": 11945.65,
-    "buying_power": 37942.22,
-    "total_pnl": 53.27,
-    "total_return_pct": "+0.53",
-    "today_pnl": 38.36,
-    "today_return_pct": "+0.38",
+    "buying_power": 37944.88,
+    "total_pnl": 53.78,
+    "total_return_pct": "+0.54",
+    "today_pnl": 38.87,
+    "today_return_pct": "+0.39",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 48,
-    "wins": 31,
+    "total_trades": 50,
+    "wins": 33,
     "losses": 17,
-    "win_rate": "64.6%",
-    "profit_factor": "0.68"
+    "win_rate": "66.0%",
+    "profit_factor": "0.73"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 92.71,
-      "market_value": 927.1,
-      "unrealized_pnl": 7.3,
-      "unrealized_plpc": 0.78
+      "current_price": 92.69,
+      "market_value": 926.95,
+      "unrealized_pnl": 7.45,
+      "unrealized_plpc": 0.8
     },
     {
       "symbol": "PG",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 160.88,
-      "market_value": 965.28,
-      "unrealized_pnl": 7.56,
-      "unrealized_plpc": 0.78
+      "current_price": 160.82,
+      "market_value": 964.92,
+      "unrealized_pnl": 7.92,
+      "unrealized_plpc": 0.81
     }
   ],
   "recent_trades": [
@@ -101,8 +101,8 @@
       "direction": "SHORT",
       "shares": 6.0,
       "price": 162.185,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 160.85,
+      "realized_pnl": 7.74,
       "date": "2026-10-23 07:00:16"
     },
     {
@@ -111,8 +111,8 @@
       "direction": "SHORT",
       "shares": 10.0,
       "price": 93.6,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 92.695,
+      "realized_pnl": 7.45,
       "date": "2026-10-23 07:00:16"
     },
     {
@@ -645,31 +645,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10053.27,
-      "daily_pnl": 38.36,
-      "cum_return": 0.53
+      "portfolio_value": 10053.78,
+      "daily_pnl": 38.87,
+      "cum_return": 0.54
     }
   ],
   "logs": [
-    "2026-10-22 12:50:16 PT  INFO      GitHub Pages deployment cooldown: last push was 41.5s ago. Waiting 3.5s to prevent deployment lock collision...",
-    "2026-10-22 12:50:21 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
-    "2026-10-22 12:50:21 PT  INFO      Today's session (2026-10-22) already executed. Waiting for market close...",
-    "2026-10-22 12:50:21 PT  INFO      Waiting 9.6 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
-    "2026-10-22 13:00:30 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 13:30:30 PT  INFO      GitHub Pages deployment cooldown: last push was 18.6s ago. Waiting 26.4s to prevent deployment lock collision...",
-    "2026-10-22 13:30:58 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 14:00:58 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-22 14:01:00 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 14:31:01 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
-    "2026-10-22 14:31:03 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 15:01:03 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
-    "2026-10-22 15:01:06 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 15:31:06 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
-    "2026-10-22 15:31:08 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 16:01:08 PT  INFO      GitHub Pages deployment cooldown: last push was 44.2s ago. Waiting 0.8s to prevent deployment lock collision...",
-    "2026-10-22 16:01:10 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 13.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 16:31:10 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
-    "2026-10-22 16:31:13 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 13.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 17:01:13 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-22 17:01:15 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 12.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 17:31:15 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
@@ -770,6 +751,25 @@
     "2026-10-23 08:24:25 PT  INFO      [CLOSED POSITION] BMY 16.0 shares @ $61.80 (Entry: $62.16, P&L: $+5.76) [RATCHET_TIER1]",
     "2026-10-23 11:26:45 PT  INFO      [RATCHET BREAKEVEN] OXY Long hit breakeven stop. Zero loss exit!",
     "2026-10-23 11:26:45 PT  INFO      [CLOSED POSITION] OXY 15.6093 shares @ $64.29 (Entry: $64.23, P&L: $+0.94) [RATCHET_BREAKEVEN]",
-    "2026-10-23 11:32:47 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
+    "2026-10-23 11:32:47 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
+    "2026-10-23 12:50:08 PT  INFO      9.9 min to close. Triggering scheduled EOD liquidation...",
+    "2026-10-23 12:50:08 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
+    "2026-10-23 12:50:09 PT  INFO      [CLOSED POSITION] KO 10.0 shares @ $92.69 (Entry: $93.44, P&L: $+7.45) [SCHEDULED_EOD]",
+    "2026-10-23 12:50:09 PT  INFO      [CLOSED POSITION] PG 6.0 shares @ $160.85 (Entry: $162.14, P&L: $+7.74) [SCHEDULED_EOD]",
+    "2026-10-23 12:50:11 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:12 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:13 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:14 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:15 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:16 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:17 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:18 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:19 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:20 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:21 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:22 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:23 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:24 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
+    "2026-10-23 12:50:25 PT  INFO      Waiting for liquidation fills (2 positions remaining)..."
   ]
 }
