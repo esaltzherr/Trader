@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23 11:27:36 AM PT",
-  "timestamp_utc": "2026-10-23T18:27:36.268259+00:00",
+  "updated_at": "2026-10-23 11:28:38 AM PT",
+  "timestamp_utc": "2026-10-23T18:28:38.780034+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10047.12,
+    "portfolio_value": 10047.48,
     "cash": 11945.65,
-    "buying_power": 37910.24,
-    "total_pnl": 47.12,
+    "buying_power": 37912.12,
+    "total_pnl": 47.48,
     "total_return_pct": "+0.47",
-    "today_pnl": 32.21,
-    "today_return_pct": "+0.32",
+    "today_pnl": 32.57,
+    "today_return_pct": "+0.33",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 92.91,
-      "market_value": 929.05,
-      "unrealized_pnl": 5.35,
-      "unrealized_plpc": 0.57
+      "current_price": 92.89,
+      "market_value": 928.9,
+      "unrealized_pnl": 5.5,
+      "unrealized_plpc": 0.59
     },
     {
       "symbol": "PG",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.58,
-      "market_value": 969.48,
-      "unrealized_pnl": 3.36,
-      "unrealized_plpc": 0.34
+      "current_price": 161.54,
+      "market_value": 969.27,
+      "unrealized_pnl": 3.57,
+      "unrealized_plpc": 0.37
     }
   ],
   "recent_trades": [
@@ -645,8 +645,8 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10047.12,
-      "daily_pnl": 32.21,
+      "portfolio_value": 10047.48,
+      "daily_pnl": 32.57,
       "cum_return": 0.47
     }
   ],
