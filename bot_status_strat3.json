@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 02:47:57 AM PT",
-  "timestamp_utc": "2026-10-23T09:47:58.133743+00:00",
+  "updated_at": "2026-10-23 03:17:59 AM PT",
+  "timestamp_utc": "2026-10-23T10:18:00.250874+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -648,7 +648,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 06:35:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 722 shares of SHOP @ ~$172.92 (Order ID: 59e4b066-c834-4d21-b16e-496374f9281a)",
     "2026-10-22 06:35:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 514 shares of ACN @ ~$243.10 (Order ID: 19f22e86-0358-4a65-8d8d-e050d03c3447)",
     "2026-10-22 06:40:00 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
     "2026-10-22 06:40:00 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
@@ -767,6 +766,7 @@
     "2026-10-23 00:47:51 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 4.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 01:17:53 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 4.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 01:47:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 3.7h until pre-market prep at 05:30 AM PT...",
-    "2026-10-23 02:17:57 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 3.2h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 02:17:57 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 3.2h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 02:47:59 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 2.7h until pre-market prep at 05:30 AM PT..."
   ]
 }
