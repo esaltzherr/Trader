@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22 11:47:46 PM PT",
-  "timestamp_utc": "2026-10-23T06:47:47.112835+00:00",
+  "updated_at": "2026-10-23 12:17:48 AM PT",
+  "timestamp_utc": "2026-10-23T07:17:48.765428+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -619,10 +619,15 @@
       "portfolio_value": 10015.12,
       "daily_pnl": -161.83,
       "cum_return": 0.15
+    },
+    {
+      "date": "2026-10-23",
+      "portfolio_value": 10015.12,
+      "daily_pnl": -161.83,
+      "cum_return": 0.15
     }
   ],
   "logs": [
-    "2026-10-22 05:30:04 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
     "2026-10-22 05:30:04 PT  INFO      Waiting 74.9 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
     "2026-10-22 06:45:00 PT  INFO      ============================================================",
     "2026-10-22 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
@@ -741,6 +746,7 @@
     "2026-10-22 23:47:46 PT  INFO       STARTING STRATEGY 2 BOT (3.2.1-strat2) - $10,000 CAPITAL",
     "2026-10-22 23:47:46 PT  INFO       Account: PA3EM0YADDLM | Equity: $10,015.12",
     "2026-10-22 23:47:46 PT  INFO       Dual Architecture: 15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT)",
-    "2026-10-22 23:47:46 PT  INFO      ============================================================"
+    "2026-10-22 23:47:46 PT  INFO      ============================================================",
+    "2026-10-22 23:47:48 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 5.7h until pre-market prep at 05:30 AM PT..."
   ]
 }
