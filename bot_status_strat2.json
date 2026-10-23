@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 11:32:47 AM PT",
-  "timestamp_utc": "2026-10-23T18:32:47.208840+00:00",
+  "updated_at": "2026-10-23 11:34:19 AM PT",
+  "timestamp_utc": "2026-10-23T18:34:19.916715+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10048.19,
+    "portfolio_value": 10047.89,
     "cash": 11945.65,
-    "buying_power": 37915.81,
-    "total_pnl": 48.19,
+    "buying_power": 37914.25,
+    "total_pnl": 47.89,
     "total_return_pct": "+0.48",
-    "today_pnl": 33.28,
+    "today_pnl": 32.98,
     "today_return_pct": "+0.33",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.46,
-      "market_value": 968.76,
-      "unrealized_pnl": 4.08,
-      "unrealized_plpc": 0.42
+      "current_price": 161.51,
+      "market_value": 969.06,
+      "unrealized_pnl": 3.78,
+      "unrealized_plpc": 0.39
     }
   ],
   "recent_trades": [
@@ -645,13 +645,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10048.19,
-      "daily_pnl": 33.28,
+      "portfolio_value": 10047.89,
+      "daily_pnl": 32.98,
       "cum_return": 0.48
     }
   ],
   "logs": [
-    "2026-10-22 12:50:13 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-22 12:50:16 PT  INFO      GitHub Pages deployment cooldown: last push was 41.5s ago. Waiting 3.5s to prevent deployment lock collision...",
     "2026-10-22 12:50:21 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-22 12:50:21 PT  INFO      Today's session (2026-10-22) already executed. Waiting for market close...",
@@ -770,6 +769,7 @@
     "2026-10-23 08:24:25 PT  INFO      [RATCHET TIER 1] BMY Short peaked at +1.4%, crossed locked floor. Securing gains!",
     "2026-10-23 08:24:25 PT  INFO      [CLOSED POSITION] BMY 16.0 shares @ $61.80 (Entry: $62.16, P&L: $+5.76) [RATCHET_TIER1]",
     "2026-10-23 11:26:45 PT  INFO      [RATCHET BREAKEVEN] OXY Long hit breakeven stop. Zero loss exit!",
-    "2026-10-23 11:26:45 PT  INFO      [CLOSED POSITION] OXY 15.6093 shares @ $64.29 (Entry: $64.23, P&L: $+0.94) [RATCHET_BREAKEVEN]"
+    "2026-10-23 11:26:45 PT  INFO      [CLOSED POSITION] OXY 15.6093 shares @ $64.29 (Entry: $64.23, P&L: $+0.94) [RATCHET_BREAKEVEN]",
+    "2026-10-23 11:32:47 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
   ]
 }
