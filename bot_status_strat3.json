@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22 11:30:55 PM PT",
-  "timestamp_utc": "2026-10-23T06:30:56.520819+00:00",
+  "updated_at": "2026-10-23 12:17:46 AM PT",
+  "timestamp_utc": "2026-10-23T07:17:47.462926+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -639,16 +639,15 @@
       "portfolio_value": 987173.74,
       "daily_pnl": -1741.61,
       "cum_return": -1.28
+    },
+    {
+      "date": "2026-10-23",
+      "portfolio_value": 987173.74,
+      "daily_pnl": -1741.61,
+      "cum_return": -1.28
     }
   ],
   "logs": [
-    "2026-10-22 06:21:50 PT  INFO      Pre-market standby: 8.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-22 06:22:50 PT  INFO      Pre-market standby: 7.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-22 06:23:50 PT  INFO      Pre-market standby: 6.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-22 06:24:50 PT  INFO      Pre-market standby: 5.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-22 06:25:50 PT  INFO      Pre-market standby: 4.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-22 06:26:50 PT  INFO      Pre-market standby: 3.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-22 06:27:50 PT  INFO      Pre-market standby: 2.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 06:28:50 PT  INFO      Pre-market standby: 1.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 06:29:50 PT  INFO      Pre-market standby: 0.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 06:35:01 PT  INFO      >>> TIME TRIGGER: 06:35 AM PT -> Executing Engine 1 (Super Momentum Runner)...",
@@ -761,6 +760,13 @@
     "2026-10-22 21:30:48 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 22:00:51 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 22:30:53 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 23:00:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-22 23:00:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-22 23:30:58 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 6.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-22 23:47:46 PT  INFO      =================================================================",
+    "2026-10-22 23:47:46 PT  INFO       STARTING PORTFOLIO 3 BOT (3.2.1-strat3) - $1,000,000 CAPITAL",
+    "2026-10-22 23:47:46 PT  INFO       Account: PA33UNIQCZOZ | Starting Equity: $1,000,000.00",
+    "2026-10-22 23:47:46 PT  INFO       4 Alpha Engines: Super Momentum, Capitulation Bounce, Micro-Burst, Parabolic Fade",
+    "2026-10-22 23:47:46 PT  INFO      =================================================================",
+    "2026-10-22 23:47:46 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 5.7h until pre-market prep at 05:30 AM PT..."
   ]
 }
