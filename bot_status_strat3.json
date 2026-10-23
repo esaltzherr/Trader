@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22 04:30:24 PM PT",
-  "timestamp_utc": "2026-10-22T23:30:25.193939+00:00",
+  "updated_at": "2026-10-22 05:00:26 PM PT",
+  "timestamp_utc": "2026-10-23T00:00:27.290353+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -642,7 +642,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 06:07:50 PT  INFO      Pre-market standby: 22.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 06:08:50 PT  INFO      Pre-market standby: 21.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 06:09:50 PT  INFO      Pre-market standby: 20.2 minutes until market open at 06:30 AM PT.",
     "2026-10-22 06:10:50 PT  INFO      Pre-market standby: 19.2 minutes until market open at 06:30 AM PT.",
@@ -761,6 +760,7 @@
     "2026-10-22 14:30:17 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 15:00:19 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 15:30:21 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 16:00:24 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 13.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-22 16:00:24 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 13.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-22 16:30:26 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 13.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
