@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 10:18:16 AM PT",
-  "timestamp_utc": "2026-10-23T17:18:16.621994+00:00",
+  "updated_at": "2026-10-23 10:19:20 AM PT",
+  "timestamp_utc": "2026-10-23T17:19:21.158280+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10051.66,
+    "portfolio_value": 10052.25,
     "cash": 10942.28,
-    "buying_power": 36726.05,
-    "total_pnl": 51.66,
+    "buying_power": 36728.19,
+    "total_pnl": 52.25,
     "total_return_pct": "+0.52",
-    "today_pnl": 36.75,
+    "today_pnl": 37.34,
     "today_return_pct": "+0.37",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 93.05,
-      "market_value": 930.45,
-      "unrealized_pnl": 3.95,
-      "unrealized_plpc": 0.42
+      "current_price": 93.03,
+      "market_value": 930.25,
+      "unrealized_pnl": 4.15,
+      "unrealized_plpc": 0.44
     },
     {
       "symbol": "OXY",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 15.6093,
       "entry_price": 64.23,
-      "current_price": 64.38,
-      "market_value": 1004.93,
-      "unrealized_pnl": 2.34,
-      "unrealized_plpc": 0.23
+      "current_price": 64.41,
+      "market_value": 1005.32,
+      "unrealized_pnl": 2.73,
+      "unrealized_plpc": 0.27
     },
     {
       "symbol": "PG",
@@ -79,9 +79,9 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 160.85,
-      "market_value": 965.1,
-      "unrealized_pnl": 7.74,
+      "current_price": 160.84,
+      "market_value": 965.04,
+      "unrealized_pnl": 7.8,
       "unrealized_plpc": 0.8
     }
   ],
@@ -656,8 +656,8 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10051.66,
-      "daily_pnl": 36.75,
+      "portfolio_value": 10052.25,
+      "daily_pnl": 37.34,
       "cum_return": 0.52
     }
   ],
