@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23 07:44:01 AM PT",
-  "timestamp_utc": "2026-10-23T14:44:01.271365+00:00",
+  "updated_at": "2026-10-23 07:45:04 AM PT",
+  "timestamp_utc": "2026-10-23T14:45:04.749826+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10046.82,
+    "portfolio_value": 10046.32,
     "cash": 12820.12,
-    "buying_power": 34461.17,
-    "total_pnl": 46.82,
-    "total_return_pct": "+0.47",
-    "today_pnl": 31.91,
-    "today_return_pct": "+0.32",
+    "buying_power": 34458.57,
+    "total_pnl": 46.32,
+    "total_return_pct": "+0.46",
+    "today_pnl": 31.41,
+    "today_return_pct": "+0.31",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 45,
+    "total_trades": 46,
     "wins": 29,
-    "losses": 16,
-    "win_rate": "64.4%",
-    "profit_factor": "0.68"
+    "losses": 17,
+    "win_rate": "63.0%",
+    "profit_factor": "0.66"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 16.0,
       "entry_price": 62.16,
-      "current_price": 61.33,
-      "market_value": 981.2,
-      "unrealized_pnl": 13.36,
-      "unrealized_plpc": 1.34
+      "current_price": 61.4,
+      "market_value": 982.4,
+      "unrealized_pnl": 12.16,
+      "unrealized_plpc": 1.22
     },
     {
       "symbol": "KO",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 93.36,
-      "market_value": 933.55,
-      "unrealized_pnl": 0.85,
-      "unrealized_plpc": 0.09
+      "current_price": 93.41,
+      "market_value": 934.05,
+      "unrealized_pnl": 0.35,
+      "unrealized_plpc": 0.04
     },
     {
       "symbol": "MU",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 879.85,
-      "current_price": 890.04,
-      "market_value": 890.04,
-      "unrealized_pnl": -10.19,
-      "unrealized_plpc": -1.16
+      "current_price": 888.96,
+      "market_value": 888.96,
+      "unrealized_pnl": -9.11,
+      "unrealized_plpc": -1.03
     },
     {
       "symbol": "OXY",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.29,
-      "market_value": 967.74,
-      "unrealized_pnl": 5.1,
-      "unrealized_plpc": 0.52
+      "current_price": 161.27,
+      "market_value": 967.62,
+      "unrealized_pnl": 5.22,
+      "unrealized_plpc": 0.54
     }
   ],
   "recent_trades": [
@@ -154,8 +154,8 @@
       "direction": "SHORT",
       "shares": 1.0,
       "price": 881.2,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 889.065,
+      "realized_pnl": -9.215,
       "date": "2026-10-23 06:45:24"
     },
     {
@@ -678,14 +678,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10046.82,
-      "daily_pnl": 31.91,
-      "cum_return": 0.47
+      "portfolio_value": 10046.32,
+      "daily_pnl": 31.41,
+      "cum_return": 0.46
     }
   ],
   "logs": [
-    "2026-10-22 12:50:04 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
-    "2026-10-22 12:50:06 PT  INFO      [CLOSED POSITION] QCOM 5.738 shares @ $172.58 (Entry: $177.18, P&L: $-26.38) [SCHEDULED_EOD]",
     "2026-10-22 12:50:07 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-22 12:50:08 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-22 12:50:09 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
@@ -803,6 +801,8 @@
     "2026-10-23 07:24:12 PT  INFO      [RATCHET TIER 3] IREN Short peaked at +3.3%, crossed trail px $25.65. Securing gains!",
     "2026-10-23 07:24:12 PT  INFO      [CLOSED POSITION] IREN 38.0 shares @ $25.72 (Entry: $26.28, P&L: $+21.20) [RATCHET_TIER3]",
     "2026-10-23 07:41:06 PT  INFO      [RATCHET TIER 1] TXN Short peaked at +1.6%, crossed locked floor. Securing gains!",
-    "2026-10-23 07:41:06 PT  INFO      [CLOSED POSITION] TXN 3.0 shares @ $283.50 (Entry: $285.20, P&L: $+5.10) [RATCHET_TIER1]"
+    "2026-10-23 07:41:06 PT  INFO      [CLOSED POSITION] TXN 3.0 shares @ $283.50 (Entry: $285.20, P&L: $+5.10) [RATCHET_TIER1]",
+    "2026-10-23 07:45:03 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
+    "2026-10-23 07:45:04 PT  INFO      [CLOSED POSITION] MU 1.0 shares @ $889.07 (Entry: $879.85, P&L: $-9.21) [1H_SCHEDULED_EXIT]"
   ]
 }
