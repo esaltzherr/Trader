@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 01:30:30 PM PT",
-  "timestamp_utc": "2026-10-23T20:30:30.444970+00:00",
+  "updated_at": "2026-10-23 02:00:51 PM PT",
+  "timestamp_utc": "2026-10-23T21:00:51.366008+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -628,8 +628,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 18:01:19 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 11.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-22 18:31:19 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-22 18:31:22 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 11.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 19:01:22 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-22 19:01:24 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 10.5h until pre-market prep at 05:30 AM PT...",
@@ -747,6 +745,8 @@
     "2026-10-23 12:50:47 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-23 12:50:47 PT  INFO      Today's session (2026-10-23) already executed. Waiting for market close...",
     "2026-10-23 12:50:47 PT  INFO      Waiting 9.2 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
-    "2026-10-23 13:00:30 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 64.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 13:00:30 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 64.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 13:30:30 PT  INFO      GitHub Pages deployment cooldown: last push was 25.9s ago. Waiting 19.1s to prevent deployment lock collision...",
+    "2026-10-23 13:30:51 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 64.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
