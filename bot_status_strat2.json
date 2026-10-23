@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23 08:56:30 AM PT",
-  "timestamp_utc": "2026-10-23T15:56:30.336325+00:00",
+  "updated_at": "2026-10-23 08:57:32 AM PT",
+  "timestamp_utc": "2026-10-23T15:57:32.361656+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10052.32,
+    "portfolio_value": 10052.54,
     "cash": 10942.28,
-    "buying_power": 36716.59,
-    "total_pnl": 52.32,
-    "total_return_pct": "+0.52",
-    "today_pnl": 37.41,
-    "today_return_pct": "+0.37",
+    "buying_power": 36717.14,
+    "total_pnl": 52.54,
+    "total_return_pct": "+0.53",
+    "today_pnl": 37.63,
+    "today_return_pct": "+0.38",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 93.33,
-      "market_value": 933.25,
-      "unrealized_pnl": 1.15,
-      "unrealized_plpc": 0.12
+      "current_price": 93.31,
+      "market_value": 933.15,
+      "unrealized_pnl": 1.25,
+      "unrealized_plpc": 0.13
     },
     {
       "symbol": "OXY",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 15.6093,
       "entry_price": 64.23,
-      "current_price": 64.72,
-      "market_value": 1010.31,
-      "unrealized_pnl": 7.73,
-      "unrealized_plpc": 0.77
+      "current_price": 64.74,
+      "market_value": 1010.55,
+      "unrealized_pnl": 7.96,
+      "unrealized_plpc": 0.79
     },
     {
       "symbol": "PG",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.17,
-      "market_value": 967.02,
-      "unrealized_pnl": 5.82,
-      "unrealized_plpc": 0.6
+      "current_price": 161.19,
+      "market_value": 967.14,
+      "unrealized_pnl": 5.7,
+      "unrealized_plpc": 0.59
     }
   ],
   "recent_trades": [
@@ -656,9 +656,9 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10052.32,
-      "daily_pnl": 37.41,
-      "cum_return": 0.52
+      "portfolio_value": 10052.54,
+      "daily_pnl": 37.63,
+      "cum_return": 0.53
     }
   ],
   "logs": [
