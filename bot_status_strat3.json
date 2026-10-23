@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-23 03:17:59 AM PT",
-  "timestamp_utc": "2026-10-23T10:18:00.250874+00:00",
+  "updated_at": "2026-10-23 03:48:02 AM PT",
+  "timestamp_utc": "2026-10-23T10:48:02.652935+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 987173.74,
-    "cash": 987173.74,
-    "buying_power": 3948694.96,
-    "total_pnl": -12826.26,
+    "portfolio_value": 987158.32,
+    "cash": 987158.32,
+    "buying_power": 3948633.28,
+    "total_pnl": -12841.68,
     "total_return_pct": "-1.28",
-    "today_pnl": -1741.61,
-    "today_return_pct": "-0.18",
-    "last_equity": 988915.35,
+    "today_pnl": 0.0,
+    "today_return_pct": "+0.00",
+    "last_equity": 987158.32,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -642,13 +642,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 987173.74,
-      "daily_pnl": -1741.61,
+      "portfolio_value": 987158.32,
+      "daily_pnl": 0.0,
       "cum_return": -1.28
     }
   ],
   "logs": [
-    "2026-10-22 06:35:12 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 514 shares of ACN @ ~$243.10 (Order ID: 19f22e86-0358-4a65-8d8d-e050d03c3447)",
     "2026-10-22 06:40:00 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
     "2026-10-22 06:40:00 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-22 06:40:06 PT  INFO      [Engine 2] Selected 5 Capitulation Bounce targets: ['LRCX', 'META', 'AMAT', 'KLAC', 'INTC']",
@@ -767,6 +766,7 @@
     "2026-10-23 01:17:53 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 4.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 01:47:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 3.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 02:17:57 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 3.2h until pre-market prep at 05:30 AM PT...",
-    "2026-10-23 02:47:59 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 2.7h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 02:47:59 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 2.7h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 03:18:02 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 2.2h until pre-market prep at 05:30 AM PT..."
   ]
 }
