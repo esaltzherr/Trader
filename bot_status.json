@@ -2,8 +2,8 @@
   "is_paper_trading": true,
   "environment": "Alpaca Paper Trading Simulator (Virtual Currency - No Real Capital)",
   "timezone": "America/Los_Angeles (PT)",
-  "updated_at": "2026-10-22 08:32:18 PM PT",
-  "timestamp_iso": "2026-10-22T20:32:18.638714-07:00",
+  "updated_at": "2026-10-22 09:02:21 PM PT",
+  "timestamp_iso": "2026-10-22T21:02:21.228562-07:00",
   "account_id": "PKWUL6SHOQRV6B6JR6VY3YMP7S",
   "account_label": "Portfolio 1: Market-Neutral Pairs ($100k)",
   "market_status": "Market Closed (Next Open: 2026-10-23 06:30 AM PT)",
@@ -132,6 +132,13 @@
     },
     {
       "date": "2026-10-22",
+      "equity": 97946.17,
+      "daily_pnl": 0.0,
+      "daily_pct": 0.0,
+      "cumulative_pct": -2.05
+    },
+    {
+      "date": "2026-10-23",
       "equity": 97946.17,
       "daily_pnl": 0.0,
       "daily_pct": 0.0,
@@ -1917,9 +1924,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 12:59:42 PT  INFO      Pre-fetching liquid universe and daily metrics...",
-    "2026-10-22 12:59:42 PT  INFO      Loaded 1500 curated liquid symbols from liquid_universe.json",
-    "2026-10-22 12:59:42 PT  ERROR     ERROR in continuous live trader: 9 validation errors for list[Asset]",
     "2852.exchange",
     "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
     "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
@@ -2036,6 +2040,9 @@
     "2026-10-22 19:32:15 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 10.0h until pre-fetch at 05:30 AM PT...",
     "2026-10-22 20:02:17 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
     "2026-10-22 20:02:18 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
-    "2026-10-22 20:02:18 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 9.5h until pre-fetch at 05:30 AM PT..."
+    "2026-10-22 20:02:18 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 9.5h until pre-fetch at 05:30 AM PT...",
+    "2026-10-22 20:32:19 PT  INFO      Saved bot status to /home/lsaltzherr/bot/bot_status.json",
+    "2026-10-22 20:32:21 PT  INFO      Successfully pushed status to GitHub: esaltzherr/Trader/bot_status.json",
+    "2026-10-22 20:32:21 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 9.0h until pre-fetch at 05:30 AM PT..."
   ]
 }
