@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 07:51:16 AM PT",
-  "timestamp_utc": "2026-10-23T14:51:16.991302+00:00",
+  "updated_at": "2026-10-23 07:52:51 AM PT",
+  "timestamp_utc": "2026-10-23T14:52:52.081917+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10046.99,
+    "portfolio_value": 10046.64,
     "cash": 11931.13,
-    "buying_power": 35526.43,
-    "total_pnl": 46.99,
+    "buying_power": 35524.41,
+    "total_pnl": 46.64,
     "total_return_pct": "+0.47",
-    "today_pnl": 32.08,
+    "today_pnl": 31.73,
     "today_return_pct": "+0.32",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 16.0,
       "entry_price": 62.16,
-      "current_price": 61.5,
-      "market_value": 984.0,
-      "unrealized_pnl": 10.56,
-      "unrealized_plpc": 1.06
+      "current_price": 61.51,
+      "market_value": 984.16,
+      "unrealized_pnl": 10.4,
+      "unrealized_plpc": 1.05
     },
     {
       "symbol": "KO",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 93.27,
-      "market_value": 932.7,
-      "unrealized_pnl": 1.7,
-      "unrealized_plpc": 0.18
+      "current_price": 93.25,
+      "market_value": 932.55,
+      "unrealized_pnl": 1.85,
+      "unrealized_plpc": 0.2
     },
     {
       "symbol": "OXY",
@@ -80,8 +80,8 @@
       "qty": 15.6093,
       "entry_price": 64.23,
       "current_price": 64.08,
-      "market_value": 1000.24,
-      "unrealized_pnl": -2.34,
+      "market_value": 1000.32,
+      "unrealized_pnl": -2.26,
       "unrealized_plpc": -0.23
     },
     {
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.28,
-      "market_value": 967.68,
-      "unrealized_pnl": 5.16,
-      "unrealized_plpc": 0.53
+      "current_price": 161.35,
+      "market_value": 968.1,
+      "unrealized_pnl": 4.74,
+      "unrealized_plpc": 0.49
     }
   ],
   "recent_trades": [
@@ -667,13 +667,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10046.99,
-      "daily_pnl": 32.08,
+      "portfolio_value": 10046.64,
+      "daily_pnl": 31.73,
       "cum_return": 0.47
     }
   ],
   "logs": [
-    "2026-10-22 12:50:07 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-22 12:50:08 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-22 12:50:09 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-22 12:50:10 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
@@ -792,6 +791,7 @@
     "2026-10-23 07:41:06 PT  INFO      [RATCHET TIER 1] TXN Short peaked at +1.6%, crossed locked floor. Securing gains!",
     "2026-10-23 07:41:06 PT  INFO      [CLOSED POSITION] TXN 3.0 shares @ $283.50 (Entry: $285.20, P&L: $+5.10) [RATCHET_TIER1]",
     "2026-10-23 07:45:03 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
-    "2026-10-23 07:45:04 PT  INFO      [CLOSED POSITION] MU 1.0 shares @ $889.07 (Entry: $879.85, P&L: $-9.21) [1H_SCHEDULED_EXIT]"
+    "2026-10-23 07:45:04 PT  INFO      [CLOSED POSITION] MU 1.0 shares @ $889.07 (Entry: $879.85, P&L: $-9.21) [1H_SCHEDULED_EXIT]",
+    "2026-10-23 07:51:16 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
   ]
 }
