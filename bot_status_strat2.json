@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 03:48:48 AM PT",
-  "timestamp_utc": "2026-10-23T10:48:49.017340+00:00",
+  "updated_at": "2026-10-23 04:18:50 AM PT",
+  "timestamp_utc": "2026-10-23T11:18:51.061417+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -628,8 +628,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 06:45:08 PT  INFO        LMT    Surge: +3.35%  Price: $598.95",
-    "2026-10-22 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 9 shares of BX at ~$112.32",
     "2026-10-22 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 83 shares of AAL at ~$12.23",
     "2026-10-22 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 3 shares of UNP at ~$294.05",
     "2026-10-22 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 31 shares of IONQ at ~$32.11",
@@ -747,6 +745,8 @@
     "2026-10-23 02:18:44 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 3.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 02:48:46 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 2.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 03:18:46 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-23 03:18:48 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 2.2h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 03:18:48 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 2.2h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 03:48:49 PT  INFO      GitHub Pages deployment cooldown: last push was 45.0s ago. Waiting 0.0s to prevent deployment lock collision...",
+    "2026-10-23 03:48:50 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 1.7h until pre-market prep at 05:30 AM PT..."
   ]
 }
