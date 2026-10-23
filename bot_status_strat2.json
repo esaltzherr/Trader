@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 10:53:28 AM PT",
-  "timestamp_utc": "2026-10-23T17:53:29.177801+00:00",
+  "updated_at": "2026-10-23 10:54:30 AM PT",
+  "timestamp_utc": "2026-10-23T17:54:31.109510+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10052.11,
+    "portfolio_value": 10052.09,
     "cash": 10942.28,
-    "buying_power": 36723.92,
-    "total_pnl": 52.11,
+    "buying_power": 36723.81,
+    "total_pnl": 52.09,
     "total_return_pct": "+0.52",
-    "today_pnl": 37.2,
+    "today_pnl": 37.18,
     "today_return_pct": "+0.37",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 92.94,
-      "market_value": 929.4,
-      "unrealized_pnl": 5.0,
-      "unrealized_plpc": 0.53
+      "current_price": 92.95,
+      "market_value": 929.55,
+      "unrealized_pnl": 4.85,
+      "unrealized_plpc": 0.52
     },
     {
       "symbol": "OXY",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.27,
-      "market_value": 967.62,
-      "unrealized_pnl": 5.22,
-      "unrealized_plpc": 0.54
+      "current_price": 161.24,
+      "market_value": 967.44,
+      "unrealized_pnl": 5.4,
+      "unrealized_plpc": 0.56
     }
   ],
   "recent_trades": [
@@ -656,8 +656,8 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10052.11,
-      "daily_pnl": 37.2,
+      "portfolio_value": 10052.09,
+      "daily_pnl": 37.18,
       "cum_return": 0.52
     }
   ],
