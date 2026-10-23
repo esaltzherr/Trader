@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23 06:40:24 AM PT",
-  "timestamp_utc": "2026-10-23T13:40:24.425269+00:00",
+  "updated_at": "2026-10-23 06:50:29 AM PT",
+  "timestamp_utc": "2026-10-23T13:50:29.447771+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 985880.24,
-    "cash": 736559.6,
-    "buying_power": 3394281.61,
-    "total_pnl": -14119.76,
-    "total_return_pct": "-1.41",
-    "today_pnl": -1278.08,
-    "today_return_pct": "-0.13",
+    "portfolio_value": 984312.19,
+    "cash": 486353.0,
+    "buying_power": 3089972.44,
+    "total_pnl": -15687.81,
+    "total_return_pct": "-1.57",
+    "today_pnl": -2846.13,
+    "today_return_pct": "-0.29",
     "last_equity": 987158.32,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,23 +64,45 @@
     }
   ],
   "stats": {
-    "total_trades": 44,
-    "wins": 17,
-    "losses": 27,
-    "win_rate": "38.6%",
-    "profit_factor": "1.12"
+    "total_trades": 39,
+    "wins": 14,
+    "losses": 25,
+    "win_rate": "35.9%",
+    "profit_factor": "1.06"
   },
   "open_positions": [
+    {
+      "symbol": "AAL",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 5238.0,
+      "entry_price": 11.95,
+      "current_price": 12.05,
+      "market_value": 63117.9,
+      "unrealized_pnl": 523.8,
+      "unrealized_plpc": 0.84
+    },
     {
       "symbol": "ACN",
       "direction": "LONG",
       "side": "long",
       "qty": 494.0,
       "entry_price": 253.12,
-      "current_price": 251.7,
-      "market_value": 124339.8,
-      "unrealized_pnl": -701.48,
-      "unrealized_plpc": -0.56
+      "current_price": 246.97,
+      "market_value": 122003.18,
+      "unrealized_pnl": -3038.1,
+      "unrealized_plpc": -2.43
+    },
+    {
+      "symbol": "HIMS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 2244.0,
+      "entry_price": 27.9,
+      "current_price": 27.86,
+      "market_value": 62517.84,
+      "unrealized_pnl": -89.76,
+      "unrealized_plpc": -0.14
     },
     {
       "symbol": "SHOP",
@@ -88,13 +110,85 @@
       "side": "long",
       "qty": 744.0,
       "entry_price": 168.76,
-      "current_price": 167.99,
-      "market_value": 124980.84,
-      "unrealized_pnl": -576.6,
-      "unrealized_plpc": -0.46
+      "current_price": 168.2,
+      "market_value": 125140.8,
+      "unrealized_pnl": -416.64,
+      "unrealized_plpc": -0.33
+    },
+    {
+      "symbol": "T",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 2880.0,
+      "entry_price": 21.67,
+      "current_price": 21.64,
+      "market_value": 62308.8,
+      "unrealized_pnl": -100.8,
+      "unrealized_plpc": -0.16
+    },
+    {
+      "symbol": "TMUS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 411.0,
+      "entry_price": 152.3,
+      "current_price": 152.97,
+      "market_value": 62870.67,
+      "unrealized_pnl": 275.37,
+      "unrealized_plpc": 0.44
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "ARM",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 235.0,
+      "price": 211.95,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:50:28"
+    },
+    {
+      "symbol": "PANW",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 139.0,
+      "price": 358.21,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:50:28"
+    },
+    {
+      "symbol": "CDNS",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 160.0,
+      "price": 312.37,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:50:28"
+    },
+    {
+      "symbol": "CRWD",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 207.0,
+      "price": 240.725,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:50:28"
+    },
+    {
+      "symbol": "DDOG",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 191.0,
+      "price": 261.13,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:50:28"
+    },
     {
       "symbol": "TMUS",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -544,56 +638,6 @@
       "close_price": 318.62,
       "realized_pnl": 863.37,
       "date": "2026-10-19 06:50:14"
-    },
-    {
-      "symbol": "CDNS",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 153.0,
-      "price": 326.315,
-      "close_price": 327.71,
-      "realized_pnl": 213.43,
-      "date": "2026-10-19 06:50:14"
-    },
-    {
-      "symbol": "ACN",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 547.0,
-      "price": 228.5,
-      "close_price": 235.48,
-      "realized_pnl": 3512.27,
-      "date": "2026-10-19 06:35:08"
-    },
-    {
-      "symbol": "SHOP",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 723.0,
-      "price": 172.69,
-      "close_price": 170.755,
-      "realized_pnl": -1582.85,
-      "date": "2026-10-19 06:35:08"
-    },
-    {
-      "symbol": "RTX",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 261.0,
-      "price": 190.925,
-      "close_price": 192.27,
-      "realized_pnl": 351.04,
-      "date": "2026-10-16 06:50:22"
-    },
-    {
-      "symbol": "HUM",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 117.0,
-      "price": 424.63,
-      "close_price": 419.67,
-      "realized_pnl": -580.32,
-      "date": "2026-10-16 06:50:22"
     }
   ],
   "history": [
@@ -665,20 +709,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 985880.24,
-      "daily_pnl": -1278.08,
-      "cum_return": -1.41
+      "portfolio_value": 984312.19,
+      "daily_pnl": -2846.13,
+      "cum_return": -1.57
     }
   ],
   "logs": [
-    "2026-10-22 12:50:23 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-22 12:50:24 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-22 12:50:25 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-22 12:50:26 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-22 12:50:27 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
-    "2026-10-22 12:50:30 PT  INFO      GitHub Pages deployment cooldown: last push was 9.8s ago. Waiting 35.2s to prevent deployment lock collision...",
-    "2026-10-22 12:51:07 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
-    "2026-10-22 13:00:09 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 13:30:12 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 14:00:14 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-22 14:30:17 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
@@ -790,6 +826,14 @@
     "2026-10-23 06:40:23 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 5238 shares of AAL @ ~$11.93 (Order ID: 36ed0268-e6f7-445c-95cc-be66114429ee)",
     "2026-10-23 06:40:23 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 2880 shares of T @ ~$21.70 (Order ID: 54b578c3-e132-421f-8b58-25b18d5287a4)",
     "2026-10-23 06:40:23 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 2244 shares of HIMS @ ~$27.85 (Order ID: 7e5d18fc-ec80-4f3b-af9e-441d6f776fd8)",
-    "2026-10-23 06:40:24 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 411 shares of TMUS @ ~$152.03 (Order ID: cb4ca93c-81e0-4b5d-b871-fbfe67d1dadd)"
+    "2026-10-23 06:40:24 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 411 shares of TMUS @ ~$152.03 (Order ID: cb4ca93c-81e0-4b5d-b871-fbfe67d1dadd)",
+    "2026-10-23 06:50:14 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-23 06:50:14 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-23 06:50:28 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['DDOG', 'CRWD', 'CDNS', 'PANW', 'ARM']",
+    "2026-10-23 06:50:28 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 191 shares of DDOG @ ~$261.13 (Order ID: 7fb5ae07-65dc-463a-b569-f11d285db5b5)",
+    "2026-10-23 06:50:28 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 207 shares of CRWD @ ~$240.72 (Order ID: 73a580a4-e05b-4f52-ab90-280f532f8ef7)",
+    "2026-10-23 06:50:28 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 160 shares of CDNS @ ~$312.37 (Order ID: cd52e2f0-301c-4ef8-aa24-6a9589567fa5)",
+    "2026-10-23 06:50:29 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 139 shares of PANW @ ~$358.21 (Order ID: 5be8dc76-7fe2-4505-81c6-9ee32c393d9f)",
+    "2026-10-23 06:50:29 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 235 shares of ARM @ ~$211.95 (Order ID: 8f58f606-cc58-4d02-98cd-2694a49d844f)"
   ]
 }
