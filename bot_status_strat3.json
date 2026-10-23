@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 05:30:00 AM PT",
-  "timestamp_utc": "2026-10-23T12:30:00.330311+00:00",
+  "updated_at": "2026-10-23 05:30:02 AM PT",
+  "timestamp_utc": "2026-10-23T12:30:02.194938+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -648,7 +648,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 76 shares of META @ ~$652.85 (Order ID: a0e01d4d-b4dd-44da-b2d3-10cd9f5f6bbd)",
     "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 130 shares of AMAT @ ~$383.18 (Order ID: a74addc6-722e-4830-9694-c973d0852307)",
     "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 326 shares of KLAC @ ~$153.18 (Order ID: bc209959-0d97-4a95-8973-567b7b1edc4d)",
     "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 566 shares of INTC @ ~$88.30 (Order ID: 69656942-718b-4493-886a-fb55440ed9dd)",
@@ -767,6 +766,7 @@
     "2026-10-23 03:48:04 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 1.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 04:18:06 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 1.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 04:48:09 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 0.7h until pre-market prep at 05:30 AM PT...",
-    "2026-10-23 05:18:11 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 0.2h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 05:18:11 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 0.2h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 05:30:02 PT  INFO      Within pre-market preparation window (05:30 - 06:30 AM PT). Performing session prep..."
   ]
 }
