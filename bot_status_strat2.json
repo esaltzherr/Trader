@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-23 03:18:46 AM PT",
-  "timestamp_utc": "2026-10-23T10:18:46.410228+00:00",
+  "updated_at": "2026-10-23 03:48:48 AM PT",
+  "timestamp_utc": "2026-10-23T10:48:49.017340+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10015.12,
-    "cash": 10015.12,
-    "buying_power": 40060.48,
-    "total_pnl": 15.12,
+    "portfolio_value": 10014.91,
+    "cash": 10014.91,
+    "buying_power": 40059.64,
+    "total_pnl": 14.91,
     "total_return_pct": "+0.15",
-    "today_pnl": -161.83,
-    "today_return_pct": "-1.59",
-    "last_equity": 10176.95,
+    "today_pnl": 0.0,
+    "today_return_pct": "+0.00",
+    "last_equity": 10014.91,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
   },
@@ -622,14 +622,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10015.12,
-      "daily_pnl": -161.83,
+      "portfolio_value": 10014.91,
+      "daily_pnl": 0.0,
       "cum_return": 0.15
     }
   ],
   "logs": [
-    "2026-10-22 06:45:08 PT  INFO        UNP    Surge: +3.69%  Price: $294.05",
-    "2026-10-22 06:45:08 PT  INFO        IONQ   Surge: +3.58%  Price: $32.11",
     "2026-10-22 06:45:08 PT  INFO        LMT    Surge: +3.35%  Price: $598.95",
     "2026-10-22 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 9 shares of BX at ~$112.32",
     "2026-10-22 06:45:09 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 83 shares of AAL at ~$12.23",
@@ -747,6 +745,8 @@
     "2026-10-23 01:48:41 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 3.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 02:18:41 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-23 02:18:44 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 3.2h until pre-market prep at 05:30 AM PT...",
-    "2026-10-23 02:48:46 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 2.7h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 02:48:46 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 2.7h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 03:18:46 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
+    "2026-10-23 03:18:48 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 2.2h until pre-market prep at 05:30 AM PT..."
   ]
 }
