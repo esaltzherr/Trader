@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23 07:17:39 AM PT",
-  "timestamp_utc": "2026-10-23T14:17:39.809886+00:00",
+  "updated_at": "2026-10-23 07:18:41 AM PT",
+  "timestamp_utc": "2026-10-23T14:18:41.943865+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10065.72,
+    "portfolio_value": 10069.3,
     "cash": 14648.65,
-    "buying_power": 32372.12,
-    "total_pnl": 65.72,
-    "total_return_pct": "+0.66",
-    "today_pnl": 50.81,
-    "today_return_pct": "+0.51",
+    "buying_power": 32387.78,
+    "total_pnl": 69.3,
+    "total_return_pct": "+0.69",
+    "today_pnl": 54.39,
+    "today_return_pct": "+0.54",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 16.0,
       "entry_price": 62.16,
-      "current_price": 61.75,
-      "market_value": 988.0,
-      "unrealized_pnl": 6.56,
-      "unrealized_plpc": 0.66
+      "current_price": 61.68,
+      "market_value": 986.88,
+      "unrealized_pnl": 7.68,
+      "unrealized_plpc": 0.77
     },
     {
       "symbol": "IREN",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 38.0,
       "entry_price": 26.28,
-      "current_price": 25.39,
-      "market_value": 965.01,
-      "unrealized_pnl": 33.55,
-      "unrealized_plpc": 3.36
+      "current_price": 25.42,
+      "market_value": 965.96,
+      "unrealized_pnl": 32.6,
+      "unrealized_plpc": 3.26
     },
     {
       "symbol": "KO",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 93.31,
-      "market_value": 933.05,
-      "unrealized_pnl": 1.35,
-      "unrealized_plpc": 0.14
+      "current_price": 93.25,
+      "market_value": 932.55,
+      "unrealized_pnl": 1.85,
+      "unrealized_plpc": 0.2
     },
     {
       "symbol": "MU",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 879.85,
-      "current_price": 878.69,
-      "market_value": 878.69,
-      "unrealized_pnl": 1.16,
-      "unrealized_plpc": 0.13
+      "current_price": 877.43,
+      "market_value": 877.43,
+      "unrealized_pnl": 2.42,
+      "unrealized_plpc": 0.27
     },
     {
       "symbol": "OXY",
@@ -101,10 +101,10 @@
       "side": "long",
       "qty": 15.6093,
       "entry_price": 64.23,
-      "current_price": 63.83,
-      "market_value": 996.34,
-      "unrealized_pnl": -6.24,
-      "unrealized_plpc": -0.62
+      "current_price": 63.91,
+      "market_value": 997.59,
+      "unrealized_pnl": -4.99,
+      "unrealized_plpc": -0.5
     },
     {
       "symbol": "PG",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.99,
-      "market_value": 971.94,
-      "unrealized_pnl": 0.9,
-      "unrealized_plpc": 0.09
+      "current_price": 161.94,
+      "market_value": 971.67,
+      "unrealized_pnl": 1.17,
+      "unrealized_plpc": 0.12
     },
     {
       "symbol": "TXN",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 3.0,
       "entry_price": 285.2,
-      "current_price": 280.8,
-      "market_value": 842.4,
-      "unrealized_pnl": 13.2,
-      "unrealized_plpc": 1.54
+      "current_price": 280.85,
+      "market_value": 842.55,
+      "unrealized_pnl": 13.05,
+      "unrealized_plpc": 1.52
     }
   ],
   "recent_trades": [
@@ -700,9 +700,9 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10065.72,
-      "daily_pnl": 50.81,
-      "cum_return": 0.66
+      "portfolio_value": 10069.3,
+      "daily_pnl": 54.39,
+      "cum_return": 0.69
     }
   ],
   "logs": [
