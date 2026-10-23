@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 05:18:55 AM PT",
-  "timestamp_utc": "2026-10-23T12:18:55.511108+00:00",
+  "updated_at": "2026-10-23 05:30:00 AM PT",
+  "timestamp_utc": "2026-10-23T12:30:00.355241+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -628,8 +628,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 06:45:12 PT  INFO      Waiting 14.8 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
-    "2026-10-22 07:00:00 PT  INFO      ============================================================",
     "2026-10-22 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
     "2026-10-22 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
     "2026-10-22 07:00:00 PT  INFO      ============================================================",
@@ -747,6 +745,8 @@
     "2026-10-23 04:18:51 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
     "2026-10-23 04:18:53 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 1.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 04:48:53 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
-    "2026-10-23 04:48:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 0.7h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 04:48:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 0.7h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 05:18:55 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
+    "2026-10-23 05:18:57 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 0.2h until pre-market prep at 05:30 AM PT..."
   ]
 }
