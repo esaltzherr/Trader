@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-23 07:18:41 AM PT",
-  "timestamp_utc": "2026-10-23T14:18:41.943865+00:00",
+  "updated_at": "2026-10-23 07:20:14 AM PT",
+  "timestamp_utc": "2026-10-23T14:20:14.656551+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10069.3,
+    "portfolio_value": 10063.17,
     "cash": 14648.65,
-    "buying_power": 32387.78,
-    "total_pnl": 69.3,
-    "total_return_pct": "+0.69",
-    "today_pnl": 54.39,
-    "today_return_pct": "+0.54",
+    "buying_power": 32355.91,
+    "total_pnl": 63.17,
+    "total_return_pct": "+0.63",
+    "today_pnl": 48.26,
+    "today_return_pct": "+0.48",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 16.0,
       "entry_price": 62.16,
-      "current_price": 61.68,
-      "market_value": 986.88,
-      "unrealized_pnl": 7.68,
-      "unrealized_plpc": 0.77
+      "current_price": 61.59,
+      "market_value": 985.44,
+      "unrealized_pnl": 9.12,
+      "unrealized_plpc": 0.92
     },
     {
       "symbol": "IREN",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 38.0,
       "entry_price": 26.28,
-      "current_price": 25.42,
-      "market_value": 965.96,
-      "unrealized_pnl": 32.6,
-      "unrealized_plpc": 3.26
+      "current_price": 25.52,
+      "market_value": 969.57,
+      "unrealized_pnl": 28.99,
+      "unrealized_plpc": 2.9
     },
     {
       "symbol": "KO",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 93.44,
-      "current_price": 93.25,
-      "market_value": 932.55,
-      "unrealized_pnl": 1.85,
-      "unrealized_plpc": 0.2
+      "current_price": 93.21,
+      "market_value": 932.1,
+      "unrealized_pnl": 2.3,
+      "unrealized_plpc": 0.25
     },
     {
       "symbol": "MU",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 879.85,
-      "current_price": 877.43,
-      "market_value": 877.43,
-      "unrealized_pnl": 2.42,
-      "unrealized_plpc": 0.27
+      "current_price": 880.67,
+      "market_value": 880.67,
+      "unrealized_pnl": -0.82,
+      "unrealized_plpc": -0.09
     },
     {
       "symbol": "OXY",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 162.14,
-      "current_price": 161.94,
-      "market_value": 971.67,
-      "unrealized_pnl": 1.17,
-      "unrealized_plpc": 0.12
+      "current_price": 161.87,
+      "market_value": 971.19,
+      "unrealized_pnl": 1.65,
+      "unrealized_plpc": 0.17
     },
     {
       "symbol": "TXN",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 3.0,
       "entry_price": 285.2,
-      "current_price": 280.85,
-      "market_value": 842.55,
-      "unrealized_pnl": 13.05,
-      "unrealized_plpc": 1.52
+      "current_price": 281.31,
+      "market_value": 843.93,
+      "unrealized_pnl": 11.67,
+      "unrealized_plpc": 1.36
     }
   ],
   "recent_trades": [
@@ -700,13 +700,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10069.3,
-      "daily_pnl": 54.39,
-      "cum_return": 0.69
+      "portfolio_value": 10063.17,
+      "daily_pnl": 48.26,
+      "cum_return": 0.63
     }
   ],
   "logs": [
-    "2026-10-22 10:05:13 PT  INFO      [CLOSED POSITION] CRCL 11.6135 shares @ $84.68 (Entry: $87.78, P&L: $-36.00) [STOP_LOSS]",
     "2026-10-22 11:33:04 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
     "2026-10-22 12:35:01 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-22 12:37:36 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
@@ -825,6 +824,7 @@
     "2026-10-23 07:00:20 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-23 07:00:20 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
     "2026-10-23 07:06:15 PT  INFO      [RATCHET BREAKEVEN] WDC Short hit breakeven stop. Zero loss exit!",
-    "2026-10-23 07:06:15 PT  INFO      [CLOSED POSITION] WDC 2.0 shares @ $351.35 (Entry: $351.57, P&L: $+0.46) [RATCHET_BREAKEVEN]"
+    "2026-10-23 07:06:15 PT  INFO      [CLOSED POSITION] WDC 2.0 shares @ $351.35 (Entry: $351.57, P&L: $+0.46) [RATCHET_BREAKEVEN]",
+    "2026-10-23 07:18:41 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision..."
   ]
 }
