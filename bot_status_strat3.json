@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 03:48:02 AM PT",
-  "timestamp_utc": "2026-10-23T10:48:02.652935+00:00",
+  "updated_at": "2026-10-23 04:18:04 AM PT",
+  "timestamp_utc": "2026-10-23T11:18:05.018638+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -648,7 +648,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 06:40:00 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
     "2026-10-22 06:40:00 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-22 06:40:06 PT  INFO      [Engine 2] Selected 5 Capitulation Bounce targets: ['LRCX', 'META', 'AMAT', 'KLAC', 'INTC']",
     "2026-10-22 06:40:06 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 214 shares of LRCX @ ~$233.40 (Order ID: 5cb89ccd-1792-4263-8fa7-ceda3074690d)",
@@ -767,6 +766,7 @@
     "2026-10-23 01:47:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 3.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 02:17:57 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 3.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 02:47:59 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 2.7h until pre-market prep at 05:30 AM PT...",
-    "2026-10-23 03:18:02 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 2.2h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 03:18:02 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 2.2h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 03:48:04 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT. Sleeping 1.7h until pre-market prep at 05:30 AM PT..."
   ]
 }
