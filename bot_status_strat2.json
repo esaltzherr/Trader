@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 07:00:17 AM PT",
-  "timestamp_utc": "2026-10-23T14:00:17.735635+00:00",
+  "updated_at": "2026-10-23 07:00:20 AM PT",
+  "timestamp_utc": "2026-10-23T14:00:20.257788+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10031.54,
+    "portfolio_value": 10032.22,
     "cash": 13452.07,
-    "buying_power": 31429.7,
-    "total_pnl": 31.54,
+    "buying_power": 31433.22,
+    "total_pnl": 32.22,
     "total_return_pct": "+0.32",
-    "today_pnl": 16.63,
+    "today_pnl": 17.31,
     "today_return_pct": "+0.17",
     "last_equity": 10014.91,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 38.0,
       "entry_price": 26.28,
-      "current_price": 25.99,
-      "market_value": 987.62,
-      "unrealized_pnl": 10.94,
-      "unrealized_plpc": 1.1
+      "current_price": 25.97,
+      "market_value": 986.86,
+      "unrealized_pnl": 11.7,
+      "unrealized_plpc": 1.17
     },
     {
       "symbol": "MU",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 879.85,
-      "current_price": 885.73,
-      "market_value": 885.73,
-      "unrealized_pnl": -5.88,
-      "unrealized_plpc": -0.67
+      "current_price": 886.0,
+      "market_value": 886.0,
+      "unrealized_pnl": -6.15,
+      "unrealized_plpc": -0.7
     },
     {
       "symbol": "TXN",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 351.57,
-      "current_price": 347.73,
-      "market_value": 695.45,
-      "unrealized_pnl": 7.7,
-      "unrealized_plpc": 1.09
+      "current_price": 347.96,
+      "market_value": 695.92,
+      "unrealized_pnl": 7.23,
+      "unrealized_plpc": 1.03
     }
   ],
   "recent_trades": [
@@ -667,13 +667,12 @@
     },
     {
       "date": "2026-10-23",
-      "portfolio_value": 10031.54,
-      "daily_pnl": 16.63,
+      "portfolio_value": 10032.22,
+      "daily_pnl": 17.31,
       "cum_return": 0.32
     }
   ],
   "logs": [
-    "2026-10-22 07:59:14 PT  INFO      [CLOSED POSITION] CRWD 4.0 shares @ $237.33 (Entry: $237.53, P&L: $+0.78) [RATCHET_BREAKEVEN]",
     "2026-10-22 09:44:17 PT  WARNING   [STOP LOSS] LRCX Long hit -3.5% cut. Protecting capital!",
     "2026-10-22 09:44:17 PT  INFO      [CLOSED POSITION] LRCX 4.2186 shares @ $232.73 (Entry: $241.23, P&L: $-35.86) [STOP_LOSS]",
     "2026-10-22 10:05:13 PT  WARNING   [STOP LOSS] CRCL Long hit -3.5% cut. Protecting capital!",
@@ -792,6 +791,7 @@
     "2026-10-23 07:00:16 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 6 shares of PG at ~$162.19",
     "2026-10-23 07:00:16 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 15.6093 shares of OXY at ~$64.16",
     "2026-10-23 07:00:17 PT  ERROR     Failed to submit order for MU: {\"available\":\"1\",\"code\":40310000,\"existing_qty\":\"1\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 1.1313, available: 1)\",\"symbol\":\"MU\"}",
-    "2026-10-23 07:00:17 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 16 shares of BMY at ~$62.19"
+    "2026-10-23 07:00:17 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 16 shares of BMY at ~$62.19",
+    "2026-10-23 07:00:20 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
