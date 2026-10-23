@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 01:47:56 AM PT",
-  "timestamp_utc": "2026-10-23T08:47:57.139848+00:00",
+  "updated_at": "2026-10-23 02:18:41 AM PT",
+  "timestamp_utc": "2026-10-23T09:18:41.889957+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -628,8 +628,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
-    "2026-10-22 06:45:00 PT  INFO      ============================================================",
     "2026-10-22 06:45:08 PT  INFO      Selected 5 Morning Runners to SHORT:",
     "2026-10-22 06:45:08 PT  INFO        BX     Surge: +5.01%  Price: $112.32",
     "2026-10-22 06:45:08 PT  INFO        AAL    Surge: +4.22%  Price: $12.23",
@@ -747,6 +745,8 @@
     "2026-10-22 23:47:48 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 5.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 00:17:50 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 5.2h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 00:47:52 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 4.7h until pre-market prep at 05:30 AM PT...",
-    "2026-10-23 01:17:56 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 4.2h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 01:17:56 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 4.2h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 01:47:57 PT  INFO      GitHub Pages deployment cooldown: last push was 2.0s ago. Waiting 43.0s to prevent deployment lock collision...",
+    "2026-10-23 01:48:41 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 3.7h until pre-market prep at 05:30 AM PT..."
   ]
 }
