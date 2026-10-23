@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-23 05:30:00 AM PT",
-  "timestamp_utc": "2026-10-23T12:30:00.355241+00:00",
+  "updated_at": "2026-10-23 06:45:24 AM PT",
+  "timestamp_utc": "2026-10-23T13:45:25.081495+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
     "portfolio_value": 10014.91,
     "cash": 10014.91,
-    "buying_power": 40059.64,
+    "buying_power": 35799.84,
     "total_pnl": 14.91,
     "total_return_pct": "+0.15",
     "today_pnl": 0.0,
@@ -17,8 +17,8 @@
     "status": "ACTIVE"
   },
   "market": {
-    "is_open": false,
-    "next_open": "2026-10-23 06:30 AM PT",
+    "is_open": true,
+    "next_open": "2026-10-26 06:30 AM PT",
     "next_close": "2026-10-23 01:00 PM PT"
   },
   "strategies": [
@@ -44,14 +44,54 @@
     }
   ],
   "stats": {
-    "total_trades": 50,
-    "wins": 33,
+    "total_trades": 46,
+    "wins": 29,
     "losses": 17,
-    "win_rate": "66.0%",
-    "profit_factor": "0.77"
+    "win_rate": "63.0%",
+    "profit_factor": "0.73"
   },
   "open_positions": [],
   "recent_trades": [
+    {
+      "symbol": "MU",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 1.0,
+      "price": 881.2,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:45:24"
+    },
+    {
+      "symbol": "TXN",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 3.0,
+      "price": 284.66,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:45:24"
+    },
+    {
+      "symbol": "WDC",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 2.0,
+      "price": 355.935,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:45:24"
+    },
+    {
+      "symbol": "IREN",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 38.0,
+      "price": 26.18,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-23 06:45:23"
+    },
     {
       "symbol": "MRVL",
       "strategy": "ORB_30M_TREND_RATCHET",
@@ -511,46 +551,6 @@
       "close_price": 936.372,
       "realized_pnl": 10.908,
       "date": "2026-10-16 06:45:12"
-    },
-    {
-      "symbol": "OKLO",
-      "strategy": "INTRADAY_15M_RUNNER_FADE",
-      "direction": "SHORT",
-      "shares": 33.0,
-      "price": 30.13,
-      "close_price": 29.86,
-      "realized_pnl": 4.62,
-      "date": "2026-10-16 06:45:12"
-    },
-    {
-      "symbol": "FICO",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "LONG",
-      "shares": 1.3552,
-      "price": 747.83,
-      "close_price": 749.4227,
-      "realized_pnl": 0.572843,
-      "date": "2026-10-15 07:00:13"
-    },
-    {
-      "symbol": "ADSK",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "LONG",
-      "shares": 4.1499,
-      "price": 244.22,
-      "close_price": 245.44,
-      "realized_pnl": 3.859407,
-      "date": "2026-10-15 07:00:13"
-    },
-    {
-      "symbol": "TT",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "SHORT",
-      "shares": 2.0,
-      "price": 452.7,
-      "close_price": 450.94,
-      "realized_pnl": 4.84,
-      "date": "2026-10-15 07:00:13"
     }
   ],
   "history": [
@@ -628,22 +628,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
-    "2026-10-22 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
-    "2026-10-22 07:00:00 PT  INFO      ============================================================",
-    "2026-10-22 07:00:09 PT  INFO      Selected 5 30M ORB Trend Candidates:",
-    "2026-10-22 07:00:09 PT  INFO        CRCL   LONG Breakout: +1.31%  Price: $87.63",
-    "2026-10-22 07:00:09 PT  INFO        LRCX   LONG Breakout: +0.90%  Price: $241.24",
-    "2026-10-22 07:00:09 PT  INFO        CRWD   SHORT Breakout: +0.85%  Price: $237.68",
-    "2026-10-22 07:00:09 PT  INFO        QCOM   LONG Breakout: +0.77%  Price: $177.36",
-    "2026-10-22 07:00:09 PT  INFO        MRVL   LONG Breakout: +0.75%  Price: $235.22",
-    "2026-10-22 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 11.6135 shares of CRCL at ~$87.63",
-    "2026-10-22 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.2186 shares of LRCX at ~$241.24",
-    "2026-10-22 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 4 shares of CRWD at ~$237.68",
-    "2026-10-22 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 5.738 shares of QCOM at ~$177.36",
-    "2026-10-22 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 4.3266 shares of MRVL at ~$235.22",
-    "2026-10-22 07:00:13 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
-    "2026-10-22 07:00:14 PT  INFO      GitHub Pages deployment cooldown: last push was 0.6s ago. Waiting 44.4s to prevent deployment lock collision...",
     "2026-10-22 07:11:14 PT  INFO      [RATCHET TIER 2] LMT Short peaked at +2.6%, crossed locked floor. Securing gains!",
     "2026-10-22 07:11:14 PT  INFO      [CLOSED POSITION] LMT 1.0 shares @ $590.96 (Entry: $597.99, P&L: $+7.04) [RATCHET_TIER2]",
     "2026-10-22 07:18:20 PT  INFO      [RATCHET BREAKEVEN] UNP Short hit breakeven stop. Zero loss exit!",
@@ -747,6 +731,22 @@
     "2026-10-23 04:48:53 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
     "2026-10-23 04:48:55 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 0.7h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 05:18:55 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-23 05:18:57 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 0.2h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 05:18:57 PT  INFO      Market closed. Next open: 2026-10-23 06:30 AM PT (09:30 ET). Sleeping 0.2h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 05:30:04 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
+    "2026-10-23 05:30:04 PT  INFO      Waiting 74.9 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
+    "2026-10-23 06:45:00 PT  INFO      ============================================================",
+    "2026-10-23 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
+    "2026-10-23 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
+    "2026-10-23 06:45:00 PT  INFO      ============================================================",
+    "2026-10-23 06:45:23 PT  INFO      Selected 5 Morning Runners to SHORT:",
+    "2026-10-23 06:45:23 PT  INFO        IREN   Surge: +3.81%  Price: $26.18",
+    "2026-10-23 06:45:23 PT  INFO        WDC    Surge: +2.81%  Price: $355.94",
+    "2026-10-23 06:45:23 PT  INFO        TXN    Surge: +2.72%  Price: $284.66",
+    "2026-10-23 06:45:23 PT  INFO        MU     Surge: +2.45%  Price: $881.20",
+    "2026-10-23 06:45:23 PT  INFO        SNDK   Surge: +2.43%  Price: $1293.61",
+    "2026-10-23 06:45:23 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 38 shares of IREN at ~$26.18",
+    "2026-10-23 06:45:24 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 2 shares of WDC at ~$355.94",
+    "2026-10-23 06:45:24 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 3 shares of TXN at ~$284.66",
+    "2026-10-23 06:45:24 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 1 shares of MU at ~$881.20"
   ]
 }
