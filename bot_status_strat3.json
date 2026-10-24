@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 11:01:40 AM PT",
-  "timestamp_utc": "2026-10-24T18:01:40.986216+00:00",
+  "updated_at": "2026-10-24 11:31:42 AM PT",
+  "timestamp_utc": "2026-10-24T18:31:43.191739+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -654,7 +654,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 06:40:23 PT  INFO      [Engine 2] Selected 4 Capitulation Bounce targets: ['AAL', 'T', 'HIMS', 'TMUS']",
     "2026-10-23 06:40:23 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 5238 shares of AAL @ ~$11.93 (Order ID: 36ed0268-e6f7-445c-95cc-be66114429ee)",
     "2026-10-23 06:40:23 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 2880 shares of T @ ~$21.70 (Order ID: 54b578c3-e132-421f-8b58-25b18d5287a4)",
     "2026-10-23 06:40:23 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 2244 shares of HIMS @ ~$27.85 (Order ID: 7e5d18fc-ec80-4f3b-af9e-441d6f776fd8)",
@@ -773,6 +772,7 @@
     "2026-10-24 09:01:33 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 44.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 09:31:35 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 44.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 10:01:38 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 43.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-24 10:31:40 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 43.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 10:31:40 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 43.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 11:01:42 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 42.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
