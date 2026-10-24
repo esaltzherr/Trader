@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 07:01:14 PM PT",
-  "timestamp_utc": "2026-10-24T02:01:14.323979+00:00",
+  "updated_at": "2026-10-23 07:31:16 PM PT",
+  "timestamp_utc": "2026-10-24T02:31:16.762906+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -628,8 +628,6 @@
     }
   ],
   "logs": [
-    "2026-10-22 23:47:46 PT  INFO      ============================================================",
-    "2026-10-22 23:47:46 PT  INFO       STARTING STRATEGY 2 BOT (3.2.1-strat2) - $10,000 CAPITAL",
     "2026-10-22 23:47:46 PT  INFO       Account: PA3EM0YADDLM | Equity: $10,015.12",
     "2026-10-22 23:47:46 PT  INFO       Dual Architecture: 15M Runner Fade (06:45 PT) + 30M ORB Trend (07:00 PT)",
     "2026-10-22 23:47:46 PT  INFO      ============================================================",
@@ -747,6 +745,8 @@
     "2026-10-23 18:01:10 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-23 18:01:11 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 59.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-23 18:31:12 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-23 18:31:14 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 59.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-23 18:31:14 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 59.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-23 19:01:14 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
+    "2026-10-23 19:01:16 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 58.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
