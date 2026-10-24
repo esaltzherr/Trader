@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 02:01:52 PM PT",
-  "timestamp_utc": "2026-10-24T21:01:53.391069+00:00",
+  "updated_at": "2026-10-24 02:31:54 PM PT",
+  "timestamp_utc": "2026-10-24T21:31:55.711385+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -654,7 +654,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 06:50:14 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
     "2026-10-23 06:50:28 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['DDOG', 'CRWD', 'CDNS', 'PANW', 'ARM']",
     "2026-10-23 06:50:28 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 191 shares of DDOG @ ~$261.13 (Order ID: 7fb5ae07-65dc-463a-b569-f11d285db5b5)",
     "2026-10-23 06:50:28 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 207 shares of CRWD @ ~$240.72 (Order ID: 73a580a4-e05b-4f52-ab90-280f532f8ef7)",
@@ -773,6 +772,7 @@
     "2026-10-24 12:01:46 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 41.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 12:31:48 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 41.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 13:01:50 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 40.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-24 13:31:52 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 40.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 13:31:52 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 40.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 14:01:54 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 39.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
