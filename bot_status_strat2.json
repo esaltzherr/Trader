@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 04:01:54 AM PT",
-  "timestamp_utc": "2026-10-24T11:01:54.854742+00:00",
+  "updated_at": "2026-10-24 04:31:56 AM PT",
+  "timestamp_utc": "2026-10-24T11:31:56.961932+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -634,8 +634,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 06:45:23 PT  INFO        SNDK   Surge: +2.43%  Price: $1293.61",
-    "2026-10-23 06:45:23 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 38 shares of IREN at ~$26.18",
     "2026-10-23 06:45:24 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 2 shares of WDC at ~$355.94",
     "2026-10-23 06:45:24 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 3 shares of TXN at ~$284.66",
     "2026-10-23 06:45:24 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 1 shares of MU at ~$881.20",
@@ -753,6 +751,8 @@
     "2026-10-24 03:01:50 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-24 03:01:51 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 50.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 03:31:52 PT  INFO      GitHub Pages deployment cooldown: last push was 44.1s ago. Waiting 0.9s to prevent deployment lock collision...",
-    "2026-10-24 03:31:54 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 50.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 03:31:54 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 50.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 04:01:54 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
+    "2026-10-24 04:01:56 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 49.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
