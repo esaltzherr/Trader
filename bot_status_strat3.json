@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 09:31:33 AM PT",
-  "timestamp_utc": "2026-10-24T16:31:34.410317+00:00",
+  "updated_at": "2026-10-24 10:01:35 AM PT",
+  "timestamp_utc": "2026-10-24T17:01:36.726254+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -654,7 +654,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 06:35:17 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 744 shares of SHOP @ ~$167.98 (Order ID: 91c7b659-acd9-4e1a-8a90-08442bbb50ef)",
     "2026-10-23 06:40:05 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
     "2026-10-23 06:40:05 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-23 06:40:23 PT  INFO      [Engine 2] Selected 4 Capitulation Bounce targets: ['AAL', 'T', 'HIMS', 'TMUS']",
@@ -773,6 +772,7 @@
     "2026-10-24 07:31:26 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 46.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 08:01:29 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 45.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 08:31:31 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 45.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-24 09:01:33 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 44.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 09:01:33 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 44.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 09:31:35 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 44.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
