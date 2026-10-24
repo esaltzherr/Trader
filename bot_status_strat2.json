@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 07:32:10 AM PT",
-  "timestamp_utc": "2026-10-24T14:32:10.995867+00:00",
+  "updated_at": "2026-10-24 08:02:12 AM PT",
+  "timestamp_utc": "2026-10-24T15:02:13.202145+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -634,8 +634,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 07:00:16 PT  INFO        MU     LONG Breakout: +0.34%  Price: $885.23",
-    "2026-10-23 07:00:16 PT  INFO        BMY    SHORT Breakout: +0.30%  Price: $62.19",
     "2026-10-23 07:00:16 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 10 shares of KO at ~$93.60",
     "2026-10-23 07:00:16 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 6 shares of PG at ~$162.19",
     "2026-10-23 07:00:16 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 15.6093 shares of OXY at ~$64.16",
@@ -753,6 +751,8 @@
     "2026-10-24 06:32:06 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-24 06:32:08 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 47.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 07:02:08 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-24 07:02:10 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 46.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 07:02:10 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 46.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 07:32:11 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
+    "2026-10-24 07:32:12 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 46.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
