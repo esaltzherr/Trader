@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 12:02:30 PM PT",
-  "timestamp_utc": "2026-10-24T19:02:31.162108+00:00",
+  "updated_at": "2026-10-24 12:32:33 PM PT",
+  "timestamp_utc": "2026-10-24T19:32:33.431475+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -634,8 +634,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 07:51:16 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
-    "2026-10-23 07:52:52 PT  INFO      GitHub Pages deployment cooldown: last push was 16.6s ago. Waiting 28.4s to prevent deployment lock collision...",
     "2026-10-23 08:24:25 PT  INFO      [RATCHET TIER 1] BMY Short peaked at +1.4%, crossed locked floor. Securing gains!",
     "2026-10-23 08:24:25 PT  INFO      [CLOSED POSITION] BMY 16.0 shares @ $61.80 (Entry: $62.16, P&L: $+5.76) [RATCHET_TIER1]",
     "2026-10-23 11:26:45 PT  INFO      [RATCHET BREAKEVEN] OXY Long hit breakeven stop. Zero loss exit!",
@@ -753,6 +751,8 @@
     "2026-10-24 11:02:26 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-24 11:02:28 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 42.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 11:32:29 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
-    "2026-10-24 11:32:30 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 42.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 11:32:30 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 42.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 12:02:31 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
+    "2026-10-24 12:02:33 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 41.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
