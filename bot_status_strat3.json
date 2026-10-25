@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25 03:33:47 PM PT",
-  "timestamp_utc": "2026-10-25T22:33:48.285825+00:00",
+  "updated_at": "2026-10-25 04:03:49 PM PT",
+  "timestamp_utc": "2026-10-25T23:03:50.634094+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -660,7 +660,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 12:50:10 PT  INFO      >>> TIME TRIGGER: 12:50 PM PT -> EOD Liquidation of all Portfolio 3 positions...",
     "2026-10-23 12:50:11 PT  INFO      Closing all 5 active positions for Scheduled EOD Liquidation...",
     "2026-10-23 12:50:13 PT  INFO      Waiting for liquidation fills (5 positions remaining)...",
     "2026-10-23 12:50:14 PT  INFO      Waiting for liquidation fills (5 positions remaining)...",
@@ -779,6 +778,7 @@
     "2026-10-25 13:33:41 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 15.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 14:03:43 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 15.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 14:33:45 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 14.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 15:03:47 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 14.4h until pre-market prep at 05:30 AM PT..."
+    "2026-10-25 15:03:47 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 14.4h until pre-market prep at 05:30 AM PT...",
+    "2026-10-25 15:33:49 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 13.9h until pre-market prep at 05:30 AM PT..."
   ]
 }
