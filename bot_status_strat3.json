@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 05:02:07 PM PT",
-  "timestamp_utc": "2026-10-25T00:02:08.024648+00:00",
+  "updated_at": "2026-10-24 05:32:09 PM PT",
+  "timestamp_utc": "2026-10-25T00:32:10.280889+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -654,7 +654,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 06:50:29 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 235 shares of ARM @ ~$211.95 (Order ID: 8f58f606-cc58-4d02-98cd-2694a49d844f)",
     "2026-10-23 07:05:05 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
     "2026-10-23 07:05:05 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
     "2026-10-23 07:05:07 PT  WARNING   Could not fetch shortable assets list: 9 validation errors for list[Asset]",
@@ -773,6 +772,7 @@
     "2026-10-24 15:01:59 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 38.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 15:32:02 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 38.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 16:02:04 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 37.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-24 16:32:07 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 37.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 16:32:07 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 37.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 17:02:09 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 36.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
