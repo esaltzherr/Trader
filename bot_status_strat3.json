@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25 10:03:23 AM PT",
-  "timestamp_utc": "2026-10-25T17:03:24.489679+00:00",
+  "updated_at": "2026-10-25 10:33:25 AM PT",
+  "timestamp_utc": "2026-10-25T17:33:26.587173+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -660,7 +660,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 07:18:12 PT  INFO      GitHub Pages deployment cooldown: last push was 30.9s ago. Waiting 14.1s to prevent deployment lock collision...",
     "2026-10-23 07:50:39 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG DDOG @ $267.34 | P&L: +1186.11 (+2.38%) | Reason: Scheduled 60-Min Micro Exit (+2.38%)",
     "2026-10-23 07:50:39 PT  INFO      GitHub Pages deployment cooldown: last push was 23.2s ago. Waiting 21.8s to prevent deployment lock collision...",
     "2026-10-23 07:51:02 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CDNS @ $316.21 | P&L: +614.40 (+1.23%) | Reason: Scheduled 60-Min Micro Exit (+1.23%)",
@@ -779,6 +778,7 @@
     "2026-10-25 08:03:17 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 21.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 08:33:19 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 20.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 09:03:21 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 20.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 09:33:23 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 19.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-25 09:33:23 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 19.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-25 10:03:25 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 19.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
