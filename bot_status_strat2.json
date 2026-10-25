@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24 06:02:57 PM PT",
-  "timestamp_utc": "2026-10-25T01:02:58.148851+00:00",
+  "updated_at": "2026-10-24 06:33:00 PM PT",
+  "timestamp_utc": "2026-10-25T01:33:00.896166+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -634,8 +634,6 @@
     }
   ],
   "logs": [
-    "2026-10-23 12:50:24 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-23 12:50:25 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-23 12:50:29 PT  INFO      GitHub Pages deployment cooldown: last push was 30.8s ago. Waiting 14.2s to prevent deployment lock collision...",
     "2026-10-23 12:50:47 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-23 12:50:47 PT  INFO      Today's session (2026-10-23) already executed. Waiting for market close...",
@@ -753,6 +751,8 @@
     "2026-10-24 17:02:53 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-24 17:02:55 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 36.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-24 17:32:56 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-24 17:32:57 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 36.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-24 17:32:57 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 36.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-24 18:02:58 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
+    "2026-10-24 18:03:00 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 35.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
