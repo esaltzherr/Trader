@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 06:35:06 AM PT",
-  "timestamp_utc": "2026-10-26T13:35:07.192225+00:00",
+  "updated_at": "2026-10-26 06:40:14 AM PT",
+  "timestamp_utc": "2026-10-26T13:40:15.064427+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 987379.09,
-    "cash": 987379.09,
-    "buying_power": 3699007.47,
-    "total_pnl": -12620.91,
-    "total_return_pct": "-1.26",
-    "today_pnl": 0.0,
-    "today_return_pct": "+0.00",
+    "portfolio_value": 986435.21,
+    "cash": 736472.83,
+    "buying_power": 3211166.29,
+    "total_pnl": -13564.79,
+    "total_return_pct": "-1.36",
+    "today_pnl": -943.88,
+    "today_return_pct": "-0.10",
     "last_equity": 987379.09,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,14 +64,77 @@
     }
   ],
   "stats": {
-    "total_trades": 48,
+    "total_trades": 44,
     "wins": 20,
-    "losses": 28,
-    "win_rate": "41.7%",
-    "profit_factor": "1.05"
+    "losses": 24,
+    "win_rate": "45.5%",
+    "profit_factor": "1.14"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "ACN",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 500.0,
+      "entry_price": 251.42,
+      "current_price": 250.47,
+      "market_value": 125232.5,
+      "unrealized_pnl": -478.66,
+      "unrealized_plpc": -0.38
+    },
+    {
+      "symbol": "SHOP",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 737.0,
+      "entry_price": 169.87,
+      "current_price": 169.24,
+      "market_value": 124729.88,
+      "unrealized_pnl": -465.22,
+      "unrealized_plpc": -0.37
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "NBIS",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 410.0,
+      "price": 152.12,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:40:14"
+    },
+    {
+      "symbol": "MSTR",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 447.0,
+      "price": 139.58,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:40:14"
+    },
+    {
+      "symbol": "CRCL",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 768.0,
+      "price": 81.33,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:40:14"
+    },
+    {
+      "symbol": "MELI",
+      "strategy": "CAPITULATION_PANIC_BOUNCE",
+      "direction": "LONG",
+      "shares": 38.0,
+      "price": 1605.0,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:40:14"
+    },
     {
       "symbol": "ACN",
       "strategy": "SUPER_MOMENTUM_RUNNER",
@@ -531,46 +594,6 @@
       "close_price": 259.95,
       "realized_pnl": -370.49,
       "date": "2026-10-19 07:05:29"
-    },
-    {
-      "symbol": "WDC",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 143.0,
-      "price": 348.04,
-      "close_price": 351.79,
-      "realized_pnl": -517.66,
-      "date": "2026-10-19 07:05:29"
-    },
-    {
-      "symbol": "SNDK",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 36.0,
-      "price": 1365.93,
-      "close_price": 1379.0,
-      "realized_pnl": -396.0,
-      "date": "2026-10-19 07:05:29"
-    },
-    {
-      "symbol": "VRT",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 236.0,
-      "price": 211.03,
-      "close_price": 207.36,
-      "realized_pnl": -866.12,
-      "date": "2026-10-19 06:50:14"
-    },
-    {
-      "symbol": "OKLO",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 1774.0,
-      "price": 28.17,
-      "close_price": 27.73,
-      "realized_pnl": -780.56,
-      "date": "2026-10-19 06:50:14"
     }
   ],
   "history": [
@@ -660,19 +683,12 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 987379.09,
-      "daily_pnl": 0.0,
-      "cum_return": -1.26
+      "portfolio_value": 986435.21,
+      "daily_pnl": -943.88,
+      "cum_return": -1.36
     }
   ],
   "logs": [
-    "2026-10-25 03:02:55 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 26.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 03:32:57 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 26.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 04:03:00 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 25.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 04:33:02 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 24.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 05:03:04 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 24.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 05:33:06 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 23.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 06:03:09 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 23.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 06:33:11 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 22.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 07:03:13 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 22.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 07:33:15 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 21.9h until pre-market prep at 05:30 AM PT...",
@@ -785,6 +801,13 @@
     "2026-10-26 06:35:01 PT  INFO      [Engine 1] Scanning for 20-Day Super Momentum leaders (>= +25%)...",
     "2026-10-26 06:35:06 PT  INFO      [Engine 1] Selected 2 Super Momentum leaders: ['SHOP', 'ACN']",
     "2026-10-26 06:35:06 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 737 shares of SHOP @ ~$169.44 (Order ID: 677863aa-0788-4bcf-8118-0fc9bcc280ae)",
-    "2026-10-26 06:35:06 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 500 shares of ACN @ ~$249.93 (Order ID: 69956771-a601-4b9c-9c38-d7d079326e0c)"
+    "2026-10-26 06:35:06 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 500 shares of ACN @ ~$249.93 (Order ID: 69956771-a601-4b9c-9c38-d7d079326e0c)",
+    "2026-10-26 06:40:10 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
+    "2026-10-26 06:40:10 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
+    "2026-10-26 06:40:14 PT  INFO      [Engine 2] Selected 4 Capitulation Bounce targets: ['MELI', 'CRCL', 'MSTR', 'NBIS']",
+    "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 38 shares of MELI @ ~$1605.00 (Order ID: 3165c8c3-f5ea-4cf2-9693-7e8969ac0ab0)",
+    "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 768 shares of CRCL @ ~$81.33 (Order ID: e94480c6-830b-40b8-a010-17d82719793c)",
+    "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 447 shares of MSTR @ ~$139.58 (Order ID: 13b9d03b-aad1-44ba-9bd7-8d8f6e171bc7)",
+    "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 410 shares of NBIS @ ~$152.12 (Order ID: f0f34203-0525-4a02-9fc3-815084893051)"
   ]
 }
