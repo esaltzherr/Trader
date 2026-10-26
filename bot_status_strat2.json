@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 07:05:41 AM PT",
-  "timestamp_utc": "2026-10-26T14:05:41.953843+00:00",
+  "updated_at": "2026-10-26 07:06:44 AM PT",
+  "timestamp_utc": "2026-10-26T14:06:44.419006+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10032.99,
+    "portfolio_value": 10036.58,
     "cash": 16799.89,
-    "buying_power": 31380.18,
-    "total_pnl": 32.99,
-    "total_return_pct": "+0.33",
-    "today_pnl": -20.52,
-    "today_return_pct": "-0.20",
+    "buying_power": 31399.72,
+    "total_pnl": 36.58,
+    "total_return_pct": "+0.37",
+    "today_pnl": -16.93,
+    "today_return_pct": "-0.17",
     "last_equity": 10053.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 516.75,
-      "current_price": 516.15,
-      "market_value": 516.15,
-      "unrealized_pnl": 0.6,
-      "unrealized_plpc": 0.12
+      "current_price": 515.54,
+      "market_value": 515.54,
+      "unrealized_pnl": 1.21,
+      "unrealized_plpc": 0.23
     },
     {
       "symbol": "BE",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 198.74,
-      "current_price": 197.59,
-      "market_value": 987.95,
-      "unrealized_pnl": 5.74,
-      "unrealized_plpc": 0.58
+      "current_price": 197.56,
+      "market_value": 987.8,
+      "unrealized_pnl": 5.89,
+      "unrealized_plpc": 0.59
     },
     {
       "symbol": "CAT",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 680.32,
-      "current_price": 683.46,
-      "market_value": 683.46,
-      "unrealized_pnl": -3.13,
-      "unrealized_plpc": -0.46
+      "current_price": 682.36,
+      "market_value": 682.36,
+      "unrealized_pnl": -2.04,
+      "unrealized_plpc": -0.3
     },
     {
       "symbol": "DELL",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 455.47,
-      "current_price": 453.37,
-      "market_value": 906.74,
-      "unrealized_pnl": 4.2,
-      "unrealized_plpc": 0.46
+      "current_price": 452.48,
+      "market_value": 904.96,
+      "unrealized_pnl": 5.98,
+      "unrealized_plpc": 0.66
     },
     {
       "symbol": "LULU",
@@ -102,9 +102,9 @@
       "qty": 9.0,
       "entry_price": 102.13,
       "current_price": 103.28,
-      "market_value": 929.52,
-      "unrealized_pnl": -10.35,
-      "unrealized_plpc": -1.13
+      "market_value": 929.48,
+      "unrealized_pnl": -10.3,
+      "unrealized_plpc": -1.12
     },
     {
       "symbol": "NET",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 3.0,
       "entry_price": 315.0,
-      "current_price": 317.98,
-      "market_value": 953.92,
-      "unrealized_pnl": -8.93,
-      "unrealized_plpc": -0.94
+      "current_price": 317.68,
+      "market_value": 953.02,
+      "unrealized_pnl": -8.03,
+      "unrealized_plpc": -0.85
     },
     {
       "symbol": "RKLB",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 19.0,
       "entry_price": 52.14,
-      "current_price": 52.62,
-      "market_value": 999.78,
-      "unrealized_pnl": -9.03,
-      "unrealized_plpc": -0.91
+      "current_price": 52.73,
+      "market_value": 1001.87,
+      "unrealized_pnl": -11.12,
+      "unrealized_plpc": -1.12
     },
     {
       "symbol": "TSLA",
@@ -134,10 +134,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 392.39,
-      "current_price": 394.69,
-      "market_value": 789.38,
-      "unrealized_pnl": -4.6,
-      "unrealized_plpc": -0.59
+      "current_price": 394.17,
+      "market_value": 788.35,
+      "unrealized_pnl": -3.57,
+      "unrealized_plpc": -0.45
     }
   ],
   "recent_trades": [
@@ -729,9 +729,9 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 10032.99,
-      "daily_pnl": -20.52,
-      "cum_return": 0.33
+      "portfolio_value": 10036.58,
+      "daily_pnl": -16.93,
+      "cum_return": 0.37
     }
   ],
   "logs": [
