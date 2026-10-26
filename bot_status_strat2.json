@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 07:40:22 AM PT",
-  "timestamp_utc": "2026-10-26T14:40:22.418381+00:00",
+  "updated_at": "2026-10-26 07:41:24 AM PT",
+  "timestamp_utc": "2026-10-26T14:41:24.425564+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9976.71,
+    "portfolio_value": 9973.13,
     "cash": 13911.87,
-    "buying_power": 34554.51,
-    "total_pnl": -23.29,
-    "total_return_pct": "-0.23",
-    "today_pnl": -76.8,
-    "today_return_pct": "-0.76",
+    "buying_power": 34534.45,
+    "total_pnl": -26.87,
+    "total_return_pct": "-0.27",
+    "today_pnl": -80.38,
+    "today_return_pct": "-0.80",
     "last_equity": 10053.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 516.75,
-      "current_price": 519.0,
-      "market_value": 519.0,
-      "unrealized_pnl": -2.25,
-      "unrealized_plpc": -0.43
+      "current_price": 519.95,
+      "market_value": 519.95,
+      "unrealized_pnl": -3.19,
+      "unrealized_plpc": -0.62
     },
     {
       "symbol": "CAT",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 680.32,
-      "current_price": 688.28,
-      "market_value": 688.28,
-      "unrealized_pnl": -7.96,
-      "unrealized_plpc": -1.17
+      "current_price": 687.98,
+      "market_value": 687.98,
+      "unrealized_pnl": -7.66,
+      "unrealized_plpc": -1.13
     },
     {
       "symbol": "LULU",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 102.13,
-      "current_price": 102.21,
-      "market_value": 919.91,
-      "unrealized_pnl": -0.74,
-      "unrealized_plpc": -0.08
+      "current_price": 102.09,
+      "market_value": 918.82,
+      "unrealized_pnl": 0.35,
+      "unrealized_plpc": 0.04
     },
     {
       "symbol": "RKLB",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 19.0,
       "entry_price": 52.14,
-      "current_price": 53.7,
-      "market_value": 1020.3,
-      "unrealized_pnl": -29.55,
-      "unrealized_plpc": -2.98
+      "current_price": 53.81,
+      "market_value": 1022.49,
+      "unrealized_pnl": -31.73,
+      "unrealized_plpc": -3.2
     },
     {
       "symbol": "TSLA",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 392.39,
-      "current_price": 393.83,
-      "market_value": 787.67,
-      "unrealized_pnl": -2.89,
-      "unrealized_plpc": -0.37
+      "current_price": 394.75,
+      "market_value": 789.5,
+      "unrealized_pnl": -4.72,
+      "unrealized_plpc": -0.6
     }
   ],
   "recent_trades": [
@@ -696,9 +696,9 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 9976.71,
-      "daily_pnl": -76.8,
-      "cum_return": -0.23
+      "portfolio_value": 9973.13,
+      "daily_pnl": -80.38,
+      "cum_return": -0.27
     }
   ],
   "logs": [
