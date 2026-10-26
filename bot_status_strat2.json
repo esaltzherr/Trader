@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 07:36:13 AM PT",
-  "timestamp_utc": "2026-10-26T14:36:13.873285+00:00",
+  "updated_at": "2026-10-26 07:37:16 AM PT",
+  "timestamp_utc": "2026-10-26T14:37:16.291929+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9985.1,
+    "portfolio_value": 9983.15,
     "cash": 13911.87,
-    "buying_power": 34597.72,
-    "total_pnl": -14.9,
-    "total_return_pct": "-0.15",
-    "today_pnl": -68.41,
-    "today_return_pct": "-0.68",
+    "buying_power": 34587.82,
+    "total_pnl": -16.85,
+    "total_return_pct": "-0.17",
+    "today_pnl": -70.36,
+    "today_return_pct": "-0.70",
     "last_equity": 10053.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 516.75,
-      "current_price": 516.77,
-      "market_value": 516.77,
-      "unrealized_pnl": -0.02,
-      "unrealized_plpc": -0.0
+      "current_price": 516.83,
+      "market_value": 516.83,
+      "unrealized_pnl": -0.08,
+      "unrealized_plpc": -0.02
     },
     {
       "symbol": "CAT",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 680.32,
-      "current_price": 686.34,
-      "market_value": 686.34,
-      "unrealized_pnl": -6.01,
-      "unrealized_plpc": -0.88
+      "current_price": 687.0,
+      "market_value": 687.0,
+      "unrealized_pnl": -6.68,
+      "unrealized_plpc": -0.98
     },
     {
       "symbol": "LULU",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 19.0,
       "entry_price": 52.14,
-      "current_price": 53.43,
-      "market_value": 1015.17,
-      "unrealized_pnl": -24.42,
-      "unrealized_plpc": -2.46
+      "current_price": 53.51,
+      "market_value": 1016.69,
+      "unrealized_pnl": -25.94,
+      "unrealized_plpc": -2.62
     },
     {
       "symbol": "TSLA",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 392.39,
-      "current_price": 394.12,
-      "market_value": 788.23,
-      "unrealized_pnl": -3.45,
-      "unrealized_plpc": -0.44
+      "current_price": 393.93,
+      "market_value": 787.86,
+      "unrealized_pnl": -3.08,
+      "unrealized_plpc": -0.39
     }
   ],
   "recent_trades": [
@@ -696,9 +696,9 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 9985.1,
-      "daily_pnl": -68.41,
-      "cum_return": -0.15
+      "portfolio_value": 9983.15,
+      "daily_pnl": -70.36,
+      "cum_return": -0.17
     }
   ],
   "logs": [
