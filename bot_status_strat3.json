@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 07:03:05 AM PT",
-  "timestamp_utc": "2026-10-26T14:03:06.117369+00:00",
+  "updated_at": "2026-10-26 07:03:51 AM PT",
+  "timestamp_utc": "2026-10-26T14:03:52.025248+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 979798.11,
-    "cash": 288446.97,
-    "buying_power": 2805788.86,
-    "total_pnl": -20201.89,
-    "total_return_pct": "-2.02",
-    "today_pnl": -7580.98,
-    "today_return_pct": "-0.77",
+    "portfolio_value": 980010.79,
+    "cash": 337588.53,
+    "buying_power": 2865588.44,
+    "total_pnl": -19989.21,
+    "total_return_pct": "-2.00",
+    "today_pnl": -7368.3,
+    "today_return_pct": "-0.75",
     "last_equity": 987379.09,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 41,
+    "total_trades": 42,
     "wins": 18,
-    "losses": 23,
-    "win_rate": "43.9%",
-    "profit_factor": "1.12"
+    "losses": 24,
+    "win_rate": "42.9%",
+    "profit_factor": "1.09"
   },
   "open_positions": [
     {
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 330.0,
       "entry_price": 151.33,
-      "current_price": 151.75,
-      "market_value": 50077.5,
-      "unrealized_pnl": 138.6,
-      "unrealized_plpc": 0.28
+      "current_price": 151.72,
+      "market_value": 50067.6,
+      "unrealized_pnl": 128.7,
+      "unrealized_plpc": 0.26
     },
     {
       "symbol": "CRCL",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 768.0,
       "entry_price": 81.24,
-      "current_price": 79.0,
-      "market_value": 60672.0,
-      "unrealized_pnl": -1719.49,
-      "unrealized_plpc": -2.76
+      "current_price": 78.97,
+      "market_value": 60648.96,
+      "unrealized_pnl": -1742.53,
+      "unrealized_plpc": -2.79
     },
     {
       "symbol": "CRWV",
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 937.0,
       "entry_price": 53.64,
-      "current_price": 52.65,
-      "market_value": 49333.05,
-      "unrealized_pnl": -932.15,
-      "unrealized_plpc": -1.85
+      "current_price": 52.51,
+      "market_value": 49201.96,
+      "unrealized_pnl": -1063.24,
+      "unrealized_plpc": -2.11
     },
     {
       "symbol": "LRCX",
@@ -121,21 +121,10 @@
       "side": "long",
       "qty": 210.0,
       "entry_price": 237.86,
-      "current_price": 234.46,
-      "market_value": 49236.6,
-      "unrealized_pnl": -713.83,
-      "unrealized_plpc": -1.43
-    },
-    {
-      "symbol": "MARA",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 7412.0,
-      "entry_price": 6.76,
-      "current_price": 6.63,
-      "market_value": 49141.56,
-      "unrealized_pnl": -963.56,
-      "unrealized_plpc": -1.92
+      "current_price": 234.51,
+      "market_value": 49247.1,
+      "unrealized_pnl": -703.33,
+      "unrealized_plpc": -1.41
     },
     {
       "symbol": "MELI",
@@ -143,10 +132,10 @@
       "side": "long",
       "qty": 38.0,
       "entry_price": 1598.75,
-      "current_price": 1588.9,
-      "market_value": 60378.3,
-      "unrealized_pnl": -374.2,
-      "unrealized_plpc": -0.62
+      "current_price": 1595.0,
+      "market_value": 60610.0,
+      "unrealized_pnl": -142.5,
+      "unrealized_plpc": -0.24
     },
     {
       "symbol": "MSTR",
@@ -154,10 +143,10 @@
       "side": "long",
       "qty": 447.0,
       "entry_price": 139.18,
-      "current_price": 138.4,
-      "market_value": 61862.57,
-      "unrealized_pnl": -352.62,
-      "unrealized_plpc": -0.57
+      "current_price": 138.37,
+      "market_value": 61849.15,
+      "unrealized_pnl": -366.03,
+      "unrealized_plpc": -0.59
     },
     {
       "symbol": "NBIS",
@@ -165,10 +154,10 @@
       "side": "long",
       "qty": 410.0,
       "entry_price": 151.34,
-      "current_price": 150.2,
-      "market_value": 61582.0,
-      "unrealized_pnl": -468.74,
-      "unrealized_plpc": -0.76
+      "current_price": 150.02,
+      "market_value": 61506.97,
+      "unrealized_pnl": -543.77,
+      "unrealized_plpc": -0.88
     },
     {
       "symbol": "SHOP",
@@ -176,10 +165,10 @@
       "side": "long",
       "qty": 737.0,
       "entry_price": 169.87,
-      "current_price": 168.75,
-      "market_value": 124365.07,
-      "unrealized_pnl": -830.03,
-      "unrealized_plpc": -0.66
+      "current_price": 169.05,
+      "market_value": 124588.01,
+      "unrealized_pnl": -607.09,
+      "unrealized_plpc": -0.48
     }
   ],
   "recent_trades": [
@@ -189,8 +178,8 @@
       "direction": "LONG",
       "shares": 210.0,
       "price": 237.925,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 234.32,
+      "realized_pnl": -757.05,
       "date": "2026-10-26 06:50:10"
     },
     {
@@ -771,14 +760,12 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 979798.11,
-      "daily_pnl": -7580.98,
-      "cum_return": -2.02
+      "portfolio_value": 980010.79,
+      "daily_pnl": -7368.3,
+      "cum_return": -2.0
     }
   ],
   "logs": [
-    "2026-10-25 11:33:32 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 17.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 12:03:34 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 17.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 12:33:37 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 16.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 13:03:39 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 16.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 13:33:41 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 15.9h until pre-market prep at 05:30 AM PT...",
@@ -896,6 +883,8 @@
     "2026-10-26 06:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 7412 shares of MARA @ ~$6.75 (Order ID: 2825bc8c-e2dc-4593-835a-0fe5f1976663)",
     "2026-10-26 06:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 210 shares of LRCX @ ~$237.93 (Order ID: e4cc4cb0-3262-4b70-8a39-242f14d563f6)",
     "2026-10-26 07:02:01 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG IREN @ $24.36 | P&L: -20.51 (-0.04%) | Reason: Breakeven Floor Protected",
-    "2026-10-26 07:03:05 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG MARA @ $6.63 | P&L: -852.38 (-1.70%) | Reason: Hard Stop Triggered (-1.70%)"
+    "2026-10-26 07:03:05 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG MARA @ $6.63 | P&L: -852.38 (-1.70%) | Reason: Hard Stop Triggered (-1.70%)",
+    "2026-10-26 07:03:06 PT  INFO      GitHub Pages deployment cooldown: last push was 0.9s ago. Waiting 44.1s to prevent deployment lock collision...",
+    "2026-10-26 07:03:51 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG LRCX @ $234.32 | P&L: -757.05 (-1.52%) | Reason: Hard Stop Triggered (-1.52%)"
   ]
 }
