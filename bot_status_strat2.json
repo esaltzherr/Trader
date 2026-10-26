@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 07:09:50 AM PT",
-  "timestamp_utc": "2026-10-26T14:09:50.363668+00:00",
+  "updated_at": "2026-10-26 07:10:52 AM PT",
+  "timestamp_utc": "2026-10-26T14:10:52.492727+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10032.47,
-    "cash": 16799.89,
-    "buying_power": 31379.65,
-    "total_pnl": 32.47,
-    "total_return_pct": "+0.32",
-    "today_pnl": -21.04,
-    "today_return_pct": "-0.21",
+    "portfolio_value": 9999.94,
+    "cash": 14892.87,
+    "buying_power": 33497.83,
+    "total_pnl": -0.06,
+    "total_return_pct": "-0.00",
+    "today_pnl": -53.57,
+    "today_return_pct": "-0.53",
     "last_equity": 10053.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 42,
+    "total_trades": 44,
     "wins": 28,
-    "losses": 14,
-    "win_rate": "66.7%",
-    "profit_factor": "0.69"
+    "losses": 16,
+    "win_rate": "63.6%",
+    "profit_factor": "0.68"
   },
   "open_positions": [
     {
@@ -57,21 +57,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 516.75,
-      "current_price": 515.82,
-      "market_value": 515.82,
-      "unrealized_pnl": 0.94,
-      "unrealized_plpc": 0.18
-    },
-    {
-      "symbol": "BE",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 5.0,
-      "entry_price": 198.74,
-      "current_price": 197.59,
-      "market_value": 987.97,
-      "unrealized_pnl": 5.72,
-      "unrealized_plpc": 0.58
+      "current_price": 517.41,
+      "market_value": 517.41,
+      "unrealized_pnl": -0.67,
+      "unrealized_plpc": -0.13
     },
     {
       "symbol": "CAT",
@@ -79,21 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 680.32,
-      "current_price": 681.49,
-      "market_value": 681.49,
-      "unrealized_pnl": -1.17,
-      "unrealized_plpc": -0.17
-    },
-    {
-      "symbol": "DELL",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 2.0,
-      "entry_price": 455.47,
-      "current_price": 452.9,
-      "market_value": 905.8,
-      "unrealized_pnl": 5.14,
-      "unrealized_plpc": 0.56
+      "current_price": 683.27,
+      "market_value": 683.27,
+      "unrealized_pnl": -2.96,
+      "unrealized_plpc": -0.43
     },
     {
       "symbol": "LULU",
@@ -101,10 +79,10 @@
       "side": "short",
       "qty": 9.0,
       "entry_price": 102.13,
-      "current_price": 103.1,
-      "market_value": 927.91,
-      "unrealized_pnl": -8.74,
-      "unrealized_plpc": -0.95
+      "current_price": 103.54,
+      "market_value": 931.86,
+      "unrealized_pnl": -12.69,
+      "unrealized_plpc": -1.38
     },
     {
       "symbol": "NET",
@@ -112,10 +90,10 @@
       "side": "short",
       "qty": 3.0,
       "entry_price": 315.0,
-      "current_price": 319.06,
-      "market_value": 957.18,
-      "unrealized_pnl": -12.18,
-      "unrealized_plpc": -1.29
+      "current_price": 320.71,
+      "market_value": 962.13,
+      "unrealized_pnl": -17.13,
+      "unrealized_plpc": -1.81
     },
     {
       "symbol": "RKLB",
@@ -123,10 +101,10 @@
       "side": "short",
       "qty": 19.0,
       "entry_price": 52.14,
-      "current_price": 52.88,
-      "market_value": 1004.62,
-      "unrealized_pnl": -13.87,
-      "unrealized_plpc": -1.4
+      "current_price": 53.17,
+      "market_value": 1010.23,
+      "unrealized_pnl": -19.48,
+      "unrealized_plpc": -1.97
     },
     {
       "symbol": "TSLA",
@@ -134,10 +112,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 392.39,
-      "current_price": 393.31,
-      "market_value": 786.63,
-      "unrealized_pnl": -1.85,
-      "unrealized_plpc": -0.24
+      "current_price": 394.06,
+      "market_value": 788.13,
+      "unrealized_pnl": -3.35,
+      "unrealized_plpc": -0.43
     }
   ],
   "recent_trades": [
@@ -187,8 +165,8 @@
       "direction": "SHORT",
       "shares": 2.0,
       "price": 456.075,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 455.51,
+      "realized_pnl": -0.08,
       "date": "2026-10-26 07:00:08"
     },
     {
@@ -227,8 +205,8 @@
       "direction": "SHORT",
       "shares": 5.0,
       "price": 198.49,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 198.99,
+      "realized_pnl": -1.26,
       "date": "2026-10-26 06:45:05"
     },
     {
@@ -729,16 +707,12 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 10032.47,
-      "daily_pnl": -21.04,
-      "cum_return": 0.32
+      "portfolio_value": 9999.94,
+      "daily_pnl": -53.57,
+      "cum_return": -0.0
     }
   ],
   "logs": [
-    "2026-10-25 06:33:57 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 22.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 07:03:59 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 22.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 07:34:01 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 21.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 08:04:01 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-25 08:04:03 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 21.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 08:34:04 PT  INFO      GitHub Pages deployment cooldown: last push was 45.0s ago. Waiting 0.0s to prevent deployment lock collision...",
     "2026-10-25 08:34:05 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 20.9h until pre-market prep at 05:30 AM PT...",
@@ -854,6 +828,10 @@
     "2026-10-26 07:00:14 PT  INFO      GitHub Pages deployment cooldown: last push was 0.6s ago. Waiting 44.4s to prevent deployment lock collision...",
     "2026-10-26 07:04:05 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
     "2026-10-26 07:05:31 PT  INFO      [RATCHET TIER 1] NU Short peaked at +1.4%, crossed locked floor. Securing gains!",
-    "2026-10-26 07:05:31 PT  INFO      [CLOSED POSITION] NU 83.0 shares @ $11.97 (Entry: $12.04, P&L: $+5.39) [RATCHET_TIER1]"
+    "2026-10-26 07:05:31 PT  INFO      [CLOSED POSITION] NU 83.0 shares @ $11.97 (Entry: $12.04, P&L: $+5.39) [RATCHET_TIER1]",
+    "2026-10-26 07:10:42 PT  INFO      [RATCHET BREAKEVEN] BE Short hit breakeven stop. Zero loss exit!",
+    "2026-10-26 07:10:42 PT  INFO      [CLOSED POSITION] BE 5.0 shares @ $198.99 (Entry: $198.74, P&L: $-1.26) [RATCHET_BREAKEVEN]",
+    "2026-10-26 07:10:42 PT  INFO      [RATCHET BREAKEVEN] DELL Short hit breakeven stop. Zero loss exit!",
+    "2026-10-26 07:10:42 PT  INFO      [CLOSED POSITION] DELL 2.0 shares @ $455.51 (Entry: $455.47, P&L: $-0.08) [RATCHET_BREAKEVEN]"
   ]
 }
