@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 06:40:14 AM PT",
-  "timestamp_utc": "2026-10-26T13:40:15.064427+00:00",
+  "updated_at": "2026-10-26 06:50:10 AM PT",
+  "timestamp_utc": "2026-10-26T13:50:11.133260+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 986435.21,
-    "cash": 736472.83,
-    "buying_power": 3211166.29,
-    "total_pnl": -13564.79,
-    "total_return_pct": "-1.36",
-    "today_pnl": -943.88,
-    "today_return_pct": "-0.10",
+    "portfolio_value": 982777.62,
+    "cash": 489062.91,
+    "buying_power": 2800153.75,
+    "total_pnl": -17222.38,
+    "total_return_pct": "-1.72",
+    "today_pnl": -4601.47,
+    "today_return_pct": "-0.47",
     "last_equity": 987379.09,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 44,
-    "wins": 20,
-    "losses": 24,
-    "win_rate": "45.5%",
-    "profit_factor": "1.14"
+    "total_trades": 39,
+    "wins": 18,
+    "losses": 21,
+    "win_rate": "46.2%",
+    "profit_factor": "1.15"
   },
   "open_positions": [
     {
@@ -77,10 +77,54 @@
       "side": "long",
       "qty": 500.0,
       "entry_price": 251.42,
-      "current_price": 250.47,
-      "market_value": 125232.5,
-      "unrealized_pnl": -478.66,
-      "unrealized_plpc": -0.38
+      "current_price": 246.78,
+      "market_value": 123390.0,
+      "unrealized_pnl": -2321.16,
+      "unrealized_plpc": -1.85
+    },
+    {
+      "symbol": "CRCL",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 768.0,
+      "entry_price": 81.24,
+      "current_price": 79.88,
+      "market_value": 61347.69,
+      "unrealized_pnl": -1043.8,
+      "unrealized_plpc": -1.67
+    },
+    {
+      "symbol": "MELI",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 38.0,
+      "entry_price": 1598.75,
+      "current_price": 1586.76,
+      "market_value": 60296.79,
+      "unrealized_pnl": -455.71,
+      "unrealized_plpc": -0.75
+    },
+    {
+      "symbol": "MSTR",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 447.0,
+      "entry_price": 139.18,
+      "current_price": 138.97,
+      "market_value": 62117.36,
+      "unrealized_pnl": -97.83,
+      "unrealized_plpc": -0.16
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 410.0,
+      "entry_price": 151.34,
+      "current_price": 153.53,
+      "market_value": 62947.3,
+      "unrealized_pnl": 896.56,
+      "unrealized_plpc": 1.44
     },
     {
       "symbol": "SHOP",
@@ -88,13 +132,63 @@
       "side": "long",
       "qty": 737.0,
       "entry_price": 169.87,
-      "current_price": 169.24,
-      "market_value": 124729.88,
-      "unrealized_pnl": -465.22,
-      "unrealized_plpc": -0.37
+      "current_price": 167.89,
+      "market_value": 123733.09,
+      "unrealized_pnl": -1462.01,
+      "unrealized_plpc": -1.17
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "LRCX",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 210.0,
+      "price": 237.925,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:50:10"
+    },
+    {
+      "symbol": "MARA",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 7412.0,
+      "price": 6.745,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:50:10"
+    },
+    {
+      "symbol": "COP",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 330.0,
+      "price": 151.17,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:50:10"
+    },
+    {
+      "symbol": "IREN",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 2051.0,
+      "price": 24.37,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:50:10"
+    },
+    {
+      "symbol": "CRWV",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 937.0,
+      "price": 53.335,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-26 06:50:10"
+    },
     {
       "symbol": "NBIS",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -544,56 +638,6 @@
       "close_price": 63.32,
       "realized_pnl": 7974.26,
       "date": "2026-10-20 06:40:13"
-    },
-    {
-      "symbol": "ACN",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 520.0,
-      "price": 240.31,
-      "close_price": 238.92,
-      "realized_pnl": -393.41,
-      "date": "2026-10-20 06:35:15"
-    },
-    {
-      "symbol": "SHOP",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 721.0,
-      "price": 173.175,
-      "close_price": 173.12,
-      "realized_pnl": 75.39,
-      "date": "2026-10-20 06:35:15"
-    },
-    {
-      "symbol": "LRCX",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 182.0,
-      "price": 273.49,
-      "close_price": 274.045,
-      "realized_pnl": -53.07,
-      "date": "2026-10-19 07:05:29"
-    },
-    {
-      "symbol": "INTC",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 535.0,
-      "price": 93.39,
-      "close_price": 92.62,
-      "realized_pnl": 470.8,
-      "date": "2026-10-19 07:05:29"
-    },
-    {
-      "symbol": "DDOG",
-      "strategy": "PARABOLIC_BLOWOFF_FADE",
-      "direction": "SHORT",
-      "shares": 194.0,
-      "price": 257.54,
-      "close_price": 259.95,
-      "realized_pnl": -370.49,
-      "date": "2026-10-19 07:05:29"
     }
   ],
   "history": [
@@ -683,20 +727,12 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 986435.21,
-      "daily_pnl": -943.88,
-      "cum_return": -1.36
+      "portfolio_value": 982777.62,
+      "daily_pnl": -4601.47,
+      "cum_return": -1.72
     }
   ],
   "logs": [
-    "2026-10-25 06:33:11 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 22.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 07:03:13 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 22.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 07:33:15 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 21.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 08:03:17 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 21.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 08:33:19 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 20.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 09:03:21 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 20.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 09:33:23 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 19.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 10:03:25 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 19.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 10:33:28 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 18.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 11:03:30 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 18.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 11:33:32 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 17.9h until pre-market prep at 05:30 AM PT...",
@@ -808,6 +844,14 @@
     "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 38 shares of MELI @ ~$1605.00 (Order ID: 3165c8c3-f5ea-4cf2-9693-7e8969ac0ab0)",
     "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 768 shares of CRCL @ ~$81.33 (Order ID: e94480c6-830b-40b8-a010-17d82719793c)",
     "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 447 shares of MSTR @ ~$139.58 (Order ID: 13b9d03b-aad1-44ba-9bd7-8d8f6e171bc7)",
-    "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 410 shares of NBIS @ ~$152.12 (Order ID: f0f34203-0525-4a02-9fc3-815084893051)"
+    "2026-10-26 06:40:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 410 shares of NBIS @ ~$152.12 (Order ID: f0f34203-0525-4a02-9fc3-815084893051)",
+    "2026-10-26 06:50:04 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-26 06:50:04 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-26 06:50:09 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['CRWV', 'IREN', 'COP', 'MARA', 'LRCX']",
+    "2026-10-26 06:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 937 shares of CRWV @ ~$53.34 (Order ID: c3d4a3ec-f98e-4961-af97-61bfe1b1995a)",
+    "2026-10-26 06:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 2051 shares of IREN @ ~$24.37 (Order ID: d3776c35-1aba-4cfe-a222-5ad25af6b6a5)",
+    "2026-10-26 06:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 330 shares of COP @ ~$151.17 (Order ID: 818b5756-aa09-4759-92cc-8d9354f7eaf5)",
+    "2026-10-26 06:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 7412 shares of MARA @ ~$6.75 (Order ID: 2825bc8c-e2dc-4593-835a-0fe5f1976663)",
+    "2026-10-26 06:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 210 shares of LRCX @ ~$237.93 (Order ID: e4cc4cb0-3262-4b70-8a39-242f14d563f6)"
   ]
 }
