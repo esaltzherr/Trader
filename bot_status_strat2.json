@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 07:47:38 AM PT",
-  "timestamp_utc": "2026-10-26T14:47:38.590758+00:00",
+  "updated_at": "2026-10-26 07:48:40 AM PT",
+  "timestamp_utc": "2026-10-26T14:48:40.545054+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9969.0,
-    "cash": 12204.45,
-    "buying_power": 37193.48,
-    "total_pnl": -31.0,
-    "total_return_pct": "-0.31",
-    "today_pnl": -84.51,
-    "today_return_pct": "-0.84",
+    "portfolio_value": 9967.24,
+    "cash": 11178.65,
+    "buying_power": 38415.24,
+    "total_pnl": -32.76,
+    "total_return_pct": "-0.33",
+    "today_pnl": -86.27,
+    "today_return_pct": "-0.86",
     "last_equity": 10053.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 47,
+    "total_trades": 48,
     "wins": 29,
-    "losses": 18,
-    "win_rate": "61.7%",
-    "profit_factor": "0.61"
+    "losses": 19,
+    "win_rate": "60.4%",
+    "profit_factor": "0.55"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 516.75,
-      "current_price": 522.49,
-      "market_value": 522.49,
-      "unrealized_pnl": -5.74,
-      "unrealized_plpc": -1.11
+      "current_price": 522.38,
+      "market_value": 522.38,
+      "unrealized_pnl": -5.63,
+      "unrealized_plpc": -1.09
     },
     {
       "symbol": "CAT",
@@ -68,21 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 680.32,
-      "current_price": 688.97,
-      "market_value": 688.97,
-      "unrealized_pnl": -8.65,
-      "unrealized_plpc": -1.27
-    },
-    {
-      "symbol": "RKLB",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 19.0,
-      "entry_price": 52.14,
-      "current_price": 53.89,
-      "market_value": 1023.99,
-      "unrealized_pnl": -33.24,
-      "unrealized_plpc": -3.36
+      "current_price": 689.03,
+      "market_value": 689.03,
+      "unrealized_pnl": -8.71,
+      "unrealized_plpc": -1.28
     }
   ],
   "recent_trades": [
@@ -112,8 +101,8 @@
       "direction": "SHORT",
       "shares": 19.0,
       "price": 52.215,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 53.985,
+      "realized_pnl": -34.964997,
       "date": "2026-10-26 07:00:10"
     },
     {
@@ -674,14 +663,12 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 9969.0,
-      "daily_pnl": -84.51,
-      "cum_return": -0.31
+      "portfolio_value": 9967.24,
+      "daily_pnl": -86.27,
+      "cum_return": -0.33
     }
   ],
   "logs": [
-    "2026-10-25 09:34:10 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 19.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 10:04:10 PT  INFO      GitHub Pages deployment cooldown: last push was 44.9s ago. Waiting 0.1s to prevent deployment lock collision...",
     "2026-10-25 10:04:12 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 19.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 10:34:12 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-25 10:34:14 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 18.9h until pre-market prep at 05:30 AM PT...",
@@ -799,6 +786,8 @@
     "2026-10-26 07:26:23 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
     "2026-10-26 07:45:02 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-26 07:45:03 PT  INFO      [CLOSED POSITION] LULU 9.0 shares @ $101.94 (Entry: $102.13, P&L: $+1.71) [1H_SCHEDULED_EXIT]",
-    "2026-10-26 07:45:03 PT  INFO      [CLOSED POSITION] TSLA 2.0 shares @ $394.75 (Entry: $392.39, P&L: $-4.72) [1H_SCHEDULED_EXIT]"
+    "2026-10-26 07:45:03 PT  INFO      [CLOSED POSITION] TSLA 2.0 shares @ $394.75 (Entry: $392.39, P&L: $-4.72) [1H_SCHEDULED_EXIT]",
+    "2026-10-26 07:48:00 PT  WARNING   [STOP LOSS] RKLB Short hit -3.5% cut. Protecting capital!",
+    "2026-10-26 07:48:00 PT  INFO      [CLOSED POSITION] RKLB 19.0 shares @ $53.98 (Entry: $52.14, P&L: $-34.96) [STOP_LOSS]"
   ]
 }
