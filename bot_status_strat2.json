@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 09:42:26 AM PT",
-  "timestamp_utc": "2026-10-26T16:42:26.932357+00:00",
+  "updated_at": "2026-10-26 09:44:03 AM PT",
+  "timestamp_utc": "2026-10-26T16:44:03.558799+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9956.61,
+    "portfolio_value": 9958.88,
     "cash": 11178.65,
-    "buying_power": 38359.99,
-    "total_pnl": -43.39,
-    "total_return_pct": "-0.43",
-    "today_pnl": -96.9,
-    "today_return_pct": "-0.96",
+    "buying_power": 38371.8,
+    "total_pnl": -41.12,
+    "total_return_pct": "-0.41",
+    "today_pnl": -94.63,
+    "today_return_pct": "-0.94",
     "last_equity": 10053.51,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 516.75,
-      "current_price": 528.82,
-      "market_value": 528.82,
-      "unrealized_pnl": -12.07,
-      "unrealized_plpc": -2.34
+      "current_price": 527.89,
+      "market_value": 527.89,
+      "unrealized_pnl": -11.14,
+      "unrealized_plpc": -2.16
     },
     {
       "symbol": "CAT",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 680.32,
-      "current_price": 693.22,
-      "market_value": 693.22,
-      "unrealized_pnl": -12.9,
-      "unrealized_plpc": -1.9
+      "current_price": 691.88,
+      "market_value": 691.88,
+      "unrealized_pnl": -11.56,
+      "unrealized_plpc": -1.7
     }
   ],
   "recent_trades": [
@@ -663,13 +663,12 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 9956.61,
-      "daily_pnl": -96.9,
-      "cum_return": -0.43
+      "portfolio_value": 9958.88,
+      "daily_pnl": -94.63,
+      "cum_return": -0.41
     }
   ],
   "logs": [
-    "2026-10-25 10:34:12 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-25 10:34:14 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 18.9h until pre-market prep at 05:30 AM PT...",
     "2026-10-25 11:04:14 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
     "2026-10-25 11:04:16 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT (09:30 ET). Sleeping 18.4h until pre-market prep at 05:30 AM PT...",
@@ -788,6 +787,7 @@
     "2026-10-26 07:45:03 PT  INFO      [CLOSED POSITION] TSLA 2.0 shares @ $394.75 (Entry: $392.39, P&L: $-4.72) [1H_SCHEDULED_EXIT]",
     "2026-10-26 07:48:00 PT  WARNING   [STOP LOSS] RKLB Short hit -3.5% cut. Protecting capital!",
     "2026-10-26 07:48:00 PT  INFO      [CLOSED POSITION] RKLB 19.0 shares @ $53.98 (Entry: $52.14, P&L: $-34.96) [STOP_LOSS]",
-    "2026-10-26 09:02:21 PT  INFO      GitHub Pages deployment cooldown: last push was 5.5s ago. Waiting 39.5s to prevent deployment lock collision..."
+    "2026-10-26 09:02:21 PT  INFO      GitHub Pages deployment cooldown: last push was 5.5s ago. Waiting 39.5s to prevent deployment lock collision...",
+    "2026-10-26 09:42:26 PT  INFO      GitHub Pages deployment cooldown: last push was 10.6s ago. Waiting 34.4s to prevent deployment lock collision..."
   ]
 }
