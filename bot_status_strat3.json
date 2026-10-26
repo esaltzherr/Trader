@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-26 07:03:51 AM PT",
-  "timestamp_utc": "2026-10-26T14:03:52.025248+00:00",
+  "updated_at": "2026-10-26 07:26:01 AM PT",
+  "timestamp_utc": "2026-10-26T14:26:01.349040+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 980010.79,
-    "cash": 337588.53,
-    "buying_power": 2865588.44,
-    "total_pnl": -19989.21,
-    "total_return_pct": "-2.00",
-    "today_pnl": -7368.3,
-    "today_return_pct": "-0.75",
+    "portfolio_value": 986378.19,
+    "cash": 438162.35,
+    "buying_power": 2998928.02,
+    "total_pnl": -13621.81,
+    "total_return_pct": "-1.36",
+    "today_pnl": -1000.9,
+    "today_return_pct": "-0.10",
     "last_equity": 987379.09,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 42,
-    "wins": 18,
+    "total_trades": 43,
+    "wins": 19,
     "losses": 24,
-    "win_rate": "42.9%",
-    "profit_factor": "1.09"
+    "win_rate": "44.2%",
+    "profit_factor": "1.14"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 500.0,
       "entry_price": 251.42,
-      "current_price": 249.41,
-      "market_value": 124702.5,
-      "unrealized_pnl": -1008.66,
-      "unrealized_plpc": -0.8
+      "current_price": 248.81,
+      "market_value": 124405.0,
+      "unrealized_pnl": -1306.16,
+      "unrealized_plpc": -1.04
     },
     {
       "symbol": "COP",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 330.0,
       "entry_price": 151.33,
-      "current_price": 151.72,
-      "market_value": 50067.6,
-      "unrealized_pnl": 128.7,
-      "unrealized_plpc": 0.26
+      "current_price": 150.3,
+      "market_value": 49599.0,
+      "unrealized_pnl": -339.9,
+      "unrealized_plpc": -0.68
     },
     {
       "symbol": "CRCL",
@@ -99,32 +99,10 @@
       "side": "long",
       "qty": 768.0,
       "entry_price": 81.24,
-      "current_price": 78.97,
-      "market_value": 60648.96,
-      "unrealized_pnl": -1742.53,
-      "unrealized_plpc": -2.79
-    },
-    {
-      "symbol": "CRWV",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 937.0,
-      "entry_price": 53.64,
-      "current_price": 52.51,
-      "market_value": 49201.96,
-      "unrealized_pnl": -1063.24,
-      "unrealized_plpc": -2.11
-    },
-    {
-      "symbol": "LRCX",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 210.0,
-      "entry_price": 237.86,
-      "current_price": 234.51,
-      "market_value": 49247.1,
-      "unrealized_pnl": -703.33,
-      "unrealized_plpc": -1.41
+      "current_price": 79.66,
+      "market_value": 61178.88,
+      "unrealized_pnl": -1212.61,
+      "unrealized_plpc": -1.94
     },
     {
       "symbol": "MELI",
@@ -132,10 +110,10 @@
       "side": "long",
       "qty": 38.0,
       "entry_price": 1598.75,
-      "current_price": 1595.0,
-      "market_value": 60610.0,
-      "unrealized_pnl": -142.5,
-      "unrealized_plpc": -0.24
+      "current_price": 1616.23,
+      "market_value": 61416.93,
+      "unrealized_pnl": 664.43,
+      "unrealized_plpc": 1.09
     },
     {
       "symbol": "MSTR",
@@ -143,10 +121,10 @@
       "side": "long",
       "qty": 447.0,
       "entry_price": 139.18,
-      "current_price": 138.37,
-      "market_value": 61849.15,
-      "unrealized_pnl": -366.03,
-      "unrealized_plpc": -0.59
+      "current_price": 140.33,
+      "market_value": 62727.51,
+      "unrealized_pnl": 512.32,
+      "unrealized_plpc": 0.82
     },
     {
       "symbol": "NBIS",
@@ -154,10 +132,10 @@
       "side": "long",
       "qty": 410.0,
       "entry_price": 151.34,
-      "current_price": 150.02,
-      "market_value": 61506.97,
-      "unrealized_pnl": -543.77,
-      "unrealized_plpc": -0.88
+      "current_price": 153.15,
+      "market_value": 62791.5,
+      "unrealized_pnl": 740.76,
+      "unrealized_plpc": 1.19
     },
     {
       "symbol": "SHOP",
@@ -165,10 +143,10 @@
       "side": "long",
       "qty": 737.0,
       "entry_price": 169.87,
-      "current_price": 169.05,
-      "market_value": 124588.01,
-      "unrealized_pnl": -607.09,
-      "unrealized_plpc": -0.48
+      "current_price": 171.09,
+      "market_value": 126097.01,
+      "unrealized_pnl": 901.92,
+      "unrealized_plpc": 0.72
     }
   ],
   "recent_trades": [
@@ -218,8 +196,8 @@
       "direction": "LONG",
       "shares": 937.0,
       "price": 53.335,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 54.79,
+      "realized_pnl": 1363.33,
       "date": "2026-10-26 06:50:10"
     },
     {
@@ -760,49 +738,12 @@
     },
     {
       "date": "2026-10-26",
-      "portfolio_value": 980010.79,
-      "daily_pnl": -7368.3,
-      "cum_return": -2.0
+      "portfolio_value": 986378.19,
+      "daily_pnl": -1000.9,
+      "cum_return": -1.36
     }
   ],
   "logs": [
-    "2026-10-25 12:33:37 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 16.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 13:03:39 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 16.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 13:33:41 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 15.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 14:03:43 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 15.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 14:33:45 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 14.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 15:03:47 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 14.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 15:33:49 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 13.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 16:03:52 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 13.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 16:33:54 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 12.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 17:03:56 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 12.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 17:33:58 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 11.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 18:04:01 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 11.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 18:34:03 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 10.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 19:04:04 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 10.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 19:34:07 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 9.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 20:04:09 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 9.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 20:34:11 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 8.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 21:04:13 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 8.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 21:34:15 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 7.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 22:04:17 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 7.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 22:34:19 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 6.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 23:04:22 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 6.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-25 23:34:24 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 5.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 00:04:26 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 5.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 00:34:29 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 4.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 01:04:31 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 4.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 01:34:33 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 3.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 02:04:36 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 3.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 02:34:39 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 2.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 03:04:42 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 2.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 03:34:44 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 1.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 04:04:46 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 1.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 04:34:49 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 0.9h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 05:04:52 PT  INFO      Market closed. Next open: 2026-10-26 06:30 AM PT. Sleeping 0.4h until pre-market prep at 05:30 AM PT...",
-    "2026-10-26 05:30:04 PT  INFO      Within pre-market preparation window (05:30 - 06:30 AM PT). Performing session prep...",
-    "2026-10-26 05:30:05 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
-    "2026-10-26 05:30:51 PT  INFO      Pre-market standby: 59.9 minutes until market open at 06:30 AM PT.",
     "2026-10-26 05:31:51 PT  INFO      Pre-market standby: 58.1 minutes until market open at 06:30 AM PT.",
     "2026-10-26 05:32:51 PT  INFO      Pre-market standby: 57.1 minutes until market open at 06:30 AM PT.",
     "2026-10-26 05:33:51 PT  INFO      Pre-market standby: 56.1 minutes until market open at 06:30 AM PT.",
@@ -885,6 +826,43 @@
     "2026-10-26 07:02:01 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG IREN @ $24.36 | P&L: -20.51 (-0.04%) | Reason: Breakeven Floor Protected",
     "2026-10-26 07:03:05 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG MARA @ $6.63 | P&L: -852.38 (-1.70%) | Reason: Hard Stop Triggered (-1.70%)",
     "2026-10-26 07:03:06 PT  INFO      GitHub Pages deployment cooldown: last push was 0.9s ago. Waiting 44.1s to prevent deployment lock collision...",
-    "2026-10-26 07:03:51 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG LRCX @ $234.32 | P&L: -757.05 (-1.52%) | Reason: Hard Stop Triggered (-1.52%)"
+    "2026-10-26 07:03:51 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG LRCX @ $234.32 | P&L: -757.05 (-1.52%) | Reason: Hard Stop Triggered (-1.52%)",
+    "2026-10-26 07:03:52 PT  INFO      GitHub Pages deployment cooldown: last push was 0.2s ago. Waiting 44.8s to prevent deployment lock collision...",
+    "2026-10-26 07:05:08 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
+    "2026-10-26 07:05:08 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
+    "2026-10-26 07:05:09 PT  WARNING   Could not fetch shortable assets list: 10 validation errors for list[Asset]",
+    "1052.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "1107.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "1592.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "3610.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "4750.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "5273.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "7744.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "9131.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "9759.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "11767.exchange",
+    "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
+    "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
+    "2026-10-26 07:05:09 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
+    "2026-10-26 07:05:09 PT  INFO      [PARABOLIC_BLOWOFF_FADE] No qualifying candidates found.",
+    "2026-10-26 07:26:00 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CRWV @ $54.79 | P&L: +1363.33 (+2.73%) | Reason: Micro-Burst Trail Locked (+2.73%)"
   ]
 }
