@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 06:40:16 AM PT",
-  "timestamp_utc": "2026-10-27T13:40:16.703909+00:00",
+  "updated_at": "2026-10-27 06:50:13 AM PT",
+  "timestamp_utc": "2026-10-27T13:50:13.528385+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 987056.16,
-    "cash": 740382.88,
-    "buying_power": 3402613.21,
-    "total_pnl": -12943.84,
-    "total_return_pct": "-1.29",
-    "today_pnl": -2703.82,
-    "today_return_pct": "-0.27",
+    "portfolio_value": 989021.63,
+    "cash": 490779.4,
+    "buying_power": 3109282.7,
+    "total_pnl": -10978.37,
+    "total_return_pct": "-1.10",
+    "today_pnl": -738.35,
+    "today_return_pct": "-0.07",
     "last_equity": 989759.98,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 46,
-    "wins": 20,
-    "losses": 26,
-    "win_rate": "43.5%",
-    "profit_factor": "0.93"
+    "total_trades": 41,
+    "wins": 18,
+    "losses": 23,
+    "win_rate": "43.9%",
+    "profit_factor": "0.89"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 342.0,
       "entry_price": 242.96,
-      "current_price": 241.07,
-      "market_value": 82447.65,
-      "unrealized_pnl": -644.67,
-      "unrealized_plpc": -0.78
+      "current_price": 242.44,
+      "market_value": 82914.48,
+      "unrealized_pnl": -177.84,
+      "unrealized_plpc": -0.21
     },
     {
       "symbol": "DDOG",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 298.0,
       "entry_price": 279.76,
-      "current_price": 277.75,
-      "market_value": 82768.01,
-      "unrealized_pnl": -600.47,
-      "unrealized_plpc": -0.72
+      "current_price": 275.21,
+      "market_value": 82014.07,
+      "unrealized_pnl": -1354.41,
+      "unrealized_plpc": -1.62
     },
     {
       "symbol": "SHOP",
@@ -99,13 +99,74 @@
       "side": "long",
       "qty": 489.0,
       "entry_price": 169.56,
-      "current_price": 166.58,
-      "market_value": 81457.62,
-      "unrealized_pnl": -1458.68,
-      "unrealized_plpc": -1.76
+      "current_price": 165.56,
+      "market_value": 80959.62,
+      "unrealized_pnl": -1956.68,
+      "unrealized_plpc": -2.36
+    },
+    {
+      "symbol": "SHW",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 777.0,
+      "entry_price": 321.24,
+      "current_price": 324.78,
+      "market_value": 252354.06,
+      "unrealized_pnl": 2750.58,
+      "unrealized_plpc": 1.1
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "TMO",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 72.0,
+      "price": 686.03,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-27 06:50:12"
+    },
+    {
+      "symbol": "SPGI",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 109.0,
+      "price": 457.36,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-27 06:50:12"
+    },
+    {
+      "symbol": "DE",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 76.0,
+      "price": 653.565,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-27 06:50:12"
+    },
+    {
+      "symbol": "LULU",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 481.0,
+      "price": 103.76,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-27 06:50:12"
+    },
+    {
+      "symbol": "CHTR",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 485.0,
+      "price": 103.05,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-27 06:50:12"
+    },
     {
       "symbol": "SHW",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -555,56 +616,6 @@
       "close_price": 241.03,
       "realized_pnl": 1425.28,
       "date": "2026-10-21 06:35:07"
-    },
-    {
-      "symbol": "SHOP",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 721.0,
-      "price": 173.21,
-      "close_price": 174.98,
-      "realized_pnl": 1063.44,
-      "date": "2026-10-21 06:35:07"
-    },
-    {
-      "symbol": "MDB",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 144.0,
-      "price": 346.85,
-      "close_price": 357.5,
-      "realized_pnl": 1533.6,
-      "date": "2026-10-20 06:50:14"
-    },
-    {
-      "symbol": "INTU",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 147.0,
-      "price": 339.97,
-      "close_price": 334.11,
-      "realized_pnl": -861.42,
-      "date": "2026-10-20 06:50:14"
-    },
-    {
-      "symbol": "NOW",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 334.0,
-      "price": 149.41,
-      "close_price": 148.08,
-      "realized_pnl": -444.22,
-      "date": "2026-10-20 06:50:14"
-    },
-    {
-      "symbol": "CHTR",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 449.0,
-      "price": 111.34,
-      "close_price": 111.05,
-      "realized_pnl": -130.21,
-      "date": "2026-10-20 06:50:14"
     }
   ],
   "history": [
@@ -700,20 +711,12 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 987056.16,
-      "daily_pnl": -2703.82,
-      "cum_return": -1.29
+      "portfolio_value": 989021.63,
+      "daily_pnl": -738.35,
+      "cum_return": -1.1
     }
   ],
   "logs": [
-    "2026-10-26 07:50:17 PT  INFO      GitHub Pages deployment cooldown: last push was 33.8s ago. Waiting 11.2s to prevent deployment lock collision...",
-    "2026-10-26 09:02:14 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG NBIS @ $162.88 | P&L: +4413.65 (+7.08%) | Reason: Bounce Trail Locked (+7.08% from peak +8.69%)",
-    "2026-10-26 09:42:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG MSTR @ $141.59 | P&L: +896.23 (+1.44%) | Reason: Stepped Profit Lock (+1.5% Protected)",
-    "2026-10-26 12:50:01 PT  INFO      >>> TIME TRIGGER: 12:50 PM PT -> EOD Liquidation of all Portfolio 3 positions...",
-    "2026-10-26 12:50:03 PT  INFO      Closing all 4 active positions for Scheduled EOD Liquidation...",
-    "2026-10-26 12:50:04 PT  INFO      Waiting for liquidation fills (4 positions remaining)...",
-    "2026-10-26 12:50:05 PT  INFO      Waiting for liquidation fills (4 positions remaining)...",
-    "2026-10-26 12:50:06 PT  INFO      Waiting for liquidation fills (4 positions remaining)...",
     "2026-10-26 12:50:07 PT  INFO      Waiting for liquidation fills (4 positions remaining)...",
     "2026-10-26 12:50:08 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
     "2026-10-26 12:50:09 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
@@ -825,6 +828,14 @@
     "2026-10-27 06:40:12 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
     "2026-10-27 06:40:12 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-27 06:40:16 PT  INFO      [Engine 2] Selected 1 Capitulation Bounce targets: ['SHW']",
-    "2026-10-27 06:40:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 777 shares of SHW @ ~$321.65 (Order ID: e2de2930-1f09-4dd0-904e-9e89481c2b95)"
+    "2026-10-27 06:40:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 777 shares of SHW @ ~$321.65 (Order ID: e2de2930-1f09-4dd0-904e-9e89481c2b95)",
+    "2026-10-27 06:50:07 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-27 06:50:07 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-27 06:50:12 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['CHTR', 'LULU', 'DE', 'SPGI', 'TMO']",
+    "2026-10-27 06:50:12 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 485 shares of CHTR @ ~$103.05 (Order ID: 8e1977ab-e153-4621-bf5d-9cbcd809a611)",
+    "2026-10-27 06:50:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 481 shares of LULU @ ~$103.76 (Order ID: 9be2a040-a1ee-4f2e-8980-823592018030)",
+    "2026-10-27 06:50:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 76 shares of DE @ ~$653.57 (Order ID: 62862110-68f0-4d2d-98ca-0e5efd3d800e)",
+    "2026-10-27 06:50:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 109 shares of SPGI @ ~$457.36 (Order ID: b736e8db-b328-4727-841f-f2e7d884f69d)",
+    "2026-10-27 06:50:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 72 shares of TMO @ ~$686.03 (Order ID: 51ccf178-3544-4ae2-b920-efcee5545cc4)"
   ]
 }
