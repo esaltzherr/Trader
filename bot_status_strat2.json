@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 07:00:11 AM PT",
-  "timestamp_utc": "2026-10-27T14:00:12.023879+00:00",
+  "updated_at": "2026-10-27 07:00:15 AM PT",
+  "timestamp_utc": "2026-10-27T14:00:15.401704+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10016.87,
+    "portfolio_value": 10021.93,
     "cash": 14389.26,
-    "buying_power": 26616.2,
-    "total_pnl": 16.87,
-    "total_return_pct": "+0.17",
-    "today_pnl": 60.75,
-    "today_return_pct": "+0.61",
+    "buying_power": 26645.84,
+    "total_pnl": 21.93,
+    "total_return_pct": "+0.22",
+    "today_pnl": 65.81,
+    "today_return_pct": "+0.66",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 3.0,
       "entry_price": 282.06,
-      "current_price": 274.0,
-      "market_value": 822.01,
-      "unrealized_pnl": 24.16,
-      "unrealized_plpc": 2.86
+      "current_price": 273.68,
+      "market_value": 821.04,
+      "unrealized_pnl": 25.14,
+      "unrealized_plpc": 2.97
     },
     {
       "symbol": "IREN",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 36.0,
       "entry_price": 27.48,
-      "current_price": 27.23,
-      "market_value": 980.1,
-      "unrealized_pnl": 9.18,
-      "unrealized_plpc": 0.93
+      "current_price": 27.16,
+      "market_value": 977.94,
+      "unrealized_pnl": 11.34,
+      "unrealized_plpc": 1.15
     },
     {
       "symbol": "MARA",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 137.0,
       "entry_price": 7.27,
-      "current_price": 7.09,
-      "market_value": 972.01,
-      "unrealized_pnl": 23.98,
-      "unrealized_plpc": 2.41
+      "current_price": 7.1,
+      "market_value": 972.07,
+      "unrealized_pnl": 23.92,
+      "unrealized_plpc": 2.4
     },
     {
       "symbol": "NBIS",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 169.11,
-      "current_price": 167.15,
-      "market_value": 835.75,
-      "unrealized_pnl": 9.8,
-      "unrealized_plpc": 1.16
+      "current_price": 166.84,
+      "market_value": 834.2,
+      "unrealized_pnl": 11.35,
+      "unrealized_plpc": 1.34
     },
     {
       "symbol": "WDC",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 378.07,
-      "current_price": 381.25,
-      "market_value": 762.51,
-      "unrealized_pnl": -6.37,
-      "unrealized_plpc": -0.84
+      "current_price": 381.04,
+      "market_value": 762.08,
+      "unrealized_pnl": -5.94,
+      "unrealized_plpc": -0.79
     }
   ],
   "recent_trades": [
@@ -702,13 +702,12 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 10016.87,
-      "daily_pnl": 60.75,
-      "cum_return": 0.17
+      "portfolio_value": 10021.93,
+      "daily_pnl": 65.81,
+      "cum_return": 0.22
     }
   ],
   "logs": [
-    "2026-10-26 07:45:03 PT  INFO      [CLOSED POSITION] TSLA 2.0 shares @ $394.75 (Entry: $392.39, P&L: $-4.72) [1H_SCHEDULED_EXIT]",
     "2026-10-26 07:48:00 PT  WARNING   [STOP LOSS] RKLB Short hit -3.5% cut. Protecting capital!",
     "2026-10-26 07:48:00 PT  INFO      [CLOSED POSITION] RKLB 19.0 shares @ $53.98 (Entry: $52.14, P&L: $-34.96) [STOP_LOSS]",
     "2026-10-26 09:02:21 PT  INFO      GitHub Pages deployment cooldown: last push was 5.5s ago. Waiting 39.5s to prevent deployment lock collision...",
@@ -827,6 +826,7 @@
     "2026-10-27 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 6 shares of BKNG at ~$150.06",
     "2026-10-27 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 1 shares of MA at ~$607.19",
     "2026-10-27 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 18 shares of PYPL at ~$54.39",
-    "2026-10-27 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 48 shares of DKNG at ~$20.55"
+    "2026-10-27 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 48 shares of DKNG at ~$20.55",
+    "2026-10-27 07:00:14 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
