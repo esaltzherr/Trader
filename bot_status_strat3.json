@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 07:50:30 AM PT",
-  "timestamp_utc": "2026-10-27T14:50:31.039028+00:00",
+  "updated_at": "2026-10-27 07:51:17 AM PT",
+  "timestamp_utc": "2026-10-27T14:51:17.430118+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 989833.64,
+    "portfolio_value": 989944.33,
     "cash": 342377.43,
-    "buying_power": 3182387.11,
-    "total_pnl": -10166.36,
-    "total_return_pct": "-1.02",
-    "today_pnl": 73.66,
-    "today_return_pct": "+0.01",
+    "buying_power": 3182697.04,
+    "total_pnl": -10055.67,
+    "total_return_pct": "-1.01",
+    "today_pnl": 184.35,
+    "today_return_pct": "+0.02",
     "last_equity": 989759.98,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,10 +64,10 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
+    "total_trades": 44,
     "wins": 19,
-    "losses": 24,
-    "win_rate": "44.2%",
+    "losses": 25,
+    "win_rate": "43.2%",
     "profit_factor": "0.91"
   },
   "open_positions": [
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 342.0,
       "entry_price": 242.96,
-      "current_price": 238.75,
-      "market_value": 81652.5,
-      "unrealized_pnl": -1439.82,
-      "unrealized_plpc": -1.73
+      "current_price": 238.81,
+      "market_value": 81673.02,
+      "unrealized_pnl": -1419.3,
+      "unrealized_plpc": -1.71
     },
     {
       "symbol": "DDOG",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 298.0,
       "entry_price": 279.76,
-      "current_price": 277.35,
-      "market_value": 82650.3,
-      "unrealized_pnl": -718.18,
-      "unrealized_plpc": -0.86
+      "current_price": 277.15,
+      "market_value": 82590.7,
+      "unrealized_pnl": -777.78,
+      "unrealized_plpc": -0.93
     },
     {
       "symbol": "DE",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 76.0,
       "entry_price": 654.91,
-      "current_price": 649.45,
-      "market_value": 49358.2,
-      "unrealized_pnl": -414.96,
-      "unrealized_plpc": -0.83
+      "current_price": 649.11,
+      "market_value": 49332.36,
+      "unrealized_pnl": -440.8,
+      "unrealized_plpc": -0.89
     },
     {
       "symbol": "SHOP",
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 489.0,
       "entry_price": 169.56,
-      "current_price": 164.96,
-      "market_value": 80665.44,
-      "unrealized_pnl": -2250.86,
-      "unrealized_plpc": -2.71
+      "current_price": 164.72,
+      "market_value": 80548.08,
+      "unrealized_pnl": -2368.22,
+      "unrealized_plpc": -2.86
     },
     {
       "symbol": "SHW",
@@ -121,10 +121,10 @@
       "side": "long",
       "qty": 777.0,
       "entry_price": 321.24,
-      "current_price": 326.88,
-      "market_value": 253985.76,
-      "unrealized_pnl": 4382.28,
-      "unrealized_plpc": 1.76
+      "current_price": 327.28,
+      "market_value": 254296.56,
+      "unrealized_pnl": 4693.08,
+      "unrealized_plpc": 1.88
     },
     {
       "symbol": "SPGI",
@@ -132,10 +132,10 @@
       "side": "long",
       "qty": 109.0,
       "entry_price": 457.21,
-      "current_price": 451.81,
-      "market_value": 49247.29,
-      "unrealized_pnl": -588.6,
-      "unrealized_plpc": -1.18
+      "current_price": 451.62,
+      "market_value": 49226.58,
+      "unrealized_pnl": -609.31,
+      "unrealized_plpc": -1.22
     },
     {
       "symbol": "TMO",
@@ -143,10 +143,10 @@
       "side": "long",
       "qty": 72.0,
       "entry_price": 686.34,
-      "current_price": 693.01,
-      "market_value": 49896.72,
-      "unrealized_pnl": 480.24,
-      "unrealized_plpc": 0.97
+      "current_price": 693.05,
+      "market_value": 49899.6,
+      "unrealized_pnl": 483.12,
+      "unrealized_plpc": 0.98
     }
   ],
   "recent_trades": [
@@ -176,8 +176,8 @@
       "direction": "LONG",
       "shares": 76.0,
       "price": 653.565,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 650.815,
+      "realized_pnl": -209.0,
       "date": "2026-10-27 06:50:12"
     },
     {
@@ -744,14 +744,12 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 989833.64,
-      "daily_pnl": 73.66,
-      "cum_return": -1.02
+      "portfolio_value": 989944.33,
+      "daily_pnl": 184.35,
+      "cum_return": -1.01
     }
   ],
   "logs": [
-    "2026-10-27 05:56:52 PT  INFO      Pre-market standby: 33.1 minutes until market open at 06:30 AM PT.",
-    "2026-10-27 05:57:52 PT  INFO      Pre-market standby: 32.1 minutes until market open at 06:30 AM PT.",
     "2026-10-27 05:58:52 PT  INFO      Pre-market standby: 31.1 minutes until market open at 06:30 AM PT.",
     "2026-10-27 05:59:52 PT  INFO      Pre-market standby: 30.1 minutes until market open at 06:30 AM PT.",
     "2026-10-27 06:00:52 PT  INFO      Pre-market standby: 29.1 minutes until market open at 06:30 AM PT.",
@@ -869,6 +867,8 @@
     "2026-10-27 07:05:05 PT  INFO      [PARABOLIC_BLOWOFF_FADE] No qualifying candidates found.",
     "2026-10-27 07:50:18 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG CHTR @ $105.08 | P&L: +984.55 (+1.97%) | Reason: Scheduled 60-Min Micro Exit (+1.97%)",
     "2026-10-27 07:50:19 PT  INFO      GitHub Pages deployment cooldown: last push was 34.8s ago. Waiting 10.2s to prevent deployment lock collision...",
-    "2026-10-27 07:50:30 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG LULU @ $103.18 | P&L: -278.98 (-0.56%) | Reason: Scheduled 60-Min Micro Exit (-0.56%)"
+    "2026-10-27 07:50:30 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG LULU @ $103.18 | P&L: -278.98 (-0.56%) | Reason: Scheduled 60-Min Micro Exit (-0.56%)",
+    "2026-10-27 07:50:31 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
+    "2026-10-27 07:51:17 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG DE @ $650.82 | P&L: -209.00 (-0.42%) | Reason: Scheduled 60-Min Micro Exit (-0.42%)"
   ]
 }
