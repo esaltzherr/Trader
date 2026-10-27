@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27 08:30:35 AM PT",
-  "timestamp_utc": "2026-10-27T15:30:35.636513+00:00",
+  "updated_at": "2026-10-27 08:31:37 AM PT",
+  "timestamp_utc": "2026-10-27T15:31:37.643834+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9959.83,
+    "portfolio_value": 9960.12,
     "cash": 13468.51,
-    "buying_power": 35628.92,
-    "total_pnl": -40.17,
+    "buying_power": 35630.39,
+    "total_pnl": -39.88,
     "total_return_pct": "-0.40",
-    "today_pnl": 3.71,
+    "today_pnl": 4.0,
     "today_return_pct": "+0.04",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 149.93,
-      "current_price": 152.02,
-      "market_value": 912.13,
-      "unrealized_pnl": -12.55,
-      "unrealized_plpc": -1.4
+      "current_price": 151.91,
+      "market_value": 911.49,
+      "unrealized_pnl": -11.91,
+      "unrealized_plpc": -1.32
     },
     {
       "symbol": "DKNG",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 48.0,
       "entry_price": 20.5,
-      "current_price": 20.29,
-      "market_value": 973.68,
-      "unrealized_pnl": 10.32,
-      "unrealized_plpc": 1.05
+      "current_price": 20.3,
+      "market_value": 974.16,
+      "unrealized_pnl": 9.84,
+      "unrealized_plpc": 1.0
     },
     {
       "symbol": "MA",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 607.36,
-      "current_price": 610.55,
-      "market_value": 610.55,
-      "unrealized_pnl": -3.19,
-      "unrealized_plpc": -0.53
+      "current_price": 610.42,
+      "market_value": 610.42,
+      "unrealized_pnl": -3.06,
+      "unrealized_plpc": -0.51
     },
     {
       "symbol": "PYPL",
@@ -691,8 +691,8 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 9959.83,
-      "daily_pnl": 3.71,
+      "portfolio_value": 9960.12,
+      "daily_pnl": 4.0,
       "cum_return": -0.4
     }
   ],
