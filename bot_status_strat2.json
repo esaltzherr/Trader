@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 09:54:34 AM PT",
-  "timestamp_utc": "2026-10-27T16:54:34.621044+00:00",
+  "updated_at": "2026-10-27 09:56:07 AM PT",
+  "timestamp_utc": "2026-10-27T16:56:07.503577+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9961.28,
+    "portfolio_value": 9961.64,
     "cash": 11477.23,
-    "buying_power": 38025.95,
-    "total_pnl": -38.72,
-    "total_return_pct": "-0.39",
-    "today_pnl": 5.16,
-    "today_return_pct": "+0.05",
+    "buying_power": 38027.85,
+    "total_pnl": -38.36,
+    "total_return_pct": "-0.38",
+    "today_pnl": 5.52,
+    "today_return_pct": "+0.06",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 149.93,
-      "current_price": 151.19,
-      "market_value": 907.17,
-      "unrealized_pnl": -7.59,
-      "unrealized_plpc": -0.84
+      "current_price": 151.11,
+      "market_value": 906.66,
+      "unrealized_pnl": -7.08,
+      "unrealized_plpc": -0.79
     },
     {
       "symbol": "MA",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 607.36,
-      "current_price": 608.78,
-      "market_value": 608.78,
-      "unrealized_pnl": -1.43,
-      "unrealized_plpc": -0.24
+      "current_price": 608.93,
+      "market_value": 608.93,
+      "unrealized_pnl": -1.57,
+      "unrealized_plpc": -0.26
     }
   ],
   "recent_trades": [
@@ -669,13 +669,12 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 9961.28,
-      "daily_pnl": 5.16,
-      "cum_return": -0.39
+      "portfolio_value": 9961.64,
+      "daily_pnl": 5.52,
+      "cum_return": -0.38
     }
   ],
   "logs": [
-    "2026-10-26 12:51:04 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
     "2026-10-26 12:51:04 PT  INFO      Today's session (2026-10-26) already executed. Waiting for market close...",
     "2026-10-26 12:51:04 PT  INFO      Waiting 8.9 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
     "2026-10-26 13:00:30 PT  INFO      Market closed. Next open: 2026-10-27 06:30 AM PT (09:30 ET). Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
@@ -794,6 +793,7 @@
     "2026-10-27 08:32:29 PT  WARNING   [STOP LOSS] PYPL Short hit -3.5% cut. Protecting capital!",
     "2026-10-27 08:32:29 PT  INFO      [CLOSED POSITION] PYPL 18.0 shares @ $56.27 (Entry: $54.37, P&L: $-34.26) [STOP_LOSS]",
     "2026-10-27 08:44:55 PT  INFO      [RATCHET TIER 1] DKNG Short peaked at +1.2%, crossed locked floor. Securing gains!",
-    "2026-10-27 08:44:55 PT  INFO      [CLOSED POSITION] DKNG 48.0 shares @ $20.38 (Entry: $20.50, P&L: $+5.76) [RATCHET_TIER1]"
+    "2026-10-27 08:44:55 PT  INFO      [CLOSED POSITION] DKNG 48.0 shares @ $20.38 (Entry: $20.50, P&L: $+5.76) [RATCHET_TIER1]",
+    "2026-10-27 09:54:34 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
   ]
 }
