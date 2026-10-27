@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27 08:37:50 AM PT",
-  "timestamp_utc": "2026-10-27T15:37:50.960238+00:00",
+  "updated_at": "2026-10-27 08:38:52 AM PT",
+  "timestamp_utc": "2026-10-27T15:38:53.151945+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9954.31,
+    "portfolio_value": 9954.27,
     "cash": 12455.47,
-    "buying_power": 36815.82,
-    "total_pnl": -45.69,
+    "buying_power": 36815.61,
+    "total_pnl": -45.73,
     "total_return_pct": "-0.46",
-    "today_pnl": -1.81,
+    "today_pnl": -1.85,
     "today_return_pct": "-0.02",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 149.93,
-      "current_price": 152.17,
-      "market_value": 913.02,
-      "unrealized_pnl": -13.44,
-      "unrealized_plpc": -1.49
+      "current_price": 152.19,
+      "market_value": 913.14,
+      "unrealized_pnl": -13.56,
+      "unrealized_plpc": -1.51
     },
     {
       "symbol": "DKNG",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 48.0,
       "entry_price": 20.5,
-      "current_price": 20.35,
-      "market_value": 976.8,
-      "unrealized_pnl": 7.2,
-      "unrealized_plpc": 0.73
+      "current_price": 20.36,
+      "market_value": 977.04,
+      "unrealized_pnl": 6.96,
+      "unrealized_plpc": 0.71
     },
     {
       "symbol": "MA",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 607.36,
-      "current_price": 611.35,
-      "market_value": 611.35,
-      "unrealized_pnl": -3.98,
-      "unrealized_plpc": -0.66
+      "current_price": 611.02,
+      "market_value": 611.02,
+      "unrealized_pnl": -3.67,
+      "unrealized_plpc": -0.6
     }
   ],
   "recent_trades": [
@@ -680,8 +680,8 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 9954.31,
-      "daily_pnl": -1.81,
+      "portfolio_value": 9954.27,
+      "daily_pnl": -1.85,
       "cum_return": -0.46
     }
   ],
