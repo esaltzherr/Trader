@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 07:00:15 AM PT",
-  "timestamp_utc": "2026-10-27T14:00:15.401704+00:00",
+  "updated_at": "2026-10-27 07:02:02 AM PT",
+  "timestamp_utc": "2026-10-27T14:02:03.042849+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 10021.93,
-    "cash": 14389.26,
-    "buying_power": 26645.84,
-    "total_pnl": 21.93,
-    "total_return_pct": "+0.22",
-    "today_pnl": 65.81,
-    "today_return_pct": "+0.66",
+    "portfolio_value": 10038.42,
+    "cash": 17858.8,
+    "buying_power": 26872.31,
+    "total_pnl": 38.42,
+    "total_return_pct": "+0.38",
+    "today_pnl": 82.3,
+    "today_return_pct": "+0.83",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -52,15 +52,37 @@
   },
   "open_positions": [
     {
+      "symbol": "BKNG",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 6.0,
+      "entry_price": 149.93,
+      "current_price": 150.28,
+      "market_value": 901.66,
+      "unrealized_pnl": -2.08,
+      "unrealized_plpc": -0.23
+    },
+    {
       "symbol": "CLS",
       "direction": "SHORT",
       "side": "short",
       "qty": 3.0,
       "entry_price": 282.06,
-      "current_price": 273.68,
-      "market_value": 821.04,
-      "unrealized_pnl": 25.14,
-      "unrealized_plpc": 2.97
+      "current_price": 272.64,
+      "market_value": 817.92,
+      "unrealized_pnl": 28.26,
+      "unrealized_plpc": 3.34
+    },
+    {
+      "symbol": "DKNG",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 48.0,
+      "entry_price": 20.5,
+      "current_price": 20.48,
+      "market_value": 983.06,
+      "unrealized_pnl": 0.94,
+      "unrealized_plpc": 0.1
     },
     {
       "symbol": "IREN",
@@ -68,10 +90,21 @@
       "side": "short",
       "qty": 36.0,
       "entry_price": 27.48,
-      "current_price": 27.16,
-      "market_value": 977.94,
-      "unrealized_pnl": 11.34,
-      "unrealized_plpc": 1.15
+      "current_price": 26.93,
+      "market_value": 969.66,
+      "unrealized_pnl": 19.62,
+      "unrealized_plpc": 1.98
+    },
+    {
+      "symbol": "MA",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 1.0,
+      "entry_price": 607.36,
+      "current_price": 608.58,
+      "market_value": 608.58,
+      "unrealized_pnl": -1.22,
+      "unrealized_plpc": -0.2
     },
     {
       "symbol": "MARA",
@@ -79,10 +112,10 @@
       "side": "short",
       "qty": 137.0,
       "entry_price": 7.27,
-      "current_price": 7.1,
-      "market_value": 972.07,
-      "unrealized_pnl": 23.92,
-      "unrealized_plpc": 2.4
+      "current_price": 7.06,
+      "market_value": 967.22,
+      "unrealized_pnl": 28.77,
+      "unrealized_plpc": 2.89
     },
     {
       "symbol": "NBIS",
@@ -90,10 +123,21 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 169.11,
-      "current_price": 166.84,
-      "market_value": 834.2,
-      "unrealized_pnl": 11.35,
-      "unrealized_plpc": 1.34
+      "current_price": 165.54,
+      "market_value": 827.7,
+      "unrealized_pnl": 17.85,
+      "unrealized_plpc": 2.11
+    },
+    {
+      "symbol": "PYPL",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 18.0,
+      "entry_price": 54.37,
+      "current_price": 54.77,
+      "market_value": 985.89,
+      "unrealized_pnl": -7.29,
+      "unrealized_plpc": -0.74
     },
     {
       "symbol": "WDC",
@@ -101,10 +145,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 378.07,
-      "current_price": 381.04,
-      "market_value": 762.08,
-      "unrealized_pnl": -5.94,
-      "unrealized_plpc": -0.79
+      "current_price": 379.34,
+      "market_value": 758.68,
+      "unrealized_pnl": -2.54,
+      "unrealized_plpc": -0.34
     }
   ],
   "recent_trades": [
@@ -702,13 +746,12 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 10021.93,
-      "daily_pnl": 65.81,
-      "cum_return": 0.22
+      "portfolio_value": 10038.42,
+      "daily_pnl": 82.3,
+      "cum_return": 0.38
     }
   ],
   "logs": [
-    "2026-10-26 07:48:00 PT  WARNING   [STOP LOSS] RKLB Short hit -3.5% cut. Protecting capital!",
     "2026-10-26 07:48:00 PT  INFO      [CLOSED POSITION] RKLB 19.0 shares @ $53.98 (Entry: $52.14, P&L: $-34.96) [STOP_LOSS]",
     "2026-10-26 09:02:21 PT  INFO      GitHub Pages deployment cooldown: last push was 5.5s ago. Waiting 39.5s to prevent deployment lock collision...",
     "2026-10-26 09:42:26 PT  INFO      GitHub Pages deployment cooldown: last push was 10.6s ago. Waiting 34.4s to prevent deployment lock collision...",
@@ -827,6 +870,7 @@
     "2026-10-27 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 1 shares of MA at ~$607.19",
     "2026-10-27 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 18 shares of PYPL at ~$54.39",
     "2026-10-27 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 48 shares of DKNG at ~$20.55",
-    "2026-10-27 07:00:14 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
+    "2026-10-27 07:00:14 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
+    "2026-10-27 07:00:15 PT  INFO      GitHub Pages deployment cooldown: last push was 0.6s ago. Waiting 44.4s to prevent deployment lock collision..."
   ]
 }
