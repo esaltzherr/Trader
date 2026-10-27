@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 07:25:52 AM PT",
-  "timestamp_utc": "2026-10-27T14:25:53.039322+00:00",
+  "updated_at": "2026-10-27 07:26:55 AM PT",
+  "timestamp_utc": "2026-10-27T14:26:55.377011+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9982.99,
+    "portfolio_value": 9986.55,
     "cash": 15216.14,
-    "buying_power": 32087.66,
-    "total_pnl": -17.01,
-    "total_return_pct": "-0.17",
-    "today_pnl": 26.87,
-    "today_return_pct": "+0.27",
+    "buying_power": 32106.17,
+    "total_pnl": -13.45,
+    "total_return_pct": "-0.13",
+    "today_pnl": 30.43,
+    "today_return_pct": "+0.31",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 149.93,
-      "current_price": 151.1,
-      "market_value": 906.6,
-      "unrealized_pnl": -7.02,
-      "unrealized_plpc": -0.78
+      "current_price": 151.03,
+      "market_value": 906.18,
+      "unrealized_pnl": -6.6,
+      "unrealized_plpc": -0.73
     },
     {
       "symbol": "DKNG",
@@ -69,9 +69,9 @@
       "qty": 48.0,
       "entry_price": 20.5,
       "current_price": 20.57,
-      "market_value": 987.12,
-      "unrealized_pnl": -3.12,
-      "unrealized_plpc": -0.32
+      "market_value": 987.6,
+      "unrealized_pnl": -3.6,
+      "unrealized_plpc": -0.37
     },
     {
       "symbol": "MA",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 607.36,
-      "current_price": 607.2,
-      "market_value": 607.2,
-      "unrealized_pnl": 0.17,
-      "unrealized_plpc": 0.03
+      "current_price": 607.11,
+      "market_value": 607.11,
+      "unrealized_pnl": 0.25,
+      "unrealized_plpc": 0.04
     },
     {
       "symbol": "MARA",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 18.0,
       "entry_price": 54.37,
-      "current_price": 55.02,
-      "market_value": 990.36,
-      "unrealized_pnl": -11.76,
-      "unrealized_plpc": -1.2
+      "current_price": 54.91,
+      "market_value": 988.29,
+      "unrealized_pnl": -9.69,
+      "unrealized_plpc": -0.99
     },
     {
       "symbol": "WDC",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 378.07,
-      "current_price": 381.16,
-      "market_value": 762.32,
-      "unrealized_pnl": -6.18,
-      "unrealized_plpc": -0.82
+      "current_price": 380.35,
+      "market_value": 760.69,
+      "unrealized_pnl": -4.55,
+      "unrealized_plpc": -0.6
     }
   ],
   "recent_trades": [
@@ -713,9 +713,9 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 9982.99,
-      "daily_pnl": 26.87,
-      "cum_return": -0.17
+      "portfolio_value": 9986.55,
+      "daily_pnl": 30.43,
+      "cum_return": -0.13
     }
   ],
   "logs": [
