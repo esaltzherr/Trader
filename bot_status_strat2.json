@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27 03:31:59 AM PT",
-  "timestamp_utc": "2026-10-27T10:31:59.466510+00:00",
+  "updated_at": "2026-10-27 04:02:01 AM PT",
+  "timestamp_utc": "2026-10-27T11:02:01.835131+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -652,8 +652,6 @@
     }
   ],
   "logs": [
-    "2026-10-26 06:45:00 PT  INFO      ============================================================",
-    "2026-10-26 06:45:05 PT  INFO      Selected 5 Morning Runners to SHORT:",
     "2026-10-26 06:45:05 PT  INFO        BE     Surge: +2.90%  Price: $198.49",
     "2026-10-26 06:45:05 PT  INFO        NU     Surge: +2.73%  Price: $12.03",
     "2026-10-26 06:45:05 PT  INFO        AZO    Surge: +2.65%  Price: $3227.47",
@@ -771,6 +769,8 @@
     "2026-10-27 02:31:54 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-27 02:31:56 PT  INFO      Market closed. Next open: 2026-10-27 06:30 AM PT (09:30 ET). Sleeping 3.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 03:01:57 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-27 03:01:59 PT  INFO      Market closed. Next open: 2026-10-27 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-27 03:01:59 PT  INFO      Market closed. Next open: 2026-10-27 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-27 03:31:59 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
+    "2026-10-27 03:32:01 PT  INFO      Market closed. Next open: 2026-10-27 06:30 AM PT (09:30 ET). Sleeping 2.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
