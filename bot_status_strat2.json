@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 07:50:44 AM PT",
-  "timestamp_utc": "2026-10-27T14:50:45.070704+00:00",
+  "updated_at": "2026-10-27 07:52:20 AM PT",
+  "timestamp_utc": "2026-10-27T14:52:20.328466+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9958.37,
+    "portfolio_value": 9958.84,
     "cash": 13468.51,
-    "buying_power": 35621.31,
-    "total_pnl": -41.63,
-    "total_return_pct": "-0.42",
-    "today_pnl": 2.25,
-    "today_return_pct": "+0.02",
+    "buying_power": 35623.76,
+    "total_pnl": -41.16,
+    "total_return_pct": "-0.41",
+    "today_pnl": 2.72,
+    "today_return_pct": "+0.03",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 149.93,
-      "current_price": 151.62,
-      "market_value": 909.72,
-      "unrealized_pnl": -10.14,
-      "unrealized_plpc": -1.13
+      "current_price": 151.66,
+      "market_value": 909.99,
+      "unrealized_pnl": -10.41,
+      "unrealized_plpc": -1.16
     },
     {
       "symbol": "DKNG",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 48.0,
       "entry_price": 20.5,
-      "current_price": 20.63,
-      "market_value": 990.24,
-      "unrealized_pnl": -6.24,
-      "unrealized_plpc": -0.63
+      "current_price": 20.6,
+      "market_value": 988.8,
+      "unrealized_pnl": -4.8,
+      "unrealized_plpc": -0.49
     },
     {
       "symbol": "MA",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 607.36,
-      "current_price": 608.3,
-      "market_value": 608.3,
-      "unrealized_pnl": -0.94,
-      "unrealized_plpc": -0.15
+      "current_price": 608.64,
+      "market_value": 608.64,
+      "unrealized_pnl": -1.28,
+      "unrealized_plpc": -0.21
     },
     {
       "symbol": "PYPL",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 18.0,
       "entry_price": 54.37,
-      "current_price": 55.66,
-      "market_value": 1001.88,
-      "unrealized_pnl": -23.28,
-      "unrealized_plpc": -2.38
+      "current_price": 55.68,
+      "market_value": 1002.24,
+      "unrealized_pnl": -23.64,
+      "unrealized_plpc": -2.42
     }
   ],
   "recent_trades": [
@@ -691,13 +691,12 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 9958.37,
-      "daily_pnl": 2.25,
-      "cum_return": -0.42
+      "portfolio_value": 9958.84,
+      "daily_pnl": 2.72,
+      "cum_return": -0.41
     }
   ],
   "logs": [
-    "2026-10-26 12:50:14 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-26 12:50:15 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-26 12:50:16 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-26 12:50:17 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
@@ -816,6 +815,7 @@
     "2026-10-27 07:28:49 PT  INFO      [RATCHET TIER 2] MARA Short peaked at +3.0%, crossed locked floor. Securing gains!",
     "2026-10-27 07:28:49 PT  INFO      [CLOSED POSITION] MARA 137.0 shares @ $7.18 (Entry: $7.27, P&L: $+11.64) [RATCHET_TIER2]",
     "2026-10-27 07:45:03 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
-    "2026-10-27 07:45:04 PT  INFO      [CLOSED POSITION] WDC 2.0 shares @ $380.79 (Entry: $378.07, P&L: $-5.44) [1H_SCHEDULED_EXIT]"
+    "2026-10-27 07:45:04 PT  INFO      [CLOSED POSITION] WDC 2.0 shares @ $380.79 (Entry: $378.07, P&L: $-5.44) [1H_SCHEDULED_EXIT]",
+    "2026-10-27 07:50:45 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision..."
   ]
 }
