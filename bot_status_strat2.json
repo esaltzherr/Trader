@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-27 07:53:52 AM PT",
-  "timestamp_utc": "2026-10-27T14:53:52.910324+00:00",
+  "updated_at": "2026-10-27 07:55:23 AM PT",
+  "timestamp_utc": "2026-10-27T14:55:23.328825+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9958.64,
+    "portfolio_value": 9958.51,
     "cash": 13468.51,
-    "buying_power": 35622.69,
-    "total_pnl": -41.36,
+    "buying_power": 35622.02,
+    "total_pnl": -41.49,
     "total_return_pct": "-0.41",
-    "today_pnl": 2.52,
-    "today_return_pct": "+0.03",
+    "today_pnl": 2.39,
+    "today_return_pct": "+0.02",
     "last_equity": 9956.12,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 6.0,
       "entry_price": 149.93,
-      "current_price": 151.68,
-      "market_value": 910.05,
-      "unrealized_pnl": -10.47,
-      "unrealized_plpc": -1.16
+      "current_price": 151.62,
+      "market_value": 909.69,
+      "unrealized_pnl": -10.11,
+      "unrealized_plpc": -1.12
     },
     {
       "symbol": "DKNG",
@@ -69,9 +69,9 @@
       "qty": 48.0,
       "entry_price": 20.5,
       "current_price": 20.57,
-      "market_value": 987.6,
-      "unrealized_pnl": -3.6,
-      "unrealized_plpc": -0.37
+      "market_value": 987.16,
+      "unrealized_pnl": -3.16,
+      "unrealized_plpc": -0.32
     },
     {
       "symbol": "MA",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 607.36,
-      "current_price": 609.0,
-      "market_value": 609.0,
-      "unrealized_pnl": -1.64,
-      "unrealized_plpc": -0.27
+      "current_price": 608.93,
+      "market_value": 608.93,
+      "unrealized_pnl": -1.57,
+      "unrealized_plpc": -0.26
     },
     {
       "symbol": "PYPL",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 18.0,
       "entry_price": 54.37,
-      "current_price": 55.73,
-      "market_value": 1003.22,
-      "unrealized_pnl": -24.62,
-      "unrealized_plpc": -2.52
+      "current_price": 55.79,
+      "market_value": 1004.22,
+      "unrealized_pnl": -25.62,
+      "unrealized_plpc": -2.62
     }
   ],
   "recent_trades": [
@@ -691,13 +691,12 @@
     },
     {
       "date": "2026-10-27",
-      "portfolio_value": 9958.64,
-      "daily_pnl": 2.52,
+      "portfolio_value": 9958.51,
+      "daily_pnl": 2.39,
       "cum_return": -0.41
     }
   ],
   "logs": [
-    "2026-10-26 12:50:16 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-26 12:50:17 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-26 12:50:18 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-26 12:50:19 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
@@ -816,6 +815,7 @@
     "2026-10-27 07:45:03 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-27 07:45:04 PT  INFO      [CLOSED POSITION] WDC 2.0 shares @ $380.79 (Entry: $378.07, P&L: $-5.44) [1H_SCHEDULED_EXIT]",
     "2026-10-27 07:50:45 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
-    "2026-10-27 07:52:20 PT  INFO      GitHub Pages deployment cooldown: last push was 16.7s ago. Waiting 28.3s to prevent deployment lock collision..."
+    "2026-10-27 07:52:20 PT  INFO      GitHub Pages deployment cooldown: last push was 16.7s ago. Waiting 28.3s to prevent deployment lock collision...",
+    "2026-10-27 07:53:52 PT  INFO      GitHub Pages deployment cooldown: last push was 16.6s ago. Waiting 28.4s to prevent deployment lock collision..."
   ]
 }
