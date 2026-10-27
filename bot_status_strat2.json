@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27 03:31:08 PM PT",
-  "timestamp_utc": "2026-10-27T22:31:08.945313+00:00",
+  "updated_at": "2026-10-27 04:01:10 PM PT",
+  "timestamp_utc": "2026-10-27T23:01:10.716277+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -652,7 +652,6 @@
     }
   ],
   "logs": [
-    "2026-10-26 17:01:09 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-26 17:01:11 PT  INFO      Market closed. Next open: 2026-10-27 06:30 AM PT (09:30 ET). Sleeping 12.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-26 17:31:12 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-26 17:31:14 PT  INFO      Market closed. Next open: 2026-10-27 06:30 AM PT (09:30 ET). Sleeping 12.0h until pre-market prep at 05:30 AM PT...",
@@ -771,6 +770,7 @@
     "2026-10-27 13:31:03 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 14:01:05 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 14:31:06 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-27 15:01:08 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-27 15:01:08 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-27 15:31:10 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
