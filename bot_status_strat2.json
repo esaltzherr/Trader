@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-28 09:45:57 AM PT",
-  "timestamp_utc": "2026-10-28T16:45:57.488594+00:00",
+  "updated_at": "2026-10-28 09:46:59 AM PT",
+  "timestamp_utc": "2026-10-28T16:46:59.431233+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9942.45,
+    "portfolio_value": 9941.67,
     "cash": 6944.63,
-    "buying_power": 36172.41,
-    "total_pnl": -57.55,
+    "buying_power": 36170.24,
+    "total_pnl": -58.33,
     "total_return_pct": "-0.58",
-    "today_pnl": -23.55,
+    "today_pnl": -24.33,
     "today_return_pct": "-0.24",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 414.53,
-      "market_value": 1010.38,
-      "unrealized_pnl": 12.07,
-      "unrealized_plpc": 1.21
+      "current_price": 414.24,
+      "market_value": 1009.67,
+      "unrealized_pnl": 11.36,
+      "unrealized_plpc": 1.14
     },
     {
       "symbol": "JCI",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 157.62,
-      "market_value": 983.44,
-      "unrealized_pnl": -13.91,
-      "unrealized_plpc": -1.4
+      "current_price": 157.68,
+      "market_value": 983.81,
+      "unrealized_pnl": -13.54,
+      "unrealized_plpc": -1.36
     },
     {
       "symbol": "KLAC",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 159.32,
-      "market_value": 1004.0,
-      "unrealized_pnl": 6.44,
-      "unrealized_plpc": 0.65
+      "current_price": 159.25,
+      "market_value": 1003.56,
+      "unrealized_pnl": 6.0,
+      "unrealized_plpc": 0.6
     }
   ],
   "recent_trades": [
@@ -686,8 +686,8 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9942.45,
-      "daily_pnl": -23.55,
+      "portfolio_value": 9941.67,
+      "daily_pnl": -24.33,
       "cum_return": -0.58
     }
   ],
