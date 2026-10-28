@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 07:00:15 AM PT",
-  "timestamp_utc": "2026-10-28T14:00:15.483910+00:00",
+  "updated_at": "2026-10-28 07:00:17 AM PT",
+  "timestamp_utc": "2026-10-28T14:00:17.691350+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9954.6,
+    "portfolio_value": 9956.04,
     "cash": 14642.96,
-    "buying_power": 29207.34,
-    "total_pnl": -45.4,
-    "total_return_pct": "-0.45",
-    "today_pnl": -11.4,
-    "today_return_pct": "-0.11",
+    "buying_power": 29214.97,
+    "total_pnl": -43.96,
+    "total_return_pct": "-0.44",
+    "today_pnl": -9.96,
+    "today_return_pct": "-0.10",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 91.28,
-      "current_price": 90.61,
-      "market_value": 906.1,
-      "unrealized_pnl": 6.74,
-      "unrealized_plpc": 0.74
+      "current_price": 90.62,
+      "market_value": 906.2,
+      "unrealized_pnl": 6.64,
+      "unrealized_plpc": 0.73
     },
     {
       "symbol": "SHOP",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 58.0,
       "entry_price": 17.03,
-      "current_price": 17.04,
-      "market_value": 988.32,
-      "unrealized_pnl": -0.7,
-      "unrealized_plpc": -0.07
+      "current_price": 17.02,
+      "market_value": 986.87,
+      "unrealized_pnl": 0.75,
+      "unrealized_plpc": 0.08
     },
     {
       "symbol": "TEM",
@@ -708,13 +708,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9954.6,
-      "daily_pnl": -11.4,
-      "cum_return": -0.45
+      "portfolio_value": 9956.04,
+      "daily_pnl": -9.96,
+      "cum_return": -0.44
     }
   ],
   "logs": [
-    "2026-10-27 07:03:16 PT  INFO      [CLOSED POSITION] NBIS 5.0 shares @ $167.22 (Entry: $169.11, P&L: $+9.45) [RATCHET_TIER2]",
     "2026-10-27 07:03:36 PT  INFO      [RATCHET TIER 1] IREN Short peaked at +2.0%, crossed locked floor. Securing gains!",
     "2026-10-27 07:03:36 PT  INFO      [CLOSED POSITION] IREN 36.0 shares @ $27.34 (Entry: $27.48, P&L: $+4.86) [RATCHET_TIER1]",
     "2026-10-27 07:05:41 PT  INFO      [RATCHET TIER 3] CLS Short peaked at +4.0%, crossed trail px $273.58. Securing gains!",
@@ -833,6 +832,7 @@
     "2026-10-28 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.0692 shares of SNPS at ~$481.64",
     "2026-10-28 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.4374 shares of AMAT at ~$408.88",
     "2026-10-28 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 6.2393 shares of JCI at ~$159.73",
-    "2026-10-28 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 6.3016 shares of KLAC at ~$158.15"
+    "2026-10-28 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 6.3016 shares of KLAC at ~$158.15",
+    "2026-10-28 07:00:17 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
