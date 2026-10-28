@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-28 08:43:22 AM PT",
-  "timestamp_utc": "2026-10-28T15:43:22.631610+00:00",
+  "updated_at": "2026-10-28 08:44:24 AM PT",
+  "timestamp_utc": "2026-10-28T15:44:24.369874+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9934.68,
+    "portfolio_value": 9935.22,
     "cash": 6944.63,
-    "buying_power": 36150.66,
-    "total_pnl": -65.32,
+    "buying_power": 36152.17,
+    "total_pnl": -64.78,
     "total_return_pct": "-0.65",
-    "today_pnl": -31.32,
+    "today_pnl": -30.78,
     "today_return_pct": "-0.31",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 414.1,
-      "market_value": 1009.33,
-      "unrealized_pnl": 11.02,
-      "unrealized_plpc": 1.1
+      "current_price": 414.22,
+      "market_value": 1009.61,
+      "unrealized_pnl": 11.3,
+      "unrealized_plpc": 1.13
     },
     {
       "symbol": "JCI",
@@ -68,9 +68,9 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 157.23,
-      "market_value": 981.01,
-      "unrealized_pnl": -16.35,
+      "current_price": 157.22,
+      "market_value": 980.97,
+      "unrealized_pnl": -16.38,
       "unrealized_plpc": -1.64
     },
     {
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 158.65,
-      "market_value": 999.72,
-      "unrealized_pnl": 2.16,
-      "unrealized_plpc": 0.22
+      "current_price": 158.69,
+      "market_value": 1000.0,
+      "unrealized_pnl": 2.44,
+      "unrealized_plpc": 0.24
     }
   ],
   "recent_trades": [
@@ -686,8 +686,8 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9934.68,
-      "daily_pnl": -31.32,
+      "portfolio_value": 9935.22,
+      "daily_pnl": -30.78,
       "cum_return": -0.65
     }
   ],
