@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27 11:30:57 PM PT",
-  "timestamp_utc": "2026-10-28T06:31:01.287440+00:00",
+  "updated_at": "2026-10-28 12:01:03 AM PT",
+  "timestamp_utc": "2026-10-28T07:01:03.666600+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -669,10 +669,15 @@
       "portfolio_value": 989757.34,
       "daily_pnl": -2.64,
       "cum_return": -1.02
+    },
+    {
+      "date": "2026-10-28",
+      "portfolio_value": 989757.34,
+      "daily_pnl": -2.64,
+      "cum_return": -1.02
     }
   ],
   "logs": [
-    "2026-10-27 06:50:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 76 shares of DE @ ~$653.57 (Order ID: 62862110-68f0-4d2d-98ca-0e5efd3d800e)",
     "2026-10-27 06:50:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 109 shares of SPGI @ ~$457.36 (Order ID: b736e8db-b328-4727-841f-f2e7d884f69d)",
     "2026-10-27 06:50:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 72 shares of TMO @ ~$686.03 (Order ID: 51ccf178-3544-4ae2-b920-efcee5545cc4)",
     "2026-10-27 07:05:04 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
@@ -791,6 +796,7 @@
     "2026-10-27 21:30:50 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 22:00:52 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 22:30:55 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-27 23:00:57 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-27 23:00:57 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-27 23:31:03 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 6.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
