@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 07:13:26 AM PT",
-  "timestamp_utc": "2026-10-28T14:13:27.026443+00:00",
+  "updated_at": "2026-10-28 07:14:29 AM PT",
+  "timestamp_utc": "2026-10-28T14:14:29.238904+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9919.32,
-    "cash": 8741.94,
-    "buying_power": 29162.07,
-    "total_pnl": -80.68,
-    "total_return_pct": "-0.81",
-    "today_pnl": -46.68,
-    "today_return_pct": "-0.47",
+    "portfolio_value": 9907.23,
+    "cash": 7902.19,
+    "buying_power": 30114.34,
+    "total_pnl": -92.77,
+    "total_return_pct": "-0.93",
+    "today_pnl": -58.77,
+    "today_return_pct": "-0.59",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 41,
-    "wins": 21,
+    "total_trades": 42,
+    "wins": 22,
     "losses": 20,
-    "win_rate": "51.2%",
-    "profit_factor": "0.42"
+    "win_rate": "52.4%",
+    "profit_factor": "0.43"
   },
   "open_positions": [
     {
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 240.68,
-      "current_price": 245.29,
-      "market_value": 981.18,
-      "unrealized_pnl": -18.48,
-      "unrealized_plpc": -1.92
+      "current_price": 245.86,
+      "market_value": 983.43,
+      "unrealized_pnl": -20.73,
+      "unrealized_plpc": -2.15
     },
     {
       "symbol": "AMAT",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 407.7,
-      "market_value": 993.73,
-      "unrealized_pnl": -4.58,
-      "unrealized_plpc": -0.46
+      "current_price": 407.16,
+      "market_value": 992.41,
+      "unrealized_pnl": -5.9,
+      "unrealized_plpc": -0.59
     },
     {
       "symbol": "CDNS",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8835,
       "entry_price": 345.89,
-      "current_price": 343.72,
-      "market_value": 991.12,
-      "unrealized_pnl": -6.26,
-      "unrealized_plpc": -0.63
+      "current_price": 343.91,
+      "market_value": 991.66,
+      "unrealized_pnl": -5.71,
+      "unrealized_plpc": -0.57
     },
     {
       "symbol": "JCI",
@@ -90,9 +90,9 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 159.22,
-      "market_value": 993.39,
-      "unrealized_pnl": -3.96,
+      "current_price": 159.21,
+      "market_value": 993.36,
+      "unrealized_pnl": -3.99,
       "unrealized_plpc": -0.4
     },
     {
@@ -101,21 +101,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 157.47,
-      "market_value": 992.31,
-      "unrealized_pnl": -5.25,
-      "unrealized_plpc": -0.53
-    },
-    {
-      "symbol": "SHOP",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 5.0,
-      "entry_price": 168.85,
-      "current_price": 167.3,
-      "market_value": 836.5,
-      "unrealized_pnl": 7.76,
-      "unrealized_plpc": 0.92
+      "current_price": 157.29,
+      "market_value": 991.18,
+      "unrealized_pnl": -6.38,
+      "unrealized_plpc": -0.64
     },
     {
       "symbol": "SNPS",
@@ -123,10 +112,10 @@
       "side": "long",
       "qty": 2.0692,
       "entry_price": 481.99,
-      "current_price": 483.03,
-      "market_value": 999.49,
-      "unrealized_pnl": 2.15,
-      "unrealized_plpc": 0.22
+      "current_price": 482.46,
+      "market_value": 998.32,
+      "unrealized_pnl": 0.98,
+      "unrealized_plpc": 0.1
     },
     {
       "symbol": "SOFI",
@@ -134,10 +123,10 @@
       "side": "short",
       "qty": 58.0,
       "entry_price": 17.03,
-      "current_price": 16.95,
-      "market_value": 982.81,
-      "unrealized_pnl": 4.81,
-      "unrealized_plpc": 0.49
+      "current_price": 16.98,
+      "market_value": 985.13,
+      "unrealized_pnl": 2.49,
+      "unrealized_plpc": 0.25
     },
     {
       "symbol": "TEM",
@@ -145,10 +134,10 @@
       "side": "short",
       "qty": 13.0,
       "entry_price": 74.58,
-      "current_price": 76.32,
-      "market_value": 992.16,
-      "unrealized_pnl": -22.62,
-      "unrealized_plpc": -2.33
+      "current_price": 76.41,
+      "market_value": 993.33,
+      "unrealized_pnl": -23.79,
+      "unrealized_plpc": -2.45
     }
   ],
   "recent_trades": [
@@ -208,8 +197,8 @@
       "direction": "SHORT",
       "shares": 5.0,
       "price": 168.84,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 167.9499,
+      "realized_pnl": 4.5105,
       "date": "2026-10-28 06:45:16"
     },
     {
@@ -752,14 +741,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9919.32,
-      "daily_pnl": -46.68,
-      "cum_return": -0.81
+      "portfolio_value": 9907.23,
+      "daily_pnl": -58.77,
+      "cum_return": -0.93
     }
   ],
   "logs": [
-    "2026-10-27 07:05:41 PT  INFO      [CLOSED POSITION] CLS 3.0 shares @ $273.79 (Entry: $282.06, P&L: $+24.81) [RATCHET_TIER3]",
-    "2026-10-27 07:28:49 PT  INFO      [RATCHET TIER 2] MARA Short peaked at +3.0%, crossed locked floor. Securing gains!",
     "2026-10-27 07:28:49 PT  INFO      [CLOSED POSITION] MARA 137.0 shares @ $7.18 (Entry: $7.27, P&L: $+11.64) [RATCHET_TIER2]",
     "2026-10-27 07:45:03 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-27 07:45:04 PT  INFO      [CLOSED POSITION] WDC 2.0 shares @ $380.79 (Entry: $378.07, P&L: $-5.44) [1H_SCHEDULED_EXIT]",
@@ -877,6 +864,8 @@
     "2026-10-28 07:00:17 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-28 07:00:17 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision...",
     "2026-10-28 07:02:16 PT  INFO      [RATCHET BREAKEVEN] HOOD Short hit breakeven stop. Zero loss exit!",
-    "2026-10-28 07:02:16 PT  INFO      [CLOSED POSITION] HOOD 10.0 shares @ $91.28 (Entry: $91.28, P&L: $+0.09) [RATCHET_BREAKEVEN]"
+    "2026-10-28 07:02:16 PT  INFO      [CLOSED POSITION] HOOD 10.0 shares @ $91.28 (Entry: $91.28, P&L: $+0.09) [RATCHET_BREAKEVEN]",
+    "2026-10-28 07:14:08 PT  INFO      [RATCHET TIER 1] SHOP Short peaked at +1.3%, crossed locked floor. Securing gains!",
+    "2026-10-28 07:14:08 PT  INFO      [CLOSED POSITION] SHOP 5.0 shares @ $167.95 (Entry: $168.85, P&L: $+4.51) [RATCHET_TIER1]"
   ]
 }
