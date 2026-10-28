@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 11:29:45 AM PT",
-  "timestamp_utc": "2026-10-28T18:29:45.983503+00:00",
+  "updated_at": "2026-10-28 11:30:48 AM PT",
+  "timestamp_utc": "2026-10-28T18:30:48.199652+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9942.84,
+    "portfolio_value": 9945.05,
     "cash": 7943.06,
-    "buying_power": 37371.61,
-    "total_pnl": -57.16,
-    "total_return_pct": "-0.57",
-    "today_pnl": -23.16,
-    "today_return_pct": "-0.23",
+    "buying_power": 37377.8,
+    "total_pnl": -54.95,
+    "total_return_pct": "-0.55",
+    "today_pnl": -20.95,
+    "today_return_pct": "-0.21",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 416.4,
-      "market_value": 1014.93,
-      "unrealized_pnl": 16.62,
-      "unrealized_plpc": 1.67
+      "current_price": 416.91,
+      "market_value": 1016.18,
+      "unrealized_pnl": 17.87,
+      "unrealized_plpc": 1.79
     },
     {
       "symbol": "JCI",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 157.84,
-      "market_value": 984.84,
-      "unrealized_pnl": -12.51,
-      "unrealized_plpc": -1.25
+      "current_price": 158.0,
+      "market_value": 985.81,
+      "unrealized_pnl": -11.54,
+      "unrealized_plpc": -1.16
     }
   ],
   "recent_trades": [
@@ -675,9 +675,9 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9942.84,
-      "daily_pnl": -23.16,
-      "cum_return": -0.57
+      "portfolio_value": 9945.05,
+      "daily_pnl": -20.95,
+      "cum_return": -0.55
     }
   ],
   "logs": [
