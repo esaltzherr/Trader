@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 07:44:11 AM PT",
-  "timestamp_utc": "2026-10-28T14:44:11.473757+00:00",
+  "updated_at": "2026-10-28 07:45:14 AM PT",
+  "timestamp_utc": "2026-10-28T14:45:14.481836+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9911.05,
-    "cash": 8900.63,
-    "buying_power": 31326.94,
-    "total_pnl": -88.95,
-    "total_return_pct": "-0.89",
-    "today_pnl": -54.95,
-    "today_return_pct": "-0.55",
+    "portfolio_value": 9916.02,
+    "cash": 5946.63,
+    "buying_power": 34900.82,
+    "total_pnl": -83.98,
+    "total_return_pct": "-0.84",
+    "today_pnl": -49.98,
+    "today_return_pct": "-0.50",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,34 +44,23 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
-    "wins": 23,
-    "losses": 20,
-    "win_rate": "53.5%",
-    "profit_factor": "0.44"
+    "total_trades": 46,
+    "wins": 24,
+    "losses": 22,
+    "win_rate": "52.2%",
+    "profit_factor": "0.41"
   },
   "open_positions": [
-    {
-      "symbol": "ACN",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 4.0,
-      "entry_price": 240.68,
-      "current_price": 244.76,
-      "market_value": 979.04,
-      "unrealized_pnl": -16.34,
-      "unrealized_plpc": -1.7
-    },
     {
       "symbol": "AMAT",
       "direction": "LONG",
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 408.55,
-      "market_value": 995.8,
-      "unrealized_pnl": -2.51,
-      "unrealized_plpc": -0.25
+      "current_price": 408.26,
+      "market_value": 995.09,
+      "unrealized_pnl": -3.22,
+      "unrealized_plpc": -0.32
     },
     {
       "symbol": "JCI",
@@ -79,10 +68,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 156.93,
-      "market_value": 979.1,
-      "unrealized_pnl": -18.25,
-      "unrealized_plpc": -1.83
+      "current_price": 156.95,
+      "market_value": 979.26,
+      "unrealized_pnl": -18.09,
+      "unrealized_plpc": -1.81
     },
     {
       "symbol": "KLAC",
@@ -90,10 +79,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 157.31,
-      "market_value": 991.3,
-      "unrealized_pnl": -6.25,
-      "unrealized_plpc": -0.63
+      "current_price": 157.09,
+      "market_value": 989.92,
+      "unrealized_pnl": -7.64,
+      "unrealized_plpc": -0.77
     },
     {
       "symbol": "SNPS",
@@ -101,32 +90,10 @@
       "side": "long",
       "qty": 2.0692,
       "entry_price": 481.99,
-      "current_price": 485.47,
-      "market_value": 1004.53,
-      "unrealized_pnl": 7.2,
-      "unrealized_plpc": 0.72
-    },
-    {
-      "symbol": "SOFI",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 58.0,
-      "entry_price": 17.03,
-      "current_price": 16.93,
-      "market_value": 981.97,
-      "unrealized_pnl": 5.65,
-      "unrealized_plpc": 0.57
-    },
-    {
-      "symbol": "TEM",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 13.0,
-      "entry_price": 74.58,
-      "current_price": 76.87,
-      "market_value": 999.31,
-      "unrealized_pnl": -29.77,
-      "unrealized_plpc": -3.07
+      "current_price": 485.75,
+      "market_value": 1005.12,
+      "unrealized_pnl": 7.79,
+      "unrealized_plpc": 0.78
     }
   ],
   "recent_trades": [
@@ -206,8 +173,8 @@
       "direction": "SHORT",
       "shares": 58.0,
       "price": 17.13,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 16.9383,
+      "realized_pnl": 5.198598,
       "date": "2026-10-28 06:45:15"
     },
     {
@@ -216,8 +183,8 @@
       "direction": "SHORT",
       "shares": 4.0,
       "price": 240.96,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 244.645,
+      "realized_pnl": -15.88,
       "date": "2026-10-28 06:45:15"
     },
     {
@@ -226,8 +193,8 @@
       "direction": "SHORT",
       "shares": 13.0,
       "price": 75.0,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 76.235,
+      "realized_pnl": -21.515,
       "date": "2026-10-28 06:45:15"
     },
     {
@@ -730,16 +697,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9911.05,
-      "daily_pnl": -54.95,
-      "cum_return": -0.89
+      "portfolio_value": 9916.02,
+      "daily_pnl": -49.98,
+      "cum_return": -0.84
     }
   ],
   "logs": [
-    "2026-10-27 07:50:45 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision...",
-    "2026-10-27 07:52:20 PT  INFO      GitHub Pages deployment cooldown: last push was 16.7s ago. Waiting 28.3s to prevent deployment lock collision...",
-    "2026-10-27 07:53:52 PT  INFO      GitHub Pages deployment cooldown: last push was 16.6s ago. Waiting 28.4s to prevent deployment lock collision...",
-    "2026-10-27 08:32:29 PT  WARNING   [STOP LOSS] PYPL Short hit -3.5% cut. Protecting capital!",
     "2026-10-27 08:32:29 PT  INFO      [CLOSED POSITION] PYPL 18.0 shares @ $56.27 (Entry: $54.37, P&L: $-34.26) [STOP_LOSS]",
     "2026-10-27 08:44:55 PT  INFO      [RATCHET TIER 1] DKNG Short peaked at +1.2%, crossed locked floor. Securing gains!",
     "2026-10-27 08:44:55 PT  INFO      [CLOSED POSITION] DKNG 48.0 shares @ $20.38 (Entry: $20.50, P&L: $+5.76) [RATCHET_TIER1]",
@@ -855,6 +818,10 @@
     "2026-10-28 07:14:08 PT  INFO      [CLOSED POSITION] SHOP 5.0 shares @ $167.95 (Entry: $168.85, P&L: $+4.51) [RATCHET_TIER1]",
     "2026-10-28 07:33:06 PT  INFO      GitHub Pages deployment cooldown: last push was 0.9s ago. Waiting 44.1s to prevent deployment lock collision...",
     "2026-10-28 07:41:26 PT  INFO      [RATCHET BREAKEVEN] CDNS Long hit breakeven stop. Zero loss exit!",
-    "2026-10-28 07:41:26 PT  INFO      [CLOSED POSITION] CDNS 2.8835 shares @ $346.12 (Entry: $345.89, P&L: $+0.65) [RATCHET_BREAKEVEN]"
+    "2026-10-28 07:41:26 PT  INFO      [CLOSED POSITION] CDNS 2.8835 shares @ $346.12 (Entry: $345.89, P&L: $+0.65) [RATCHET_BREAKEVEN]",
+    "2026-10-28 07:45:03 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
+    "2026-10-28 07:45:03 PT  INFO      [CLOSED POSITION] TEM 13.0 shares @ $76.23 (Entry: $74.58, P&L: $-21.52) [1H_SCHEDULED_EXIT]",
+    "2026-10-28 07:45:03 PT  INFO      [CLOSED POSITION] ACN 4.0 shares @ $244.65 (Entry: $240.68, P&L: $-15.88) [1H_SCHEDULED_EXIT]",
+    "2026-10-28 07:45:04 PT  INFO      [CLOSED POSITION] SOFI 58.0 shares @ $16.94 (Entry: $17.03, P&L: $+5.20) [1H_SCHEDULED_EXIT]"
   ]
 }
