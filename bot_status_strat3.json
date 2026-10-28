@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27 08:00:41 PM PT",
-  "timestamp_utc": "2026-10-28T03:00:42.342613+00:00",
+  "updated_at": "2026-10-27 08:30:43 PM PT",
+  "timestamp_utc": "2026-10-28T03:30:44.577767+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -672,7 +672,6 @@
     }
   ],
   "logs": [
-    "2026-10-27 06:40:16 PT  INFO      [Engine 2] Selected 1 Capitulation Bounce targets: ['SHW']",
     "2026-10-27 06:40:16 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 777 shares of SHW @ ~$321.65 (Order ID: e2de2930-1f09-4dd0-904e-9e89481c2b95)",
     "2026-10-27 06:50:07 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
     "2026-10-27 06:50:07 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
@@ -791,6 +790,7 @@
     "2026-10-27 18:00:35 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 11.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 18:30:37 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 11.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 19:00:39 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 10.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-27 19:30:41 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 10.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-27 19:30:41 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 10.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-27 20:00:43 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT. Sleeping 9.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
