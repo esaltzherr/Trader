@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 06:45:16 AM PT",
-  "timestamp_utc": "2026-10-28T13:45:16.651024+00:00",
+  "updated_at": "2026-10-28 07:00:15 AM PT",
+  "timestamp_utc": "2026-10-28T14:00:15.483910+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9966.0,
-    "cash": 9966.0,
-    "buying_power": 34073.88,
-    "total_pnl": -34.0,
-    "total_return_pct": "-0.34",
-    "today_pnl": 0.0,
-    "today_return_pct": "+0.00",
+    "portfolio_value": 9954.6,
+    "cash": 14642.96,
+    "buying_power": 29207.34,
+    "total_pnl": -45.4,
+    "total_return_pct": "-0.45",
+    "today_pnl": -11.4,
+    "today_return_pct": "-0.11",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,14 +44,120 @@
     }
   ],
   "stats": {
-    "total_trades": 45,
-    "wins": 24,
-    "losses": 21,
-    "win_rate": "53.3%",
-    "profit_factor": "0.43"
+    "total_trades": 40,
+    "wins": 20,
+    "losses": 20,
+    "win_rate": "50.0%",
+    "profit_factor": "0.42"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "ACN",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 4.0,
+      "entry_price": 240.68,
+      "current_price": 242.05,
+      "market_value": 968.2,
+      "unrealized_pnl": -5.5,
+      "unrealized_plpc": -0.57
+    },
+    {
+      "symbol": "HOOD",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 10.0,
+      "entry_price": 91.28,
+      "current_price": 90.61,
+      "market_value": 906.1,
+      "unrealized_pnl": 6.74,
+      "unrealized_plpc": 0.74
+    },
+    {
+      "symbol": "SHOP",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 5.0,
+      "entry_price": 168.85,
+      "current_price": 167.86,
+      "market_value": 839.3,
+      "unrealized_pnl": 4.96,
+      "unrealized_plpc": 0.59
+    },
+    {
+      "symbol": "SOFI",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 58.0,
+      "entry_price": 17.03,
+      "current_price": 17.04,
+      "market_value": 988.32,
+      "unrealized_pnl": -0.7,
+      "unrealized_plpc": -0.07
+    },
+    {
+      "symbol": "TEM",
+      "direction": "SHORT",
+      "side": "short",
+      "qty": 13.0,
+      "entry_price": 74.58,
+      "current_price": 75.88,
+      "market_value": 986.44,
+      "unrealized_pnl": -16.9,
+      "unrealized_plpc": -1.74
+    }
+  ],
   "recent_trades": [
+    {
+      "symbol": "KLAC",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 6.3016,
+      "price": 158.15,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 07:00:14"
+    },
+    {
+      "symbol": "JCI",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 6.2393,
+      "price": 159.73,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 07:00:14"
+    },
+    {
+      "symbol": "AMAT",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 2.4374,
+      "price": 408.88,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 07:00:13"
+    },
+    {
+      "symbol": "SNPS",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 2.0692,
+      "price": 481.64,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 07:00:13"
+    },
+    {
+      "symbol": "CDNS",
+      "strategy": "ORB_30M_TREND_RATCHET",
+      "direction": "LONG",
+      "shares": 2.8835,
+      "price": 345.62,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 07:00:12"
+    },
     {
       "symbol": "SHOP",
       "strategy": "INTRADAY_15M_RUNNER_FADE",
@@ -501,56 +607,6 @@
       "close_price": 78.69,
       "realized_pnl": 5.660004,
       "date": "2026-10-21 07:00:08"
-    },
-    {
-      "symbol": "GILD",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "SHORT",
-      "shares": 6.0,
-      "price": 153.62,
-      "close_price": 153.265,
-      "realized_pnl": 0.550002,
-      "date": "2026-10-21 07:00:08"
-    },
-    {
-      "symbol": "SPOT",
-      "strategy": "INTRADAY_15M_RUNNER_FADE",
-      "direction": "SHORT",
-      "shares": 1.0,
-      "price": 529.9,
-      "close_price": 523.74,
-      "realized_pnl": 3.16,
-      "date": "2026-10-21 06:45:11"
-    },
-    {
-      "symbol": "TMO",
-      "strategy": "INTRADAY_15M_RUNNER_FADE",
-      "direction": "SHORT",
-      "shares": 1.0,
-      "price": 692.55,
-      "close_price": 693.6,
-      "realized_pnl": 0.64,
-      "date": "2026-10-21 06:45:10"
-    },
-    {
-      "symbol": "PM",
-      "strategy": "INTRADAY_15M_RUNNER_FADE",
-      "direction": "SHORT",
-      "shares": 5.0,
-      "price": 194.1,
-      "close_price": 196.46,
-      "realized_pnl": -13.5,
-      "date": "2026-10-21 06:45:10"
-    },
-    {
-      "symbol": "DHR",
-      "strategy": "INTRADAY_15M_RUNNER_FADE",
-      "direction": "SHORT",
-      "shares": 4.0,
-      "price": 231.49,
-      "close_price": 230.4,
-      "realized_pnl": 5.44,
-      "date": "2026-10-21 06:45:10"
     }
   ],
   "history": [
@@ -652,28 +708,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9966.0,
-      "daily_pnl": 0.0,
-      "cum_return": -0.34
+      "portfolio_value": 9954.6,
+      "daily_pnl": -11.4,
+      "cum_return": -0.45
     }
   ],
   "logs": [
-    "2026-10-27 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
-    "2026-10-27 07:00:00 PT  INFO      ============================================================",
-    "2026-10-27 07:00:09 PT  INFO      Selected 5 30M ORB Trend Candidates:",
-    "2026-10-27 07:00:09 PT  INFO        WDC    LONG Breakout: +0.60%  Price: $381.52",
-    "2026-10-27 07:00:09 PT  INFO        BKNG   SHORT Breakout: +0.33%  Price: $150.06",
-    "2026-10-27 07:00:09 PT  INFO        MA     SHORT Breakout: +0.30%  Price: $607.19",
-    "2026-10-27 07:00:09 PT  INFO        PYPL   SHORT Breakout: +0.29%  Price: $54.39",
-    "2026-10-27 07:00:09 PT  INFO        DKNG   SHORT Breakout: +0.29%  Price: $20.55",
-    "2026-10-27 07:00:10 PT  ERROR     Failed to submit order for WDC: {\"available\":\"2\",\"code\":40310000,\"existing_qty\":\"2\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 2.6096, available: 2)\",\"symbol\":\"WDC\"}",
-    "2026-10-27 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 6 shares of BKNG at ~$150.06",
-    "2026-10-27 07:00:10 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 1 shares of MA at ~$607.19",
-    "2026-10-27 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 18 shares of PYPL at ~$54.39",
-    "2026-10-27 07:00:11 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 48 shares of DKNG at ~$20.55",
-    "2026-10-27 07:00:14 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
-    "2026-10-27 07:00:15 PT  INFO      GitHub Pages deployment cooldown: last push was 0.6s ago. Waiting 44.4s to prevent deployment lock collision...",
-    "2026-10-27 07:03:16 PT  INFO      [RATCHET TIER 2] NBIS Short peaked at +2.1%, crossed locked floor. Securing gains!",
     "2026-10-27 07:03:16 PT  INFO      [CLOSED POSITION] NBIS 5.0 shares @ $167.22 (Entry: $169.11, P&L: $+9.45) [RATCHET_TIER2]",
     "2026-10-27 07:03:36 PT  INFO      [RATCHET TIER 1] IREN Short peaked at +2.0%, crossed locked floor. Securing gains!",
     "2026-10-27 07:03:36 PT  INFO      [CLOSED POSITION] IREN 36.0 shares @ $27.34 (Entry: $27.48, P&L: $+4.86) [RATCHET_TIER1]",
@@ -777,6 +817,22 @@
     "2026-10-28 06:45:15 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 4 shares of ACN at ~$240.96",
     "2026-10-28 06:45:15 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 58 shares of SOFI at ~$17.13",
     "2026-10-28 06:45:15 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 10 shares of HOOD at ~$91.36",
-    "2026-10-28 06:45:16 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of SHOP at ~$168.84"
+    "2026-10-28 06:45:16 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of SHOP at ~$168.84",
+    "2026-10-28 06:45:18 PT  INFO      Waiting 14.7 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
+    "2026-10-28 07:00:00 PT  INFO      ============================================================",
+    "2026-10-28 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
+    "2026-10-28 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
+    "2026-10-28 07:00:00 PT  INFO      ============================================================",
+    "2026-10-28 07:00:12 PT  INFO      Selected 5 30M ORB Trend Candidates:",
+    "2026-10-28 07:00:12 PT  INFO        CDNS   LONG Breakout: +1.29%  Price: $345.62",
+    "2026-10-28 07:00:12 PT  INFO        SNPS   LONG Breakout: +0.88%  Price: $481.64",
+    "2026-10-28 07:00:12 PT  INFO        AMAT   LONG Breakout: +0.56%  Price: $408.88",
+    "2026-10-28 07:00:12 PT  INFO        JCI    LONG Breakout: +0.41%  Price: $159.73",
+    "2026-10-28 07:00:12 PT  INFO        KLAC   LONG Breakout: +0.35%  Price: $158.15",
+    "2026-10-28 07:00:12 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.8835 shares of CDNS at ~$345.62",
+    "2026-10-28 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.0692 shares of SNPS at ~$481.64",
+    "2026-10-28 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.4374 shares of AMAT at ~$408.88",
+    "2026-10-28 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 6.2393 shares of JCI at ~$159.73",
+    "2026-10-28 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 6.3016 shares of KLAC at ~$158.15"
   ]
 }
