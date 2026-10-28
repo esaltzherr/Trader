@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 08:17:31 AM PT",
-  "timestamp_utc": "2026-10-28T15:17:31.761473+00:00",
+  "updated_at": "2026-10-28 08:18:33 AM PT",
+  "timestamp_utc": "2026-10-28T15:18:33.709023+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9930.11,
+    "portfolio_value": 9931.33,
     "cash": 6944.63,
-    "buying_power": 36137.87,
-    "total_pnl": -69.89,
-    "total_return_pct": "-0.70",
-    "today_pnl": -35.89,
-    "today_return_pct": "-0.36",
+    "buying_power": 36141.29,
+    "total_pnl": -68.67,
+    "total_return_pct": "-0.69",
+    "today_pnl": -34.67,
+    "today_return_pct": "-0.35",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 157.28,
-      "market_value": 981.35,
-      "unrealized_pnl": -16.0,
-      "unrealized_plpc": -1.6
+      "current_price": 157.36,
+      "market_value": 981.82,
+      "unrealized_pnl": -15.54,
+      "unrealized_plpc": -1.56
     },
     {
       "symbol": "KLAC",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 158.26,
-      "market_value": 997.29,
-      "unrealized_pnl": -0.27,
-      "unrealized_plpc": -0.03
+      "current_price": 158.38,
+      "market_value": 998.05,
+      "unrealized_pnl": 0.49,
+      "unrealized_plpc": 0.05
     }
   ],
   "recent_trades": [
@@ -686,9 +686,9 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9930.11,
-      "daily_pnl": -35.89,
-      "cum_return": -0.7
+      "portfolio_value": 9931.33,
+      "daily_pnl": -34.67,
+      "cum_return": -0.69
     }
   ],
   "logs": [
