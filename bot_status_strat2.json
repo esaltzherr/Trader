@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 08:07:41 AM PT",
-  "timestamp_utc": "2026-10-28T15:07:41.929860+00:00",
+  "updated_at": "2026-10-28 08:08:43 AM PT",
+  "timestamp_utc": "2026-10-28T15:08:44.149085+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9926.01,
-    "cash": 5946.63,
-    "buying_power": 34928.77,
-    "total_pnl": -73.99,
-    "total_return_pct": "-0.74",
-    "today_pnl": -39.99,
-    "today_return_pct": "-0.40",
+    "portfolio_value": 9916.91,
+    "cash": 6944.63,
+    "buying_power": 36100.91,
+    "total_pnl": -83.09,
+    "total_return_pct": "-0.83",
+    "today_pnl": -49.09,
+    "today_return_pct": "-0.49",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,10 +44,10 @@
     }
   ],
   "stats": {
-    "total_trades": 46,
-    "wins": 24,
+    "total_trades": 47,
+    "wins": 25,
     "losses": 22,
-    "win_rate": "52.2%",
+    "win_rate": "53.2%",
     "profit_factor": "0.41"
   },
   "open_positions": [
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 412.18,
-      "market_value": 1004.65,
-      "unrealized_pnl": 6.34,
-      "unrealized_plpc": 0.64
+      "current_price": 411.18,
+      "market_value": 1002.21,
+      "unrealized_pnl": 3.9,
+      "unrealized_plpc": 0.39
     },
     {
       "symbol": "JCI",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 157.24,
-      "market_value": 981.04,
-      "unrealized_pnl": -16.32,
-      "unrealized_plpc": -1.64
+      "current_price": 156.71,
+      "market_value": 977.76,
+      "unrealized_pnl": -19.59,
+      "unrealized_plpc": -1.96
     },
     {
       "symbol": "KLAC",
@@ -79,21 +79,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 157.81,
-      "market_value": 994.46,
-      "unrealized_pnl": -3.1,
-      "unrealized_plpc": -0.31
-    },
-    {
-      "symbol": "SNPS",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 2.0692,
-      "entry_price": 481.99,
-      "current_price": 482.91,
-      "market_value": 999.24,
-      "unrealized_pnl": 1.9,
-      "unrealized_plpc": 0.19
+      "current_price": 157.47,
+      "market_value": 992.31,
+      "unrealized_pnl": -5.25,
+      "unrealized_plpc": -0.53
     }
   ],
   "recent_trades": [
@@ -133,8 +122,8 @@
       "direction": "LONG",
       "shares": 2.0692,
       "price": 481.64,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 482.44,
+      "realized_pnl": 0.93114,
       "date": "2026-10-28 07:00:13"
     },
     {
@@ -697,14 +686,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9926.01,
-      "daily_pnl": -39.99,
-      "cum_return": -0.74
+      "portfolio_value": 9916.91,
+      "daily_pnl": -49.09,
+      "cum_return": -0.83
     }
   ],
   "logs": [
-    "2026-10-27 09:54:34 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
-    "2026-10-27 12:50:00 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
     "2026-10-27 12:50:00 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
     "2026-10-27 12:50:01 PT  INFO      [CLOSED POSITION] BKNG 6.0 shares @ $150.13 (Entry: $149.93, P&L: $-1.20) [SCHEDULED_EOD]",
     "2026-10-27 12:50:01 PT  INFO      [CLOSED POSITION] MA 1.0 shares @ $610.00 (Entry: $607.36, P&L: $-2.64) [SCHEDULED_EOD]",
@@ -822,6 +809,8 @@
     "2026-10-28 07:45:04 PT  INFO      [CLOSED POSITION] SOFI 58.0 shares @ $16.94 (Entry: $17.03, P&L: $+5.20) [1H_SCHEDULED_EXIT]",
     "2026-10-28 07:50:24 PT  INFO      GitHub Pages deployment cooldown: last push was 12.3s ago. Waiting 32.7s to prevent deployment lock collision...",
     "2026-10-28 07:51:59 PT  INFO      GitHub Pages deployment cooldown: last push was 11.8s ago. Waiting 33.2s to prevent deployment lock collision...",
-    "2026-10-28 07:53:34 PT  INFO      GitHub Pages deployment cooldown: last push was 11.7s ago. Waiting 33.3s to prevent deployment lock collision..."
+    "2026-10-28 07:53:34 PT  INFO      GitHub Pages deployment cooldown: last push was 11.7s ago. Waiting 33.3s to prevent deployment lock collision...",
+    "2026-10-28 08:08:33 PT  INFO      [RATCHET BREAKEVEN] SNPS Long hit breakeven stop. Zero loss exit!",
+    "2026-10-28 08:08:33 PT  INFO      [CLOSED POSITION] SNPS 2.0692 shares @ $482.44 (Entry: $481.99, P&L: $+0.93) [RATCHET_BREAKEVEN]"
   ]
 }
