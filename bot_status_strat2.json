@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 12:49:21 PM PT",
-  "timestamp_utc": "2026-10-28T19:49:21.370971+00:00",
+  "updated_at": "2026-10-28 12:50:11 PM PT",
+  "timestamp_utc": "2026-10-28T19:50:12.040112+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9938.87,
-    "cash": 8955.43,
-    "buying_power": 38575.35,
-    "total_pnl": -61.13,
+    "portfolio_value": 9938.59,
+    "cash": 9938.59,
+    "buying_power": 39754.36,
+    "total_pnl": -61.41,
     "total_return_pct": "-0.61",
-    "today_pnl": -27.13,
-    "today_return_pct": "-0.27",
+    "today_pnl": -27.41,
+    "today_return_pct": "-0.28",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,25 +44,13 @@
     }
   ],
   "stats": {
-    "total_trades": 49,
+    "total_trades": 50,
     "wins": 27,
-    "losses": 22,
-    "win_rate": "55.1%",
-    "profit_factor": "0.45"
+    "losses": 23,
+    "win_rate": "54.0%",
+    "profit_factor": "0.43"
   },
-  "open_positions": [
-    {
-      "symbol": "JCI",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 6.2393,
-      "entry_price": 159.85,
-      "current_price": 157.62,
-      "market_value": 983.44,
-      "unrealized_pnl": -13.91,
-      "unrealized_plpc": -1.4
-    }
-  ],
+  "open_positions": [],
   "recent_trades": [
     {
       "symbol": "KLAC",
@@ -80,8 +68,8 @@
       "direction": "LONG",
       "shares": 6.2393,
       "price": 159.73,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 157.61,
+      "realized_pnl": -13.976032,
       "date": "2026-10-28 07:00:14"
     },
     {
@@ -664,20 +652,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9938.87,
-      "daily_pnl": -27.13,
+      "portfolio_value": 9938.59,
+      "daily_pnl": -27.41,
       "cum_return": -0.61
     }
   ],
   "logs": [
-    "2026-10-27 12:50:07 PT  INFO      GitHub Pages deployment cooldown: last push was 17.7s ago. Waiting 27.3s to prevent deployment lock collision...",
-    "2026-10-27 12:50:36 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
-    "2026-10-27 12:50:36 PT  INFO      Today's session (2026-10-27) already executed. Waiting for market close...",
-    "2026-10-27 12:50:36 PT  INFO      Waiting 9.4 min until 01:00 PM PT (16:00 ET) [MARKET CLOSE (01:00 PM PT)]",
-    "2026-10-27 13:00:30 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-27 13:30:30 PT  INFO      GitHub Pages deployment cooldown: last push was 16.4s ago. Waiting 28.6s to prevent deployment lock collision...",
-    "2026-10-27 13:31:03 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-27 14:01:05 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 14:31:06 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 15:01:08 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-27 15:31:10 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
@@ -789,6 +769,14 @@
     "2026-10-28 10:32:02 PT  INFO      [RATCHET BREAKEVEN] KLAC Long hit breakeven stop. Zero loss exit!",
     "2026-10-28 10:32:02 PT  INFO      [CLOSED POSITION] KLAC 6.3016 shares @ $158.46 (Entry: $158.30, P&L: $+0.99) [RATCHET_BREAKEVEN]",
     "2026-10-28 12:10:35 PT  INFO      [RATCHET TIER 2] AMAT Long peaked at +3.0%, crossed locked floor. Securing gains!",
-    "2026-10-28 12:10:35 PT  INFO      [CLOSED POSITION] AMAT 2.4374 shares @ $415.57 (Entry: $409.58, P&L: $+14.61) [RATCHET_TIER2]"
+    "2026-10-28 12:10:35 PT  INFO      [CLOSED POSITION] AMAT 2.4374 shares @ $415.57 (Entry: $409.58, P&L: $+14.61) [RATCHET_TIER2]",
+    "2026-10-28 12:50:02 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
+    "2026-10-28 12:50:02 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
+    "2026-10-28 12:50:04 PT  INFO      [CLOSED POSITION] JCI 6.2393 shares @ $157.61 (Entry: $159.85, P&L: $-13.98) [SCHEDULED_EOD]",
+    "2026-10-28 12:50:05 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
+    "2026-10-28 12:50:06 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
+    "2026-10-28 12:50:07 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
+    "2026-10-28 12:50:08 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
+    "2026-10-28 12:50:09 PT  INFO      Waiting for liquidation fills (1 positions remaining)..."
   ]
 }
