@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-28 09:34:35 AM PT",
-  "timestamp_utc": "2026-10-28T16:34:35.936351+00:00",
+  "updated_at": "2026-10-28 09:35:37 AM PT",
+  "timestamp_utc": "2026-10-28T16:35:37.938925+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9942.24,
+    "portfolio_value": 9941.91,
     "cash": 6944.63,
-    "buying_power": 36171.84,
-    "total_pnl": -57.76,
+    "buying_power": 36170.9,
+    "total_pnl": -58.09,
     "total_return_pct": "-0.58",
-    "today_pnl": -23.76,
+    "today_pnl": -24.09,
     "today_return_pct": "-0.24",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 414.88,
-      "market_value": 1011.23,
-      "unrealized_pnl": 12.92,
-      "unrealized_plpc": 1.29
+      "current_price": 414.5,
+      "market_value": 1010.3,
+      "unrealized_pnl": 11.99,
+      "unrealized_plpc": 1.2
     },
     {
       "symbol": "JCI",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 157.35,
-      "market_value": 981.79,
-      "unrealized_pnl": -15.57,
-      "unrealized_plpc": -1.56
+      "current_price": 157.5,
+      "market_value": 982.69,
+      "unrealized_pnl": -14.66,
+      "unrealized_plpc": -1.47
     },
     {
       "symbol": "KLAC",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 159.42,
-      "market_value": 1004.6,
-      "unrealized_pnl": 7.04,
-      "unrealized_plpc": 0.71
+      "current_price": 159.37,
+      "market_value": 1004.29,
+      "unrealized_pnl": 6.73,
+      "unrealized_plpc": 0.67
     }
   ],
   "recent_trades": [
@@ -686,8 +686,8 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9942.24,
-      "daily_pnl": -23.76,
+      "portfolio_value": 9941.91,
+      "daily_pnl": -24.09,
       "cum_return": -0.58
     }
   ],
