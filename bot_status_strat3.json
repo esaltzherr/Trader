@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 06:40:13 AM PT",
-  "timestamp_utc": "2026-10-28T13:40:14.165699+00:00",
+  "updated_at": "2026-10-28 06:50:09 AM PT",
+  "timestamp_utc": "2026-10-28T13:50:10.025998+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 993137.96,
-    "cash": 739784.78,
-    "buying_power": 3418158.39,
-    "total_pnl": -6862.04,
-    "total_return_pct": "-0.69",
-    "today_pnl": 3396.05,
-    "today_return_pct": "+0.34",
+    "portfolio_value": 994408.1,
+    "cash": 489408.5,
+    "buying_power": 3121881.12,
+    "total_pnl": -5591.9,
+    "total_return_pct": "-0.56",
+    "today_pnl": 4666.19,
+    "today_return_pct": "+0.47",
     "last_equity": 989741.91,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 45,
-    "wins": 20,
-    "losses": 25,
-    "win_rate": "44.4%",
-    "profit_factor": "1.04"
+    "total_trades": 40,
+    "wins": 17,
+    "losses": 23,
+    "win_rate": "42.5%",
+    "profit_factor": "0.98"
   },
   "open_positions": [
     {
@@ -77,10 +77,43 @@
       "side": "long",
       "qty": 527.0,
       "entry_price": 236.63,
-      "current_price": 240.42,
-      "market_value": 126701.34,
-      "unrealized_pnl": 1997.33,
-      "unrealized_plpc": 1.6
+      "current_price": 241.82,
+      "market_value": 127439.14,
+      "unrealized_pnl": 2735.13,
+      "unrealized_plpc": 2.19
+    },
+    {
+      "symbol": "BSX",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 2082.0,
+      "entry_price": 40.16,
+      "current_price": 41.18,
+      "market_value": 85736.76,
+      "unrealized_pnl": 2123.64,
+      "unrealized_plpc": 2.54
+    },
+    {
+      "symbol": "GEV",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 98.0,
+      "entry_price": 849.33,
+      "current_price": 840.31,
+      "market_value": 82350.64,
+      "unrealized_pnl": -883.7,
+      "unrealized_plpc": -1.06
+    },
+    {
+      "symbol": "HOOD",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 918.0,
+      "entry_price": 90.99,
+      "current_price": 90.41,
+      "market_value": 82996.2,
+      "unrealized_pnl": -532.62,
+      "unrealized_plpc": -0.64
     },
     {
       "symbol": "SHOP",
@@ -88,13 +121,63 @@
       "side": "long",
       "qty": 752.0,
       "entry_price": 166.56,
-      "current_price": 168.42,
-      "market_value": 126651.84,
-      "unrealized_pnl": 1398.72,
-      "unrealized_plpc": 1.12
+      "current_price": 168.22,
+      "market_value": 126497.68,
+      "unrealized_pnl": 1244.56,
+      "unrealized_plpc": 0.99
     }
   ],
   "recent_trades": [
+    {
+      "symbol": "SYK",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 165.0,
+      "price": 302.15,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:50:09"
+    },
+    {
+      "symbol": "INTU",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 151.0,
+      "price": 330.19,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:50:09"
+    },
+    {
+      "symbol": "MDT",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 525.0,
+      "price": 95.19,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:50:09"
+    },
+    {
+      "symbol": "TGT",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 340.0,
+      "price": 146.7,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:50:09"
+    },
+    {
+      "symbol": "UPS",
+      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
+      "direction": "LONG",
+      "shares": 473.0,
+      "price": 105.67,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:50:09"
+    },
     {
       "symbol": "HOOD",
       "strategy": "CAPITULATION_PANIC_BOUNCE",
@@ -544,56 +627,6 @@
       "close_price": 644.3,
       "realized_pnl": -589.0,
       "date": "2026-10-22 06:40:06"
-    },
-    {
-      "symbol": "LRCX",
-      "strategy": "CAPITULATION_PANIC_BOUNCE",
-      "direction": "LONG",
-      "shares": 214.0,
-      "price": 233.4,
-      "close_price": 236.77,
-      "realized_pnl": 721.18,
-      "date": "2026-10-22 06:40:06"
-    },
-    {
-      "symbol": "ACN",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 514.0,
-      "price": 243.1,
-      "close_price": 256.91,
-      "realized_pnl": 6923.58,
-      "date": "2026-10-22 06:35:11"
-    },
-    {
-      "symbol": "SHOP",
-      "strategy": "SUPER_MOMENTUM_RUNNER",
-      "direction": "LONG",
-      "shares": 722.0,
-      "price": 172.92,
-      "close_price": 165.71,
-      "realized_pnl": -5205.62,
-      "date": "2026-10-22 06:35:11"
-    },
-    {
-      "symbol": "HIMS",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 1696.0,
-      "price": 29.48,
-      "close_price": 29.025,
-      "realized_pnl": -771.68,
-      "date": "2026-10-21 06:50:19"
-    },
-    {
-      "symbol": "UAL",
-      "strategy": "INTRADAY_MICRO_BURST_RATCHET",
-      "direction": "LONG",
-      "shares": 498.0,
-      "price": 100.29,
-      "close_price": 100.87,
-      "realized_pnl": 288.84,
-      "date": "2026-10-21 06:50:19"
     }
   ],
   "history": [
@@ -695,20 +728,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 993137.96,
-      "daily_pnl": 3396.05,
-      "cum_return": -0.69
+      "portfolio_value": 994408.1,
+      "daily_pnl": 4666.19,
+      "cum_return": -0.56
     }
   ],
   "logs": [
-    "2026-10-27 12:50:20 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
-    "2026-10-27 12:50:21 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
-    "2026-10-27 12:50:22 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
-    "2026-10-27 12:50:23 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
-    "2026-10-27 12:50:24 PT  INFO      Waiting for liquidation fills (3 positions remaining)...",
-    "2026-10-27 12:50:25 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-27 12:50:26 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
-    "2026-10-27 12:50:27 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-27 12:50:28 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-27 12:50:29 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-27 12:50:30 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
@@ -820,6 +845,14 @@
     "2026-10-28 06:40:13 PT  INFO      [Engine 2] Selected 3 Capitulation Bounce targets: ['BSX', 'GEV', 'HOOD']",
     "2026-10-28 06:40:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 2082 shares of BSX @ ~$40.01 (Order ID: 4330adcd-ee22-4ec3-9384-5d0bbf731b34)",
     "2026-10-28 06:40:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 98 shares of GEV @ ~$845.50 (Order ID: c86644d3-0f25-478f-92fe-37cabfb66d4c)",
-    "2026-10-28 06:40:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 918 shares of HOOD @ ~$90.70 (Order ID: c6559ab1-1422-4e85-af3f-d9173328fe47)"
+    "2026-10-28 06:40:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 918 shares of HOOD @ ~$90.70 (Order ID: c6559ab1-1422-4e85-af3f-d9173328fe47)",
+    "2026-10-28 06:50:01 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
+    "2026-10-28 06:50:01 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
+    "2026-10-28 06:50:09 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['UPS', 'TGT', 'MDT', 'INTU', 'SYK']",
+    "2026-10-28 06:50:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 473 shares of UPS @ ~$105.67 (Order ID: 7074b26f-d939-4dd1-9185-942a06d89385)",
+    "2026-10-28 06:50:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 340 shares of TGT @ ~$146.70 (Order ID: 8387726d-10db-4d34-9d6b-1d0bf55e6474)",
+    "2026-10-28 06:50:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 525 shares of MDT @ ~$95.19 (Order ID: 7741cc1f-d82b-415d-8b9d-1692003e9965)",
+    "2026-10-28 06:50:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 151 shares of INTU @ ~$330.19 (Order ID: 754ed030-417a-462d-a98a-f8db832168f5)",
+    "2026-10-28 06:50:09 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 165 shares of SYK @ ~$302.15 (Order ID: 6db1b0e6-5177-4b61-85ea-596f74246523)"
   ]
 }
