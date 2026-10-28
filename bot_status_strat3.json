@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 07:51:01 AM PT",
-  "timestamp_utc": "2026-10-28T14:51:01.454310+00:00",
+  "updated_at": "2026-10-28 07:51:47 AM PT",
+  "timestamp_utc": "2026-10-28T14:51:47.925430+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999051.21,
-    "cash": 423342.91,
-    "buying_power": 3305354.89,
-    "total_pnl": -948.79,
-    "total_return_pct": "-0.09",
-    "today_pnl": 9309.3,
-    "today_return_pct": "+0.94",
+    "portfolio_value": 999153.73,
+    "cash": 473511.91,
+    "buying_power": 3365844.74,
+    "total_pnl": -846.27,
+    "total_return_pct": "-0.08",
+    "today_pnl": 9411.82,
+    "today_return_pct": "+0.95",
     "last_equity": 989741.91,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,10 +64,10 @@
     }
   ],
   "stats": {
-    "total_trades": 44,
-    "wins": 20,
+    "total_trades": 45,
+    "wins": 21,
     "losses": 24,
-    "win_rate": "45.5%",
+    "win_rate": "46.7%",
     "profit_factor": "1.03"
   },
   "open_positions": [
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 527.0,
       "entry_price": 236.63,
-      "current_price": 244.31,
-      "market_value": 128751.9,
-      "unrealized_pnl": 4047.89,
-      "unrealized_plpc": 3.25
+      "current_price": 244.06,
+      "market_value": 128620.99,
+      "unrealized_pnl": 3916.98,
+      "unrealized_plpc": 3.14
     },
     {
       "symbol": "BSX",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 2082.0,
       "entry_price": 40.16,
-      "current_price": 41.99,
-      "market_value": 87423.18,
-      "unrealized_pnl": 3810.06,
-      "unrealized_plpc": 4.56
+      "current_price": 42.16,
+      "market_value": 87766.71,
+      "unrealized_pnl": 4153.59,
+      "unrealized_plpc": 4.97
     },
     {
       "symbol": "HOOD",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 918.0,
       "entry_price": 90.99,
-      "current_price": 92.04,
-      "market_value": 84492.72,
-      "unrealized_pnl": 963.9,
-      "unrealized_plpc": 1.15
+      "current_price": 91.93,
+      "market_value": 84391.74,
+      "unrealized_pnl": 862.92,
+      "unrealized_plpc": 1.03
     },
     {
       "symbol": "INTU",
@@ -110,21 +110,10 @@
       "side": "long",
       "qty": 151.0,
       "entry_price": 329.91,
-      "current_price": 331.14,
-      "market_value": 50002.14,
-      "unrealized_pnl": 185.04,
-      "unrealized_plpc": 0.37
-    },
-    {
-      "symbol": "MDT",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 525.0,
-      "entry_price": 95.3,
-      "current_price": 95.58,
-      "market_value": 50176.88,
-      "unrealized_pnl": 142.64,
-      "unrealized_plpc": 0.29
+      "current_price": 331.37,
+      "market_value": 50036.87,
+      "unrealized_pnl": 219.77,
+      "unrealized_plpc": 0.44
     },
     {
       "symbol": "SHOP",
@@ -132,10 +121,10 @@
       "side": "long",
       "qty": 752.0,
       "entry_price": 166.56,
-      "current_price": 166.07,
-      "market_value": 124884.64,
-      "unrealized_pnl": -368.48,
-      "unrealized_plpc": -0.29
+      "current_price": 165.93,
+      "market_value": 124779.36,
+      "unrealized_pnl": -473.76,
+      "unrealized_plpc": -0.38
     },
     {
       "symbol": "SYK",
@@ -143,10 +132,10 @@
       "side": "long",
       "qty": 165.0,
       "entry_price": 302.99,
-      "current_price": 302.89,
-      "market_value": 49976.85,
-      "unrealized_pnl": -16.5,
-      "unrealized_plpc": -0.03
+      "current_price": 303.31,
+      "market_value": 50046.15,
+      "unrealized_pnl": 52.8,
+      "unrealized_plpc": 0.11
     }
   ],
   "recent_trades": [
@@ -166,8 +155,8 @@
       "direction": "LONG",
       "shares": 151.0,
       "price": 330.19,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 331.18,
+      "realized_pnl": 149.49,
       "date": "2026-10-28 06:50:09"
     },
     {
@@ -750,14 +739,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 999051.21,
-      "daily_pnl": 9309.3,
-      "cum_return": -0.09
+      "portfolio_value": 999153.73,
+      "daily_pnl": 9411.82,
+      "cum_return": -0.08
     }
   ],
   "logs": [
-    "2026-10-28 05:30:04 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
-    "2026-10-28 05:30:51 PT  INFO      Pre-market standby: 59.9 minutes until market open at 06:30 AM PT.",
     "2026-10-28 05:31:51 PT  INFO      Pre-market standby: 58.1 minutes until market open at 06:30 AM PT.",
     "2026-10-28 05:32:51 PT  INFO      Pre-market standby: 57.1 minutes until market open at 06:30 AM PT.",
     "2026-10-28 05:33:51 PT  INFO      Pre-market standby: 56.1 minutes until market open at 06:30 AM PT.",
@@ -875,6 +862,8 @@
     "2026-10-28 07:50:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG UPS @ $104.45 | P&L: -577.06 (-1.15%) | Reason: Scheduled 60-Min Micro Exit (-1.15%)",
     "2026-10-28 07:50:12 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG TGT @ $148.05 | P&L: +459.00 (+0.92%) | Reason: Scheduled 60-Min Micro Exit (+0.92%)",
     "2026-10-28 07:50:13 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision...",
-    "2026-10-28 07:51:01 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG MDT @ $95.49 | P&L: +157.50 (+0.32%) | Reason: Scheduled 60-Min Micro Exit (+0.32%)"
+    "2026-10-28 07:51:01 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG MDT @ $95.49 | P&L: +157.50 (+0.32%) | Reason: Scheduled 60-Min Micro Exit (+0.32%)",
+    "2026-10-28 07:51:01 PT  INFO      GitHub Pages deployment cooldown: last push was 0.2s ago. Waiting 44.8s to prevent deployment lock collision...",
+    "2026-10-28 07:51:47 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG INTU @ $331.18 | P&L: +149.49 (+0.30%) | Reason: Scheduled 60-Min Micro Exit (+0.30%)"
   ]
 }
