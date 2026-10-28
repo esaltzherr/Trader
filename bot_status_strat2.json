@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-28 05:30:00 AM PT",
-  "timestamp_utc": "2026-10-28T12:30:00.428733+00:00",
+  "updated_at": "2026-10-28 06:45:16 AM PT",
+  "timestamp_utc": "2026-10-28T13:45:16.651024+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
     "portfolio_value": 9966.0,
     "cash": 9966.0,
-    "buying_power": 39864.0,
+    "buying_power": 34073.88,
     "total_pnl": -34.0,
     "total_return_pct": "-0.34",
     "today_pnl": 0.0,
@@ -17,8 +17,8 @@
     "status": "ACTIVE"
   },
   "market": {
-    "is_open": false,
-    "next_open": "2026-10-28 06:30 AM PT",
+    "is_open": true,
+    "next_open": "2026-10-29 06:30 AM PT",
     "next_close": "2026-10-28 01:00 PM PT"
   },
   "strategies": [
@@ -44,14 +44,64 @@
     }
   ],
   "stats": {
-    "total_trades": 50,
-    "wins": 29,
+    "total_trades": 45,
+    "wins": 24,
     "losses": 21,
-    "win_rate": "58.0%",
-    "profit_factor": "0.61"
+    "win_rate": "53.3%",
+    "profit_factor": "0.43"
   },
   "open_positions": [],
   "recent_trades": [
+    {
+      "symbol": "SHOP",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 5.0,
+      "price": 168.84,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:45:16"
+    },
+    {
+      "symbol": "HOOD",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 10.0,
+      "price": 91.365,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:45:15"
+    },
+    {
+      "symbol": "SOFI",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 58.0,
+      "price": 17.13,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:45:15"
+    },
+    {
+      "symbol": "ACN",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 4.0,
+      "price": 240.96,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:45:15"
+    },
+    {
+      "symbol": "TEM",
+      "strategy": "INTRADAY_15M_RUNNER_FADE",
+      "direction": "SHORT",
+      "shares": 13.0,
+      "price": 75.0,
+      "close_price": null,
+      "realized_pnl": null,
+      "date": "2026-10-28 06:45:15"
+    },
     {
       "symbol": "DKNG",
       "strategy": "ORB_30M_TREND_RATCHET",
@@ -501,56 +551,6 @@
       "close_price": 230.4,
       "realized_pnl": 5.44,
       "date": "2026-10-21 06:45:10"
-    },
-    {
-      "symbol": "ISRG",
-      "strategy": "INTRADAY_15M_RUNNER_FADE",
-      "direction": "SHORT",
-      "shares": 2.0,
-      "price": 426.66,
-      "close_price": 422.22,
-      "realized_pnl": 9.79,
-      "date": "2026-10-21 06:45:09"
-    },
-    {
-      "symbol": "GEV",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "LONG",
-      "shares": 1.1305,
-      "price": 896.06,
-      "close_price": 906.03,
-      "realized_pnl": 7.947415,
-      "date": "2026-10-20 07:00:13"
-    },
-    {
-      "symbol": "DELL",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "LONG",
-      "shares": 2.2366,
-      "price": 452.93,
-      "close_price": 462.035,
-      "realized_pnl": 19.089381,
-      "date": "2026-10-20 07:00:12"
-    },
-    {
-      "symbol": "AAL",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "LONG",
-      "shares": 83.65,
-      "price": 12.11,
-      "close_price": 12.425,
-      "realized_pnl": 24.67675,
-      "date": "2026-10-20 07:00:12"
-    },
-    {
-      "symbol": "SE",
-      "strategy": "ORB_30M_TREND_RATCHET",
-      "direction": "SHORT",
-      "shares": 12.0,
-      "price": 82.02,
-      "close_price": 82.2,
-      "realized_pnl": 0.96,
-      "date": "2026-10-20 07:00:12"
     }
   ],
   "history": [
@@ -658,23 +658,6 @@
     }
   ],
   "logs": [
-    "2026-10-27 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
-    "2026-10-27 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
-    "2026-10-27 06:45:00 PT  INFO      ============================================================",
-    "2026-10-27 06:45:06 PT  INFO      Selected 5 Morning Runners to SHORT:",
-    "2026-10-27 06:45:06 PT  INFO        CLS    Surge: +7.07%  Price: $280.62",
-    "2026-10-27 06:45:06 PT  INFO        NBIS   Surge: +6.71%  Price: $169.15",
-    "2026-10-27 06:45:06 PT  INFO        IREN   Surge: +5.70%  Price: $27.34",
-    "2026-10-27 06:45:06 PT  INFO        WDC    Surge: +5.09%  Price: $377.49",
-    "2026-10-27 06:45:06 PT  INFO        MARA   Surge: +4.24%  Price: $7.25",
-    "2026-10-27 06:45:06 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 3 shares of CLS at ~$280.62",
-    "2026-10-27 06:45:07 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of NBIS at ~$169.15",
-    "2026-10-27 06:45:07 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 36 shares of IREN at ~$27.34",
-    "2026-10-27 06:45:07 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 2 shares of WDC at ~$377.49",
-    "2026-10-27 06:45:08 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 137 shares of MARA at ~$7.25",
-    "2026-10-27 06:45:10 PT  INFO      Waiting 14.8 min until 07:00 AM PT (10:00 ET) [Execution 2: 30M ORB Trend Runner]",
-    "2026-10-27 07:00:00 PT  INFO      ============================================================",
-    "2026-10-27 07:00:00 PT  INFO       EXECUTING STRATEGY 3B: 30-MINUTE RANGE BREAKOUT (07:00 AM PT / 10:00 ET)",
     "2026-10-27 07:00:00 PT  INFO       Scanning for institutional breakout/breakdowns relative to 30M range & VWAP...",
     "2026-10-27 07:00:00 PT  INFO      ============================================================",
     "2026-10-27 07:00:09 PT  INFO      Selected 5 30M ORB Trend Candidates:",
@@ -777,6 +760,23 @@
     "2026-10-28 04:32:13 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
     "2026-10-28 04:32:15 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 1.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-28 05:02:15 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-28 05:02:17 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 0.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-28 05:02:17 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 0.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-28 05:30:02 PT  INFO      Within pre-market preparation window (after 05:30 AM PT). Arming daily strategy execution...",
+    "2026-10-28 05:30:02 PT  INFO      Waiting 75.0 min until 06:45 AM PT (09:45 ET) [Execution 1: 15M Runner Fade]",
+    "2026-10-28 06:45:00 PT  INFO      ============================================================",
+    "2026-10-28 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
+    "2026-10-28 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
+    "2026-10-28 06:45:00 PT  INFO      ============================================================",
+    "2026-10-28 06:45:14 PT  INFO      Selected 5 Morning Runners to SHORT:",
+    "2026-10-28 06:45:14 PT  INFO        TEM    Surge: +4.01%  Price: $75.00",
+    "2026-10-28 06:45:14 PT  INFO        ACN    Surge: +3.27%  Price: $240.96",
+    "2026-10-28 06:45:14 PT  INFO        SOFI   Surge: +3.19%  Price: $17.13",
+    "2026-10-28 06:45:14 PT  INFO        HOOD   Surge: +2.31%  Price: $91.36",
+    "2026-10-28 06:45:14 PT  INFO        SHOP   Surge: +2.26%  Price: $168.84",
+    "2026-10-28 06:45:15 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 13 shares of TEM at ~$75.00",
+    "2026-10-28 06:45:15 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 4 shares of ACN at ~$240.96",
+    "2026-10-28 06:45:15 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 58 shares of SOFI at ~$17.13",
+    "2026-10-28 06:45:15 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 10 shares of HOOD at ~$91.36",
+    "2026-10-28 06:45:16 PT  INFO      [INTRADAY_15M_RUNNER_FADE] SHORT SUBMITTED: 5 shares of SHOP at ~$168.84"
   ]
 }
