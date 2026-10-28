@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 07:19:39 AM PT",
-  "timestamp_utc": "2026-10-28T14:19:39.679749+00:00",
+  "updated_at": "2026-10-28 07:20:41 AM PT",
+  "timestamp_utc": "2026-10-28T14:20:41.829583+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9901.6,
+    "portfolio_value": 9905.26,
     "cash": 7902.19,
-    "buying_power": 30085.86,
-    "total_pnl": -98.4,
-    "total_return_pct": "-0.98",
-    "today_pnl": -64.4,
-    "today_return_pct": "-0.65",
+    "buying_power": 30103.84,
+    "total_pnl": -94.74,
+    "total_return_pct": "-0.95",
+    "today_pnl": -60.74,
+    "today_return_pct": "-0.61",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 240.68,
-      "current_price": 245.35,
-      "market_value": 981.4,
-      "unrealized_pnl": -18.7,
-      "unrealized_plpc": -1.94
+      "current_price": 245.18,
+      "market_value": 980.72,
+      "unrealized_pnl": -18.02,
+      "unrealized_plpc": -1.87
     },
     {
       "symbol": "AMAT",
@@ -68,10 +68,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 407.6,
-      "market_value": 993.48,
-      "unrealized_pnl": -4.83,
-      "unrealized_plpc": -0.48
+      "current_price": 407.38,
+      "market_value": 992.96,
+      "unrealized_pnl": -5.35,
+      "unrealized_plpc": -0.54
     },
     {
       "symbol": "CDNS",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8835,
       "entry_price": 345.89,
-      "current_price": 344.16,
-      "market_value": 992.39,
-      "unrealized_pnl": -4.99,
-      "unrealized_plpc": -0.5
+      "current_price": 344.7,
+      "market_value": 993.94,
+      "unrealized_pnl": -3.43,
+      "unrealized_plpc": -0.34
     },
     {
       "symbol": "JCI",
@@ -90,10 +90,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 158.6,
-      "market_value": 989.58,
-      "unrealized_pnl": -7.77,
-      "unrealized_plpc": -0.78
+      "current_price": 158.57,
+      "market_value": 989.37,
+      "unrealized_pnl": -7.99,
+      "unrealized_plpc": -0.8
     },
     {
       "symbol": "KLAC",
@@ -101,10 +101,10 @@
       "side": "long",
       "qty": 6.3016,
       "entry_price": 158.3,
-      "current_price": 157.55,
-      "market_value": 992.82,
-      "unrealized_pnl": -4.74,
-      "unrealized_plpc": -0.47
+      "current_price": 157.48,
+      "market_value": 992.38,
+      "unrealized_pnl": -5.18,
+      "unrealized_plpc": -0.52
     },
     {
       "symbol": "SNPS",
@@ -112,10 +112,10 @@
       "side": "long",
       "qty": 2.0692,
       "entry_price": 481.99,
-      "current_price": 482.46,
-      "market_value": 998.32,
-      "unrealized_pnl": 0.98,
-      "unrealized_plpc": 0.1
+      "current_price": 482.5,
+      "market_value": 998.4,
+      "unrealized_pnl": 1.07,
+      "unrealized_plpc": 0.11
     },
     {
       "symbol": "SOFI",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 58.0,
       "entry_price": 17.03,
-      "current_price": 17.04,
-      "market_value": 988.03,
-      "unrealized_pnl": -0.41,
-      "unrealized_plpc": -0.04
+      "current_price": 17.02,
+      "market_value": 987.45,
+      "unrealized_pnl": 0.17,
+      "unrealized_plpc": 0.02
     },
     {
       "symbol": "TEM",
@@ -134,10 +134,10 @@
       "side": "short",
       "qty": 13.0,
       "entry_price": 74.58,
-      "current_price": 76.75,
-      "market_value": 997.75,
-      "unrealized_pnl": -28.21,
-      "unrealized_plpc": -2.91
+      "current_price": 76.6,
+      "market_value": 995.8,
+      "unrealized_pnl": -26.26,
+      "unrealized_plpc": -2.71
     }
   ],
   "recent_trades": [
@@ -741,9 +741,9 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9901.6,
-      "daily_pnl": -64.4,
-      "cum_return": -0.98
+      "portfolio_value": 9905.26,
+      "daily_pnl": -60.74,
+      "cum_return": -0.95
     }
   ],
   "logs": [
