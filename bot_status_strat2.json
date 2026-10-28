@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-28 10:31:50 AM PT",
-  "timestamp_utc": "2026-10-28T17:31:50.728088+00:00",
+  "updated_at": "2026-10-28 10:32:52 AM PT",
+  "timestamp_utc": "2026-10-28T17:32:52.890028+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9936.37,
-    "cash": 6944.63,
-    "buying_power": 36155.38,
-    "total_pnl": -63.63,
-    "total_return_pct": "-0.64",
-    "today_pnl": -29.63,
+    "portfolio_value": 9936.59,
+    "cash": 7943.06,
+    "buying_power": 37354.13,
+    "total_pnl": -63.41,
+    "total_return_pct": "-0.63",
+    "today_pnl": -29.41,
     "today_return_pct": "-0.30",
     "last_equity": 9966.0,
     "starting_equity": 10000.0,
@@ -44,10 +44,10 @@
     }
   ],
   "stats": {
-    "total_trades": 47,
-    "wins": 25,
+    "total_trades": 48,
+    "wins": 26,
     "losses": 22,
-    "win_rate": "53.2%",
+    "win_rate": "54.2%",
     "profit_factor": "0.41"
   },
   "open_positions": [
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 2.4374,
       "entry_price": 409.58,
-      "current_price": 413.65,
-      "market_value": 1008.22,
-      "unrealized_pnl": 9.91,
-      "unrealized_plpc": 0.99
+      "current_price": 413.71,
+      "market_value": 1008.38,
+      "unrealized_pnl": 10.07,
+      "unrealized_plpc": 1.01
     },
     {
       "symbol": "JCI",
@@ -68,21 +68,10 @@
       "side": "long",
       "qty": 6.2393,
       "entry_price": 159.85,
-      "current_price": 157.81,
-      "market_value": 984.64,
-      "unrealized_pnl": -12.71,
-      "unrealized_plpc": -1.27
-    },
-    {
-      "symbol": "KLAC",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 6.3016,
-      "entry_price": 158.3,
-      "current_price": 158.51,
-      "market_value": 998.9,
-      "unrealized_pnl": 1.34,
-      "unrealized_plpc": 0.13
+      "current_price": 157.9,
+      "market_value": 985.15,
+      "unrealized_pnl": -12.2,
+      "unrealized_plpc": -1.22
     }
   ],
   "recent_trades": [
@@ -92,8 +81,8 @@
       "direction": "LONG",
       "shares": 6.3016,
       "price": 158.15,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 158.46,
+      "realized_pnl": 0.992225,
       "date": "2026-10-28 07:00:14"
     },
     {
@@ -686,14 +675,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 9936.37,
-      "daily_pnl": -29.63,
-      "cum_return": -0.64
+      "portfolio_value": 9936.59,
+      "daily_pnl": -29.41,
+      "cum_return": -0.63
     }
   ],
   "logs": [
-    "2026-10-27 12:50:01 PT  INFO      [CLOSED POSITION] MA 1.0 shares @ $610.00 (Entry: $607.36, P&L: $-2.64) [SCHEDULED_EOD]",
-    "2026-10-27 12:50:03 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-27 12:50:04 PT  INFO      Waiting for liquidation fills (2 positions remaining)...",
     "2026-10-27 12:50:05 PT  INFO      Waiting for liquidation fills (1 positions remaining)...",
     "2026-10-27 12:50:07 PT  INFO      GitHub Pages deployment cooldown: last push was 17.7s ago. Waiting 27.3s to prevent deployment lock collision...",
@@ -811,6 +798,8 @@
     "2026-10-28 08:08:33 PT  INFO      [RATCHET BREAKEVEN] SNPS Long hit breakeven stop. Zero loss exit!",
     "2026-10-28 08:08:33 PT  INFO      [CLOSED POSITION] SNPS 2.0692 shares @ $482.44 (Entry: $481.99, P&L: $+0.93) [RATCHET_BREAKEVEN]",
     "2026-10-28 08:12:52 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
-    "2026-10-28 09:24:46 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision..."
+    "2026-10-28 09:24:46 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
+    "2026-10-28 10:32:02 PT  INFO      [RATCHET BREAKEVEN] KLAC Long hit breakeven stop. Zero loss exit!",
+    "2026-10-28 10:32:02 PT  INFO      [CLOSED POSITION] KLAC 6.3016 shares @ $158.46 (Entry: $158.30, P&L: $+0.99) [RATCHET_BREAKEVEN]"
   ]
 }
