@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-28 08:12:13 AM PT",
-  "timestamp_utc": "2026-10-28T15:12:13.869739+00:00",
+  "updated_at": "2026-10-28 09:24:01 AM PT",
+  "timestamp_utc": "2026-10-28T16:24:01.366216+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 998184.02,
-    "cash": 573529.8,
-    "buying_power": 3483151.0,
-    "total_pnl": -1815.98,
-    "total_return_pct": "-0.18",
-    "today_pnl": 8442.11,
-    "today_return_pct": "+0.85",
+    "portfolio_value": 998078.63,
+    "cash": 659911.98,
+    "buying_power": 3586514.53,
+    "total_pnl": -1921.37,
+    "total_return_pct": "-0.19",
+    "today_pnl": 8336.72,
+    "today_return_pct": "+0.84",
     "last_equity": 989741.91,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 47,
+    "total_trades": 48,
     "wins": 23,
-    "losses": 24,
-    "win_rate": "48.9%",
-    "profit_factor": "1.16"
+    "losses": 25,
+    "win_rate": "47.9%",
+    "profit_factor": "1.15"
   },
   "open_positions": [
     {
@@ -77,21 +77,10 @@
       "side": "long",
       "qty": 527.0,
       "entry_price": 236.63,
-      "current_price": 244.98,
-      "market_value": 129104.46,
-      "unrealized_pnl": 4400.45,
-      "unrealized_plpc": 3.53
-    },
-    {
-      "symbol": "BSX",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 2082.0,
-      "entry_price": 40.16,
-      "current_price": 41.48,
-      "market_value": 86371.77,
-      "unrealized_pnl": 2758.65,
-      "unrealized_plpc": 3.3
+      "current_price": 245.12,
+      "market_value": 129180.88,
+      "unrealized_pnl": 4476.86,
+      "unrealized_plpc": 3.59
     },
     {
       "symbol": "HOOD",
@@ -99,10 +88,10 @@
       "side": "long",
       "qty": 918.0,
       "entry_price": 90.99,
-      "current_price": 91.84,
-      "market_value": 84308.39,
-      "unrealized_pnl": 779.57,
-      "unrealized_plpc": 0.93
+      "current_price": 90.66,
+      "market_value": 83221.29,
+      "unrealized_pnl": -307.53,
+      "unrealized_plpc": -0.37
     },
     {
       "symbol": "SHOP",
@@ -110,10 +99,10 @@
       "side": "long",
       "qty": 752.0,
       "entry_price": 166.56,
-      "current_price": 166.05,
-      "market_value": 124869.6,
-      "unrealized_pnl": -383.52,
-      "unrealized_plpc": -0.31
+      "current_price": 167.24,
+      "market_value": 125764.48,
+      "unrealized_pnl": 511.36,
+      "unrealized_plpc": 0.41
     }
   ],
   "recent_trades": [
@@ -173,8 +162,8 @@
       "direction": "LONG",
       "shares": 918.0,
       "price": 90.705,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 90.655,
+      "realized_pnl": -45.9,
       "date": "2026-10-28 06:40:13"
     },
     {
@@ -717,14 +706,12 @@
     },
     {
       "date": "2026-10-28",
-      "portfolio_value": 998184.02,
-      "daily_pnl": 8442.11,
-      "cum_return": -0.18
+      "portfolio_value": 998078.63,
+      "daily_pnl": 8336.72,
+      "cum_return": -0.19
     }
   ],
   "logs": [
-    "2026-10-28 05:35:51 PT  INFO      Pre-market standby: 54.1 minutes until market open at 06:30 AM PT.",
-    "2026-10-28 05:36:51 PT  INFO      Pre-market standby: 53.1 minutes until market open at 06:30 AM PT.",
     "2026-10-28 05:37:51 PT  INFO      Pre-market standby: 52.1 minutes until market open at 06:30 AM PT.",
     "2026-10-28 05:38:51 PT  INFO      Pre-market standby: 51.1 minutes until market open at 06:30 AM PT.",
     "2026-10-28 05:39:51 PT  INFO      Pre-market standby: 50.1 minutes until market open at 06:30 AM PT.",
@@ -842,6 +829,8 @@
     "2026-10-28 07:51:47 PT  INFO      GitHub Pages deployment cooldown: last push was 0.2s ago. Waiting 44.8s to prevent deployment lock collision...",
     "2026-10-28 07:52:36 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG SYK @ $302.60 | P&L: +73.43 (+0.15%) | Reason: Scheduled 60-Min Micro Exit (+0.15%)",
     "2026-10-28 07:52:37 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision...",
-    "2026-10-28 08:12:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG BSX @ $41.48 | P&L: +3070.95 (+3.69%) | Reason: Bounce Trail Locked (+3.69% from peak +5.20%)"
+    "2026-10-28 08:12:13 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG BSX @ $41.48 | P&L: +3070.95 (+3.69%) | Reason: Bounce Trail Locked (+3.69% from peak +5.20%)",
+    "2026-10-28 08:12:13 PT  INFO      GitHub Pages deployment cooldown: last push was 21.8s ago. Waiting 23.2s to prevent deployment lock collision...",
+    "2026-10-28 09:24:00 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG HOOD @ $90.66 | P&L: -45.90 (-0.06%) | Reason: Breakeven Floor Protected"
   ]
 }
