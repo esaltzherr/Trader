@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-29 07:04:16 AM PT",
-  "timestamp_utc": "2026-10-29T14:04:16.778599+00:00",
+  "updated_at": "2026-10-29 07:05:57 AM PT",
+  "timestamp_utc": "2026-10-29T14:05:57.271798+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9867.47,
+    "portfolio_value": 9854.34,
     "cash": 9680.36,
-    "buying_power": 32495.26,
-    "total_pnl": -132.53,
-    "total_return_pct": "-1.33",
-    "today_pnl": -70.91,
-    "today_return_pct": "-0.71",
+    "buying_power": 32423.31,
+    "total_pnl": -145.66,
+    "total_return_pct": "-1.46",
+    "today_pnl": -84.04,
+    "today_return_pct": "-0.85",
     "last_equity": 9938.38,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.7365,
       "entry_price": 265.78,
-      "current_price": 267.16,
-      "market_value": 998.24,
-      "unrealized_pnl": 5.17,
-      "unrealized_plpc": 0.52
+      "current_price": 267.39,
+      "market_value": 999.12,
+      "unrealized_pnl": 6.05,
+      "unrealized_plpc": 0.61
     },
     {
       "symbol": "CVNA",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 67.31,
-      "current_price": 68.69,
-      "market_value": 961.66,
-      "unrealized_pnl": -19.32,
-      "unrealized_plpc": -2.05
+      "current_price": 69.09,
+      "market_value": 967.33,
+      "unrealized_pnl": -24.99,
+      "unrealized_plpc": -2.65
     },
     {
       "symbol": "KLAC",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 167.05,
-      "current_price": 170.18,
-      "market_value": 850.9,
-      "unrealized_pnl": -15.67,
-      "unrealized_plpc": -1.88
+      "current_price": 170.22,
+      "market_value": 851.12,
+      "unrealized_pnl": -15.89,
+      "unrealized_plpc": -1.9
     },
     {
       "symbol": "PANW",
@@ -90,10 +90,10 @@
       "side": "long",
       "qty": 2.5661,
       "entry_price": 386.96,
-      "current_price": 388.0,
-      "market_value": 995.65,
-      "unrealized_pnl": 2.67,
-      "unrealized_plpc": 0.27
+      "current_price": 389.07,
+      "market_value": 998.39,
+      "unrealized_pnl": 5.41,
+      "unrealized_plpc": 0.55
     },
     {
       "symbol": "RKLB",
@@ -101,10 +101,10 @@
       "side": "long",
       "qty": 16.6793,
       "entry_price": 59.82,
-      "current_price": 60.3,
-      "market_value": 1005.76,
-      "unrealized_pnl": 7.96,
-      "unrealized_plpc": 0.8
+      "current_price": 60.17,
+      "market_value": 1003.66,
+      "unrealized_pnl": 5.85,
+      "unrealized_plpc": 0.59
     },
     {
       "symbol": "ZS",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 245.5,
-      "current_price": 250.06,
-      "market_value": 1000.26,
-      "unrealized_pnl": -18.25,
-      "unrealized_plpc": -1.86
+      "current_price": 252.19,
+      "market_value": 1008.74,
+      "unrealized_pnl": -26.73,
+      "unrealized_plpc": -2.72
     }
   ],
   "recent_trades": [
@@ -725,13 +725,12 @@
     },
     {
       "date": "2026-10-29",
-      "portfolio_value": 9867.47,
-      "daily_pnl": -70.91,
-      "cum_return": -1.33
+      "portfolio_value": 9854.34,
+      "daily_pnl": -84.04,
+      "cum_return": -1.46
     }
   ],
   "logs": [
-    "2026-10-28 07:00:17 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-28 07:00:17 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision...",
     "2026-10-28 07:02:16 PT  INFO      [RATCHET BREAKEVEN] HOOD Short hit breakeven stop. Zero loss exit!",
     "2026-10-28 07:02:16 PT  INFO      [CLOSED POSITION] HOOD 10.0 shares @ $91.28 (Entry: $91.28, P&L: $+0.09) [RATCHET_BREAKEVEN]",
@@ -850,6 +849,7 @@
     "2026-10-29 07:00:25 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
     "2026-10-29 07:00:25 PT  INFO      GitHub Pages deployment cooldown: last push was 0.3s ago. Waiting 44.7s to prevent deployment lock collision...",
     "2026-10-29 07:02:44 PT  WARNING   [STOP LOSS] FTNT Short hit -3.5% cut. Protecting capital!",
-    "2026-10-29 07:02:44 PT  INFO      [CLOSED POSITION] FTNT 7.0 shares @ $138.14 (Entry: $133.48, P&L: $-32.62) [STOP_LOSS]"
+    "2026-10-29 07:02:44 PT  INFO      [CLOSED POSITION] FTNT 7.0 shares @ $138.14 (Entry: $133.48, P&L: $-32.62) [STOP_LOSS]",
+    "2026-10-29 07:04:16 PT  INFO      GitHub Pages deployment cooldown: last push was 6.9s ago. Waiting 38.1s to prevent deployment lock collision..."
   ]
 }
