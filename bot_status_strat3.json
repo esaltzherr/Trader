@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 03:30:20 PM PT",
-  "timestamp_utc": "2026-10-29T22:30:21.625067+00:00",
+  "updated_at": "2026-10-29 04:00:23 PM PT",
+  "timestamp_utc": "2026-10-29T23:00:24.199518+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -684,7 +684,6 @@
     }
   ],
   "logs": [
-    "2026-10-29 06:40:07 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
     "2026-10-29 06:40:24 PT  INFO      [Engine 2] Selected 5 Capitulation Bounce targets: ['GOOGL', 'GOOG', 'MRVL', 'CAT', 'NBIS']",
     "2026-10-29 06:40:24 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 177 shares of GOOGL @ ~$281.50 (Order ID: 475a4b8e-71fb-48f9-8625-684e2ab42a31)",
     "2026-10-29 06:40:24 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 178 shares of GOOG @ ~$279.71 (Order ID: bbde9d8d-29cd-4965-a301-5d89a2991e4e)",
@@ -803,6 +802,7 @@
     "2026-10-29 13:30:13 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 14:00:16 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 15.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 14:30:18 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 15.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 15:00:20 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 14.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 15:00:20 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 15:30:23 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 14.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
