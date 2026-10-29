@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-29 07:00:23 AM PT",
-  "timestamp_utc": "2026-10-29T14:00:23.986203+00:00",
+  "updated_at": "2026-10-29 07:00:25 AM PT",
+  "timestamp_utc": "2026-10-29T14:00:25.765435+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9862.14,
+    "portfolio_value": 9864.04,
     "cash": 13632.32,
-    "buying_power": 31940.18,
-    "total_pnl": -137.86,
-    "total_return_pct": "-1.38",
-    "today_pnl": -76.24,
-    "today_return_pct": "-0.77",
+    "buying_power": 31950.58,
+    "total_pnl": -135.96,
+    "total_return_pct": "-1.36",
+    "today_pnl": -74.34,
+    "today_return_pct": "-0.75",
     "last_equity": 9938.38,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 67.31,
-      "current_price": 68.7,
-      "market_value": 961.8,
-      "unrealized_pnl": -19.46,
-      "unrealized_plpc": -2.07
+      "current_price": 68.64,
+      "market_value": 961.03,
+      "unrealized_pnl": -18.69,
+      "unrealized_plpc": -1.98
     },
     {
       "symbol": "FTNT",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 7.0,
       "entry_price": 133.48,
-      "current_price": 137.32,
-      "market_value": 961.27,
-      "unrealized_pnl": -26.91,
-      "unrealized_plpc": -2.88
+      "current_price": 137.17,
+      "market_value": 960.19,
+      "unrealized_pnl": -25.83,
+      "unrealized_plpc": -2.76
     },
     {
       "symbol": "KLAC",
@@ -79,9 +79,9 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 167.05,
-      "current_price": 168.99,
-      "market_value": 844.95,
-      "unrealized_pnl": -9.72,
+      "current_price": 168.98,
+      "market_value": 844.9,
+      "unrealized_pnl": -9.67,
       "unrealized_plpc": -1.16
     },
     {
@@ -703,13 +703,12 @@
     },
     {
       "date": "2026-10-29",
-      "portfolio_value": 9862.14,
-      "daily_pnl": -76.24,
-      "cum_return": -1.38
+      "portfolio_value": 9864.04,
+      "daily_pnl": -74.34,
+      "cum_return": -1.36
     }
   ],
   "logs": [
-    "2026-10-28 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.0692 shares of SNPS at ~$481.64",
     "2026-10-28 07:00:13 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.4374 shares of AMAT at ~$408.88",
     "2026-10-28 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 6.2393 shares of JCI at ~$159.73",
     "2026-10-28 07:00:14 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 6.3016 shares of KLAC at ~$158.15",
@@ -828,6 +827,7 @@
     "2026-10-29 07:00:22 PT  ERROR     Failed to submit order for KLAC: {\"available\":\"5\",\"code\":40310000,\"existing_qty\":\"5\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 5.8847, available: 5)\",\"symbol\":\"KLAC\"}",
     "2026-10-29 07:00:23 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.5661 shares of PANW at ~$387.30",
     "2026-10-29 07:00:23 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 3.7365 shares of CRWD at ~$265.98",
-    "2026-10-29 07:00:23 PT  ERROR     Failed to submit order for CVNA: {\"available\":\"14\",\"code\":40310000,\"existing_qty\":\"14\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 14.4727, available: 14)\",\"symbol\":\"CVNA\"}"
+    "2026-10-29 07:00:23 PT  ERROR     Failed to submit order for CVNA: {\"available\":\"14\",\"code\":40310000,\"existing_qty\":\"14\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 14.4727, available: 14)\",\"symbol\":\"CVNA\"}",
+    "2026-10-29 07:00:25 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop..."
   ]
 }
