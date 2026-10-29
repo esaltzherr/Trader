@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 04:02:08 AM PT",
-  "timestamp_utc": "2026-10-29T11:02:09.259606+00:00",
+  "updated_at": "2026-10-29 04:32:11 AM PT",
+  "timestamp_utc": "2026-10-29T11:32:11.472135+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -664,8 +664,6 @@
     }
   ],
   "logs": [
-    "2026-10-28 03:02:06 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-28 03:32:07 PT  INFO      GitHub Pages deployment cooldown: last push was 44.3s ago. Waiting 0.7s to prevent deployment lock collision...",
     "2026-10-28 03:32:09 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 2.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-28 04:02:09 PT  INFO      GitHub Pages deployment cooldown: last push was 43.7s ago. Waiting 1.3s to prevent deployment lock collision...",
     "2026-10-28 04:02:12 PT  INFO      Market closed. Next open: 2026-10-28 06:30 AM PT (09:30 ET). Sleeping 1.5h until pre-market prep at 05:30 AM PT...",
@@ -783,6 +781,8 @@
     "2026-10-29 03:01:58 PT  INFO      GitHub Pages deployment cooldown: last push was 39.6s ago. Waiting 5.4s to prevent deployment lock collision...",
     "2026-10-29 03:02:05 PT  INFO      Market closed. Next open: 2026-10-29 06:30 AM PT (09:30 ET). Sleeping 2.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 03:32:06 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
-    "2026-10-29 03:32:08 PT  INFO      Market closed. Next open: 2026-10-29 06:30 AM PT (09:30 ET). Sleeping 2.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 03:32:08 PT  INFO      Market closed. Next open: 2026-10-29 06:30 AM PT (09:30 ET). Sleeping 2.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 04:02:09 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
+    "2026-10-29 04:02:11 PT  INFO      Market closed. Next open: 2026-10-29 06:30 AM PT (09:30 ET). Sleeping 1.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
