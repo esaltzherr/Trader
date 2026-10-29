@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 10:15:49 AM PT",
-  "timestamp_utc": "2026-10-29T17:15:49.321832+00:00",
+  "updated_at": "2026-10-29 10:17:21 AM PT",
+  "timestamp_utc": "2026-10-29T17:17:21.839993+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -664,7 +664,6 @@
     }
   ],
   "logs": [
-    "2026-10-28 07:51:59 PT  INFO      GitHub Pages deployment cooldown: last push was 11.8s ago. Waiting 33.2s to prevent deployment lock collision...",
     "2026-10-28 07:53:34 PT  INFO      GitHub Pages deployment cooldown: last push was 11.7s ago. Waiting 33.3s to prevent deployment lock collision...",
     "2026-10-28 08:08:33 PT  INFO      [RATCHET BREAKEVEN] SNPS Long hit breakeven stop. Zero loss exit!",
     "2026-10-28 08:08:33 PT  INFO      [CLOSED POSITION] SNPS 2.0692 shares @ $482.44 (Entry: $481.99, P&L: $+0.93) [RATCHET_BREAKEVEN]",
@@ -783,6 +782,7 @@
     "2026-10-29 07:52:13 PT  INFO      [CLOSED POSITION] PANW 2.5661 shares @ $373.06 (Entry: $386.96, P&L: $-35.66) [STOP_LOSS]",
     "2026-10-29 07:52:34 PT  INFO      GitHub Pages deployment cooldown: last push was 11.7s ago. Waiting 33.3s to prevent deployment lock collision...",
     "2026-10-29 07:53:18 PT  WARNING   [STOP LOSS] CRWD Long hit -3.5% cut. Protecting capital!",
-    "2026-10-29 07:53:18 PT  INFO      [CLOSED POSITION] CRWD 3.7365 shares @ $256.41 (Entry: $265.78, P&L: $-34.99) [STOP_LOSS]"
+    "2026-10-29 07:53:18 PT  INFO      [CLOSED POSITION] CRWD 3.7365 shares @ $256.41 (Entry: $265.78, P&L: $-34.99) [STOP_LOSS]",
+    "2026-10-29 10:15:49 PT  INFO      GitHub Pages deployment cooldown: last push was 14.5s ago. Waiting 30.5s to prevent deployment lock collision..."
   ]
 }
