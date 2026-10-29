@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-29 07:29:03 AM PT",
-  "timestamp_utc": "2026-10-29T14:29:03.843112+00:00",
+  "updated_at": "2026-10-29 07:50:26 AM PT",
+  "timestamp_utc": "2026-10-29T14:50:27.172870+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999077.52,
-    "cash": 298984.86,
-    "buying_power": 3014456.31,
-    "total_pnl": -922.48,
-    "total_return_pct": "-0.09",
-    "today_pnl": 1079.33,
-    "today_return_pct": "+0.11",
+    "portfolio_value": 1000874.24,
+    "cash": 349019.49,
+    "buying_power": 3079773.32,
+    "total_pnl": 874.24,
+    "total_return_pct": "+0.09",
+    "today_pnl": 2876.05,
+    "today_return_pct": "+0.29",
     "last_equity": 997998.19,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 40,
+    "total_trades": 41,
     "wins": 23,
-    "losses": 17,
-    "win_rate": "57.5%",
-    "profit_factor": "1.90"
+    "losses": 18,
+    "win_rate": "56.1%",
+    "profit_factor": "1.89"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 513.0,
       "entry_price": 244.0,
-      "current_price": 241.36,
-      "market_value": 123817.68,
-      "unrealized_pnl": -1354.32,
-      "unrealized_plpc": -1.08
+      "current_price": 242.66,
+      "market_value": 124484.58,
+      "unrealized_pnl": -687.42,
+      "unrealized_plpc": -0.55
     },
     {
       "symbol": "CAT",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 77.0,
       "entry_price": 649.04,
-      "current_price": 659.3,
-      "market_value": 50766.1,
-      "unrealized_pnl": 790.02,
-      "unrealized_plpc": 1.58
+      "current_price": 658.17,
+      "market_value": 50679.14,
+      "unrealized_pnl": 703.06,
+      "unrealized_plpc": 1.41
     },
     {
       "symbol": "CDNS",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 145.0,
       "entry_price": 344.19,
-      "current_price": 342.51,
-      "market_value": 49663.95,
-      "unrealized_pnl": -243.6,
-      "unrealized_plpc": -0.49
+      "current_price": 342.69,
+      "market_value": 49689.32,
+      "unrealized_pnl": -218.22,
+      "unrealized_plpc": -0.44
     },
     {
       "symbol": "CRH",
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 577.0,
       "entry_price": 86.46,
-      "current_price": 87.48,
-      "market_value": 50475.96,
-      "unrealized_pnl": 588.41,
-      "unrealized_plpc": 1.18
+      "current_price": 88.56,
+      "market_value": 51099.12,
+      "unrealized_pnl": 1211.57,
+      "unrealized_plpc": 2.43
     },
     {
       "symbol": "GOOG",
@@ -121,10 +121,10 @@
       "side": "long",
       "qty": 178.0,
       "entry_price": 279.59,
-      "current_price": 283.67,
-      "market_value": 50492.37,
-      "unrealized_pnl": 724.87,
-      "unrealized_plpc": 1.46
+      "current_price": 282.2,
+      "market_value": 50231.6,
+      "unrealized_pnl": 464.1,
+      "unrealized_plpc": 0.93
     },
     {
       "symbol": "GOOGL",
@@ -132,10 +132,10 @@
       "side": "long",
       "qty": 177.0,
       "entry_price": 281.64,
-      "current_price": 285.62,
-      "market_value": 50554.74,
-      "unrealized_pnl": 704.13,
-      "unrealized_plpc": 1.41
+      "current_price": 284.24,
+      "market_value": 50309.6,
+      "unrealized_pnl": 458.98,
+      "unrealized_plpc": 0.92
     },
     {
       "symbol": "HCA",
@@ -143,10 +143,10 @@
       "side": "long",
       "qty": 105.0,
       "entry_price": 477.0,
-      "current_price": 471.91,
-      "market_value": 49550.91,
-      "unrealized_pnl": -534.09,
-      "unrealized_plpc": -1.07
+      "current_price": 475.49,
+      "market_value": 49926.45,
+      "unrealized_pnl": -158.55,
+      "unrealized_plpc": -0.32
     },
     {
       "symbol": "LMT",
@@ -154,10 +154,10 @@
       "side": "long",
       "qty": 194.0,
       "entry_price": 641.82,
-      "current_price": 642.6,
-      "market_value": 124663.43,
-      "unrealized_pnl": 150.56,
-      "unrealized_plpc": 0.12
+      "current_price": 647.99,
+      "market_value": 125710.06,
+      "unrealized_pnl": 1197.19,
+      "unrealized_plpc": 0.96
     },
     {
       "symbol": "MRVL",
@@ -165,10 +165,10 @@
       "side": "long",
       "qty": 225.0,
       "entry_price": 221.74,
-      "current_price": 219.51,
-      "market_value": 49390.88,
-      "unrealized_pnl": -500.09,
-      "unrealized_plpc": -1.0
+      "current_price": 218.61,
+      "market_value": 49187.25,
+      "unrealized_pnl": -703.72,
+      "unrealized_plpc": -1.41
     },
     {
       "symbol": "NBIS",
@@ -176,21 +176,10 @@
       "side": "long",
       "qty": 292.0,
       "entry_price": 170.31,
-      "current_price": 173.36,
-      "market_value": 50622.35,
-      "unrealized_pnl": 891.83,
-      "unrealized_plpc": 1.79
-    },
-    {
-      "symbol": "XYZ",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 653.0,
-      "entry_price": 76.62,
-      "current_price": 76.71,
-      "market_value": 50091.63,
-      "unrealized_pnl": 60.5,
-      "unrealized_plpc": 0.12
+      "current_price": 173.06,
+      "market_value": 50534.98,
+      "unrealized_pnl": 804.46,
+      "unrealized_plpc": 1.62
     }
   ],
   "recent_trades": [
@@ -240,8 +229,8 @@
       "direction": "LONG",
       "shares": 105.0,
       "price": 476.065,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 475.175,
+      "realized_pnl": -93.45,
       "date": "2026-10-29 06:50:16"
     },
     {
@@ -800,14 +789,12 @@
     },
     {
       "date": "2026-10-29",
-      "portfolio_value": 999077.52,
-      "daily_pnl": 1079.33,
-      "cum_return": -0.09
+      "portfolio_value": 1000874.24,
+      "daily_pnl": 2876.05,
+      "cum_return": 0.09
     }
   ],
   "logs": [
-    "2026-10-29 05:58:49 PT  INFO      Pre-market standby: 31.2 minutes until market open at 06:30 AM PT.",
-    "2026-10-29 05:59:49 PT  INFO      Pre-market standby: 30.2 minutes until market open at 06:30 AM PT.",
     "2026-10-29 06:00:49 PT  INFO      Pre-market standby: 29.2 minutes until market open at 06:30 AM PT.",
     "2026-10-29 06:01:49 PT  INFO      Pre-market standby: 28.2 minutes until market open at 06:30 AM PT.",
     "2026-10-29 06:02:49 PT  INFO      Pre-market standby: 27.2 minutes until market open at 06:30 AM PT.",
@@ -925,6 +912,8 @@
     "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
     "2026-10-29 07:05:11 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
     "2026-10-29 07:05:11 PT  INFO      [PARABOLIC_BLOWOFF_FADE] No qualifying candidates found.",
-    "2026-10-29 07:29:03 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG XYZ @ $76.71 | P&L: +156.72 (+0.31%) | Reason: Stepped Profit Lock (+0.6% Protected)"
+    "2026-10-29 07:29:03 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG XYZ @ $76.71 | P&L: +156.72 (+0.31%) | Reason: Stepped Profit Lock (+0.6% Protected)",
+    "2026-10-29 07:29:03 PT  INFO      GitHub Pages deployment cooldown: last push was 15.8s ago. Waiting 29.2s to prevent deployment lock collision...",
+    "2026-10-29 07:50:26 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG HCA @ $475.18 | P&L: -93.45 (-0.19%) | Reason: Scheduled 60-Min Micro Exit (-0.19%)"
   ]
 }
