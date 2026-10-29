@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 11:20:55 AM PT",
-  "timestamp_utc": "2026-10-29T18:20:55.592237+00:00",
+  "updated_at": "2026-10-29 11:22:28 AM PT",
+  "timestamp_utc": "2026-10-29T18:22:28.412527+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -664,7 +664,6 @@
     }
   ],
   "logs": [
-    "2026-10-28 08:08:33 PT  INFO      [RATCHET BREAKEVEN] SNPS Long hit breakeven stop. Zero loss exit!",
     "2026-10-28 08:08:33 PT  INFO      [CLOSED POSITION] SNPS 2.0692 shares @ $482.44 (Entry: $481.99, P&L: $+0.93) [RATCHET_BREAKEVEN]",
     "2026-10-28 08:12:52 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
     "2026-10-28 09:24:46 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
@@ -783,6 +782,7 @@
     "2026-10-29 07:53:18 PT  WARNING   [STOP LOSS] CRWD Long hit -3.5% cut. Protecting capital!",
     "2026-10-29 07:53:18 PT  INFO      [CLOSED POSITION] CRWD 3.7365 shares @ $256.41 (Entry: $265.78, P&L: $-34.99) [STOP_LOSS]",
     "2026-10-29 10:15:49 PT  INFO      GitHub Pages deployment cooldown: last push was 14.5s ago. Waiting 30.5s to prevent deployment lock collision...",
-    "2026-10-29 11:02:51 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision..."
+    "2026-10-29 11:02:51 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
+    "2026-10-29 11:20:55 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision..."
   ]
 }
