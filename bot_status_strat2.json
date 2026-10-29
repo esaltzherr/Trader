@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-29 07:40:40 AM PT",
-  "timestamp_utc": "2026-10-29T14:40:40.267701+00:00",
+  "updated_at": "2026-10-29 07:41:42 AM PT",
+  "timestamp_utc": "2026-10-29T14:41:42.509744+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9830.86,
+    "portfolio_value": 9832.88,
     "cash": 10678.95,
-    "buying_power": 33633.08,
-    "total_pnl": -169.14,
-    "total_return_pct": "-1.69",
-    "today_pnl": -107.52,
-    "today_return_pct": "-1.08",
+    "buying_power": 33657.17,
+    "total_pnl": -167.12,
+    "total_return_pct": "-1.67",
+    "today_pnl": -105.5,
+    "today_return_pct": "-1.06",
     "last_equity": 9938.38,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.7365,
       "entry_price": 265.78,
-      "current_price": 260.81,
-      "market_value": 974.52,
-      "unrealized_pnl": -18.55,
-      "unrealized_plpc": -1.87
+      "current_price": 260.13,
+      "market_value": 971.98,
+      "unrealized_pnl": -21.09,
+      "unrealized_plpc": -2.12
     },
     {
       "symbol": "CVNA",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 14.0,
       "entry_price": 67.31,
-      "current_price": 68.21,
-      "market_value": 954.94,
-      "unrealized_pnl": -12.6,
-      "unrealized_plpc": -1.34
+      "current_price": 68.0,
+      "market_value": 952.0,
+      "unrealized_pnl": -9.66,
+      "unrealized_plpc": -1.03
     },
     {
       "symbol": "KLAC",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 5.0,
       "entry_price": 167.05,
-      "current_price": 170.85,
-      "market_value": 854.25,
-      "unrealized_pnl": -19.02,
-      "unrealized_plpc": -2.28
+      "current_price": 170.47,
+      "market_value": 852.35,
+      "unrealized_pnl": -17.12,
+      "unrealized_plpc": -2.05
     },
     {
       "symbol": "PANW",
@@ -90,10 +90,10 @@
       "side": "long",
       "qty": 2.5661,
       "entry_price": 386.96,
-      "current_price": 378.95,
-      "market_value": 972.42,
-      "unrealized_pnl": -20.55,
-      "unrealized_plpc": -2.07
+      "current_price": 377.74,
+      "market_value": 969.31,
+      "unrealized_pnl": -23.67,
+      "unrealized_plpc": -2.38
     },
     {
       "symbol": "ZS",
@@ -101,10 +101,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 245.5,
-      "current_price": 246.46,
-      "market_value": 985.84,
-      "unrealized_pnl": -3.83,
-      "unrealized_plpc": -0.39
+      "current_price": 245.75,
+      "market_value": 983.0,
+      "unrealized_pnl": -0.99,
+      "unrealized_plpc": -0.1
     }
   ],
   "recent_trades": [
@@ -714,9 +714,9 @@
     },
     {
       "date": "2026-10-29",
-      "portfolio_value": 9830.86,
-      "daily_pnl": -107.52,
-      "cum_return": -1.69
+      "portfolio_value": 9832.88,
+      "daily_pnl": -105.5,
+      "cum_return": -1.67
     }
   ],
   "logs": [
