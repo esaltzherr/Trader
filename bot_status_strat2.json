@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-29 07:51:01 AM PT",
-  "timestamp_utc": "2026-10-29T14:51:01.610000+00:00",
+  "updated_at": "2026-10-29 07:52:33 AM PT",
+  "timestamp_utc": "2026-10-29T14:52:34.150605+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9821.39,
-    "cash": 7887.1,
-    "buying_power": 36964.42,
-    "total_pnl": -178.61,
-    "total_return_pct": "-1.79",
-    "today_pnl": -116.99,
-    "today_return_pct": "-1.18",
+    "portfolio_value": 9806.13,
+    "cash": 8843.79,
+    "buying_power": 38069.7,
+    "total_pnl": -193.87,
+    "total_return_pct": "-1.94",
+    "today_pnl": -132.25,
+    "today_return_pct": "-1.33",
     "last_equity": 9938.38,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 48,
+    "total_trades": 49,
     "wins": 25,
-    "losses": 23,
-    "win_rate": "52.1%",
-    "profit_factor": "0.39"
+    "losses": 24,
+    "win_rate": "51.0%",
+    "profit_factor": "0.36"
   },
   "open_positions": [
     {
@@ -57,21 +57,10 @@
       "side": "long",
       "qty": 3.7365,
       "entry_price": 265.78,
-      "current_price": 259.65,
-      "market_value": 970.18,
-      "unrealized_pnl": -22.89,
-      "unrealized_plpc": -2.31
-    },
-    {
-      "symbol": "PANW",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 2.5661,
-      "entry_price": 386.96,
-      "current_price": 375.71,
-      "market_value": 964.11,
-      "unrealized_pnl": -28.87,
-      "unrealized_plpc": -2.91
+      "current_price": 257.55,
+      "market_value": 962.34,
+      "unrealized_pnl": -30.74,
+      "unrealized_plpc": -3.09
     }
   ],
   "recent_trades": [
@@ -91,8 +80,8 @@
       "direction": "LONG",
       "shares": 2.5661,
       "price": 387.3,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 373.0625,
+      "realized_pnl": -35.662375,
       "date": "2026-10-29 07:00:23"
     },
     {
@@ -681,15 +670,12 @@
     },
     {
       "date": "2026-10-29",
-      "portfolio_value": 9821.39,
-      "daily_pnl": -116.99,
-      "cum_return": -1.79
+      "portfolio_value": 9806.13,
+      "daily_pnl": -132.25,
+      "cum_return": -1.94
     }
   ],
   "logs": [
-    "2026-10-28 07:41:26 PT  INFO      [CLOSED POSITION] CDNS 2.8835 shares @ $346.12 (Entry: $345.89, P&L: $+0.65) [RATCHET_BREAKEVEN]",
-    "2026-10-28 07:45:03 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
-    "2026-10-28 07:45:03 PT  INFO      [CLOSED POSITION] TEM 13.0 shares @ $76.23 (Entry: $74.58, P&L: $-21.52) [1H_SCHEDULED_EXIT]",
     "2026-10-28 07:45:03 PT  INFO      [CLOSED POSITION] ACN 4.0 shares @ $244.65 (Entry: $240.68, P&L: $-15.88) [1H_SCHEDULED_EXIT]",
     "2026-10-28 07:45:04 PT  INFO      [CLOSED POSITION] SOFI 58.0 shares @ $16.94 (Entry: $17.03, P&L: $+5.20) [1H_SCHEDULED_EXIT]",
     "2026-10-28 07:50:24 PT  INFO      GitHub Pages deployment cooldown: last push was 12.3s ago. Waiting 32.7s to prevent deployment lock collision...",
@@ -806,6 +792,9 @@
     "2026-10-29 07:45:00 PT  INFO      07:45 AM PT reached. Closing 15M Runner Fade positions (1-hour scheduled hold)...",
     "2026-10-29 07:45:00 PT  INFO      [CLOSED POSITION] ZS 4.0 shares @ $246.20 (Entry: $245.50, P&L: $-2.79) [1H_SCHEDULED_EXIT]",
     "2026-10-29 07:45:00 PT  INFO      [CLOSED POSITION] CVNA 14.0 shares @ $68.03 (Entry: $67.31, P&L: $-10.15) [1H_SCHEDULED_EXIT]",
-    "2026-10-29 07:45:00 PT  INFO      [CLOSED POSITION] KLAC 5.0 shares @ $170.65 (Entry: $167.05, P&L: $-18.02) [1H_SCHEDULED_EXIT]"
+    "2026-10-29 07:45:00 PT  INFO      [CLOSED POSITION] KLAC 5.0 shares @ $170.65 (Entry: $167.05, P&L: $-18.02) [1H_SCHEDULED_EXIT]",
+    "2026-10-29 07:51:01 PT  INFO      GitHub Pages deployment cooldown: last push was 14.5s ago. Waiting 30.5s to prevent deployment lock collision...",
+    "2026-10-29 07:52:13 PT  WARNING   [STOP LOSS] PANW Long hit -3.5% cut. Protecting capital!",
+    "2026-10-29 07:52:13 PT  INFO      [CLOSED POSITION] PANW 2.5661 shares @ $373.06 (Entry: $386.96, P&L: $-35.66) [STOP_LOSS]"
   ]
 }
