@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-30 11:53:08 AM PT",
-  "timestamp_utc": "2026-10-30T18:53:08.628985+00:00",
+  "updated_at": "2026-10-30 11:54:10 AM PT",
+  "timestamp_utc": "2026-10-30T18:54:10.544314+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9755.02,
+    "portfolio_value": 9756.85,
     "cash": 9758.87,
-    "buying_power": 34383.21,
-    "total_pnl": -244.98,
-    "total_return_pct": "-2.45",
-    "today_pnl": -46.66,
-    "today_return_pct": "-0.48",
+    "buying_power": 34389.66,
+    "total_pnl": -243.15,
+    "total_return_pct": "-2.43",
+    "today_pnl": -44.83,
+    "today_return_pct": "-0.46",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 249.72,
-      "market_value": 956.62,
-      "unrealized_pnl": -22.89,
-      "unrealized_plpc": -2.34
+      "current_price": 250.0,
+      "market_value": 957.67,
+      "unrealized_pnl": -21.83,
+      "unrealized_plpc": -2.23
     },
     {
       "symbol": "CL",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 95.15,
-      "current_price": 96.07,
-      "market_value": 960.7,
-      "unrealized_pnl": -9.22,
-      "unrealized_plpc": -0.97
+      "current_price": 96.02,
+      "market_value": 960.15,
+      "unrealized_pnl": -8.67,
+      "unrealized_plpc": -0.91
     },
     {
       "symbol": "INTU",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 341.08,
-      "market_value": 973.48,
-      "unrealized_pnl": -6.14,
-      "unrealized_plpc": -0.63
+      "current_price": 341.16,
+      "market_value": 973.7,
+      "unrealized_pnl": -5.91,
+      "unrealized_plpc": -0.6
     },
     {
       "symbol": "KVUE",
@@ -709,9 +709,9 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9755.02,
-      "daily_pnl": -46.66,
-      "cum_return": -2.45
+      "portfolio_value": 9756.85,
+      "daily_pnl": -44.83,
+      "cum_return": -2.43
     }
   ],
   "logs": [
