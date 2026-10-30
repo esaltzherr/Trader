@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 09:30:49 PM PT",
-  "timestamp_utc": "2026-10-30T04:30:50.788654+00:00",
+  "updated_at": "2026-10-29 10:00:52 PM PT",
+  "timestamp_utc": "2026-10-30T05:00:53.492394+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -684,7 +684,6 @@
     }
   ],
   "logs": [
-    "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 4137 shares of NU @ ~$12.09 (Order ID: ebf23aa5-0327-42ff-8312-54f78bd81c30)",
     "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 145 shares of CDNS @ ~$343.98 (Order ID: be8a5cc6-d647-4a92-8e4f-7c684613aab3)",
     "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 653 shares of XYZ @ ~$76.47 (Order ID: 8783e004-5b63-4c80-bc00-2227b0ebf6c0)",
     "2026-10-29 07:04:08 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG NU @ $12.07 | P&L: -41.37 (-0.08%) | Reason: Breakeven Floor Protected",
@@ -803,6 +802,7 @@
     "2026-10-29 19:30:43 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 10.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 20:00:45 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 9.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 20:30:47 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 9.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 21:00:49 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 8.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 21:00:49 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 8.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 21:30:52 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
