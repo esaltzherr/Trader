@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30 04:01:20 AM PT",
-  "timestamp_utc": "2026-10-30T11:01:21.402377+00:00",
+  "updated_at": "2026-10-30 04:31:23 AM PT",
+  "timestamp_utc": "2026-10-30T11:31:23.881583+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -690,7 +690,6 @@
     }
   ],
   "logs": [
-    "5728.exchange",
     "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
     "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
     "5778.exchange",
@@ -809,6 +808,7 @@
     "2026-10-30 02:01:13 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 3.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-30 02:31:16 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 3.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-30 03:01:18 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 2.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-30 03:31:20 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 2.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-30 03:31:20 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 2.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-30 04:01:23 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 1.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
