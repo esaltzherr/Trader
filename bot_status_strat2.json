@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-30 07:37:57 AM PT",
-  "timestamp_utc": "2026-10-30T14:37:57.371548+00:00",
+  "updated_at": "2026-10-30 07:38:59 AM PT",
+  "timestamp_utc": "2026-10-30T14:38:59.735294+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9793.18,
-    "cash": 12455.72,
-    "buying_power": 31317.48,
-    "total_pnl": -206.82,
-    "total_return_pct": "-2.07",
-    "today_pnl": -8.5,
-    "today_return_pct": "-0.09",
+    "portfolio_value": 9784.71,
+    "cash": 10676.86,
+    "buying_power": 33408.82,
+    "total_pnl": -215.29,
+    "total_return_pct": "-2.15",
+    "today_pnl": -16.97,
+    "today_return_pct": "-0.17",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -44,11 +44,11 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
-    "wins": 21,
-    "losses": 22,
-    "win_rate": "48.8%",
-    "profit_factor": "0.33"
+    "total_trades": 45,
+    "wins": 22,
+    "losses": 23,
+    "win_rate": "48.9%",
+    "profit_factor": "0.38"
   },
   "open_positions": [
     {
@@ -57,21 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 254.01,
-      "market_value": 973.06,
-      "unrealized_pnl": -6.45,
-      "unrealized_plpc": -0.66
-    },
-    {
-      "symbol": "BE",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 4.0,
-      "entry_price": 211.75,
-      "current_price": 206.11,
-      "market_value": 824.43,
-      "unrealized_pnl": 22.57,
-      "unrealized_plpc": 2.66
+      "current_price": 254.06,
+      "market_value": 973.25,
+      "unrealized_pnl": -6.26,
+      "unrealized_plpc": -0.64
     },
     {
       "symbol": "CL",
@@ -79,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 95.15,
-      "current_price": 95.39,
-      "market_value": 953.95,
-      "unrealized_pnl": -2.47,
-      "unrealized_plpc": -0.26
+      "current_price": 95.44,
+      "market_value": 954.35,
+      "unrealized_pnl": -2.87,
+      "unrealized_plpc": -0.3
     },
     {
       "symbol": "INTU",
@@ -90,10 +79,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 339.4,
-      "market_value": 968.7,
-      "unrealized_pnl": -10.92,
-      "unrealized_plpc": -1.11
+      "current_price": 339.23,
+      "market_value": 968.18,
+      "unrealized_pnl": -11.43,
+      "unrealized_plpc": -1.17
     },
     {
       "symbol": "KVUE",
@@ -101,10 +90,10 @@
       "side": "short",
       "qty": 50.0,
       "entry_price": 19.42,
-      "current_price": 19.43,
-      "market_value": 971.75,
-      "unrealized_pnl": -0.75,
-      "unrealized_plpc": -0.08
+      "current_price": 19.41,
+      "market_value": 970.5,
+      "unrealized_pnl": 0.5,
+      "unrealized_plpc": 0.05
     },
     {
       "symbol": "REGN",
@@ -112,21 +101,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 928.62,
-      "current_price": 909.36,
-      "market_value": 909.36,
-      "unrealized_pnl": 19.27,
-      "unrealized_plpc": 2.08
-    },
-    {
-      "symbol": "VRT",
-      "direction": "SHORT",
-      "side": "short",
-      "qty": 4.0,
-      "entry_price": 236.86,
-      "current_price": 236.2,
-      "market_value": 944.8,
-      "unrealized_pnl": 2.64,
-      "unrealized_plpc": 0.28
+      "current_price": 908.73,
+      "market_value": 908.73,
+      "unrealized_pnl": 19.89,
+      "unrealized_plpc": 2.14
     }
   ],
   "recent_trades": [
@@ -186,8 +164,8 @@
       "direction": "SHORT",
       "shares": 4.0,
       "price": 238.635,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 237.11,
+      "realized_pnl": -1.0,
       "date": "2026-10-30 06:45:18"
     },
     {
@@ -196,8 +174,8 @@
       "direction": "SHORT",
       "shares": 4.0,
       "price": 211.24,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 207.25,
+      "realized_pnl": 18.0,
       "date": "2026-10-30 06:45:17"
     },
     {
@@ -742,16 +720,12 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9793.18,
-      "daily_pnl": -8.5,
-      "cum_return": -2.07
+      "portfolio_value": 9784.71,
+      "daily_pnl": -16.97,
+      "cum_return": -2.15
     }
   ],
   "logs": [
-    "2026-10-29 07:52:13 PT  WARNING   [STOP LOSS] PANW Long hit -3.5% cut. Protecting capital!",
-    "2026-10-29 07:52:13 PT  INFO      [CLOSED POSITION] PANW 2.5661 shares @ $373.06 (Entry: $386.96, P&L: $-35.66) [STOP_LOSS]",
-    "2026-10-29 07:52:34 PT  INFO      GitHub Pages deployment cooldown: last push was 11.7s ago. Waiting 33.3s to prevent deployment lock collision...",
-    "2026-10-29 07:53:18 PT  WARNING   [STOP LOSS] CRWD Long hit -3.5% cut. Protecting capital!",
     "2026-10-29 07:53:18 PT  INFO      [CLOSED POSITION] CRWD 3.7365 shares @ $256.41 (Entry: $265.78, P&L: $-34.99) [STOP_LOSS]",
     "2026-10-29 10:15:49 PT  INFO      GitHub Pages deployment cooldown: last push was 14.5s ago. Waiting 30.5s to prevent deployment lock collision...",
     "2026-10-29 11:02:51 PT  INFO      GitHub Pages deployment cooldown: last push was 14.1s ago. Waiting 30.9s to prevent deployment lock collision...",
@@ -867,6 +841,10 @@
     "2026-10-30 07:18:11 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
     "2026-10-30 07:20:15 PT  INFO      [RATCHET TIER 1] DELL Short peaked at +1.5%, crossed locked floor. Securing gains!",
     "2026-10-30 07:20:15 PT  INFO      [CLOSED POSITION] DELL 2.0 shares @ $433.79 (Entry: $436.01, P&L: $+4.44) [RATCHET_TIER1]",
-    "2026-10-30 07:21:49 PT  INFO      GitHub Pages deployment cooldown: last push was 13.1s ago. Waiting 31.9s to prevent deployment lock collision..."
+    "2026-10-30 07:21:49 PT  INFO      GitHub Pages deployment cooldown: last push was 13.1s ago. Waiting 31.9s to prevent deployment lock collision...",
+    "2026-10-30 07:38:38 PT  INFO      [RATCHET TIER 3] BE Short peaked at +3.2%, crossed trail px $207.08. Securing gains!",
+    "2026-10-30 07:38:39 PT  INFO      [CLOSED POSITION] BE 4.0 shares @ $207.25 (Entry: $211.75, P&L: $+18.00) [RATCHET_TIER3]",
+    "2026-10-30 07:38:39 PT  INFO      [RATCHET BREAKEVEN] VRT Short hit breakeven stop. Zero loss exit!",
+    "2026-10-30 07:38:39 PT  INFO      [CLOSED POSITION] VRT 4.0 shares @ $237.11 (Entry: $236.86, P&L: $-1.00) [RATCHET_BREAKEVEN]"
   ]
 }
