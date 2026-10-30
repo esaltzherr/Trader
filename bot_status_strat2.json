@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-30 10:25:45 AM PT",
-  "timestamp_utc": "2026-10-30T17:25:46.050863+00:00",
+  "updated_at": "2026-10-30 10:26:47 AM PT",
+  "timestamp_utc": "2026-10-30T17:26:48.061406+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9750.9,
+    "portfolio_value": 9751.06,
     "cash": 9758.87,
-    "buying_power": 34349.97,
-    "total_pnl": -249.1,
+    "buying_power": 34351.75,
+    "total_pnl": -248.94,
     "total_return_pct": "-2.49",
-    "today_pnl": -50.78,
+    "today_pnl": -50.62,
     "today_return_pct": "-0.52",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 250.29,
-      "market_value": 958.79,
-      "unrealized_pnl": -20.72,
-      "unrealized_plpc": -2.12
+      "current_price": 250.21,
+      "market_value": 958.48,
+      "unrealized_pnl": -21.03,
+      "unrealized_plpc": -2.15
     },
     {
       "symbol": "CL",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 95.15,
-      "current_price": 96.5,
-      "market_value": 965.0,
-      "unrealized_pnl": -13.52,
-      "unrealized_plpc": -1.42
+      "current_price": 96.47,
+      "market_value": 964.69,
+      "unrealized_pnl": -13.21,
+      "unrealized_plpc": -1.39
     },
     {
       "symbol": "INTU",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 50.0,
       "entry_price": 19.42,
-      "current_price": 19.56,
-      "market_value": 978.0,
-      "unrealized_pnl": -7.0,
-      "unrealized_plpc": -0.72
+      "current_price": 19.55,
+      "market_value": 977.75,
+      "unrealized_pnl": -6.75,
+      "unrealized_plpc": -0.69
     }
   ],
   "recent_trades": [
@@ -709,8 +709,8 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9750.9,
-      "daily_pnl": -50.78,
+      "portfolio_value": 9751.06,
+      "daily_pnl": -50.62,
       "cum_return": -2.49
     }
   ],
