@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 05:00:28 PM PT",
-  "timestamp_utc": "2026-10-30T00:00:29.043247+00:00",
+  "updated_at": "2026-10-29 05:30:30 PM PT",
+  "timestamp_utc": "2026-10-30T00:30:31.977847+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -684,7 +684,6 @@
     }
   ],
   "logs": [
-    "2026-10-29 06:40:24 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 178 shares of GOOG @ ~$279.71 (Order ID: bbde9d8d-29cd-4965-a301-5d89a2991e4e)",
     "2026-10-29 06:40:25 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 225 shares of MRVL @ ~$221.64 (Order ID: 1e2628ca-5024-43e1-a4d1-e33f3cd157c3)",
     "2026-10-29 06:40:25 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 77 shares of CAT @ ~$648.95 (Order ID: cb531fd9-4dce-4bfe-9b78-c0bebd003f94)",
     "2026-10-29 06:40:25 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 292 shares of NBIS @ ~$171.18 (Order ID: a0d96f53-0fa5-428e-83e0-921efe62f384)",
@@ -803,6 +802,7 @@
     "2026-10-29 15:00:20 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 14.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 15:30:23 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 14.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 16:00:25 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 13.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 16:30:28 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 13.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 16:30:28 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 13.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 17:00:30 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 12.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
