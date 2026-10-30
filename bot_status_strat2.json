@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-30 09:28:39 AM PT",
-  "timestamp_utc": "2026-10-30T16:28:40.023643+00:00",
+  "updated_at": "2026-10-30 09:29:41 AM PT",
+  "timestamp_utc": "2026-10-30T16:29:41.912766+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9764.76,
+    "portfolio_value": 9765.07,
     "cash": 9758.87,
-    "buying_power": 34400.78,
-    "total_pnl": -235.24,
+    "buying_power": 34399.85,
+    "total_pnl": -234.93,
     "total_return_pct": "-2.35",
-    "today_pnl": -36.92,
-    "today_return_pct": "-0.38",
+    "today_pnl": -36.61,
+    "today_return_pct": "-0.37",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 251.97,
-      "market_value": 965.22,
-      "unrealized_pnl": -14.29,
-      "unrealized_plpc": -1.46
+      "current_price": 252.15,
+      "market_value": 965.91,
+      "unrealized_pnl": -13.6,
+      "unrealized_plpc": -1.39
     },
     {
       "symbol": "CL",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 95.15,
-      "current_price": 96.2,
-      "market_value": 962.0,
-      "unrealized_pnl": -10.52,
-      "unrealized_plpc": -1.11
+      "current_price": 96.25,
+      "market_value": 962.5,
+      "unrealized_pnl": -11.02,
+      "unrealized_plpc": -1.16
     },
     {
       "symbol": "INTU",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 342.9,
-      "market_value": 978.67,
-      "unrealized_pnl": -0.94,
-      "unrealized_plpc": -0.1
+      "current_price": 343.03,
+      "market_value": 979.04,
+      "unrealized_pnl": -0.57,
+      "unrealized_plpc": -0.06
     },
     {
       "symbol": "KVUE",
@@ -91,9 +91,9 @@
       "qty": 50.0,
       "entry_price": 19.42,
       "current_price": 19.52,
-      "market_value": 976.0,
-      "unrealized_pnl": -5.0,
-      "unrealized_plpc": -0.52
+      "market_value": 976.25,
+      "unrealized_pnl": -5.25,
+      "unrealized_plpc": -0.54
     }
   ],
   "recent_trades": [
@@ -709,8 +709,8 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9764.76,
-      "daily_pnl": -36.92,
+      "portfolio_value": 9765.07,
+      "daily_pnl": -36.61,
       "cum_return": -2.35
     }
   ],
