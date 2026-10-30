@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 08:30:45 PM PT",
-  "timestamp_utc": "2026-10-30T03:30:45.872870+00:00",
+  "updated_at": "2026-10-29 09:00:47 PM PT",
+  "timestamp_utc": "2026-10-30T04:00:48.166460+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -684,7 +684,6 @@
     }
   ],
   "logs": [
-    "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 105 shares of HCA @ ~$476.06 (Order ID: 210c09a7-3613-4bd0-9923-55955dcb680d)",
     "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 577 shares of CRH @ ~$86.55 (Order ID: d732025d-4c28-428b-a5d4-5294248a1453)",
     "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 4137 shares of NU @ ~$12.09 (Order ID: ebf23aa5-0327-42ff-8312-54f78bd81c30)",
     "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 145 shares of CDNS @ ~$343.98 (Order ID: be8a5cc6-d647-4a92-8e4f-7c684613aab3)",
@@ -803,6 +802,7 @@
     "2026-10-29 18:30:38 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 11.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 19:00:40 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 10.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 19:30:43 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 10.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 20:00:45 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 9.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 20:00:45 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 9.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 20:30:47 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 9.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
