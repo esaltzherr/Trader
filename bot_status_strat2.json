@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-30 10:28:52 AM PT",
-  "timestamp_utc": "2026-10-30T17:28:52.298952+00:00",
+  "updated_at": "2026-10-30 10:29:54 AM PT",
+  "timestamp_utc": "2026-10-30T17:29:54.400357+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9751.88,
+    "portfolio_value": 9751.85,
     "cash": 9758.87,
-    "buying_power": 34352.7,
-    "total_pnl": -248.12,
+    "buying_power": 34352.03,
+    "total_pnl": -248.15,
     "total_return_pct": "-2.48",
-    "today_pnl": -49.8,
+    "today_pnl": -49.83,
     "today_return_pct": "-0.51",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 250.47,
-      "market_value": 959.48,
-      "unrealized_pnl": -20.03,
-      "unrealized_plpc": -2.04
+      "current_price": 250.38,
+      "market_value": 959.13,
+      "unrealized_pnl": -20.38,
+      "unrealized_plpc": -2.08
     },
     {
       "symbol": "CL",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 342.15,
-      "market_value": 976.53,
-      "unrealized_pnl": -3.08,
-      "unrealized_plpc": -0.32
+      "current_price": 342.35,
+      "market_value": 977.1,
+      "unrealized_pnl": -2.51,
+      "unrealized_plpc": -0.26
     },
     {
       "symbol": "KVUE",
@@ -91,9 +91,9 @@
       "qty": 50.0,
       "entry_price": 19.42,
       "current_price": 19.57,
-      "market_value": 978.25,
-      "unrealized_pnl": -7.25,
-      "unrealized_plpc": -0.75
+      "market_value": 978.5,
+      "unrealized_pnl": -7.5,
+      "unrealized_plpc": -0.77
     }
   ],
   "recent_trades": [
@@ -709,8 +709,8 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9751.88,
-      "daily_pnl": -49.8,
+      "portfolio_value": 9751.85,
+      "daily_pnl": -49.83,
       "cum_return": -2.48
     }
   ],
