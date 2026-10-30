@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-30 07:18:11 AM PT",
-  "timestamp_utc": "2026-10-30T14:18:11.403393+00:00",
+  "updated_at": "2026-10-30 07:19:43 AM PT",
+  "timestamp_utc": "2026-10-30T14:19:44.051482+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9796.04,
+    "portfolio_value": 9790.23,
     "cash": 13323.96,
-    "buying_power": 30266.95,
-    "total_pnl": -203.96,
-    "total_return_pct": "-2.04",
-    "today_pnl": -5.64,
-    "today_return_pct": "-0.06",
+    "buying_power": 30248.21,
+    "total_pnl": -209.77,
+    "total_return_pct": "-2.10",
+    "today_pnl": -11.45,
+    "today_return_pct": "-0.12",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 254.79,
-      "market_value": 976.04,
-      "unrealized_pnl": -3.47,
-      "unrealized_plpc": -0.35
+      "current_price": 254.37,
+      "market_value": 974.42,
+      "unrealized_pnl": -5.09,
+      "unrealized_plpc": -0.52
     },
     {
       "symbol": "BE",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 211.75,
-      "current_price": 206.5,
-      "market_value": 826.0,
-      "unrealized_pnl": 21.0,
-      "unrealized_plpc": 2.48
+      "current_price": 206.63,
+      "market_value": 826.52,
+      "unrealized_pnl": 20.48,
+      "unrealized_plpc": 2.42
     },
     {
       "symbol": "CL",
@@ -79,10 +79,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 95.15,
-      "current_price": 95.48,
-      "market_value": 954.8,
-      "unrealized_pnl": -3.32,
-      "unrealized_plpc": -0.35
+      "current_price": 95.47,
+      "market_value": 954.65,
+      "unrealized_pnl": -3.17,
+      "unrealized_plpc": -0.33
     },
     {
       "symbol": "DELL",
@@ -90,10 +90,10 @@
       "side": "short",
       "qty": 2.0,
       "entry_price": 436.01,
-      "current_price": 431.53,
-      "market_value": 863.06,
-      "unrealized_pnl": 8.96,
-      "unrealized_plpc": 1.03
+      "current_price": 432.96,
+      "market_value": 865.91,
+      "unrealized_pnl": 6.11,
+      "unrealized_plpc": 0.7
     },
     {
       "symbol": "INTU",
@@ -101,10 +101,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 341.79,
-      "market_value": 975.5,
-      "unrealized_pnl": -4.11,
-      "unrealized_plpc": -0.42
+      "current_price": 340.69,
+      "market_value": 972.35,
+      "unrealized_pnl": -7.26,
+      "unrealized_plpc": -0.74
     },
     {
       "symbol": "KVUE",
@@ -112,10 +112,10 @@
       "side": "short",
       "qty": 50.0,
       "entry_price": 19.42,
-      "current_price": 19.45,
-      "market_value": 972.75,
-      "unrealized_pnl": -1.75,
-      "unrealized_plpc": -0.18
+      "current_price": 19.44,
+      "market_value": 972.0,
+      "unrealized_pnl": -1.0,
+      "unrealized_plpc": -0.1
     },
     {
       "symbol": "REGN",
@@ -123,10 +123,10 @@
       "side": "short",
       "qty": 1.0,
       "entry_price": 928.62,
-      "current_price": 920.41,
-      "market_value": 920.41,
-      "unrealized_pnl": 8.21,
-      "unrealized_plpc": 0.88
+      "current_price": 916.97,
+      "market_value": 916.97,
+      "unrealized_pnl": 11.65,
+      "unrealized_plpc": 1.26
     },
     {
       "symbol": "VRT",
@@ -134,10 +134,10 @@
       "side": "short",
       "qty": 4.0,
       "entry_price": 236.86,
-      "current_price": 235.61,
-      "market_value": 942.44,
-      "unrealized_pnl": 5.0,
-      "unrealized_plpc": 0.53
+      "current_price": 236.11,
+      "market_value": 944.44,
+      "unrealized_pnl": 3.0,
+      "unrealized_plpc": 0.32
     }
   ],
   "recent_trades": [
@@ -753,13 +753,12 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9796.04,
-      "daily_pnl": -5.64,
-      "cum_return": -2.04
+      "portfolio_value": 9790.23,
+      "daily_pnl": -11.45,
+      "cum_return": -2.1
     }
   ],
   "logs": [
-    "2026-10-29 07:45:00 PT  INFO      [CLOSED POSITION] ZS 4.0 shares @ $246.20 (Entry: $245.50, P&L: $-2.79) [1H_SCHEDULED_EXIT]",
     "2026-10-29 07:45:00 PT  INFO      [CLOSED POSITION] CVNA 14.0 shares @ $68.03 (Entry: $67.31, P&L: $-10.15) [1H_SCHEDULED_EXIT]",
     "2026-10-29 07:45:00 PT  INFO      [CLOSED POSITION] KLAC 5.0 shares @ $170.65 (Entry: $167.05, P&L: $-18.02) [1H_SCHEDULED_EXIT]",
     "2026-10-29 07:51:01 PT  INFO      GitHub Pages deployment cooldown: last push was 14.5s ago. Waiting 30.5s to prevent deployment lock collision...",
@@ -878,6 +877,7 @@
     "2026-10-30 07:00:20 PT  INFO      GitHub Pages deployment cooldown: last push was 0.4s ago. Waiting 44.6s to prevent deployment lock collision...",
     "2026-10-30 07:08:18 PT  INFO      GitHub Pages deployment cooldown: last push was 10.7s ago. Waiting 34.3s to prevent deployment lock collision...",
     "2026-10-30 07:12:20 PT  WARNING   [STOP LOSS] MPWR Long hit -3.5% cut. Protecting capital!",
-    "2026-10-30 07:12:20 PT  INFO      [CLOSED POSITION] MPWR 0.7779 shares @ $1213.41 (Entry: $1257.98, P&L: $-34.67) [STOP_LOSS]"
+    "2026-10-30 07:12:20 PT  INFO      [CLOSED POSITION] MPWR 0.7779 shares @ $1213.41 (Entry: $1257.98, P&L: $-34.67) [STOP_LOSS]",
+    "2026-10-30 07:18:11 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision..."
   ]
 }
