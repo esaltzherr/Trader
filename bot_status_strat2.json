@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30 05:03:21 AM PT",
-  "timestamp_utc": "2026-10-30T12:03:21.905439+00:00",
+  "updated_at": "2026-10-30 05:30:00 AM PT",
+  "timestamp_utc": "2026-10-30T12:30:00.539879+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -670,8 +670,6 @@
     }
   ],
   "logs": [
-    "2026-10-29 06:45:00 PT  INFO      ============================================================",
-    "2026-10-29 06:45:00 PT  INFO       EXECUTING STRATEGY 3A: 15-MINUTE RUNNER FADE (06:45 AM PT / 09:45 ET)",
     "2026-10-29 06:45:00 PT  INFO       Scanning for overextended morning spikes (>= +1.0% to +1.5%)...",
     "2026-10-29 06:45:00 PT  INFO      ============================================================",
     "2026-10-29 06:45:22 PT  INFO      Selected 5 Morning Runners to SHORT:",
@@ -789,6 +787,8 @@
     "2026-10-30 04:03:16 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-30 04:03:18 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT (09:30 ET). Sleeping 1.4h until pre-market prep at 05:30 AM PT...",
     "2026-10-30 04:33:19 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
-    "2026-10-30 04:33:21 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT (09:30 ET). Sleeping 0.9h until pre-market prep at 05:30 AM PT..."
+    "2026-10-30 04:33:21 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT (09:30 ET). Sleeping 0.9h until pre-market prep at 05:30 AM PT...",
+    "2026-10-30 05:03:22 PT  INFO      GitHub Pages deployment cooldown: last push was 44.0s ago. Waiting 1.0s to prevent deployment lock collision...",
+    "2026-10-30 05:03:24 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT (09:30 ET). Sleeping 0.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
