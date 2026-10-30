@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-30 08:57:40 AM PT",
-  "timestamp_utc": "2026-10-30T15:57:40.262637+00:00",
+  "updated_at": "2026-10-30 08:58:41 AM PT",
+  "timestamp_utc": "2026-10-30T15:58:42.147767+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9773.54,
+    "portfolio_value": 9776.51,
     "cash": 9758.87,
-    "buying_power": 34441.93,
-    "total_pnl": -226.46,
-    "total_return_pct": "-2.26",
-    "today_pnl": -28.14,
-    "today_return_pct": "-0.29",
+    "buying_power": 34450.21,
+    "total_pnl": -223.49,
+    "total_return_pct": "-2.23",
+    "today_pnl": -25.17,
+    "today_return_pct": "-0.26",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 252.63,
-      "market_value": 967.75,
-      "unrealized_pnl": -11.76,
-      "unrealized_plpc": -1.2
+      "current_price": 252.96,
+      "market_value": 969.01,
+      "unrealized_pnl": -10.5,
+      "unrealized_plpc": -1.07
     },
     {
       "symbol": "CL",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 342.67,
-      "market_value": 978.01,
-      "unrealized_pnl": -1.6,
-      "unrealized_plpc": -0.16
+      "current_price": 343.25,
+      "market_value": 979.68,
+      "unrealized_pnl": 0.07,
+      "unrealized_plpc": 0.01
     },
     {
       "symbol": "KVUE",
@@ -709,9 +709,9 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9773.54,
-      "daily_pnl": -28.14,
-      "cum_return": -2.26
+      "portfolio_value": 9776.51,
+      "daily_pnl": -25.17,
+      "cum_return": -2.23
     }
   ],
   "logs": [
