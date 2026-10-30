@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 11:30:59 PM PT",
-  "timestamp_utc": "2026-10-30T06:31:00.680509+00:00",
+  "updated_at": "2026-10-30 12:01:02 AM PT",
+  "timestamp_utc": "2026-10-30T07:01:03.066108+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -681,10 +681,15 @@
       "portfolio_value": 999690.07,
       "daily_pnl": 1691.88,
       "cum_return": -0.03
+    },
+    {
+      "date": "2026-10-30",
+      "portfolio_value": 999690.07,
+      "daily_pnl": 1691.88,
+      "cum_return": -0.03
     }
   ],
   "logs": [
-    "2026-10-29 07:05:10 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
     "2026-10-29 07:05:10 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
     "2026-10-29 07:05:11 PT  WARNING   Could not fetch shortable assets list: 20 validation errors for list[Asset]",
     "1638.exchange",
@@ -803,6 +808,7 @@
     "2026-10-29 21:30:52 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 22:00:55 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 22:30:57 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 23:00:59 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 23:00:59 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 23:31:02 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 6.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
