@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 10:30:55 PM PT",
-  "timestamp_utc": "2026-10-30T05:30:55.903718+00:00",
+  "updated_at": "2026-10-29 11:00:57 PM PT",
+  "timestamp_utc": "2026-10-30T06:00:58.259895+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -684,7 +684,6 @@
     }
   ],
   "logs": [
-    "2026-10-29 06:50:16 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 653 shares of XYZ @ ~$76.47 (Order ID: 8783e004-5b63-4c80-bc00-2227b0ebf6c0)",
     "2026-10-29 07:04:08 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG NU @ $12.07 | P&L: -41.37 (-0.08%) | Reason: Breakeven Floor Protected",
     "2026-10-29 07:05:10 PT  INFO      >>> TIME TRIGGER: 07:05 AM PT -> Executing Engine 4 (Parabolic Blowoff Fade Short)...",
     "2026-10-29 07:05:10 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
@@ -803,6 +802,7 @@
     "2026-10-29 20:30:47 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 9.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 21:00:49 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 8.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 21:30:52 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 8.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 22:00:55 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 22:00:55 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 22:30:57 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 7.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
