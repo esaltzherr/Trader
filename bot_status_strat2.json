@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-30 11:25:46 AM PT",
-  "timestamp_utc": "2026-10-30T18:25:46.527840+00:00",
+  "updated_at": "2026-10-30 11:27:18 AM PT",
+  "timestamp_utc": "2026-10-30T18:27:19.079269+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9749.74,
+    "portfolio_value": 9751.13,
     "cash": 9758.87,
-    "buying_power": 34361.13,
-    "total_pnl": -250.26,
-    "total_return_pct": "-2.50",
-    "today_pnl": -51.94,
-    "today_return_pct": "-0.53",
+    "buying_power": 34364.63,
+    "total_pnl": -248.87,
+    "total_return_pct": "-2.49",
+    "today_pnl": -50.55,
+    "today_return_pct": "-0.52",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
     "status": "ACTIVE"
@@ -57,10 +57,10 @@
       "side": "long",
       "qty": 3.8307,
       "entry_price": 255.7,
-      "current_price": 249.61,
-      "market_value": 956.18,
-      "unrealized_pnl": -23.33,
-      "unrealized_plpc": -2.38
+      "current_price": 249.79,
+      "market_value": 956.87,
+      "unrealized_pnl": -22.64,
+      "unrealized_plpc": -2.31
     },
     {
       "symbol": "CL",
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 95.15,
-      "current_price": 96.12,
-      "market_value": 961.25,
-      "unrealized_pnl": -9.77,
-      "unrealized_plpc": -1.03
+      "current_price": 96.14,
+      "market_value": 961.4,
+      "unrealized_pnl": -9.92,
+      "unrealized_plpc": -1.04
     },
     {
       "symbol": "INTU",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 340.45,
-      "market_value": 971.69,
-      "unrealized_pnl": -7.92,
-      "unrealized_plpc": -0.81
+      "current_price": 340.75,
+      "market_value": 972.53,
+      "unrealized_pnl": -7.08,
+      "unrealized_plpc": -0.72
     },
     {
       "symbol": "KVUE",
@@ -709,13 +709,12 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9749.74,
-      "daily_pnl": -51.94,
-      "cum_return": -2.5
+      "portfolio_value": 9751.13,
+      "daily_pnl": -50.55,
+      "cum_return": -2.49
     }
   ],
   "logs": [
-    "2026-10-29 12:50:00 PT  INFO      10.0 min to close. Triggering scheduled EOD liquidation...",
     "2026-10-29 12:50:00 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
     "2026-10-29 12:50:03 PT  INFO      GitHub Pages deployment cooldown: last push was 13.5s ago. Waiting 31.5s to prevent deployment lock collision...",
     "2026-10-29 12:50:36 PT  INFO      All positions closed and recorded successfully. 100% cash verified.",
@@ -834,6 +833,7 @@
     "2026-10-30 07:45:02 PT  INFO      [CLOSED POSITION] REGN 1.0 shares @ $917.08 (Entry: $928.62, P&L: $+11.54) [1H_SCHEDULED_EXIT]",
     "2026-10-30 07:49:20 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
     "2026-10-30 09:47:16 PT  INFO      GitHub Pages deployment cooldown: last push was 11.8s ago. Waiting 33.2s to prevent deployment lock collision...",
-    "2026-10-30 10:00:13 PT  INFO      GitHub Pages deployment cooldown: last push was 2.5s ago. Waiting 42.5s to prevent deployment lock collision..."
+    "2026-10-30 10:00:13 PT  INFO      GitHub Pages deployment cooldown: last push was 2.5s ago. Waiting 42.5s to prevent deployment lock collision...",
+    "2026-10-30 11:25:46 PT  INFO      GitHub Pages deployment cooldown: last push was 14.3s ago. Waiting 30.7s to prevent deployment lock collision..."
   ]
 }
