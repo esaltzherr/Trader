@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-10-30 10:00:09 AM PT",
-  "timestamp_utc": "2026-10-30T17:00:09.609606+00:00",
+  "updated_at": "2026-10-30 11:25:10 AM PT",
+  "timestamp_utc": "2026-10-30T18:25:10.895288+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 993117.2,
-    "cash": 545850.59,
-    "buying_power": 3342704.55,
-    "total_pnl": -6882.8,
-    "total_return_pct": "-0.69",
-    "today_pnl": -6557.35,
-    "today_return_pct": "-0.66",
+    "portfolio_value": 990747.57,
+    "cash": 597510.44,
+    "buying_power": 3491105.72,
+    "total_pnl": -9252.43,
+    "total_return_pct": "-0.93",
+    "today_pnl": -8926.98,
+    "today_return_pct": "-0.89",
     "last_equity": 999674.55,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 43,
+    "total_trades": 44,
     "wins": 19,
-    "losses": 24,
-    "win_rate": "44.2%",
-    "profit_factor": "1.49"
+    "losses": 25,
+    "win_rate": "43.2%",
+    "profit_factor": "1.34"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 245.0,
       "entry_price": 253.85,
-      "current_price": 259.0,
-      "market_value": 63455.0,
-      "unrealized_pnl": 1260.87,
-      "unrealized_plpc": 2.03
+      "current_price": 258.15,
+      "market_value": 63246.75,
+      "unrealized_pnl": 1052.62,
+      "unrealized_plpc": 1.69
     },
     {
       "symbol": "AMGN",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 131.0,
       "entry_price": 474.06,
-      "current_price": 470.77,
-      "market_value": 61671.53,
-      "unrealized_pnl": -430.33,
-      "unrealized_plpc": -0.69
+      "current_price": 468.88,
+      "market_value": 61422.62,
+      "unrealized_pnl": -679.24,
+      "unrealized_plpc": -1.09
     },
     {
       "symbol": "ARM",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 241.0,
       "entry_price": 206.88,
-      "current_price": 202.89,
-      "market_value": 48896.49,
-      "unrealized_pnl": -960.81,
-      "unrealized_plpc": -1.93
+      "current_price": 199.89,
+      "market_value": 48173.49,
+      "unrealized_pnl": -1683.81,
+      "unrealized_plpc": -3.38
     },
     {
       "symbol": "COIN",
@@ -110,10 +110,10 @@
       "side": "long",
       "qty": 353.0,
       "entry_price": 141.98,
-      "current_price": 139.63,
-      "market_value": 49291.15,
-      "unrealized_pnl": -828.24,
-      "unrealized_plpc": -1.65
+      "current_price": 138.19,
+      "market_value": 48782.83,
+      "unrealized_pnl": -1336.56,
+      "unrealized_plpc": -2.67
     },
     {
       "symbol": "CRCL",
@@ -121,10 +121,10 @@
       "side": "long",
       "qty": 687.0,
       "entry_price": 72.66,
-      "current_price": 72.15,
-      "market_value": 49567.05,
-      "unrealized_pnl": -350.37,
-      "unrealized_plpc": -0.7
+      "current_price": 71.54,
+      "market_value": 49147.98,
+      "unrealized_pnl": -769.44,
+      "unrealized_plpc": -1.54
     },
     {
       "symbol": "LLY",
@@ -132,10 +132,10 @@
       "side": "long",
       "qty": 43.0,
       "entry_price": 1433.97,
-      "current_price": 1423.42,
-      "market_value": 61207.06,
-      "unrealized_pnl": -453.65,
-      "unrealized_plpc": -0.74
+      "current_price": 1422.99,
+      "market_value": 61188.57,
+      "unrealized_pnl": -472.14,
+      "unrealized_plpc": -0.77
     },
     {
       "symbol": "LMT",
@@ -143,21 +143,10 @@
       "side": "long",
       "qty": 96.0,
       "entry_price": 654.32,
-      "current_price": 640.49,
-      "market_value": 61487.04,
-      "unrealized_pnl": -1327.68,
-      "unrealized_plpc": -2.11
-    },
-    {
-      "symbol": "MSTR",
-      "direction": "LONG",
-      "side": "long",
-      "qty": 393.0,
-      "entry_price": 127.35,
-      "current_price": 131.58,
-      "market_value": 51709.96,
-      "unrealized_pnl": 1661.41,
-      "unrealized_plpc": 3.32
+      "current_price": 638.28,
+      "market_value": 61274.88,
+      "unrealized_pnl": -1539.84,
+      "unrealized_plpc": -2.45
     }
   ],
   "recent_trades": [
@@ -237,8 +226,8 @@
       "direction": "LONG",
       "shares": 241.0,
       "price": 207.16,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 199.9,
+      "realized_pnl": -1749.66,
       "date": "2026-10-30 06:40:30"
     },
     {
@@ -773,13 +762,12 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 993117.2,
-      "daily_pnl": -6557.35,
-      "cum_return": -0.69
+      "portfolio_value": 990747.57,
+      "daily_pnl": -8926.98,
+      "cum_return": -0.93
     }
   ],
   "logs": [
-    "2026-10-30 05:38:49 PT  INFO      Pre-market standby: 51.2 minutes until market open at 06:30 AM PT.",
     "2026-10-30 05:39:49 PT  INFO      Pre-market standby: 50.2 minutes until market open at 06:30 AM PT.",
     "2026-10-30 05:40:49 PT  INFO      Pre-market standby: 49.2 minutes until market open at 06:30 AM PT.",
     "2026-10-30 05:41:49 PT  INFO      Pre-market standby: 48.2 minutes until market open at 06:30 AM PT.",
@@ -898,6 +886,7 @@
     "2026-10-30 07:49:01 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG BSX @ $42.50 | P&L: -804.12 (-1.61%) | Reason: Hard Stop Triggered (-1.61%)",
     "2026-10-30 07:49:02 PT  INFO      GitHub Pages deployment cooldown: last push was 42.8s ago. Waiting 2.2s to prevent deployment lock collision...",
     "2026-10-30 09:47:02 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG AMD @ $501.35 | P&L: -1784.16 (-3.57%) | Reason: Hard Stop Triggered (-3.57%)",
-    "2026-10-30 10:00:08 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG MSTR @ $131.60 | P&L: +1768.50 (+3.54%) | Reason: Bounce Trail Locked (+3.54% from peak +5.77%)"
+    "2026-10-30 10:00:08 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG MSTR @ $131.60 | P&L: +1768.50 (+3.54%) | Reason: Bounce Trail Locked (+3.54% from peak +5.77%)",
+    "2026-10-30 11:25:10 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG ARM @ $199.90 | P&L: -1749.66 (-3.50%) | Reason: Hard Stop Triggered (-3.50%)"
   ]
 }
