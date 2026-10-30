@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-30 06:50:23 AM PT",
-  "timestamp_utc": "2026-10-30T13:50:23.868887+00:00",
+  "updated_at": "2026-10-30 06:56:11 AM PT",
+  "timestamp_utc": "2026-10-30T13:56:12.258771+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 997712.97,
-    "cash": 500339.55,
-    "buying_power": 3055522.14,
-    "total_pnl": -2287.03,
+    "portfolio_value": 997693.54,
+    "cash": 251669.46,
+    "buying_power": 3005348.23,
+    "total_pnl": -2306.46,
     "total_return_pct": "-0.23",
-    "today_pnl": -1961.58,
+    "today_pnl": -1981.01,
     "today_return_pct": "-0.20",
     "last_equity": 999674.55,
     "starting_equity": 1000000.0,
@@ -64,11 +64,11 @@
     }
   ],
   "stats": {
-    "total_trades": 36,
+    "total_trades": 37,
     "wins": 18,
-    "losses": 18,
-    "win_rate": "50.0%",
-    "profit_factor": "2.11"
+    "losses": 19,
+    "win_rate": "48.6%",
+    "profit_factor": "2.07"
   },
   "open_positions": [
     {
@@ -77,10 +77,10 @@
       "side": "long",
       "qty": 245.0,
       "entry_price": 253.85,
-      "current_price": 253.57,
-      "market_value": 62124.65,
-      "unrealized_pnl": -69.48,
-      "unrealized_plpc": -0.11
+      "current_price": 253.98,
+      "market_value": 62225.1,
+      "unrealized_pnl": 30.97,
+      "unrealized_plpc": 0.05
     },
     {
       "symbol": "AMD",
@@ -88,10 +88,10 @@
       "side": "long",
       "qty": 96.0,
       "entry_price": 517.65,
-      "current_price": 513.3,
-      "market_value": 49276.8,
-      "unrealized_pnl": -417.6,
-      "unrealized_plpc": -0.84
+      "current_price": 513.51,
+      "market_value": 49297.44,
+      "unrealized_pnl": -396.96,
+      "unrealized_plpc": -0.8
     },
     {
       "symbol": "AMGN",
@@ -99,10 +99,10 @@
       "side": "long",
       "qty": 131.0,
       "entry_price": 474.06,
-      "current_price": 474.59,
-      "market_value": 62171.29,
-      "unrealized_pnl": 69.43,
-      "unrealized_plpc": 0.11
+      "current_price": 474.35,
+      "market_value": 62139.85,
+      "unrealized_pnl": 37.99,
+      "unrealized_plpc": 0.06
     },
     {
       "symbol": "ARM",
@@ -110,10 +110,21 @@
       "side": "long",
       "qty": 241.0,
       "entry_price": 206.88,
-      "current_price": 205.48,
-      "market_value": 49520.87,
-      "unrealized_pnl": -336.43,
-      "unrealized_plpc": -0.68
+      "current_price": 207.28,
+      "market_value": 49955.68,
+      "unrealized_pnl": 98.39,
+      "unrealized_plpc": 0.2
+    },
+    {
+      "symbol": "BSX",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 1157.0,
+      "entry_price": 43.19,
+      "current_price": 43.19,
+      "market_value": 49969.44,
+      "unrealized_pnl": -1.39,
+      "unrealized_plpc": -0.0
     },
     {
       "symbol": "COIN",
@@ -121,10 +132,10 @@
       "side": "long",
       "qty": 353.0,
       "entry_price": 141.98,
-      "current_price": 141.2,
-      "market_value": 49843.6,
-      "unrealized_pnl": -275.79,
-      "unrealized_plpc": -0.55
+      "current_price": 141.85,
+      "market_value": 50073.05,
+      "unrealized_pnl": -46.34,
+      "unrealized_plpc": -0.09
     },
     {
       "symbol": "CRCL",
@@ -132,10 +143,43 @@
       "side": "long",
       "qty": 687.0,
       "entry_price": 72.66,
-      "current_price": 72.88,
-      "market_value": 50068.56,
-      "unrealized_pnl": 151.14,
-      "unrealized_plpc": 0.3
+      "current_price": 73.06,
+      "market_value": 50192.22,
+      "unrealized_pnl": 274.8,
+      "unrealized_plpc": 0.55
+    },
+    {
+      "symbol": "DDOG",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 202.0,
+      "entry_price": 247.4,
+      "current_price": 246.01,
+      "market_value": 49694.02,
+      "unrealized_pnl": -280.78,
+      "unrealized_plpc": -0.56
+    },
+    {
+      "symbol": "FSLR",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 287.0,
+      "entry_price": 174.07,
+      "current_price": 173.34,
+      "market_value": 49748.58,
+      "unrealized_pnl": -209.51,
+      "unrealized_plpc": -0.42
+    },
+    {
+      "symbol": "HUM",
+      "direction": "LONG",
+      "side": "long",
+      "qty": 119.0,
+      "entry_price": 418.43,
+      "current_price": 416.2,
+      "market_value": 49527.8,
+      "unrealized_pnl": -265.37,
+      "unrealized_plpc": -0.53
     },
     {
       "symbol": "LLY",
@@ -143,10 +187,10 @@
       "side": "long",
       "qty": 43.0,
       "entry_price": 1433.97,
-      "current_price": 1425.99,
-      "market_value": 61317.57,
-      "unrealized_pnl": -343.14,
-      "unrealized_plpc": -0.56
+      "current_price": 1429.73,
+      "market_value": 61478.39,
+      "unrealized_pnl": -182.32,
+      "unrealized_plpc": -0.3
     },
     {
       "symbol": "LMT",
@@ -154,10 +198,10 @@
       "side": "long",
       "qty": 96.0,
       "entry_price": 654.32,
-      "current_price": 648.22,
-      "market_value": 62229.12,
-      "unrealized_pnl": -585.6,
-      "unrealized_plpc": -0.93
+      "current_price": 646.37,
+      "market_value": 62051.52,
+      "unrealized_pnl": -763.2,
+      "unrealized_plpc": -1.21
     },
     {
       "symbol": "MSTR",
@@ -165,21 +209,21 @@
       "side": "long",
       "qty": 393.0,
       "entry_price": 127.35,
-      "current_price": 126.96,
-      "market_value": 49895.28,
-      "unrealized_pnl": -153.27,
-      "unrealized_plpc": -0.31
+      "current_price": 127.5,
+      "market_value": 50109.46,
+      "unrealized_pnl": 60.91,
+      "unrealized_plpc": 0.12
     },
     {
       "symbol": "RBLX",
       "direction": "LONG",
       "side": "long",
-      "qty": 21.0,
+      "qty": 1131.0,
       "entry_price": 44.12,
-      "current_price": 44.08,
-      "market_value": 925.68,
-      "unrealized_pnl": -0.84,
-      "unrealized_plpc": -0.09
+      "current_price": 43.83,
+      "market_value": 49571.73,
+      "unrealized_pnl": -327.99,
+      "unrealized_plpc": -0.66
     }
   ],
   "recent_trades": [
@@ -199,8 +243,8 @@
       "direction": "LONG",
       "shares": 287.0,
       "price": 174.17,
-      "close_price": null,
-      "realized_pnl": null,
+      "close_price": 173.575,
+      "realized_pnl": -170.76,
       "date": "2026-10-30 06:50:23"
     },
     {
@@ -795,13 +839,12 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 997712.97,
-      "daily_pnl": -1961.58,
+      "portfolio_value": 997693.54,
+      "daily_pnl": -1981.01,
       "cum_return": -0.23
     }
   ],
   "logs": [
-    "2026-10-29 12:50:34 PT  INFO      GitHub Pages deployment cooldown: last push was 43.9s ago. Waiting 1.1s to prevent deployment lock collision...",
     "2026-10-29 12:50:39 PT  INFO      All positions cleanly liquidated and recorded. 100% cash achieved.",
     "2026-10-29 13:00:11 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 16.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 13:30:13 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 16.0h until pre-market prep at 05:30 AM PT...",
@@ -920,6 +963,7 @@
     "2026-10-30 06:50:23 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 202 shares of DDOG @ ~$246.39 (Order ID: a5d3ad0b-bc9f-45ba-813b-d0de12bac493)",
     "2026-10-30 06:50:23 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 119 shares of HUM @ ~$418.68 (Order ID: 58057bb1-e882-4525-8bd1-8349c14b44f5)",
     "2026-10-30 06:50:23 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 287 shares of FSLR @ ~$174.17 (Order ID: 237f7cbc-c4a2-4471-ac68-576ac8711d2a)",
-    "2026-10-30 06:50:23 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 1157 shares of BSX @ ~$43.20 (Order ID: db11c079-e456-4a31-8326-f8d0a18d704d)"
+    "2026-10-30 06:50:23 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] SUBMITTED LONG order: 1157 shares of BSX @ ~$43.20 (Order ID: db11c079-e456-4a31-8326-f8d0a18d704d)",
+    "2026-10-30 06:56:11 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG FSLR @ $173.57 | P&L: -170.76 (-0.34%) | Reason: Breakeven Floor Protected"
   ]
 }
