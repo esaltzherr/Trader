@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-30 12:01:02 AM PT",
-  "timestamp_utc": "2026-10-30T07:01:03.066108+00:00",
+  "updated_at": "2026-10-30 12:31:04 AM PT",
+  "timestamp_utc": "2026-10-30T07:31:05.279705+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
   "account": {
-    "portfolio_value": 999690.07,
-    "cash": 999690.07,
-    "buying_power": 3998760.28,
-    "total_pnl": -309.93,
+    "portfolio_value": 999674.55,
+    "cash": 999674.55,
+    "buying_power": 3998698.2,
+    "total_pnl": -325.45,
     "total_return_pct": "-0.03",
-    "today_pnl": 1691.88,
-    "today_return_pct": "+0.17",
-    "last_equity": 997998.19,
+    "today_pnl": 0.0,
+    "today_return_pct": "+0.00",
+    "last_equity": 999674.55,
     "starting_equity": 1000000.0,
     "status": "ACTIVE"
   },
@@ -684,13 +684,12 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 999690.07,
-      "daily_pnl": 1691.88,
+      "portfolio_value": 999674.55,
+      "daily_pnl": 0.0,
       "cum_return": -0.03
     }
   ],
   "logs": [
-    "2026-10-29 07:05:10 PT  INFO      [Engine 4] Scanning for Parabolic Blowoff Fade candidates (Short)...",
     "2026-10-29 07:05:11 PT  WARNING   Could not fetch shortable assets list: 20 validation errors for list[Asset]",
     "1638.exchange",
     "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
@@ -809,6 +808,7 @@
     "2026-10-29 22:00:55 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 7.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 22:30:57 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 7.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 23:00:59 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 6.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 23:31:02 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 6.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 23:31:02 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 6.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-30 00:01:04 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 5.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
