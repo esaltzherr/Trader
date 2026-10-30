@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-30 09:26:35 AM PT",
-  "timestamp_utc": "2026-10-30T16:26:36.195543+00:00",
+  "updated_at": "2026-10-30 09:27:37 AM PT",
+  "timestamp_utc": "2026-10-30T16:27:38.071963+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
   "account": {
-    "portfolio_value": 9762.11,
+    "portfolio_value": 9762.76,
     "cash": 9758.87,
-    "buying_power": 34389.99,
-    "total_pnl": -237.89,
-    "total_return_pct": "-2.38",
-    "today_pnl": -39.57,
+    "buying_power": 34392.44,
+    "total_pnl": -237.24,
+    "total_return_pct": "-2.37",
+    "today_pnl": -38.92,
     "today_return_pct": "-0.40",
     "last_equity": 9801.68,
     "starting_equity": 10000.0,
@@ -68,10 +68,10 @@
       "side": "short",
       "qty": 10.0,
       "entry_price": 95.15,
-      "current_price": 96.34,
-      "market_value": 963.4,
-      "unrealized_pnl": -11.92,
-      "unrealized_plpc": -1.25
+      "current_price": 96.31,
+      "market_value": 963.14,
+      "unrealized_pnl": -11.66,
+      "unrealized_plpc": -1.23
     },
     {
       "symbol": "INTU",
@@ -79,10 +79,10 @@
       "side": "long",
       "qty": 2.8541,
       "entry_price": 343.23,
-      "current_price": 342.56,
-      "market_value": 977.69,
-      "unrealized_pnl": -1.93,
-      "unrealized_plpc": -0.2
+      "current_price": 342.69,
+      "market_value": 978.07,
+      "unrealized_pnl": -1.54,
+      "unrealized_plpc": -0.16
     },
     {
       "symbol": "KVUE",
@@ -709,9 +709,9 @@
     },
     {
       "date": "2026-10-30",
-      "portfolio_value": 9762.11,
-      "daily_pnl": -39.57,
-      "cum_return": -2.38
+      "portfolio_value": 9762.76,
+      "daily_pnl": -38.92,
+      "cum_return": -2.37
     }
   ],
   "logs": [
