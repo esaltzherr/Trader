@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29 06:30:36 PM PT",
-  "timestamp_utc": "2026-10-30T01:30:37.026059+00:00",
+  "updated_at": "2026-10-29 07:00:38 PM PT",
+  "timestamp_utc": "2026-10-30T02:00:39.063800+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -684,7 +684,6 @@
     }
   ],
   "logs": [
-    "2026-10-29 06:40:25 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 292 shares of NBIS @ ~$171.18 (Order ID: a0d96f53-0fa5-428e-83e0-921efe62f384)",
     "2026-10-29 06:50:00 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
     "2026-10-29 06:50:00 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
     "2026-10-29 06:50:16 PT  INFO      [Engine 3] Selected 5 Micro-Burst Runner targets: ['HCA', 'CRH', 'NU', 'CDNS', 'XYZ']",
@@ -803,6 +802,7 @@
     "2026-10-29 16:30:28 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 13.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 17:00:30 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 12.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-29 17:30:33 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 12.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-29 18:00:36 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 11.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-29 18:00:36 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 11.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-29 18:30:38 PT  INFO      Market closed. Next open: 2026-10-30 06:30 AM PT. Sleeping 11.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
