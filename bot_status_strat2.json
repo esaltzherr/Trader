@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 01:32:39 PM PT",
-  "timestamp_utc": "2026-10-31T20:32:39.481124+00:00",
+  "updated_at": "2026-10-31 02:02:40 PM PT",
+  "timestamp_utc": "2026-10-31T21:02:41.332103+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -676,8 +676,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 07:12:20 PT  INFO      [CLOSED POSITION] MPWR 0.7779 shares @ $1213.41 (Entry: $1257.98, P&L: $-34.67) [STOP_LOSS]",
-    "2026-10-30 07:18:11 PT  INFO      GitHub Pages deployment cooldown: last push was 14.2s ago. Waiting 30.8s to prevent deployment lock collision...",
     "2026-10-30 07:20:15 PT  INFO      [RATCHET TIER 1] DELL Short peaked at +1.5%, crossed locked floor. Securing gains!",
     "2026-10-30 07:20:15 PT  INFO      [CLOSED POSITION] DELL 2.0 shares @ $433.79 (Entry: $436.01, P&L: $+4.44) [RATCHET_TIER1]",
     "2026-10-30 07:21:49 PT  INFO      GitHub Pages deployment cooldown: last push was 13.1s ago. Waiting 31.9s to prevent deployment lock collision...",
@@ -795,6 +793,8 @@
     "2026-10-31 12:02:34 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 41.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 12:32:35 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
     "2026-10-31 12:32:37 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 41.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-31 13:02:39 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 40.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 13:02:39 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 40.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 13:32:39 PT  INFO      GitHub Pages deployment cooldown: last push was 45.0s ago. Waiting 0.0s to prevent deployment lock collision...",
+    "2026-10-31 13:32:40 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 40.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
