@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 02:32:43 PM PT",
-  "timestamp_utc": "2026-10-31T21:32:43.758507+00:00",
+  "updated_at": "2026-10-31 03:02:45 PM PT",
+  "timestamp_utc": "2026-10-31T22:02:45.827902+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -676,8 +676,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 07:21:49 PT  INFO      GitHub Pages deployment cooldown: last push was 13.1s ago. Waiting 31.9s to prevent deployment lock collision...",
-    "2026-10-30 07:38:38 PT  INFO      [RATCHET TIER 3] BE Short peaked at +3.2%, crossed trail px $207.08. Securing gains!",
     "2026-10-30 07:38:39 PT  INFO      [CLOSED POSITION] BE 4.0 shares @ $207.25 (Entry: $211.75, P&L: $+18.00) [RATCHET_TIER3]",
     "2026-10-30 07:38:39 PT  INFO      [RATCHET BREAKEVEN] VRT Short hit breakeven stop. Zero loss exit!",
     "2026-10-30 07:38:39 PT  INFO      [CLOSED POSITION] VRT 4.0 shares @ $237.11 (Entry: $236.86, P&L: $-1.00) [RATCHET_BREAKEVEN]",
@@ -795,6 +793,8 @@
     "2026-10-31 13:32:39 PT  INFO      GitHub Pages deployment cooldown: last push was 45.0s ago. Waiting 0.0s to prevent deployment lock collision...",
     "2026-10-31 13:32:40 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 40.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 14:02:41 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
-    "2026-10-31 14:02:43 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 39.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 14:02:43 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 39.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 14:32:43 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
+    "2026-10-31 14:32:45 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 39.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
