@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 07:01:24 AM PT",
-  "timestamp_utc": "2026-10-31T14:01:24.808244+00:00",
+  "updated_at": "2026-10-31 07:31:26 AM PT",
+  "timestamp_utc": "2026-10-31T14:31:26.912052+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -696,7 +696,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 06:35:32 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 96 shares of LMT @ ~$650.59 (Order ID: 63de7acd-1167-45d4-a40c-06348e2aa0b1)",
     "2026-10-30 06:35:33 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 131 shares of AMGN @ ~$473.65 (Order ID: 6c9b8c07-6717-4b2e-a9c3-b5603ab37ded)",
     "2026-10-30 06:40:14 PT  INFO      >>> TIME TRIGGER: 06:40 AM PT -> Executing Engine 2 (Capitulation Panic Bounce)...",
     "2026-10-30 06:40:14 PT  INFO      [Engine 2] Scanning for Capitulation Panic Bounce candidates (-5% to -15%)...",
@@ -815,6 +814,7 @@
     "2026-10-31 05:01:16 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 48.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 05:31:19 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 48.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 06:01:21 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 47.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-31 06:31:24 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 47.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 06:31:24 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 47.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 07:01:26 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 46.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
