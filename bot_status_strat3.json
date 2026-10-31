@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 09:01:33 AM PT",
-  "timestamp_utc": "2026-10-31T16:01:33.823724+00:00",
+  "updated_at": "2026-10-31 09:31:35 AM PT",
+  "timestamp_utc": "2026-10-31T16:31:36.045900+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -696,7 +696,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 06:40:30 PT  INFO      [Engine 2] Selected 5 Capitulation Bounce targets: ['COIN', 'MSTR', 'ARM', 'CRCL', 'AMD']",
     "2026-10-30 06:40:30 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 353 shares of COIN @ ~$141.60 (Order ID: 9d2b6a29-11d8-4405-a035-2de96949168d)",
     "2026-10-30 06:40:30 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 393 shares of MSTR @ ~$127.10 (Order ID: be126c5c-1185-45eb-94a8-ad0d11da576c)",
     "2026-10-30 06:40:30 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 241 shares of ARM @ ~$207.16 (Order ID: 89f34436-d08c-4749-a3fc-796ff49be0e5)",
@@ -815,6 +814,7 @@
     "2026-10-31 07:01:26 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 46.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 07:31:28 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 46.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 08:01:30 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 45.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-31 08:31:33 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 45.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 08:31:33 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 45.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 09:01:35 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 44.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
