@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 11:01:41 AM PT",
-  "timestamp_utc": "2026-10-31T18:01:42.478778+00:00",
+  "updated_at": "2026-10-31 11:31:44 AM PT",
+  "timestamp_utc": "2026-10-31T18:31:44.816120+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -696,7 +696,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 06:40:30 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 687 shares of CRCL @ ~$72.69 (Order ID: 1fb2bc11-dd09-471e-8ad5-37b9958a4c41)",
     "2026-10-30 06:40:30 PT  INFO      [CAPITULATION_PANIC_BOUNCE] SUBMITTED LONG order: 96 shares of AMD @ ~$519.93 (Order ID: 29e2dfa4-0c99-49bc-af5b-f61eda3e651f)",
     "2026-10-30 06:50:05 PT  INFO      >>> TIME TRIGGER: 06:50 AM PT -> Executing Engine 3 (Intraday Micro-Burst Runner)...",
     "2026-10-30 06:50:05 PT  INFO      [Engine 3] Scanning for Micro-Burst surge leaders across liquid equities...",
@@ -815,6 +814,7 @@
     "2026-10-31 09:01:35 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 44.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 09:31:37 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 44.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 10:01:39 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 43.5h until pre-market prep at 05:30 AM PT...",
-    "2026-10-31 10:31:41 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 43.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 10:31:41 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 43.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 11:01:44 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 42.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
