@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 11:02:28 AM PT",
-  "timestamp_utc": "2026-10-31T18:02:28.447332+00:00",
+  "updated_at": "2026-10-31 11:32:30 AM PT",
+  "timestamp_utc": "2026-10-31T18:32:30.671169+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -676,8 +676,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 07:00:16 PT  INFO      [ORB_30M_TREND_RATCHET] SHORT SUBMITTED: 50 shares of KVUE at ~$19.47",
-    "2026-10-30 07:00:17 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 2.8541 shares of INTU at ~$343.42",
     "2026-10-30 07:00:17 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 0.7779 shares of MPWR at ~$1259.99",
     "2026-10-30 07:00:17 PT  INFO      [ORB_30M_TREND_RATCHET] LONG SUBMITTED: 3.8307 shares of ADBE at ~$255.87",
     "2026-10-30 07:00:20 PT  INFO      Starting Dynamic Trailing Ratchet Monitor Loop...",
@@ -795,6 +793,8 @@
     "2026-10-31 10:02:24 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-31 10:02:26 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 43.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 10:32:26 PT  INFO      GitHub Pages deployment cooldown: last push was 44.8s ago. Waiting 0.2s to prevent deployment lock collision...",
-    "2026-10-31 10:32:28 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 43.0h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 10:32:28 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 43.0h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 11:02:28 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
+    "2026-10-31 11:02:30 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 42.5h until pre-market prep at 05:30 AM PT..."
   ]
 }
