@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 05:31:16 AM PT",
-  "timestamp_utc": "2026-10-31T12:31:17.513918+00:00",
+  "updated_at": "2026-10-31 06:01:19 AM PT",
+  "timestamp_utc": "2026-10-31T13:01:20.272779+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -696,7 +696,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 06:35:32 PT  INFO      [Engine 1] Selected 4 Super Momentum leaders: ['ACN', 'LLY', 'LMT', 'AMGN']",
     "2026-10-30 06:35:32 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 245 shares of ACN @ ~$254.77 (Order ID: ef6f3ae6-42cc-4204-a43c-75c97d8ee68d)",
     "2026-10-30 06:35:32 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 43 shares of LLY @ ~$1422.77 (Order ID: 1533ac20-6659-4e3d-b712-4b72c4d2aceb)",
     "2026-10-30 06:35:32 PT  INFO      [SUPER_MOMENTUM_RUNNER] SUBMITTED LONG order: 96 shares of LMT @ ~$650.59 (Order ID: 63de7acd-1167-45d4-a40c-06348e2aa0b1)",
@@ -815,6 +814,7 @@
     "2026-10-31 03:31:09 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 50.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 04:01:12 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 49.5h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 04:31:14 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 49.0h until pre-market prep at 05:30 AM PT...",
-    "2026-10-31 05:01:16 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 48.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 05:01:16 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 48.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 05:31:19 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 48.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
