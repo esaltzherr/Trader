@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 09:32:21 AM PT",
-  "timestamp_utc": "2026-10-31T16:32:21.973397+00:00",
+  "updated_at": "2026-10-31 10:02:23 AM PT",
+  "timestamp_utc": "2026-10-31T17:02:24.134082+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -676,8 +676,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 07:00:16 PT  INFO        CL     SHORT Breakout: +1.00%  Price: $95.55",
-    "2026-10-30 07:00:16 PT  INFO        KVUE   SHORT Breakout: +0.97%  Price: $19.47",
     "2026-10-30 07:00:16 PT  INFO        INTU   LONG Breakout: +0.68%  Price: $343.42",
     "2026-10-30 07:00:16 PT  INFO        MPWR   LONG Breakout: +0.59%  Price: $1259.99",
     "2026-10-30 07:00:16 PT  INFO        ADBE   LONG Breakout: +0.51%  Price: $255.87",
@@ -795,6 +793,8 @@
     "2026-10-31 08:32:17 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
     "2026-10-31 08:32:19 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 45.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 09:02:19 PT  INFO      GitHub Pages deployment cooldown: last push was 44.4s ago. Waiting 0.6s to prevent deployment lock collision...",
-    "2026-10-31 09:02:21 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 44.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 09:02:21 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 44.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 09:32:22 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
+    "2026-10-31 09:32:23 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 44.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
