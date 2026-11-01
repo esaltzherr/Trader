@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31 05:32:56 PM PT",
-  "timestamp_utc": "2026-11-01T00:32:56.727605+00:00",
+  "updated_at": "2026-10-31 06:02:58 PM PT",
+  "timestamp_utc": "2026-11-01T01:02:58.788826+00:00",
   "bot_version": "3.2.1-strat2",
   "account_id": "PA3EM0YADDLM",
   "account_label": "Portfolio 2: Dual Trailing Ratchets ($10k)",
@@ -676,8 +676,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 12:50:00 PT  INFO      Closing ALL positions [SCHEDULED_EOD] into 100% clean cash...",
-    "2026-10-30 12:50:01 PT  INFO      [CLOSED POSITION] ADBE 3.8307 shares @ $250.49 (Entry: $255.70, P&L: $-19.96) [SCHEDULED_EOD]",
     "2026-10-30 12:50:01 PT  INFO      [CLOSED POSITION] CL 10.0 shares @ $95.20 (Entry: $95.15, P&L: $-0.52) [SCHEDULED_EOD]",
     "2026-10-30 12:50:02 PT  INFO      [CLOSED POSITION] INTU 2.8541 shares @ $342.58 (Entry: $343.23, P&L: $-1.86) [SCHEDULED_EOD]",
     "2026-10-30 12:50:02 PT  INFO      [CLOSED POSITION] KVUE 50.0 shares @ $19.27 (Entry: $19.42, P&L: $+7.25) [SCHEDULED_EOD]",
@@ -795,6 +793,8 @@
     "2026-10-31 16:32:52 PT  INFO      GitHub Pages deployment cooldown: last push was 44.6s ago. Waiting 0.4s to prevent deployment lock collision...",
     "2026-10-31 16:32:54 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 37.0h until pre-market prep at 05:30 AM PT...",
     "2026-10-31 17:02:54 PT  INFO      GitHub Pages deployment cooldown: last push was 44.5s ago. Waiting 0.5s to prevent deployment lock collision...",
-    "2026-10-31 17:02:56 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 36.5h until pre-market prep at 05:30 AM PT..."
+    "2026-10-31 17:02:56 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 36.5h until pre-market prep at 05:30 AM PT...",
+    "2026-10-31 17:32:56 PT  INFO      GitHub Pages deployment cooldown: last push was 44.7s ago. Waiting 0.3s to prevent deployment lock collision...",
+    "2026-10-31 17:32:58 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT (09:30 ET). Sleeping 36.0h until pre-market prep at 05:30 AM PT..."
   ]
 }
