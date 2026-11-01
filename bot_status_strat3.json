@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01 01:03:41 PM PT",
-  "timestamp_utc": "2026-11-01T21:03:41.506710+00:00",
+  "updated_at": "2026-11-01 01:33:43 PM PT",
+  "timestamp_utc": "2026-11-01T21:33:43.740991+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -702,7 +702,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 10:00:08 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG MSTR @ $131.60 | P&L: +1768.50 (+3.54%) | Reason: Bounce Trail Locked (+3.54% from peak +5.77%)",
     "2026-10-30 11:25:10 PT  INFO      [CAPITULATION_PANIC_BOUNCE] CLOSED LONG ARM @ $199.90 | P&L: -1749.66 (-3.50%) | Reason: Hard Stop Triggered (-3.50%)",
     "2026-10-30 11:25:11 PT  INFO      GitHub Pages deployment cooldown: last push was 25.1s ago. Waiting 19.9s to prevent deployment lock collision...",
     "2026-10-30 12:50:10 PT  INFO      >>> TIME TRIGGER: 12:50 PM PT -> EOD Liquidation of all Portfolio 3 positions...",
@@ -821,6 +820,7 @@
     "2026-11-01 11:03:34 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 18.4h until pre-market prep at 05:30 AM PT...",
     "2026-11-01 11:33:36 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 17.9h until pre-market prep at 05:30 AM PT...",
     "2026-11-01 12:03:39 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 17.4h until pre-market prep at 05:30 AM PT...",
-    "2026-11-01 12:33:41 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 16.9h until pre-market prep at 05:30 AM PT..."
+    "2026-11-01 12:33:41 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 16.9h until pre-market prep at 05:30 AM PT...",
+    "2026-11-01 13:03:43 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 16.4h until pre-market prep at 05:30 AM PT..."
   ]
 }
