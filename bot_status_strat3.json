@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01 06:33:12 AM PT",
-  "timestamp_utc": "2026-11-01T14:33:12.963138+00:00",
+  "updated_at": "2026-11-01 07:03:14 AM PT",
+  "timestamp_utc": "2026-11-01T15:03:15.258537+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -702,7 +702,6 @@
     }
   ],
   "logs": [
-    "10585.exchange",
     "  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]",
     "    For further information visit https://errors.pydantic.dev/2.13/v/enum",
     "2026-10-30 07:05:05 PT  INFO      [Engine 4] Selected 0 Parabolic Blowoff Fade short targets: []",
@@ -821,6 +820,7 @@
     "2026-11-01 04:33:06 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 24.9h until pre-market prep at 05:30 AM PT...",
     "2026-11-01 05:03:08 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 24.4h until pre-market prep at 05:30 AM PT...",
     "2026-11-01 05:33:10 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 23.9h until pre-market prep at 05:30 AM PT...",
-    "2026-11-01 06:03:12 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 23.4h until pre-market prep at 05:30 AM PT..."
+    "2026-11-01 06:03:12 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 23.4h until pre-market prep at 05:30 AM PT...",
+    "2026-11-01 06:33:14 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 22.9h until pre-market prep at 05:30 AM PT..."
   ]
 }
