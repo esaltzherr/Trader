@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01 09:33:25 AM PT",
-  "timestamp_utc": "2026-11-01T17:33:26.443700+00:00",
+  "updated_at": "2026-11-01 10:03:28 AM PT",
+  "timestamp_utc": "2026-11-01T18:03:28.486719+00:00",
   "bot_version": "3.2.1-strat3",
   "account_id": "PA33UNIQCZOZ",
   "account_label": "Portfolio 3: The Everything Strat ($1M)",
@@ -702,7 +702,6 @@
     }
   ],
   "logs": [
-    "2026-10-30 07:17:10 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG DDOG @ $241.98 | P&L: -890.82 (-1.79%) | Reason: Hard Stop Triggered (-1.79%)",
     "2026-10-30 07:17:11 PT  INFO      GitHub Pages deployment cooldown: last push was 1.0s ago. Waiting 44.0s to prevent deployment lock collision...",
     "2026-10-30 07:21:13 PT  INFO      [INTRADAY_MICRO_BURST_RATCHET] CLOSED LONG RBLX @ $43.51 | P&L: -763.43 (-1.53%) | Reason: Hard Stop Triggered (-1.53%)",
     "2026-10-30 07:21:13 PT  INFO      GitHub Pages deployment cooldown: last push was 24.4s ago. Waiting 20.6s to prevent deployment lock collision...",
@@ -821,6 +820,7 @@
     "2026-11-01 07:33:18 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 21.9h until pre-market prep at 05:30 AM PT...",
     "2026-11-01 08:03:21 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 21.4h until pre-market prep at 05:30 AM PT...",
     "2026-11-01 08:33:23 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 20.9h until pre-market prep at 05:30 AM PT...",
-    "2026-11-01 09:03:25 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 20.4h until pre-market prep at 05:30 AM PT..."
+    "2026-11-01 09:03:25 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 20.4h until pre-market prep at 05:30 AM PT...",
+    "2026-11-01 09:33:27 PT  INFO      Market closed. Next open: 2026-11-02 06:30 AM PT. Sleeping 19.9h until pre-market prep at 05:30 AM PT..."
   ]
 }
